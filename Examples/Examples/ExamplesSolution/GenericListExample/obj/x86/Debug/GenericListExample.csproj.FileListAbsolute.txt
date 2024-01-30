@@ -1,0 +1,69 @@
+E:\Chalmers work\Autonomous agents\Src\DemonstrationSolution\GenericListExample\obj\x86\Debug\GenericListExample.MainForm.resources
+E:\Chalmers work\Autonomous agents\Src\DemonstrationSolution\GenericListExample\obj\x86\Debug\GenericListExample.Properties.Resources.resources
+E:\Chalmers work\Autonomous agents\Src\DemonstrationSolution\GenericListExample\obj\x86\Debug\GenericListExample.csproj.GenerateResource.Cache
+E:\Chalmers work\Autonomous agents\Src\DemonstrationSolution\GenericListExample\bin\Debug\GenericListExample.exe
+E:\Chalmers work\Autonomous agents\Src\DemonstrationSolution\GenericListExample\bin\Debug\GenericListExample.pdb
+E:\Chalmers work\Autonomous agents\Src\DemonstrationSolution\GenericListExample\obj\x86\Debug\GenericListExample.exe
+E:\Chalmers work\Autonomous agents\Src\DemonstrationSolution\GenericListExample\obj\x86\Debug\GenericListExample.pdb
+C:\Data\Research\Autonomous agents\Src\DemonstrationSolution\GenericListExample\obj\x86\Debug\GenericListExample.exe
+C:\Data\Research\Autonomous agents\Src\DemonstrationSolution\GenericListExample\obj\x86\Debug\GenericListExample.pdb
+C:\Data\Research\Autonomous agents\Src\DemonstrationSolution\GenericListExample\bin\Debug\GenericListExample.exe
+C:\Data\Research\Autonomous agents\Src\DemonstrationSolution\GenericListExample\bin\Debug\GenericListExample.pdb
+C:\Data\Research\Autonomous agents\Src\DemonstrationSolution\GenericListExample\obj\x86\Debug\GenericListExample.csprojResolveAssemblyReference.cache
+C:\Data\Research\Autonomous agents\Src\DemonstrationSolution\GenericListExample\obj\x86\Debug\GenericListExample.MainForm.resources
+C:\Data\Research\Autonomous agents\Src\DemonstrationSolution\GenericListExample\obj\x86\Debug\GenericListExample.Properties.Resources.resources
+C:\Data\Research\Autonomous agents\Src\DemonstrationSolution\GenericListExample\obj\x86\Debug\GenericListExample.csproj.GenerateResource.Cache
+C:\Data\Research\Autonomous agents\SrcNew\DemonstrationSolution\GenericListExample\bin\Debug\GenericListExample.exe
+C:\Data\Research\Autonomous agents\SrcNew\DemonstrationSolution\GenericListExample\bin\Debug\GenericListExample.pdb
+C:\Data\Research\Autonomous agents\SrcNew\DemonstrationSolution\GenericListExample\obj\x86\Debug\GenericListExample.csprojResolveAssemblyReference.cache
+C:\Data\Research\Autonomous agents\SrcNew\DemonstrationSolution\GenericListExample\obj\x86\Debug\GenericListExample.MainForm.resources
+C:\Data\Research\Autonomous agents\SrcNew\DemonstrationSolution\GenericListExample\obj\x86\Debug\GenericListExample.Properties.Resources.resources
+C:\Data\Research\Autonomous agents\SrcNew\DemonstrationSolution\GenericListExample\obj\x86\Debug\GenericListExample.csproj.GenerateResource.Cache
+C:\Data\Research\Autonomous agents\SrcNew\DemonstrationSolution\GenericListExample\obj\x86\Debug\GenericListExample.exe
+C:\Data\Research\Autonomous agents\SrcNew\DemonstrationSolution\GenericListExample\obj\x86\Debug\GenericListExample.pdb
+C:\Data\Teaching\Intelligent agents, 2019\Src\IPASrc\DemonstrationSolution\GenericListExample\bin\Debug\GenericListExample.exe.config
+C:\Data\Teaching\Intelligent agents, 2019\Src\IPASrc\DemonstrationSolution\GenericListExample\bin\Debug\GenericListExample.exe
+C:\Data\Teaching\Intelligent agents, 2019\Src\IPASrc\DemonstrationSolution\GenericListExample\bin\Debug\GenericListExample.pdb
+C:\Data\Teaching\Intelligent agents, 2019\Src\IPASrc\DemonstrationSolution\GenericListExample\obj\x86\Debug\GenericListExample.csprojResolveAssemblyReference.cache
+C:\Data\Teaching\Intelligent agents, 2019\Src\IPASrc\DemonstrationSolution\GenericListExample\obj\x86\Debug\GenericListExample.MainForm.resources
+C:\Data\Teaching\Intelligent agents, 2019\Src\IPASrc\DemonstrationSolution\GenericListExample\obj\x86\Debug\GenericListExample.Properties.Resources.resources
+C:\Data\Teaching\Intelligent agents, 2019\Src\IPASrc\DemonstrationSolution\GenericListExample\obj\x86\Debug\GenericListExample.csproj.GenerateResource.Cache
+C:\Data\Teaching\Intelligent agents, 2019\Src\IPASrc\DemonstrationSolution\GenericListExample\obj\x86\Debug\GenericListExample.exe
+C:\Data\Teaching\Intelligent agents, 2019\Src\IPASrc\DemonstrationSolution\GenericListExample\obj\x86\Debug\GenericListExample.pdb
+C:\Data\Teaching\Intelligent agents, 2020\IPASrc\Examples\ExamplesSolution\GenericListExample\bin\Debug\GenericListExample.exe.config
+C:\Data\Teaching\Intelligent agents, 2020\IPASrc\Examples\ExamplesSolution\GenericListExample\bin\Debug\GenericListExample.exe
+C:\Data\Teaching\Intelligent agents, 2020\IPASrc\Examples\ExamplesSolution\GenericListExample\bin\Debug\GenericListExample.pdb
+C:\Data\Teaching\Intelligent agents, 2020\IPASrc\Examples\ExamplesSolution\GenericListExample\obj\x86\Debug\GenericListExample.MainForm.resources
+C:\Data\Teaching\Intelligent agents, 2020\IPASrc\Examples\ExamplesSolution\GenericListExample\obj\x86\Debug\GenericListExample.Properties.Resources.resources
+C:\Data\Teaching\Intelligent agents, 2020\IPASrc\Examples\ExamplesSolution\GenericListExample\obj\x86\Debug\GenericListExample.csproj.GenerateResource.Cache
+C:\Data\Teaching\Intelligent agents, 2020\IPASrc\Examples\ExamplesSolution\GenericListExample\obj\x86\Debug\GenericListExample.exe
+C:\Data\Teaching\Intelligent agents, 2020\IPASrc\Examples\ExamplesSolution\GenericListExample\obj\x86\Debug\GenericListExample.pdb
+C:\Data\Teaching\Intelligent agents, 2020\IPASrc\Examples\ExamplesSolution\GenericListExample\obj\x86\Debug\GenericListExample.csprojResolveAssemblyReference.cache
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2020\IPASrc\Examples\ExamplesSolution\GenericListExample\bin\Debug\GenericListExample.exe.config
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2020\IPASrc\Examples\ExamplesSolution\GenericListExample\bin\Debug\GenericListExample.exe
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2020\IPASrc\Examples\ExamplesSolution\GenericListExample\bin\Debug\GenericListExample.pdb
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2020\IPASrc\Examples\ExamplesSolution\GenericListExample\obj\x86\Debug\GenericListExample.csprojResolveAssemblyReference.cache
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2020\IPASrc\Examples\ExamplesSolution\GenericListExample\obj\x86\Debug\GenericListExample.MainForm.resources
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2020\IPASrc\Examples\ExamplesSolution\GenericListExample\obj\x86\Debug\GenericListExample.Properties.Resources.resources
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2020\IPASrc\Examples\ExamplesSolution\GenericListExample\obj\x86\Debug\GenericListExample.csproj.GenerateResource.Cache
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2020\IPASrc\Examples\ExamplesSolution\GenericListExample\obj\x86\Debug\GenericListExample.exe
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2020\IPASrc\Examples\ExamplesSolution\GenericListExample\obj\x86\Debug\GenericListExample.pdb
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2021\Src\Examples\ExamplesSolution\GenericListExample\bin\Debug\GenericListExample.exe.config
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2021\Src\Examples\ExamplesSolution\GenericListExample\bin\Debug\GenericListExample.exe
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2021\Src\Examples\ExamplesSolution\GenericListExample\bin\Debug\GenericListExample.pdb
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2021\Src\Examples\ExamplesSolution\GenericListExample\obj\x86\Debug\GenericListExample.MainForm.resources
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2021\Src\Examples\ExamplesSolution\GenericListExample\obj\x86\Debug\GenericListExample.Properties.Resources.resources
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2021\Src\Examples\ExamplesSolution\GenericListExample\obj\x86\Debug\GenericListExample.csproj.GenerateResource.cache
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2021\Src\Examples\ExamplesSolution\GenericListExample\obj\x86\Debug\GenericListExample.csproj.CoreCompileInputs.cache
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2021\Src\Examples\ExamplesSolution\GenericListExample\obj\x86\Debug\GenericListExample.exe
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2021\Src\Examples\ExamplesSolution\GenericListExample\obj\x86\Debug\GenericListExample.pdb
+\\Mac\Home\Documents\IA\Examples\Examples\ExamplesSolution\GenericListExample\bin\Debug\GenericListExample.exe.config
+\\Mac\Home\Documents\IA\Examples\Examples\ExamplesSolution\GenericListExample\bin\Debug\GenericListExample.exe
+\\Mac\Home\Documents\IA\Examples\Examples\ExamplesSolution\GenericListExample\bin\Debug\GenericListExample.pdb
+\\Mac\Home\Documents\IA\Examples\Examples\ExamplesSolution\GenericListExample\obj\x86\Debug\GenericListExample.csproj.AssemblyReference.cache
+\\Mac\Home\Documents\IA\Examples\Examples\ExamplesSolution\GenericListExample\obj\x86\Debug\GenericListExample.MainForm.resources
+\\Mac\Home\Documents\IA\Examples\Examples\ExamplesSolution\GenericListExample\obj\x86\Debug\GenericListExample.Properties.Resources.resources
+\\Mac\Home\Documents\IA\Examples\Examples\ExamplesSolution\GenericListExample\obj\x86\Debug\GenericListExample.csproj.GenerateResource.cache
+\\Mac\Home\Documents\IA\Examples\Examples\ExamplesSolution\GenericListExample\obj\x86\Debug\GenericListExample.csproj.CoreCompileInputs.cache
+\\Mac\Home\Documents\IA\Examples\Examples\ExamplesSolution\GenericListExample\obj\x86\Debug\GenericListExample.exe
+\\Mac\Home\Documents\IA\Examples\Examples\ExamplesSolution\GenericListExample\obj\x86\Debug\GenericListExample.pdb

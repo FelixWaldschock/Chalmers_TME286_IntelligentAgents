@@ -1,0 +1,8 @@
+C:\Data\Research\Autonomous agents\Src\DemonstrationSolution\EventHandlerExample\bin\Release\EventHandlerExample.exe
+C:\Data\Research\Autonomous agents\Src\DemonstrationSolution\EventHandlerExample\bin\Release\EventHandlerExample.pdb
+C:\Data\Research\Autonomous agents\Src\DemonstrationSolution\EventHandlerExample\obj\x86\Release\EventHandlerExample.csprojResolveAssemblyReference.cache
+C:\Data\Research\Autonomous agents\Src\DemonstrationSolution\EventHandlerExample\obj\x86\Release\EventHandlerExample.MainForm.resources
+C:\Data\Research\Autonomous agents\Src\DemonstrationSolution\EventHandlerExample\obj\x86\Release\EventHandlerExample.Properties.Resources.resources
+C:\Data\Research\Autonomous agents\Src\DemonstrationSolution\EventHandlerExample\obj\x86\Release\EventHandlerExample.csproj.GenerateResource.Cache
+C:\Data\Research\Autonomous agents\Src\DemonstrationSolution\EventHandlerExample\obj\x86\Release\EventHandlerExample.exe
+C:\Data\Research\Autonomous agents\Src\DemonstrationSolution\EventHandlerExample\obj\x86\Release\EventHandlerExample.pdb

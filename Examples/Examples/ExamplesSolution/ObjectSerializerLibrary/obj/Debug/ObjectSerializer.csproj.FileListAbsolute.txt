@@ -1,0 +1,5 @@
+C:\Users\Mattias Wahde\Documents\Files\Research\Robotics\2010\Interactive robotic head\Src (other)\SS\SpeechSynthesisSolution\ObjectSerializerLibrary\bin\Debug\ObjectSerializer.dll
+C:\Users\Mattias Wahde\Documents\Files\Research\Robotics\2010\Interactive robotic head\Src (other)\SS\SpeechSynthesisSolution\ObjectSerializerLibrary\bin\Debug\ObjectSerializer.pdb
+C:\Users\Mattias Wahde\Documents\Files\Research\Robotics\2010\Interactive robotic head\Src (other)\SS\SpeechSynthesisSolution\ObjectSerializerLibrary\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Mattias Wahde\Documents\Files\Research\Robotics\2010\Interactive robotic head\Src (other)\SS\SpeechSynthesisSolution\ObjectSerializerLibrary\obj\Debug\ObjectSerializer.dll
+C:\Users\Mattias Wahde\Documents\Files\Research\Robotics\2010\Interactive robotic head\Src (other)\SS\SpeechSynthesisSolution\ObjectSerializerLibrary\obj\Debug\ObjectSerializer.pdb

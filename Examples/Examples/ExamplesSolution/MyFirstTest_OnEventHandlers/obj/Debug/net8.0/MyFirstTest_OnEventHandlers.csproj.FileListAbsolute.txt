@@ -1,0 +1,4 @@
+\\Mac\Home\Documents\gits\Chalmers_TME286_IntelligentAgents\Examples\Examples\ExamplesSolution\MyFirstTest_OnEventHandlers\obj\Debug\net8.0\MyFirstTest_OnEventHandlers.GeneratedMSBuildEditorConfig.editorconfig
+\\Mac\Home\Documents\gits\Chalmers_TME286_IntelligentAgents\Examples\Examples\ExamplesSolution\MyFirstTest_OnEventHandlers\obj\Debug\net8.0\MyFirstTest_OnEventHandlers.AssemblyInfoInputs.cache
+\\Mac\Home\Documents\gits\Chalmers_TME286_IntelligentAgents\Examples\Examples\ExamplesSolution\MyFirstTest_OnEventHandlers\obj\Debug\net8.0\MyFirstTest_OnEventHandlers.AssemblyInfo.cs
+\\Mac\Home\Documents\gits\Chalmers_TME286_IntelligentAgents\Examples\Examples\ExamplesSolution\MyFirstTest_OnEventHandlers\obj\Debug\net8.0\MyFirstTest_OnEventHandlers.csproj.CoreCompileInputs.cache

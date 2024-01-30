@@ -1,0 +1,8 @@
+C:\Data\Research\Autonomous agents\Src\DemonstrationSolution\GenericListExample\bin\Release\GenericListExample.exe
+C:\Data\Research\Autonomous agents\Src\DemonstrationSolution\GenericListExample\bin\Release\GenericListExample.pdb
+C:\Data\Research\Autonomous agents\Src\DemonstrationSolution\GenericListExample\obj\x86\Release\GenericListExample.csprojResolveAssemblyReference.cache
+C:\Data\Research\Autonomous agents\Src\DemonstrationSolution\GenericListExample\obj\x86\Release\GenericListExample.MainForm.resources
+C:\Data\Research\Autonomous agents\Src\DemonstrationSolution\GenericListExample\obj\x86\Release\GenericListExample.Properties.Resources.resources
+C:\Data\Research\Autonomous agents\Src\DemonstrationSolution\GenericListExample\obj\x86\Release\GenericListExample.csproj.GenerateResource.Cache
+C:\Data\Research\Autonomous agents\Src\DemonstrationSolution\GenericListExample\obj\x86\Release\GenericListExample.exe
+C:\Data\Research\Autonomous agents\Src\DemonstrationSolution\GenericListExample\obj\x86\Release\GenericListExample.pdb

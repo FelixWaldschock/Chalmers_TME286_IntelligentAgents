@@ -1,0 +1,8 @@
+C:\Data\Research\Autonomous agents\Src\DemonstrationSolution\FirstExample\bin\Release\FirstExample.exe
+C:\Data\Research\Autonomous agents\Src\DemonstrationSolution\FirstExample\bin\Release\FirstExample.pdb
+C:\Data\Research\Autonomous agents\Src\DemonstrationSolution\FirstExample\obj\x86\Release\FirstExample.csprojResolveAssemblyReference.cache
+C:\Data\Research\Autonomous agents\Src\DemonstrationSolution\FirstExample\obj\x86\Release\FirstExample.FirstExampleMainForm.resources
+C:\Data\Research\Autonomous agents\Src\DemonstrationSolution\FirstExample\obj\x86\Release\FirstExample.Properties.Resources.resources
+C:\Data\Research\Autonomous agents\Src\DemonstrationSolution\FirstExample\obj\x86\Release\FirstExample.csproj.GenerateResource.Cache
+C:\Data\Research\Autonomous agents\Src\DemonstrationSolution\FirstExample\obj\x86\Release\FirstExample.exe
+C:\Data\Research\Autonomous agents\Src\DemonstrationSolution\FirstExample\obj\x86\Release\FirstExample.pdb

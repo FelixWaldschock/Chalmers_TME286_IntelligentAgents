@@ -1,0 +1,98 @@
+E:\Chalmers work\Autonomous agents\Src\DemonstrationSolution\SerializationExample\bin\Debug\SerializationExample.exe
+E:\Chalmers work\Autonomous agents\Src\DemonstrationSolution\SerializationExample\bin\Debug\SerializationExample.pdb
+E:\Chalmers work\Autonomous agents\Src\DemonstrationSolution\SerializationExample\bin\Debug\ObjectSerializer.dll
+E:\Chalmers work\Autonomous agents\Src\DemonstrationSolution\SerializationExample\bin\Debug\ObjectSerializer.pdb
+E:\Chalmers work\Autonomous agents\Src\DemonstrationSolution\SerializationExample\obj\x86\Debug\SerializationExample.csprojResolveAssemblyReference.cache
+E:\Chalmers work\Autonomous agents\Src\DemonstrationSolution\SerializationExample\obj\x86\Debug\SerializationExample.MainForm.resources
+E:\Chalmers work\Autonomous agents\Src\DemonstrationSolution\SerializationExample\obj\x86\Debug\SerializationExample.Properties.Resources.resources
+E:\Chalmers work\Autonomous agents\Src\DemonstrationSolution\SerializationExample\obj\x86\Debug\SerializationExample.csproj.GenerateResource.Cache
+E:\Chalmers work\Autonomous agents\Src\DemonstrationSolution\SerializationExample\obj\x86\Debug\SerializationExample.exe
+E:\Chalmers work\Autonomous agents\Src\DemonstrationSolution\SerializationExample\obj\x86\Debug\SerializationExample.pdb
+C:\Data\Chalmers work\Research\Autonomous agents\Src\DemonstrationSolution\SerializationExample\bin\Debug\SerializationExample.exe
+C:\Data\Chalmers work\Research\Autonomous agents\Src\DemonstrationSolution\SerializationExample\bin\Debug\SerializationExample.pdb
+C:\Data\Chalmers work\Research\Autonomous agents\Src\DemonstrationSolution\SerializationExample\bin\Debug\ObjectSerializer.dll
+C:\Data\Chalmers work\Research\Autonomous agents\Src\DemonstrationSolution\SerializationExample\bin\Debug\ObjectSerializer.pdb
+C:\Data\Chalmers work\Research\Autonomous agents\Src\DemonstrationSolution\SerializationExample\obj\x86\Debug\SerializationExample.csprojResolveAssemblyReference.cache
+C:\Data\Chalmers work\Research\Autonomous agents\Src\DemonstrationSolution\SerializationExample\obj\x86\Debug\SerializationExample.MainForm.resources
+C:\Data\Chalmers work\Research\Autonomous agents\Src\DemonstrationSolution\SerializationExample\obj\x86\Debug\SerializationExample.Properties.Resources.resources
+C:\Data\Chalmers work\Research\Autonomous agents\Src\DemonstrationSolution\SerializationExample\obj\x86\Debug\SerializationExample.csproj.GenerateResource.Cache
+C:\Data\Chalmers work\Research\Autonomous agents\Src\DemonstrationSolution\SerializationExample\obj\x86\Debug\SerializationExample.exe
+C:\Data\Chalmers work\Research\Autonomous agents\Src\DemonstrationSolution\SerializationExample\obj\x86\Debug\SerializationExample.pdb
+C:\Data\Research\Autonomous agents\Src\DemonstrationSolution\SerializationExample\obj\x86\Debug\SerializationExample.exe
+C:\Data\Research\Autonomous agents\Src\DemonstrationSolution\SerializationExample\obj\x86\Debug\SerializationExample.pdb
+C:\Data\Research\Autonomous agents\Src\DemonstrationSolution\SerializationExample\bin\Debug\SerializationExample.exe
+C:\Data\Research\Autonomous agents\Src\DemonstrationSolution\SerializationExample\bin\Debug\SerializationExample.pdb
+C:\Data\Research\Autonomous agents\Src\DemonstrationSolution\SerializationExample\bin\Debug\ObjectSerializer.dll
+C:\Data\Research\Autonomous agents\Src\DemonstrationSolution\SerializationExample\bin\Debug\ObjectSerializer.pdb
+C:\Data\Research\Autonomous agents\Src\DemonstrationSolution\SerializationExample\obj\x86\Debug\SerializationExample.csprojResolveAssemblyReference.cache
+C:\Data\Research\Autonomous agents\Src\DemonstrationSolution\SerializationExample\obj\x86\Debug\SerializationExample.MainForm.resources
+C:\Data\Research\Autonomous agents\Src\DemonstrationSolution\SerializationExample\obj\x86\Debug\SerializationExample.Properties.Resources.resources
+C:\Data\Research\Autonomous agents\Src\DemonstrationSolution\SerializationExample\obj\x86\Debug\SerializationExample.csproj.GenerateResource.Cache
+C:\Data\Research\Autonomous agents\SrcNew\DemonstrationSolution\SerializationExample\bin\Debug\SerializationExample.exe
+C:\Data\Research\Autonomous agents\SrcNew\DemonstrationSolution\SerializationExample\bin\Debug\SerializationExample.pdb
+C:\Data\Research\Autonomous agents\SrcNew\DemonstrationSolution\SerializationExample\bin\Debug\ObjectSerializer.dll
+C:\Data\Research\Autonomous agents\SrcNew\DemonstrationSolution\SerializationExample\bin\Debug\ObjectSerializer.pdb
+C:\Data\Research\Autonomous agents\SrcNew\DemonstrationSolution\SerializationExample\obj\x86\Debug\SerializationExample.csprojResolveAssemblyReference.cache
+C:\Data\Research\Autonomous agents\SrcNew\DemonstrationSolution\SerializationExample\obj\x86\Debug\SerializationExample.MainForm.resources
+C:\Data\Research\Autonomous agents\SrcNew\DemonstrationSolution\SerializationExample\obj\x86\Debug\SerializationExample.Properties.Resources.resources
+C:\Data\Research\Autonomous agents\SrcNew\DemonstrationSolution\SerializationExample\obj\x86\Debug\SerializationExample.csproj.GenerateResource.Cache
+C:\Data\Research\Autonomous agents\SrcNew\DemonstrationSolution\SerializationExample\obj\x86\Debug\SerializationExample.exe
+C:\Data\Research\Autonomous agents\SrcNew\DemonstrationSolution\SerializationExample\obj\x86\Debug\SerializationExample.pdb
+C:\Data\Teaching\Intelligent agents, 2019\Src\IPASrc\DemonstrationSolution\SerializationExample\bin\Debug\SerializationExample.exe
+C:\Data\Teaching\Intelligent agents, 2019\Src\IPASrc\DemonstrationSolution\SerializationExample\bin\Debug\SerializationExample.pdb
+C:\Data\Teaching\Intelligent agents, 2019\Src\IPASrc\DemonstrationSolution\SerializationExample\bin\Debug\ObjectSerializer.dll
+C:\Data\Teaching\Intelligent agents, 2019\Src\IPASrc\DemonstrationSolution\SerializationExample\bin\Debug\ObjectSerializer.pdb
+C:\Data\Teaching\Intelligent agents, 2019\Src\IPASrc\DemonstrationSolution\SerializationExample\obj\x86\Debug\SerializationExample.csprojResolveAssemblyReference.cache
+C:\Data\Teaching\Intelligent agents, 2019\Src\IPASrc\DemonstrationSolution\SerializationExample\obj\x86\Debug\SerializationExample.MainForm.resources
+C:\Data\Teaching\Intelligent agents, 2019\Src\IPASrc\DemonstrationSolution\SerializationExample\obj\x86\Debug\SerializationExample.Properties.Resources.resources
+C:\Data\Teaching\Intelligent agents, 2019\Src\IPASrc\DemonstrationSolution\SerializationExample\obj\x86\Debug\SerializationExample.csproj.GenerateResource.Cache
+C:\Data\Teaching\Intelligent agents, 2019\Src\IPASrc\DemonstrationSolution\SerializationExample\obj\x86\Debug\SerializationExample.exe
+C:\Data\Teaching\Intelligent agents, 2019\Src\IPASrc\DemonstrationSolution\SerializationExample\obj\x86\Debug\SerializationExample.pdb
+C:\Data\Teaching\Intelligent agents, 2020\IPASrc\Examples\ExamplesSolution\SerializationExample\bin\Debug\SerializationExample.exe
+C:\Data\Teaching\Intelligent agents, 2020\IPASrc\Examples\ExamplesSolution\SerializationExample\bin\Debug\SerializationExample.pdb
+C:\Data\Teaching\Intelligent agents, 2020\IPASrc\Examples\ExamplesSolution\SerializationExample\obj\x86\Debug\SerializationExample.csprojResolveAssemblyReference.cache
+C:\Data\Teaching\Intelligent agents, 2020\IPASrc\Examples\ExamplesSolution\SerializationExample\obj\x86\Debug\SerializationExample.MainForm.resources
+C:\Data\Teaching\Intelligent agents, 2020\IPASrc\Examples\ExamplesSolution\SerializationExample\obj\x86\Debug\SerializationExample.Properties.Resources.resources
+C:\Data\Teaching\Intelligent agents, 2020\IPASrc\Examples\ExamplesSolution\SerializationExample\obj\x86\Debug\SerializationExample.csproj.GenerateResource.Cache
+C:\Data\Teaching\Intelligent agents, 2020\IPASrc\Examples\ExamplesSolution\SerializationExample\obj\x86\Debug\SerializationExample.exe
+C:\Data\Teaching\Intelligent agents, 2020\IPASrc\Examples\ExamplesSolution\SerializationExample\obj\x86\Debug\SerializationExample.pdb
+C:\Data\Teaching\Intelligent agents, 2020\IPASrc\Examples\ExamplesSolution\SerializationExample\bin\Debug\SerializationExample.exe.config
+C:\Data\Teaching\Intelligent agents, 2020\IPASrc\Examples\ExamplesSolution\SerializationExample\bin\Debug\ObjectSerializerLibrary.dll
+C:\Data\Teaching\Intelligent agents, 2020\IPASrc\Examples\ExamplesSolution\SerializationExample\bin\Debug\ObjectSerializerLibrary.pdb
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2020\IPASrc\Examples\ExamplesSolution\SerializationExample\bin\Debug\SerializationExample.exe.config
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2020\IPASrc\Examples\ExamplesSolution\SerializationExample\bin\Debug\SerializationExample.exe
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2020\IPASrc\Examples\ExamplesSolution\SerializationExample\bin\Debug\SerializationExample.pdb
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2020\IPASrc\Examples\ExamplesSolution\SerializationExample\bin\Debug\ObjectSerializerLibrary.dll
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2020\IPASrc\Examples\ExamplesSolution\SerializationExample\bin\Debug\ObjectSerializerLibrary.pdb
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2020\IPASrc\Examples\ExamplesSolution\SerializationExample\obj\x86\Debug\SerializationExample.csprojResolveAssemblyReference.cache
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2020\IPASrc\Examples\ExamplesSolution\SerializationExample\obj\x86\Debug\SerializationExample.MainForm.resources
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2020\IPASrc\Examples\ExamplesSolution\SerializationExample\obj\x86\Debug\SerializationExample.Properties.Resources.resources
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2020\IPASrc\Examples\ExamplesSolution\SerializationExample\obj\x86\Debug\SerializationExample.csproj.GenerateResource.Cache
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2020\IPASrc\Examples\ExamplesSolution\SerializationExample\obj\x86\Debug\SerializationExample.exe
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2020\IPASrc\Examples\ExamplesSolution\SerializationExample\obj\x86\Debug\SerializationExample.pdb
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2021\Src\Examples\ExamplesSolution\SerializationExample\obj\x86\Debug\SerializationExample.csprojAssemblyReference.cache
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2021\Src\Examples\ExamplesSolution\SerializationExample\obj\x86\Debug\SerializationExample.MainForm.resources
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2021\Src\Examples\ExamplesSolution\SerializationExample\obj\x86\Debug\SerializationExample.Properties.Resources.resources
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2021\Src\Examples\ExamplesSolution\SerializationExample\obj\x86\Debug\SerializationExample.csproj.GenerateResource.cache
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2021\Src\Examples\ExamplesSolution\SerializationExample\obj\x86\Debug\SerializationExample.csproj.CoreCompileInputs.cache
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2021\Src\Examples\ExamplesSolution\SerializationExample\obj\x86\Debug\SerializationExample.exe
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2021\Src\Examples\ExamplesSolution\SerializationExample\obj\x86\Debug\SerializationExample.pdb
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2021\Src\Examples\ExamplesSolution\SerializationExample\bin\Debug\SerializationExample.exe.config
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2021\Src\Examples\ExamplesSolution\SerializationExample\bin\Debug\SerializationExample.exe
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2021\Src\Examples\ExamplesSolution\SerializationExample\bin\Debug\SerializationExample.pdb
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2021\Src\Examples\ExamplesSolution\SerializationExample\bin\Debug\ObjectSerializerLibrary.dll
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2021\Src\Examples\ExamplesSolution\SerializationExample\bin\Debug\ObjectSerializerLibrary.pdb
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2021\Src\Examples\ExamplesSolution\SerializationExample\obj\x86\Debug\SerializationExample.csproj.CopyComplete
+\\Mac\Home\Documents\IA\Examples\Examples\ExamplesSolution\SerializationExample\bin\Debug\SerializationExample.exe.config
+\\Mac\Home\Documents\IA\Examples\Examples\ExamplesSolution\SerializationExample\bin\Debug\SerializationExample.exe
+\\Mac\Home\Documents\IA\Examples\Examples\ExamplesSolution\SerializationExample\bin\Debug\SerializationExample.pdb
+\\Mac\Home\Documents\IA\Examples\Examples\ExamplesSolution\SerializationExample\bin\Debug\ObjectSerializerLibrary.dll
+\\Mac\Home\Documents\IA\Examples\Examples\ExamplesSolution\SerializationExample\bin\Debug\ObjectSerializerLibrary.pdb
+\\Mac\Home\Documents\IA\Examples\Examples\ExamplesSolution\SerializationExample\obj\x86\Debug\SerializationExample.csproj.AssemblyReference.cache
+\\Mac\Home\Documents\IA\Examples\Examples\ExamplesSolution\SerializationExample\obj\x86\Debug\SerializationExample.MainForm.resources
+\\Mac\Home\Documents\IA\Examples\Examples\ExamplesSolution\SerializationExample\obj\x86\Debug\SerializationExample.Properties.Resources.resources
+\\Mac\Home\Documents\IA\Examples\Examples\ExamplesSolution\SerializationExample\obj\x86\Debug\SerializationExample.csproj.GenerateResource.cache
+\\Mac\Home\Documents\IA\Examples\Examples\ExamplesSolution\SerializationExample\obj\x86\Debug\SerializationExample.csproj.CoreCompileInputs.cache
+\\Mac\Home\Documents\IA\Examples\Examples\ExamplesSolution\SerializationExample\obj\x86\Debug\SerializationExample.csproj.CopyComplete
+\\Mac\Home\Documents\IA\Examples\Examples\ExamplesSolution\SerializationExample\obj\x86\Debug\SerializationExample.exe
+\\Mac\Home\Documents\IA\Examples\Examples\ExamplesSolution\SerializationExample\obj\x86\Debug\SerializationExample.pdb

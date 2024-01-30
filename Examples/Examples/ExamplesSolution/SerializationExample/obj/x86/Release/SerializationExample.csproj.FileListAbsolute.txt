@@ -1,0 +1,10 @@
+C:\Data\Research\Autonomous agents\Src\DemonstrationSolution\SerializationExample\bin\Release\SerializationExample.exe
+C:\Data\Research\Autonomous agents\Src\DemonstrationSolution\SerializationExample\bin\Release\SerializationExample.pdb
+C:\Data\Research\Autonomous agents\Src\DemonstrationSolution\SerializationExample\bin\Release\ObjectSerializer.dll
+C:\Data\Research\Autonomous agents\Src\DemonstrationSolution\SerializationExample\bin\Release\ObjectSerializer.pdb
+C:\Data\Research\Autonomous agents\Src\DemonstrationSolution\SerializationExample\obj\x86\Release\SerializationExample.csprojResolveAssemblyReference.cache
+C:\Data\Research\Autonomous agents\Src\DemonstrationSolution\SerializationExample\obj\x86\Release\SerializationExample.MainForm.resources
+C:\Data\Research\Autonomous agents\Src\DemonstrationSolution\SerializationExample\obj\x86\Release\SerializationExample.Properties.Resources.resources
+C:\Data\Research\Autonomous agents\Src\DemonstrationSolution\SerializationExample\obj\x86\Release\SerializationExample.csproj.GenerateResource.Cache
+C:\Data\Research\Autonomous agents\Src\DemonstrationSolution\SerializationExample\obj\x86\Release\SerializationExample.exe
+C:\Data\Research\Autonomous agents\Src\DemonstrationSolution\SerializationExample\obj\x86\Release\SerializationExample.pdb

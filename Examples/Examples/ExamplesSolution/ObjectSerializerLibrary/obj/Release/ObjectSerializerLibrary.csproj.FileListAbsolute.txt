@@ -1,0 +1,77 @@
+C:\Users\Mattias Wahde\Documents\Files\Research\Robotics\2011\IRH\Src\Libraries\ObjectSerializerLibrary\bin\Release\ObjectSerializer.dll
+C:\Users\Mattias Wahde\Documents\Files\Research\Robotics\2011\IRH\Src\Libraries\ObjectSerializerLibrary\bin\Release\ObjectSerializer.pdb
+C:\Users\Mattias Wahde\Documents\Files\Research\Robotics\2011\IRH\Src\Libraries\ObjectSerializerLibrary\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Mattias Wahde\Documents\Files\Research\Robotics\2011\IRH\Src\Libraries\ObjectSerializerLibrary\obj\Release\ObjectSerializer.dll
+C:\Users\Mattias Wahde\Documents\Files\Research\Robotics\2011\IRH\Src\Libraries\ObjectSerializerLibrary\obj\Release\ObjectSerializer.pdb
+D:\LondonProject\Src\Libraries\ObjectSerializerLibrary\bin\Release\ObjectSerializer.dll
+D:\LondonProject\Src\Libraries\ObjectSerializerLibrary\bin\Release\ObjectSerializer.pdb
+D:\LondonProject\Src\Libraries\ObjectSerializerLibrary\obj\Release\ResolveAssemblyReference.cache
+D:\LondonProject\Src\Libraries\ObjectSerializerLibrary\obj\Release\ObjectSerializer.dll
+D:\LondonProject\Src\Libraries\ObjectSerializerLibrary\obj\Release\ObjectSerializer.pdb
+C:\Users\Mattias\Desktop\LondonProject\Src\Libraries\ObjectSerializerLibrary\bin\Release\ObjectSerializer.dll
+C:\Users\Mattias\Desktop\LondonProject\Src\Libraries\ObjectSerializerLibrary\bin\Release\ObjectSerializer.pdb
+C:\Users\Mattias\Desktop\LondonProject\Src\Libraries\ObjectSerializerLibrary\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Mattias\Desktop\LondonProject\Src\Libraries\ObjectSerializerLibrary\obj\Release\ObjectSerializer.dll
+C:\Users\Mattias\Desktop\LondonProject\Src\Libraries\ObjectSerializerLibrary\obj\Release\ObjectSerializer.pdb
+C:\Users\Mattias\Desktop\CommodityTraderProject\Src\Libraries\ObjectSerializerLibrary\bin\Release\ObjectSerializer.dll
+C:\Users\Mattias\Desktop\CommodityTraderProject\Src\Libraries\ObjectSerializerLibrary\bin\Release\ObjectSerializer.pdb
+C:\Users\Mattias\Desktop\CommodityTraderProject\Src\Libraries\ObjectSerializerLibrary\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Mattias\Desktop\CommodityTraderProject\Src\Libraries\ObjectSerializerLibrary\obj\Release\ObjectSerializer.dll
+C:\Users\Mattias\Desktop\CommodityTraderProject\Src\Libraries\ObjectSerializerLibrary\obj\Release\ObjectSerializer.pdb
+E:\Robotik\PartnerRobot\Src\Libraries\ObjectSerializerLibrary\bin\Release\ObjectSerializer.dll
+E:\Robotik\PartnerRobot\Src\Libraries\ObjectSerializerLibrary\bin\Release\ObjectSerializer.pdb
+E:\Robotik\PartnerRobot\Src\Libraries\ObjectSerializerLibrary\obj\Release\ResolveAssemblyReference.cache
+E:\Robotik\PartnerRobot\Src\Libraries\ObjectSerializerLibrary\obj\Release\ObjectSerializer.dll
+E:\Robotik\PartnerRobot\Src\Libraries\ObjectSerializerLibrary\obj\Release\ObjectSerializer.pdb
+C:\Users\Mattias\Desktop\Work\20140821\SARPA\Src\Libraries\ObjectSerializerLibrary\bin\Release\ObjectSerializer.dll
+C:\Users\Mattias\Desktop\Work\20140821\SARPA\Src\Libraries\ObjectSerializerLibrary\bin\Release\ObjectSerializer.pdb
+C:\Users\Mattias\Desktop\Work\20140821\SARPA\Src\Libraries\ObjectSerializerLibrary\obj\Release\ObjectSerializer.dll
+C:\Users\Mattias\Desktop\Work\20140821\SARPA\Src\Libraries\ObjectSerializerLibrary\obj\Release\ObjectSerializer.pdb
+C:\Users\Mattias\Desktop\Work\20140829\SARPA\Src\Libraries\ObjectSerializerLibrary\bin\Release\ObjectSerializer.dll
+C:\Users\Mattias\Desktop\Work\20140829\SARPA\Src\Libraries\ObjectSerializerLibrary\bin\Release\ObjectSerializer.pdb
+C:\Users\Mattias\Desktop\Work\20140829\SARPA\Src\Libraries\ObjectSerializerLibrary\obj\Release\ObjectSerializer.dll
+C:\Users\Mattias\Desktop\Work\20140829\SARPA\Src\Libraries\ObjectSerializerLibrary\obj\Release\ObjectSerializer.pdb
+C:\Users\Mattias\Desktop\Work\20140902\SARPA\Src\Libraries\ObjectSerializerLibrary\bin\Release\ObjectSerializer.dll
+C:\Users\Mattias\Desktop\Work\20140902\SARPA\Src\Libraries\ObjectSerializerLibrary\bin\Release\ObjectSerializer.pdb
+C:\Users\Mattias\Desktop\Work\20140902\SARPA\Src\Libraries\ObjectSerializerLibrary\obj\Release\ObjectSerializer.dll
+C:\Users\Mattias\Desktop\Work\20140902\SARPA\Src\Libraries\ObjectSerializerLibrary\obj\Release\ObjectSerializer.pdb
+C:\Users\Mattias\Desktop\Work\20140903\SARPA\Src\Libraries\ObjectSerializerLibrary\bin\Release\ObjectSerializer.dll
+C:\Users\Mattias\Desktop\Work\20140903\SARPA\Src\Libraries\ObjectSerializerLibrary\bin\Release\ObjectSerializer.pdb
+C:\Users\Mattias\Desktop\Work\20140903\SARPA\Src\Libraries\ObjectSerializerLibrary\obj\Release\ObjectSerializer.dll
+C:\Users\Mattias\Desktop\Work\20140903\SARPA\Src\Libraries\ObjectSerializerLibrary\obj\Release\ObjectSerializer.pdb
+C:\Users\Mattias\Desktop\Work\20140904\SARPA\Src\Libraries\ObjectSerializerLibrary\bin\Release\ObjectSerializer.dll
+C:\Users\Mattias\Desktop\Work\20140904\SARPA\Src\Libraries\ObjectSerializerLibrary\bin\Release\ObjectSerializer.pdb
+C:\Users\Mattias\Desktop\Work\20140904\SARPA\Src\Libraries\ObjectSerializerLibrary\obj\Release\ObjectSerializer.dll
+C:\Users\Mattias\Desktop\Work\20140904\SARPA\Src\Libraries\ObjectSerializerLibrary\obj\Release\ObjectSerializer.pdb
+C:\Data\Research\SARPA\Src\Libraries\ObjectSerializerLibrary\bin\Release\ObjectSerializer.dll
+C:\Data\Research\SARPA\Src\Libraries\ObjectSerializerLibrary\bin\Release\ObjectSerializer.pdb
+C:\Data\Research\SARPA\Src\Libraries\ObjectSerializerLibrary\obj\Release\ObjectSerializer.dll
+C:\Data\Research\SARPA\Src\Libraries\ObjectSerializerLibrary\obj\Release\ObjectSerializer.pdb
+C:\Data\Research\SARPA\Src\Libraries\ObjectSerializerLibrary\obj\Release\ObjectSerializerLibrary.csprojResolveAssemblyReference.cache
+C:\Data\Research\Autonomous vehicles\Src\Libraries\ObjectSerializerLibrary\bin\Release\ObjectSerializer.dll
+C:\Data\Research\Autonomous vehicles\Src\Libraries\ObjectSerializerLibrary\bin\Release\ObjectSerializer.pdb
+C:\Data\Research\Autonomous vehicles\Src\Libraries\ObjectSerializerLibrary\obj\Release\ObjectSerializer.dll
+C:\Data\Research\Autonomous vehicles\Src\Libraries\ObjectSerializerLibrary\obj\Release\ObjectSerializer.pdb
+C:\Data\Research\Autonomous vehicles\SrcSAFE20160120\Libraries\ObjectSerializerLibrary\bin\Release\ObjectSerializer.dll
+C:\Data\Research\Autonomous vehicles\SrcSAFE20160120\Libraries\ObjectSerializerLibrary\bin\Release\ObjectSerializer.pdb
+C:\Data\Research\Autonomous vehicles\SrcSAFE20160120\Libraries\ObjectSerializerLibrary\obj\Release\ObjectSerializer.dll
+C:\Data\Research\Autonomous vehicles\SrcSAFE20160120\Libraries\ObjectSerializerLibrary\obj\Release\ObjectSerializer.pdb
+C:\Data\Research\Autonomous agents\Src\Libraries\ObjectSerializerLibrary\bin\Release\ObjectSerializer.dll
+C:\Data\Research\Autonomous agents\Src\Libraries\ObjectSerializerLibrary\bin\Release\ObjectSerializer.pdb
+C:\Data\Research\Autonomous agents\Src\Libraries\ObjectSerializerLibrary\obj\Release\ObjectSerializer.dll
+C:\Data\Research\Autonomous agents\Src\Libraries\ObjectSerializerLibrary\obj\Release\ObjectSerializer.pdb
+C:\Data\Research\Autonomous agents\Src\Libraries\ObjectSerializerLibrary\obj\Release\ObjectSerializerLibrary.csprojResolveAssemblyReference.cache
+C:\Data\Research\Auto-learning SR\Src\Libraries\ObjectSerializerLibrary\bin\Release\ObjectSerializer.dll
+C:\Data\Research\Auto-learning SR\Src\Libraries\ObjectSerializerLibrary\bin\Release\ObjectSerializer.pdb
+C:\Data\Research\Auto-learning SR\Src\Libraries\ObjectSerializerLibrary\obj\Release\ObjectSerializer.dll
+C:\Data\Research\Auto-learning SR\Src\Libraries\ObjectSerializerLibrary\obj\Release\ObjectSerializer.pdb
+C:\Data\Chalmers work\Research\Auto-learning SR\Src\Libraries\ObjectSerializerLibrary\bin\Release\ObjectSerializer.dll
+C:\Data\Chalmers work\Research\Auto-learning SR\Src\Libraries\ObjectSerializerLibrary\bin\Release\ObjectSerializer.pdb
+C:\Data\Chalmers work\Research\Auto-learning SR\Src\Libraries\ObjectSerializerLibrary\obj\Release\ObjectSerializer.dll
+C:\Data\Chalmers work\Research\Auto-learning SR\Src\Libraries\ObjectSerializerLibrary\obj\Release\ObjectSerializer.pdb
+C:\Data\Chalmers work\Research\DAISY\Src\DaisySolution\Libraries\ObjectSerializerLibrary\bin\Release\ObjectSerializerLibrary.dll
+C:\Data\Chalmers work\Research\DAISY\Src\DaisySolution\Libraries\ObjectSerializerLibrary\bin\Release\ObjectSerializerLibrary.pdb
+C:\Data\Chalmers work\Research\DAISY\Src\DaisySolution\Libraries\ObjectSerializerLibrary\obj\Release\ObjectSerializerLibrary.csprojAssemblyReference.cache
+C:\Data\Chalmers work\Research\DAISY\Src\DaisySolution\Libraries\ObjectSerializerLibrary\obj\Release\ObjectSerializerLibrary.csproj.CoreCompileInputs.cache
+C:\Data\Chalmers work\Research\DAISY\Src\DaisySolution\Libraries\ObjectSerializerLibrary\obj\Release\ObjectSerializerLibrary.dll
+C:\Data\Chalmers work\Research\DAISY\Src\DaisySolution\Libraries\ObjectSerializerLibrary\obj\Release\ObjectSerializerLibrary.pdb

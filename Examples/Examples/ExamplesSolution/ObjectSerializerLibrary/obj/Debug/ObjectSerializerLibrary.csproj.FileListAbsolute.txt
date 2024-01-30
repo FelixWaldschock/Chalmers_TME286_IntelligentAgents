@@ -1,0 +1,267 @@
+C:\Users\Mattias Wahde\Documents\Files\Research\Robotics\2010\Interactive robotic head\Src (other)\SS\SpeechSynthesisSolution\ObjectSerializerLibrary\bin\Debug\ObjectSerializer.dll
+C:\Users\Mattias Wahde\Documents\Files\Research\Robotics\2010\Interactive robotic head\Src (other)\SS\SpeechSynthesisSolution\ObjectSerializerLibrary\bin\Debug\ObjectSerializer.pdb
+C:\Users\Mattias Wahde\Documents\Files\Research\Robotics\2010\Interactive robotic head\Src (other)\SS\SpeechSynthesisSolution\ObjectSerializerLibrary\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Mattias Wahde\Documents\Files\Research\Robotics\2010\Interactive robotic head\Src (other)\SS\SpeechSynthesisSolution\ObjectSerializerLibrary\obj\Debug\ObjectSerializer.dll
+C:\Users\Mattias Wahde\Documents\Files\Research\Robotics\2010\Interactive robotic head\Src (other)\SS\SpeechSynthesisSolution\ObjectSerializerLibrary\obj\Debug\ObjectSerializer.pdb
+E:\Languages\Kinesiska\Src\ChineseTrainingSolution\ObjectSerializerLibrary\bin\Debug\ObjectSerializer.dll
+E:\Languages\Kinesiska\Src\ChineseTrainingSolution\ObjectSerializerLibrary\bin\Debug\ObjectSerializer.pdb
+E:\Languages\Kinesiska\Src\ChineseTrainingSolution\ObjectSerializerLibrary\obj\Debug\ResolveAssemblyReference.cache
+E:\Languages\Kinesiska\Src\ChineseTrainingSolution\ObjectSerializerLibrary\obj\Debug\ObjectSerializer.dll
+E:\Languages\Kinesiska\Src\ChineseTrainingSolution\ObjectSerializerLibrary\obj\Debug\ObjectSerializer.pdb
+E:\Commercial projects\Src\Libraries\ObjectSerializerLibrary\bin\Debug\ObjectSerializer.dll
+E:\Commercial projects\Src\Libraries\ObjectSerializerLibrary\bin\Debug\ObjectSerializer.pdb
+E:\Commercial projects\Src\Libraries\ObjectSerializerLibrary\obj\Debug\ResolveAssemblyReference.cache
+E:\Commercial projects\Src\Libraries\ObjectSerializerLibrary\obj\Debug\ObjectSerializer.dll
+E:\Commercial projects\Src\Libraries\ObjectSerializerLibrary\obj\Debug\ObjectSerializer.pdb
+E:\Robotik\HRI\IRH\Src\Libraries\ObjectSerializerLibrary\bin\Debug\ObjectSerializer.dll
+E:\Robotik\HRI\IRH\Src\Libraries\ObjectSerializerLibrary\bin\Debug\ObjectSerializer.pdb
+E:\Robotik\HRI\IRH\Src\Libraries\ObjectSerializerLibrary\obj\Debug\ResolveAssemblyReference.cache
+E:\Robotik\HRI\IRH\Src\Libraries\ObjectSerializerLibrary\obj\Debug\ObjectSerializer.dll
+E:\Robotik\HRI\IRH\Src\Libraries\ObjectSerializerLibrary\obj\Debug\ObjectSerializer.pdb
+C:\Users\Mattias Wahde\Documents\Files\Research\Robotics\2011\IRH\Src\Libraries\ObjectSerializerLibrary\bin\Debug\ObjectSerializer.dll
+C:\Users\Mattias Wahde\Documents\Files\Research\Robotics\2011\IRH\Src\Libraries\ObjectSerializerLibrary\bin\Debug\ObjectSerializer.pdb
+C:\Users\Mattias Wahde\Documents\Files\Research\Robotics\2011\IRH\Src\Libraries\ObjectSerializerLibrary\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Mattias Wahde\Documents\Files\Research\Robotics\2011\IRH\Src\Libraries\ObjectSerializerLibrary\obj\Debug\ObjectSerializer.dll
+C:\Users\Mattias Wahde\Documents\Files\Research\Robotics\2011\IRH\Src\Libraries\ObjectSerializerLibrary\obj\Debug\ObjectSerializer.pdb
+C:\Users\Mattias Wahde\Documents\Files\Research\Robotics\2012\Libraries\ObjectSerializerLibrary\bin\Debug\ObjectSerializer.dll
+C:\Users\Mattias Wahde\Documents\Files\Research\Robotics\2012\Libraries\ObjectSerializerLibrary\bin\Debug\ObjectSerializer.pdb
+C:\Users\Mattias Wahde\Documents\Files\Research\Robotics\2012\Libraries\ObjectSerializerLibrary\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Mattias Wahde\Documents\Files\Research\Robotics\2012\Libraries\ObjectSerializerLibrary\obj\Debug\ObjectSerializer.dll
+C:\Users\Mattias Wahde\Documents\Files\Research\Robotics\2012\Libraries\ObjectSerializerLibrary\obj\Debug\ObjectSerializer.pdb
+E:\Robotik\2012\Libraries\ObjectSerializerLibrary\bin\Debug\ObjectSerializer.dll
+E:\Robotik\2012\Libraries\ObjectSerializerLibrary\bin\Debug\ObjectSerializer.pdb
+E:\Robotik\2012\Libraries\ObjectSerializerLibrary\obj\Debug\ResolveAssemblyReference.cache
+E:\Robotik\2012\Libraries\ObjectSerializerLibrary\obj\Debug\ObjectSerializer.dll
+E:\Robotik\2012\Libraries\ObjectSerializerLibrary\obj\Debug\ObjectSerializer.pdb
+C:\Users\Mattias Wahde\Documents\Files\Övrigt\20120329\LondonProject\Src\Libraries\ObjectSerializerLibrary\bin\Debug\ObjectSerializer.dll
+C:\Users\Mattias Wahde\Documents\Files\Övrigt\20120329\LondonProject\Src\Libraries\ObjectSerializerLibrary\bin\Debug\ObjectSerializer.pdb
+C:\Users\Mattias Wahde\Documents\Files\Övrigt\20120329\LondonProject\Src\Libraries\ObjectSerializerLibrary\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Mattias Wahde\Documents\Files\Övrigt\20120329\LondonProject\Src\Libraries\ObjectSerializerLibrary\obj\Debug\ObjectSerializer.dll
+C:\Users\Mattias Wahde\Documents\Files\Övrigt\20120329\LondonProject\Src\Libraries\ObjectSerializerLibrary\obj\Debug\ObjectSerializer.pdb
+C:\Users\Mattias Wahde\Documents\Files\Övrigt\LondonProject\Src\Libraries\ObjectSerializerLibrary\bin\Debug\ObjectSerializer.dll
+C:\Users\Mattias Wahde\Documents\Files\Övrigt\LondonProject\Src\Libraries\ObjectSerializerLibrary\bin\Debug\ObjectSerializer.pdb
+C:\Users\Mattias Wahde\Documents\Files\Övrigt\LondonProject\Src\Libraries\ObjectSerializerLibrary\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Mattias Wahde\Documents\Files\Övrigt\LondonProject\Src\Libraries\ObjectSerializerLibrary\obj\Debug\ObjectSerializer.dll
+C:\Users\Mattias Wahde\Documents\Files\Övrigt\LondonProject\Src\Libraries\ObjectSerializerLibrary\obj\Debug\ObjectSerializer.pdb
+E:\Diverse\LondonProject\Src\Libraries\ObjectSerializerLibrary\bin\Debug\ObjectSerializer.dll
+E:\Diverse\LondonProject\Src\Libraries\ObjectSerializerLibrary\bin\Debug\ObjectSerializer.pdb
+E:\Diverse\LondonProject\Src\Libraries\ObjectSerializerLibrary\obj\Debug\ResolveAssemblyReference.cache
+E:\Diverse\LondonProject\Src\Libraries\ObjectSerializerLibrary\obj\Debug\ObjectSerializer.dll
+E:\Diverse\LondonProject\Src\Libraries\ObjectSerializerLibrary\obj\Debug\ObjectSerializer.pdb
+C:\Users\Mattias Wahde\Documents\Files\Övrigt\CommodityTraderProject\Src\Libraries\ObjectSerializerLibrary\bin\Debug\ObjectSerializer.dll
+C:\Users\Mattias Wahde\Documents\Files\Övrigt\CommodityTraderProject\Src\Libraries\ObjectSerializerLibrary\bin\Debug\ObjectSerializer.pdb
+C:\Users\Mattias Wahde\Documents\Files\Övrigt\CommodityTraderProject\Src\Libraries\ObjectSerializerLibrary\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Mattias Wahde\Documents\Files\Övrigt\CommodityTraderProject\Src\Libraries\ObjectSerializerLibrary\obj\Debug\ObjectSerializer.dll
+C:\Users\Mattias Wahde\Documents\Files\Övrigt\CommodityTraderProject\Src\Libraries\ObjectSerializerLibrary\obj\Debug\ObjectSerializer.pdb
+E:\Diverse\CommodityTraderProject\Src\Libraries\ObjectSerializerLibrary\bin\Debug\ObjectSerializer.dll
+E:\Diverse\CommodityTraderProject\Src\Libraries\ObjectSerializerLibrary\bin\Debug\ObjectSerializer.pdb
+E:\Diverse\CommodityTraderProject\Src\Libraries\ObjectSerializerLibrary\obj\Debug\ResolveAssemblyReference.cache
+E:\Diverse\CommodityTraderProject\Src\Libraries\ObjectSerializerLibrary\obj\Debug\ObjectSerializer.dll
+E:\Diverse\CommodityTraderProject\Src\Libraries\ObjectSerializerLibrary\obj\Debug\ObjectSerializer.pdb
+C:\Users\Mattias Wahde\Desktop\CommodityTraderProjectNEW\Src\Libraries\ObjectSerializerLibrary\bin\Debug\ObjectSerializer.dll
+C:\Users\Mattias Wahde\Desktop\CommodityTraderProjectNEW\Src\Libraries\ObjectSerializerLibrary\bin\Debug\ObjectSerializer.pdb
+C:\Users\Mattias Wahde\Desktop\CommodityTraderProjectNEW\Src\Libraries\ObjectSerializerLibrary\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Mattias Wahde\Desktop\CommodityTraderProjectNEW\Src\Libraries\ObjectSerializerLibrary\obj\Debug\ObjectSerializer.dll
+C:\Users\Mattias Wahde\Desktop\CommodityTraderProjectNEW\Src\Libraries\ObjectSerializerLibrary\obj\Debug\ObjectSerializer.pdb
+C:\Users\Mattias Wahde\Documents\Files\Övrigt\TraderProject\Src\Libraries\ObjectSerializerLibrary\bin\Debug\ObjectSerializer.dll
+C:\Users\Mattias Wahde\Documents\Files\Övrigt\TraderProject\Src\Libraries\ObjectSerializerLibrary\bin\Debug\ObjectSerializer.pdb
+C:\Users\Mattias Wahde\Documents\Files\Övrigt\TraderProject\Src\Libraries\ObjectSerializerLibrary\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Mattias Wahde\Documents\Files\Övrigt\TraderProject\Src\Libraries\ObjectSerializerLibrary\obj\Debug\ObjectSerializer.dll
+C:\Users\Mattias Wahde\Documents\Files\Övrigt\TraderProject\Src\Libraries\ObjectSerializerLibrary\obj\Debug\ObjectSerializer.pdb
+E:\Diverse\TraderProject\Src\Libraries\ObjectSerializerLibrary\bin\Debug\ObjectSerializer.dll
+E:\Diverse\TraderProject\Src\Libraries\ObjectSerializerLibrary\bin\Debug\ObjectSerializer.pdb
+E:\Diverse\TraderProject\Src\Libraries\ObjectSerializerLibrary\obj\Debug\ResolveAssemblyReference.cache
+E:\Diverse\TraderProject\Src\Libraries\ObjectSerializerLibrary\obj\Debug\ObjectSerializer.dll
+E:\Diverse\TraderProject\Src\Libraries\ObjectSerializerLibrary\obj\Debug\ObjectSerializer.pdb
+C:\Users\Mattias Wahde\Documents\Files\Övrigt\TraderProject, v2.1\Src\Libraries\ObjectSerializerLibrary\bin\Debug\ObjectSerializer.dll
+C:\Users\Mattias Wahde\Documents\Files\Övrigt\TraderProject, v2.1\Src\Libraries\ObjectSerializerLibrary\bin\Debug\ObjectSerializer.pdb
+C:\Users\Mattias Wahde\Documents\Files\Övrigt\TraderProject, v2.1\Src\Libraries\ObjectSerializerLibrary\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Mattias Wahde\Documents\Files\Övrigt\TraderProject, v2.1\Src\Libraries\ObjectSerializerLibrary\obj\Debug\ObjectSerializer.dll
+C:\Users\Mattias Wahde\Documents\Files\Övrigt\TraderProject, v2.1\Src\Libraries\ObjectSerializerLibrary\obj\Debug\ObjectSerializer.pdb
+C:\Users\Mattias Wahde\Documents\Files\Övrigt\Trading\v2.1\Src\Libraries\ObjectSerializerLibrary\bin\Debug\ObjectSerializer.dll
+C:\Users\Mattias Wahde\Documents\Files\Övrigt\Trading\v2.1\Src\Libraries\ObjectSerializerLibrary\bin\Debug\ObjectSerializer.pdb
+C:\Users\Mattias Wahde\Documents\Files\Övrigt\Trading\v2.1\Src\Libraries\ObjectSerializerLibrary\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Mattias Wahde\Documents\Files\Övrigt\Trading\v2.1\Src\Libraries\ObjectSerializerLibrary\obj\Debug\ObjectSerializer.dll
+C:\Users\Mattias Wahde\Documents\Files\Övrigt\Trading\v2.1\Src\Libraries\ObjectSerializerLibrary\obj\Debug\ObjectSerializer.pdb
+E:\Trading\v2.1\Src\Libraries\ObjectSerializerLibrary\bin\Debug\ObjectSerializer.dll
+E:\Trading\v2.1\Src\Libraries\ObjectSerializerLibrary\bin\Debug\ObjectSerializer.pdb
+E:\Trading\v2.1\Src\Libraries\ObjectSerializerLibrary\obj\Debug\ResolveAssemblyReference.cache
+E:\Trading\v2.1\Src\Libraries\ObjectSerializerLibrary\obj\Debug\ObjectSerializer.dll
+E:\Trading\v2.1\Src\Libraries\ObjectSerializerLibrary\obj\Debug\ObjectSerializer.pdb
+E:\Robotik\PartnerRobot\Src\Libraries\ObjectSerializerLibrary\bin\Debug\ObjectSerializer.dll
+E:\Robotik\PartnerRobot\Src\Libraries\ObjectSerializerLibrary\bin\Debug\ObjectSerializer.pdb
+E:\Robotik\PartnerRobot\Src\Libraries\ObjectSerializerLibrary\obj\Debug\ResolveAssemblyReference.cache
+E:\Robotik\PartnerRobot\Src\Libraries\ObjectSerializerLibrary\obj\Debug\ObjectSerializer.dll
+E:\Robotik\PartnerRobot\Src\Libraries\ObjectSerializerLibrary\obj\Debug\ObjectSerializer.pdb
+C:\Users\Mattias Wahde\Documents\Files\Research\Robotics\PartnerRobot\Src\Libraries\ObjectSerializerLibrary\bin\Debug\ObjectSerializer.dll
+C:\Users\Mattias Wahde\Documents\Files\Research\Robotics\PartnerRobot\Src\Libraries\ObjectSerializerLibrary\bin\Debug\ObjectSerializer.pdb
+C:\Users\Mattias Wahde\Documents\Files\Research\Robotics\PartnerRobot\Src\Libraries\ObjectSerializerLibrary\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Mattias Wahde\Documents\Files\Research\Robotics\PartnerRobot\Src\Libraries\ObjectSerializerLibrary\obj\Debug\ObjectSerializer.dll
+C:\Users\Mattias Wahde\Documents\Files\Research\Robotics\PartnerRobot\Src\Libraries\ObjectSerializerLibrary\obj\Debug\ObjectSerializer.pdb
+C:\Users\Mattias Wahde\Documents\Files\Research\Robotics\PartnerAgent\Src\Libraries\ObjectSerializerLibrary\bin\Debug\ObjectSerializer.dll
+C:\Users\Mattias Wahde\Documents\Files\Research\Robotics\PartnerAgent\Src\Libraries\ObjectSerializerLibrary\bin\Debug\ObjectSerializer.pdb
+C:\Users\Mattias Wahde\Documents\Files\Research\Robotics\PartnerAgent\Src\Libraries\ObjectSerializerLibrary\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Mattias Wahde\Documents\Files\Research\Robotics\PartnerAgent\Src\Libraries\ObjectSerializerLibrary\obj\Debug\ObjectSerializer.dll
+C:\Users\Mattias Wahde\Documents\Files\Research\Robotics\PartnerAgent\Src\Libraries\ObjectSerializerLibrary\obj\Debug\ObjectSerializer.pdb
+E:\Robotik\PartnerAgent\Src\Libraries\ObjectSerializerLibrary\bin\Debug\ObjectSerializer.dll
+E:\Robotik\PartnerAgent\Src\Libraries\ObjectSerializerLibrary\bin\Debug\ObjectSerializer.pdb
+E:\Robotik\PartnerAgent\Src\Libraries\ObjectSerializerLibrary\obj\Debug\ObjectSerializer.dll
+E:\Robotik\PartnerAgent\Src\Libraries\ObjectSerializerLibrary\obj\Debug\ObjectSerializer.pdb
+E:\Robotik\PartnerAgent\Src\Libraries\ObjectSerializerLibrary\obj\Debug\ObjectSerializerLibrary.csprojResolveAssemblyReference.cache
+E:\Chalmers work\SARPA\Src\Libraries\ObjectSerializerLibrary\bin\Debug\ObjectSerializer.dll
+E:\Chalmers work\SARPA\Src\Libraries\ObjectSerializerLibrary\bin\Debug\ObjectSerializer.pdb
+E:\Chalmers work\SARPA\Src\Libraries\ObjectSerializerLibrary\obj\Debug\ObjectSerializer.dll
+E:\Chalmers work\SARPA\Src\Libraries\ObjectSerializerLibrary\obj\Debug\ObjectSerializer.pdb
+C:\Users\Mattias\Desktop\Work\20140819\SARPA\Src\Libraries\ObjectSerializerLibrary\bin\Debug\ObjectSerializer.dll
+C:\Users\Mattias\Desktop\Work\20140819\SARPA\Src\Libraries\ObjectSerializerLibrary\bin\Debug\ObjectSerializer.pdb
+C:\Users\Mattias\Desktop\Work\20140819\SARPA\Src\Libraries\ObjectSerializerLibrary\obj\Debug\ObjectSerializerLibrary.csprojResolveAssemblyReference.cache
+C:\Users\Mattias\Desktop\Work\20140819\SARPA\Src\Libraries\ObjectSerializerLibrary\obj\Debug\ObjectSerializer.dll
+C:\Users\Mattias\Desktop\Work\20140819\SARPA\Src\Libraries\ObjectSerializerLibrary\obj\Debug\ObjectSerializer.pdb
+E:\Chalmers work\SARPA\Newsrc\Src\Libraries\ObjectSerializerLibrary\bin\Debug\ObjectSerializer.dll
+E:\Chalmers work\SARPA\Newsrc\Src\Libraries\ObjectSerializerLibrary\bin\Debug\ObjectSerializer.pdb
+E:\Chalmers work\SARPA\Newsrc\Src\Libraries\ObjectSerializerLibrary\obj\Debug\ObjectSerializerLibrary.csprojResolveAssemblyReference.cache
+E:\Chalmers work\SARPA\Newsrc\Src\Libraries\ObjectSerializerLibrary\obj\Debug\ObjectSerializer.dll
+E:\Chalmers work\SARPA\Newsrc\Src\Libraries\ObjectSerializerLibrary\obj\Debug\ObjectSerializer.pdb
+E:\Chalmers work\AVS2\AVS2\AVS2Solution\Libraries\ObjectSerializerLibrary\bin\Debug\ObjectSerializer.dll
+E:\Chalmers work\AVS2\AVS2\AVS2Solution\Libraries\ObjectSerializerLibrary\bin\Debug\ObjectSerializer.pdb
+E:\Chalmers work\AVS2\AVS2\AVS2Solution\Libraries\ObjectSerializerLibrary\obj\Debug\ObjectSerializer.dll
+E:\Chalmers work\AVS2\AVS2\AVS2Solution\Libraries\ObjectSerializerLibrary\obj\Debug\ObjectSerializer.pdb
+E:\Chalmers work\AVS2\AVS2\AVS2Solution\Libraries\ObjectSerializerLibrary\obj\Debug\ObjectSerializerLibrary.csprojResolveAssemblyReference.cache
+E:\Chalmers work\AVS2_20150218\New map reader\MapReaderSolution\Libraries\ObjectSerializerLibrary\bin\Debug\ObjectSerializer.dll
+E:\Chalmers work\AVS2_20150218\New map reader\MapReaderSolution\Libraries\ObjectSerializerLibrary\bin\Debug\ObjectSerializer.pdb
+E:\Chalmers work\AVS2_20150218\New map reader\MapReaderSolution\Libraries\ObjectSerializerLibrary\obj\Debug\ObjectSerializerLibrary.csprojResolveAssemblyReference.cache
+E:\Chalmers work\AVS2_20150218\New map reader\MapReaderSolution\Libraries\ObjectSerializerLibrary\obj\Debug\ObjectSerializer.dll
+E:\Chalmers work\AVS2_20150218\New map reader\MapReaderSolution\Libraries\ObjectSerializerLibrary\obj\Debug\ObjectSerializer.pdb
+E:\Chalmers work\AVS2\New map reader\MapReaderSolution\Libraries\ObjectSerializerLibrary\bin\Debug\ObjectSerializer.dll
+E:\Chalmers work\AVS2\New map reader\MapReaderSolution\Libraries\ObjectSerializerLibrary\bin\Debug\ObjectSerializer.pdb
+E:\Chalmers work\AVS2\New map reader\MapReaderSolution\Libraries\ObjectSerializerLibrary\obj\Debug\ObjectSerializer.dll
+E:\Chalmers work\AVS2\New map reader\MapReaderSolution\Libraries\ObjectSerializerLibrary\obj\Debug\ObjectSerializer.pdb
+E:\Chalmers work\AVS2\New map reader\MapReaderSolution\Libraries\ObjectSerializerLibrary\obj\Debug\ObjectSerializerLibrary.csprojResolveAssemblyReference.cache
+C:\Data\Research\SARPA\AVS2\New map reader\MapReaderSolution\Libraries\ObjectSerializerLibrary\bin\Debug\ObjectSerializer.dll
+C:\Data\Research\SARPA\AVS2\New map reader\MapReaderSolution\Libraries\ObjectSerializerLibrary\bin\Debug\ObjectSerializer.pdb
+C:\Data\Research\SARPA\AVS2\New map reader\MapReaderSolution\Libraries\ObjectSerializerLibrary\obj\Debug\ObjectSerializerLibrary.csprojResolveAssemblyReference.cache
+C:\Data\Research\SARPA\AVS2\New map reader\MapReaderSolution\Libraries\ObjectSerializerLibrary\obj\Debug\ObjectSerializer.dll
+C:\Data\Research\SARPA\AVS2\New map reader\MapReaderSolution\Libraries\ObjectSerializerLibrary\obj\Debug\ObjectSerializer.pdb
+D:\SARPA\Src\Src\MapReaderSolution\Libraries\ObjectSerializerLibrary\bin\Debug\ObjectSerializer.dll
+D:\SARPA\Src\Src\MapReaderSolution\Libraries\ObjectSerializerLibrary\bin\Debug\ObjectSerializer.pdb
+D:\SARPA\Src\Src\MapReaderSolution\Libraries\ObjectSerializerLibrary\obj\Debug\ObjectSerializerLibrary.csprojResolveAssemblyReference.cache
+D:\SARPA\Src\Src\MapReaderSolution\Libraries\ObjectSerializerLibrary\obj\Debug\ObjectSerializer.dll
+D:\SARPA\Src\Src\MapReaderSolution\Libraries\ObjectSerializerLibrary\obj\Debug\ObjectSerializer.pdb
+E:\Chalmers work\SARPA\Src\Libraries\ObjectSerializerLibrary\obj\Debug\ObjectSerializerLibrary.csprojResolveAssemblyReference.cache
+E:\Chalmers work\Autonomous vehicles\Src\Libraries\ObjectSerializerLibrary\bin\Debug\ObjectSerializer.dll
+E:\Chalmers work\Autonomous vehicles\Src\Libraries\ObjectSerializerLibrary\bin\Debug\ObjectSerializer.pdb
+E:\Chalmers work\Autonomous vehicles\Src\Libraries\ObjectSerializerLibrary\obj\Debug\ObjectSerializer.dll
+E:\Chalmers work\Autonomous vehicles\Src\Libraries\ObjectSerializerLibrary\obj\Debug\ObjectSerializer.pdb
+E:\Chalmers work\Autonomous agents\Src\Libraries\ObjectSerializerLibrary\bin\Debug\ObjectSerializer.dll
+E:\Chalmers work\Autonomous agents\Src\Libraries\ObjectSerializerLibrary\bin\Debug\ObjectSerializer.pdb
+E:\Chalmers work\Autonomous agents\Src\Libraries\ObjectSerializerLibrary\obj\Debug\ObjectSerializer.dll
+E:\Chalmers work\Autonomous agents\Src\Libraries\ObjectSerializerLibrary\obj\Debug\ObjectSerializer.pdb
+E:\Chalmers work\Autonomous agents\Src\Libraries\ObjectSerializerLibrary\obj\Debug\ObjectSerializerLibrary.csprojResolveAssemblyReference.cache
+C:\Data\Chalmers work\Research\Autonomous agents\Src\Libraries\ObjectSerializerLibrary\bin\Debug\ObjectSerializer.dll
+C:\Data\Chalmers work\Research\Autonomous agents\Src\Libraries\ObjectSerializerLibrary\bin\Debug\ObjectSerializer.pdb
+C:\Data\Chalmers work\Research\Autonomous agents\Src\Libraries\ObjectSerializerLibrary\obj\Debug\ObjectSerializerLibrary.csprojResolveAssemblyReference.cache
+C:\Data\Chalmers work\Research\Autonomous agents\Src\Libraries\ObjectSerializerLibrary\obj\Debug\ObjectSerializer.dll
+C:\Data\Chalmers work\Research\Autonomous agents\Src\Libraries\ObjectSerializerLibrary\obj\Debug\ObjectSerializer.pdb
+C:\Data\Research\Autonomous agents\Src20170111\Libraries\ObjectSerializerLibrary\bin\Debug\ObjectSerializer.dll
+C:\Data\Research\Autonomous agents\Src20170111\Libraries\ObjectSerializerLibrary\bin\Debug\ObjectSerializer.pdb
+C:\Data\Research\Autonomous agents\Src20170111\Libraries\ObjectSerializerLibrary\obj\Debug\ObjectSerializerLibrary.csprojResolveAssemblyReference.cache
+C:\Data\Research\Autonomous agents\Src20170111\Libraries\ObjectSerializerLibrary\obj\Debug\ObjectSerializer.dll
+C:\Data\Research\Autonomous agents\Src20170111\Libraries\ObjectSerializerLibrary\obj\Debug\ObjectSerializer.pdb
+C:\Data\Research\Auto-learning SR\Src\Libraries\ObjectSerializerLibrary\bin\Debug\ObjectSerializer.dll
+C:\Data\Research\Auto-learning SR\Src\Libraries\ObjectSerializerLibrary\bin\Debug\ObjectSerializer.pdb
+C:\Data\Research\Auto-learning SR\Src\Libraries\ObjectSerializerLibrary\obj\Debug\ObjectSerializer.dll
+C:\Data\Research\Auto-learning SR\Src\Libraries\ObjectSerializerLibrary\obj\Debug\ObjectSerializer.pdb
+C:\Data\Chalmers work\Research\Auto-learning SR\Src\Libraries\ObjectSerializerLibrary\bin\Debug\ObjectSerializer.dll
+C:\Data\Chalmers work\Research\Auto-learning SR\Src\Libraries\ObjectSerializerLibrary\bin\Debug\ObjectSerializer.pdb
+C:\Data\Chalmers work\Research\Auto-learning SR\Src\Libraries\ObjectSerializerLibrary\obj\Debug\ObjectSerializer.dll
+C:\Data\Chalmers work\Research\Auto-learning SR\Src\Libraries\ObjectSerializerLibrary\obj\Debug\ObjectSerializer.pdb
+C:\Data\Research\Auto-learning SR\Src\Libraries\ObjectSerializerLibrary\obj\Debug\ObjectSerializerLibrary.csprojResolveAssemblyReference.cache
+C:\Data\Chalmers work\Research\Auto-learning SR\Src\Libraries\ObjectSerializerLibrary\obj\Debug\ObjectSerializerLibrary.csprojResolveAssemblyReference.cache
+C:\Data\Research\Spiking neural networks\Src\SR networks\Libraries\ObjectSerializerLibrary\bin\Debug\ObjectSerializer.dll
+C:\Data\Research\Spiking neural networks\Src\SR networks\Libraries\ObjectSerializerLibrary\bin\Debug\ObjectSerializer.pdb
+C:\Data\Research\Spiking neural networks\Src\SR networks\Libraries\ObjectSerializerLibrary\obj\Debug\ObjectSerializer.dll
+C:\Data\Research\Spiking neural networks\Src\SR networks\Libraries\ObjectSerializerLibrary\obj\Debug\ObjectSerializer.pdb
+C:\Data\Chalmers work\Research\Spiking neural networks\Src\SR networks\Libraries\ObjectSerializerLibrary\bin\Debug\ObjectSerializer.dll
+C:\Data\Chalmers work\Research\Spiking neural networks\Src\SR networks\Libraries\ObjectSerializerLibrary\bin\Debug\ObjectSerializer.pdb
+C:\Data\Chalmers work\Research\Spiking neural networks\Src\SR networks\Libraries\ObjectSerializerLibrary\obj\Debug\ObjectSerializer.dll
+C:\Data\Chalmers work\Research\Spiking neural networks\Src\SR networks\Libraries\ObjectSerializerLibrary\obj\Debug\ObjectSerializer.pdb
+C:\Data\Research\Spiking neural networks\Src\SR networks\Libraries\ObjectSerializerLibrary\obj\Debug\ObjectSerializerLibrary.csprojResolveAssemblyReference.cache
+C:\Data\Chalmers work\Research\Spiking neural networks\Src\SR networks\Libraries\ObjectSerializerLibrary\obj\Debug\ObjectSerializerLibrary.csprojResolveAssemblyReference.cache
+C:\Data\Chalmers work\Research\Image-based SR\Src\Libraries\ObjectSerializerLibrary\bin\Debug\ObjectSerializer.dll
+C:\Data\Chalmers work\Research\Image-based SR\Src\Libraries\ObjectSerializerLibrary\bin\Debug\ObjectSerializer.pdb
+C:\Data\Chalmers work\Research\Image-based SR\Src\Libraries\ObjectSerializerLibrary\obj\Debug\ObjectSerializerLibrary.csprojResolveAssemblyReference.cache
+C:\Data\Chalmers work\Research\Image-based SR\Src\Libraries\ObjectSerializerLibrary\obj\Debug\ObjectSerializer.dll
+C:\Data\Chalmers work\Research\Image-based SR\Src\Libraries\ObjectSerializerLibrary\obj\Debug\ObjectSerializer.pdb
+C:\Data\Research\Image-based SR\Src\Libraries\ObjectSerializerLibrary\bin\Debug\ObjectSerializer.dll
+C:\Data\Research\Image-based SR\Src\Libraries\ObjectSerializerLibrary\bin\Debug\ObjectSerializer.pdb
+C:\Data\Research\Image-based SR\Src\Libraries\ObjectSerializerLibrary\obj\Debug\ObjectSerializer.dll
+C:\Data\Research\Image-based SR\Src\Libraries\ObjectSerializerLibrary\obj\Debug\ObjectSerializer.pdb
+C:\Data\Research\Image-based SR\Src\Libraries\ObjectSerializerLibrary\obj\Debug\ObjectSerializerLibrary.csprojResolveAssemblyReference.cache
+C:\Data\Chalmers work\Research\Autoevolving SR\Src\Libraries\ObjectSerializerLibrary\bin\Debug\ObjectSerializer.dll
+C:\Data\Chalmers work\Research\Autoevolving SR\Src\Libraries\ObjectSerializerLibrary\bin\Debug\ObjectSerializer.pdb
+C:\Data\Chalmers work\Research\Autoevolving SR\Src\Libraries\ObjectSerializerLibrary\obj\Debug\ObjectSerializerLibrary.csprojResolveAssemblyReference.cache
+C:\Data\Chalmers work\Research\Autoevolving SR\Src\Libraries\ObjectSerializerLibrary\obj\Debug\ObjectSerializer.dll
+C:\Data\Chalmers work\Research\Autoevolving SR\Src\Libraries\ObjectSerializerLibrary\obj\Debug\ObjectSerializer.pdb
+C:\Data\Research\Autoevolving SR\Src\Libraries\ObjectSerializerLibrary\bin\Debug\ObjectSerializer.dll
+C:\Data\Research\Autoevolving SR\Src\Libraries\ObjectSerializerLibrary\bin\Debug\ObjectSerializer.pdb
+C:\Data\Research\Autoevolving SR\Src\Libraries\ObjectSerializerLibrary\obj\Debug\ObjectSerializer.dll
+C:\Data\Research\Autoevolving SR\Src\Libraries\ObjectSerializerLibrary\obj\Debug\ObjectSerializer.pdb
+C:\Data\Chalmers work\Research\Autoevolving SR\SrcNew\Libraries\ObjectSerializerLibrary\bin\Debug\ObjectSerializer.dll
+C:\Data\Chalmers work\Research\Autoevolving SR\SrcNew\Libraries\ObjectSerializerLibrary\bin\Debug\ObjectSerializer.pdb
+C:\Data\Chalmers work\Research\Autoevolving SR\SrcNew\Libraries\ObjectSerializerLibrary\obj\Debug\ObjectSerializer.dll
+C:\Data\Chalmers work\Research\Autoevolving SR\SrcNew\Libraries\ObjectSerializerLibrary\obj\Debug\ObjectSerializer.pdb
+C:\Data\Research\Autoevolving SR\SrcNew\Libraries\ObjectSerializerLibrary\bin\Debug\ObjectSerializer.dll
+C:\Data\Research\Autoevolving SR\SrcNew\Libraries\ObjectSerializerLibrary\bin\Debug\ObjectSerializer.pdb
+C:\Data\Research\Autoevolving SR\SrcNew\Libraries\ObjectSerializerLibrary\obj\Debug\ObjectSerializer.dll
+C:\Data\Research\Autoevolving SR\SrcNew\Libraries\ObjectSerializerLibrary\obj\Debug\ObjectSerializer.pdb
+C:\Data\Teaching\Intelligent agents, 2020\IPASrcDoNotUse\Libraries\ObjectSerializerLibrary\bin\Debug\ObjectSerializer.dll
+C:\Data\Teaching\Intelligent agents, 2020\IPASrcDoNotUse\Libraries\ObjectSerializerLibrary\bin\Debug\ObjectSerializer.pdb
+C:\Data\Teaching\Intelligent agents, 2020\IPASrcDoNotUse\Libraries\ObjectSerializerLibrary\obj\Debug\ObjectSerializer.dll
+C:\Data\Teaching\Intelligent agents, 2020\IPASrcDoNotUse\Libraries\ObjectSerializerLibrary\obj\Debug\ObjectSerializer.pdb
+C:\Data\Teaching\Intelligent agents, 2020\IPASrc - Copy\Libraries\ObjectSerializerLibrary\bin\Debug\ObjectSerializer.dll
+C:\Data\Teaching\Intelligent agents, 2020\IPASrc - Copy\Libraries\ObjectSerializerLibrary\bin\Debug\ObjectSerializer.pdb
+C:\Data\Teaching\Intelligent agents, 2020\IPASrc - Copy\Libraries\ObjectSerializerLibrary\obj\Debug\ObjectSerializerLibrary.csprojResolveAssemblyReference.cache
+C:\Data\Teaching\Intelligent agents, 2020\IPASrc - Copy\Libraries\ObjectSerializerLibrary\obj\Debug\ObjectSerializer.dll
+C:\Data\Teaching\Intelligent agents, 2020\IPASrc - Copy\Libraries\ObjectSerializerLibrary\obj\Debug\ObjectSerializer.pdb
+C:\Data\Teaching\Intelligent agents, 2020\IPASrc\Libraries\ObjectSerializerLibrary\bin\Debug\ObjectSerializerLibrary.dll
+C:\Data\Teaching\Intelligent agents, 2020\IPASrc\Libraries\ObjectSerializerLibrary\bin\Debug\ObjectSerializerLibrary.pdb
+C:\Data\Teaching\Intelligent agents, 2020\IPASrc\Libraries\ObjectSerializerLibrary\obj\Debug\ObjectSerializerLibrary.dll
+C:\Data\Teaching\Intelligent agents, 2020\IPASrc\Libraries\ObjectSerializerLibrary\obj\Debug\ObjectSerializerLibrary.pdb
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2020\IPASrc\Libraries\ObjectSerializerLibrary\bin\Debug\ObjectSerializerLibrary.dll
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2020\IPASrc\Libraries\ObjectSerializerLibrary\bin\Debug\ObjectSerializerLibrary.pdb
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2020\IPASrc\Libraries\ObjectSerializerLibrary\obj\Debug\ObjectSerializerLibrary.dll
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2020\IPASrc\Libraries\ObjectSerializerLibrary\obj\Debug\ObjectSerializerLibrary.pdb
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2020\IPASrc\Libraries\ObjectSerializerLibrary\obj\Debug\ObjectSerializerLibrary.csprojResolveAssemblyReference.cache
+C:\Data\Research\DAISY\Src\DaisySolution\Libraries\ObjectSerializerLibrary\bin\Debug\ObjectSerializerLibrary.dll
+C:\Data\Research\DAISY\Src\DaisySolution\Libraries\ObjectSerializerLibrary\bin\Debug\ObjectSerializerLibrary.pdb
+C:\Data\Research\DAISY\Src\DaisySolution\Libraries\ObjectSerializerLibrary\obj\Debug\ObjectSerializerLibrary.dll
+C:\Data\Research\DAISY\Src\DaisySolution\Libraries\ObjectSerializerLibrary\obj\Debug\ObjectSerializerLibrary.pdb
+C:\Data\Chalmers work\Research\DAISY\Src\DaisySolution\Libraries\ObjectSerializerLibrary\bin\Debug\ObjectSerializerLibrary.dll
+C:\Data\Chalmers work\Research\DAISY\Src\DaisySolution\Libraries\ObjectSerializerLibrary\bin\Debug\ObjectSerializerLibrary.pdb
+C:\Data\Chalmers work\Research\DAISY\Src\DaisySolution\Libraries\ObjectSerializerLibrary\obj\Debug\ObjectSerializerLibrary.dll
+C:\Data\Chalmers work\Research\DAISY\Src\DaisySolution\Libraries\ObjectSerializerLibrary\obj\Debug\ObjectSerializerLibrary.pdb
+C:\Data\Research\DAISY\Src\DaisySolution\Libraries\ObjectSerializerLibrary\obj\Debug\ObjectSerializerLibrary.csprojResolveAssemblyReference.cache
+C:\Data\Chalmers work\Research\DAISY\Src\DaisySolution\Libraries\ObjectSerializerLibrary\obj\Debug\ObjectSerializerLibrary.csproj.CoreCompileInputs.cache
+C:\Data\Teaching\Intelligent agents, 2021\Src\Libraries\ObjectSerializerLibrary\bin\Debug\ObjectSerializerLibrary.dll
+C:\Data\Teaching\Intelligent agents, 2021\Src\Libraries\ObjectSerializerLibrary\bin\Debug\ObjectSerializerLibrary.pdb
+C:\Data\Teaching\Intelligent agents, 2021\Src\Libraries\ObjectSerializerLibrary\obj\Debug\ObjectSerializerLibrary.csprojAssemblyReference.cache
+C:\Data\Teaching\Intelligent agents, 2021\Src\Libraries\ObjectSerializerLibrary\obj\Debug\ObjectSerializerLibrary.csproj.CoreCompileInputs.cache
+C:\Data\Teaching\Intelligent agents, 2021\Src\Libraries\ObjectSerializerLibrary\obj\Debug\ObjectSerializerLibrary.dll
+C:\Data\Teaching\Intelligent agents, 2021\Src\Libraries\ObjectSerializerLibrary\obj\Debug\ObjectSerializerLibrary.pdb
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2021\Src\Libraries\ObjectSerializerLibrary\bin\Debug\ObjectSerializerLibrary.dll
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2021\Src\Libraries\ObjectSerializerLibrary\bin\Debug\ObjectSerializerLibrary.pdb
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2021\Src\Libraries\ObjectSerializerLibrary\obj\Debug\ObjectSerializerLibrary.csprojAssemblyReference.cache
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2021\Src\Libraries\ObjectSerializerLibrary\obj\Debug\ObjectSerializerLibrary.csproj.CoreCompileInputs.cache
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2021\Src\Libraries\ObjectSerializerLibrary\obj\Debug\ObjectSerializerLibrary.dll
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2021\Src\Libraries\ObjectSerializerLibrary\obj\Debug\ObjectSerializerLibrary.pdb
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2021\Src\Examples\ExamplesSolution\ObjectSerializerLibrary\bin\Debug\ObjectSerializerLibrary.dll
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2021\Src\Examples\ExamplesSolution\ObjectSerializerLibrary\bin\Debug\ObjectSerializerLibrary.pdb
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2021\Src\Examples\ExamplesSolution\ObjectSerializerLibrary\obj\Debug\ObjectSerializerLibrary.csproj.CoreCompileInputs.cache
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2021\Src\Examples\ExamplesSolution\ObjectSerializerLibrary\obj\Debug\ObjectSerializerLibrary.dll
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2021\Src\Examples\ExamplesSolution\ObjectSerializerLibrary\obj\Debug\ObjectSerializerLibrary.pdb
+\\Mac\Home\Documents\IA\Examples\Examples\ExamplesSolution\ObjectSerializerLibrary\bin\Debug\ObjectSerializerLibrary.dll
+\\Mac\Home\Documents\IA\Examples\Examples\ExamplesSolution\ObjectSerializerLibrary\bin\Debug\ObjectSerializerLibrary.pdb
+\\Mac\Home\Documents\IA\Examples\Examples\ExamplesSolution\ObjectSerializerLibrary\obj\Debug\ObjectSerializerLibrary.csproj.AssemblyReference.cache
+\\Mac\Home\Documents\IA\Examples\Examples\ExamplesSolution\ObjectSerializerLibrary\obj\Debug\ObjectSerializerLibrary.csproj.CoreCompileInputs.cache
+\\Mac\Home\Documents\IA\Examples\Examples\ExamplesSolution\ObjectSerializerLibrary\obj\Debug\ObjectSerializerLibrary.dll
+\\Mac\Home\Documents\IA\Examples\Examples\ExamplesSolution\ObjectSerializerLibrary\obj\Debug\ObjectSerializerLibrary.pdb
