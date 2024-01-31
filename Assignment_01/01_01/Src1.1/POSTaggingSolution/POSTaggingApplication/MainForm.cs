@@ -237,7 +237,7 @@ namespace POSTaggingApplication
             // one of the 12 Universal tags.
             // 
 
-            // FXW Start
+            // --------------------------------------------------------------------------------
 
             // loop over the entire dataSet
 
@@ -289,7 +289,7 @@ namespace POSTaggingApplication
             // resultsListBox.Items.Add("Conversion finished"); // Keep this line.
 
 
-            // FXW Stop
+            // --------------------------------------------------------------------------------
 
 
 
@@ -301,6 +301,7 @@ namespace POSTaggingApplication
 
             // Next, build the vocabulary, using the 12 universal tags (this method you get for free! :) )
             vocabulary = GenerateVocabulary(completeDataSet);
+
 
             // Keep this line: It will activate the split button.
             splitDataSetButton.Enabled = true;
@@ -329,6 +330,19 @@ namespace POSTaggingApplication
                 // the testSet, and then just adding sentences, but the most elegant way is
                 // to define a method in the POSDataSet class. You can read about static
                 // methods on MSDN or StackOverflow, for example
+
+                // FXW Start
+
+                (trainingDataSet, testDataSet) = POSDataSet.Split(completeDataSet, splitFraction);
+
+                // Give user feedback
+                // show size of the training and test data set
+                resultsListBox.Items.Add("Size of the training data set: " + trainingDataSet.SentenceList.Count);
+                resultsListBox.Items.Add("Size of the test data set: " + testDataSet.SentenceList.Count);
+
+
+
+                // FXW Stop
 
                 // Keep these lines: It will activate the statistics generation button and the unigram tagger generation button,
                 // once the data set has been split.
@@ -359,6 +373,148 @@ namespace POSTaggingApplication
             // resultListBox.Items.Add(" ");
             // where appropriate (e.g., between different
             // subtasks, to make the output more readable).
+
+            // --------------------------------------------------------------------------------
+
+            // (i)
+
+            // init a List of PosTagData objects 
+            List<POSTagData> POSTagDataList = new List<POSTagData>();
+
+            // loop over the entire vocabulary
+            foreach (TokenData tokenData in vocabulary)
+            {
+                // get the tag
+                string tag = tokenData.Token.POSTag;
+
+                // check if the tag is already in the list
+                if (POSTagDataList.Exists(x => x.name == tag))
+                {
+                    // get the index of the tag
+                    int index = POSTagDataList.FindIndex(x => x.name == tag);
+
+                    // increment the count of the tag
+                    POSTagDataList[index].count ++;
+
+                }
+                else
+                {
+                    // create a new PosTagData object
+                    POSTagData newPOSTagData = new POSTagData(tag, 1);
+
+                    // add the new PosTagData object to the list
+                    POSTagDataList.Add(newPOSTagData);
+
+                }
+            }
+
+            // compute the fractions
+            foreach (POSTagData POSTagData in POSTagDataList)
+            {
+                POSTagData.computeFraction(vocabulary.Count);
+            }
+
+            // sort the list by count descending
+            POSTagDataList = POSTagDataList.OrderByDescending(x => x.count).ToList();
+
+            
+
+            // print to user
+            resultsListBox.Items.Add("Most frequent tags:");
+            resultsListBox.Items.Add("Tag\tCount\tFraction");
+            foreach (POSTagData POSTagData in POSTagDataList)
+            {
+                resultsListBox.Items.Add(POSTagData.name + "\t" + POSTagData.count + "\t" + POSTagData.fraction);
+            }
+
+            // print vocabulary size
+            resultsListBox.Items.Add("Vocabulary size: " + vocabulary.Count);
+
+            // print the sum of the fractions
+            double sumOfFractions = 0;  
+            foreach (POSTagData POSTagData in POSTagDataList)
+            {
+                sumOfFractions += POSTagData.fraction;
+            }
+
+            resultsListBox.Items.Add("Sum of fractions: " + sumOfFractions);
+
+
+            // (ii)
+            // count the fraction of words that are associated with 
+            
+            List<WordData> WordDataList = new List<WordData>();
+
+            // loop over the entire vocabulary
+            foreach (TokenData tokenData in vocabulary)
+            {
+                // get the word
+                string word = tokenData.Token.Spelling;
+                string tag = tokenData.Token.POSTag;
+
+                // check if the word is already in the list
+                if (WordDataList.Exists(x => x.Spelling == word))
+                {
+                    // get the index of the word
+                    int index = WordDataList.FindIndex(x => x.Spelling == word);
+
+                    // increment the count of the word
+                    WordDataList[index].TagCount ++;
+
+                }
+                else
+                {
+                    // create a new WordData object
+                    WordData newWordData = new WordData(word, tag);
+
+                    // add the new WordData object to the list
+                    WordDataList.Add(newWordData);
+
+                }
+            }
+
+            foreach (WordData word in WordDataList){
+                word.computeTagCount();
+            }
+
+
+            int numberOfDifferentTags = POSTagDataList.Count;
+
+
+            int[] WordCountList = new int[numberOfDifferentTags];
+            double[] WordFractionList = new double[numberOfDifferentTags];
+
+
+            // print to console
+            resultsListBox.Items.Add("Number of different tags: " + numberOfDifferentTags);
+
+            for(int i = 0; i < 12; i++){
+                // for every word in the WordDataList with a TagCount = i increment the counter
+                int counter = 0;
+                foreach (WordData word in WordDataList){
+                    if(word.TagCount == i){
+                        counter++;
+                    }
+                }
+                WordCountList[i] = counter;
+
+                // compute the fraction
+                WordFractionList[i] = ((double)WordCountList[i] / vocabulary.Count);
+
+            }
+
+            // print the WordCountList to the resultsListBox
+            for (int i = 0; i < numberOfDifferentTags; i++)
+            {
+                resultsListBox.Items.Add((i+1) + "\t" + WordCountList[i] + "\t" + WordFractionList[i].ToString("F5"));
+            }
+
+            // --------------------------------------------------------------------------------
+
+
+
+
+
         }
 
         private void generateUnigramTaggerButton_Click(object sender, EventArgs e)
@@ -366,6 +522,58 @@ namespace POSTaggingApplication
             // Write code here for generating a unigram tagger, again using the *training* set;
             // Here, you *should* Define a class Unigram tagger derived from (inheriting) the base class
             // POSTagger in the NLP library included in this solution.
+
+
+            // --------------------------------------------------------------------------------
+
+            // create a vocabulary of the trainingDataSet
+            vocabularyTestingDataSet = GenerateVocabulary(trainingDataSet);
+
+            // create a new list with only the unique tokens
+            List<TokenData> uniqueVocabulary = new List<TokenData>();
+            foreach (TokenData tokenData in vocabularyTestingDataSet)
+            {
+                if (!uniqueVocabulary.Exists(x => x.Token.Spelling == tokenData.Token.Spelling))
+                {
+                    uniqueVocabulary.Add(tokenData);
+                }
+            }
+
+            public List<string> tokensList = new List<string>();
+            public List<string> tagsList = new List<string>();
+
+            // loop over the entire uniqueVocabulary
+            foreach (TokenData tokenData in uniqueVocabulary)
+            {
+                // write the logic of how to get the tag that is most frequent for the token
+                int[] tagCount = new int[numberOfDifferentTags];
+                foreach (WordData word in WordDataList)
+                {
+                    if (word.Spelling == tokenData.Token.Spelling)
+                    {
+                        // increment the counter for the tag
+                        tagCount[POSTagDataList.FindIndex(x => x.name == word.Tags[0])]++;
+                    }
+
+                    tokensList.Add(tokenData.Token.Spelling);
+                    mostLikelyTagIndex = tagCount.ToList().IndexOf(tagCount.Max())
+                    tagsList.Add(POSTagDataList[mostLikelyTagIndex].name);
+                }
+
+
+                
+                
+
+                
+
+            }
+
+
+
+
+            // --------------------------------------------------------------------------------
+
+
 
             // For the actual tagging (once the unigram tagger has been generated)
             // you must override the Tag() method in the base class (POSTagger)).

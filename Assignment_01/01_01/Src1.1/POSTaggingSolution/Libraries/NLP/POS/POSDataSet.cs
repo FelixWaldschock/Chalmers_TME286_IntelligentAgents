@@ -20,5 +20,24 @@ namespace NLP.POS
             get { return sentenceList; }
             set { sentenceList = value; }
         }
+
+        public static (POSDataSet, POSDataSet) Split(POSDataSet completeDataSet, double splitFraction){
+            POSDataSet trainingDataSet = new POSDataSet();
+            POSDataSet testDataSet = new POSDataSet();
+
+            // Shuffle the completeDataSet
+            Random random = new Random();
+            completeDataSet.SentenceList = completeDataSet.SentenceList.OrderBy(x => random.Next()).ToList();
+
+            // Split the completeDataSet into training and test data
+            int splitIndex = (int)(completeDataSet.SentenceList.Count * splitFraction);
+
+            trainingDataSet.SentenceList = completeDataSet.SentenceList.GetRange(0, splitIndex);
+            testDataSet.SentenceList = completeDataSet.SentenceList.GetRange(splitIndex, completeDataSet.SentenceList.Count - splitIndex);
+
+
+            return (trainingDataSet, testDataSet);
+        }
+
     }
 }

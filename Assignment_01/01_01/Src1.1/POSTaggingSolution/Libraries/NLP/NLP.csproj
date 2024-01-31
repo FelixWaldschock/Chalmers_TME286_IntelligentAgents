@@ -44,6 +44,7 @@
     <Compile Include="NGrams\NGram.cs" />
     <Compile Include="POS\POSDataSet.cs" />
     <Compile Include="POS\Taggers\POSTagger.cs" />
+    <Compile Include="POS\Taggers\UnigramTagger.cs" />
     <Compile Include="Sentence.cs" />
     <Compile Include="TextClassification\PerceptronClassifier.cs" />
     <Compile Include="TextClassification\TextClassificationDataItem.cs" />
