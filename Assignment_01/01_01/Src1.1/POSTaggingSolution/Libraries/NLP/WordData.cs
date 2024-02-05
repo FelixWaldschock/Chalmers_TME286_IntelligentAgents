@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace POSTaggingApplication
+namespace NLP
 {
-    internal class WordData
+    public class WordData
     {
         public string Spelling { get; set; }
         public List<string> Tags = new List<string>();
@@ -18,7 +18,8 @@ namespace POSTaggingApplication
             Tags.Add(tag);
         }
 
-        public int computeTagCount(){
+        public int computeTagCount()
+        {
             return Tags.Count;
         }
 

@@ -21,6 +21,7 @@ namespace POSTaggingApplication
         private POSDataSet trainingDataSet = null;
         private POSDataSet testDataSet = null;
         private List<TokenData> vocabulary = null;
+        private UnigramTagger unigramTagger;
 
         // add the POSTagConverter class
         private POSTagConverter BrownToUniTagConverter = null;
@@ -527,49 +528,41 @@ namespace POSTaggingApplication
             // --------------------------------------------------------------------------------
 
             // create a vocabulary of the trainingDataSet
-            vocabularyTestingDataSet = GenerateVocabulary(trainingDataSet);
+            List<TokenData> vocabularyTestingDataSet = GenerateVocabulary(trainingDataSet);
 
-            // create a new list with only the unique tokens
-            List<TokenData> uniqueVocabulary = new List<TokenData>();
-            foreach (TokenData tokenData in vocabularyTestingDataSet)
+            // now the vocabularyTestingDataSet is already ordered by spelling (alphabetical) and by tagcount (descending)
+
+            // unique spellings in the vocabularyTestingDataSet
+            List<string> uniqueSpellings = new List<string>();
+
+            // loop over the entire vocabularyTestingDataSet
+            uniqueSpellings = vocabularyTestingDataSet.Select(x => x.Token.Spelling).Distinct().ToList();
+
+            
+            // Initialize a List of TokenData for the Unigram Tagger
+            List<TokenData> UnigramTaggerWordDataList = new List<TokenData>();
+
+            // loop over the unique spellings, and always pick the first element of the vocabularyTestingDataSet
+            foreach (string spelling in uniqueSpellings)
             {
-                if (!uniqueVocabulary.Exists(x => x.Token.Spelling == tokenData.Token.Spelling))
-                {
-                    uniqueVocabulary.Add(tokenData);
-                }
+                // get the first element of the vocabularyTestingDataSet with the spelling
+                TokenData tokenData = vocabularyTestingDataSet.Find(x => x.Token.Spelling == spelling);
+
+                // add the tokenData to the list of tokenData
+                UnigramTaggerWordDataList.Add(tokenData);
+
+            
             }
 
-            public List<string> tokensList = new List<string>();
-            public List<string> tagsList = new List<string>();
-
-            // loop over the entire uniqueVocabulary
-            foreach (TokenData tokenData in uniqueVocabulary)
+            // create the Unigram Tagger
+            unigramTagger = new UnigramTagger(UnigramTaggerWordDataList);
+            
+            if (unigramTagger == null)
             {
-                // write the logic of how to get the tag that is most frequent for the token
-                int[] tagCount = new int[numberOfDifferentTags];
-                foreach (WordData word in WordDataList)
-                {
-                    if (word.Spelling == tokenData.Token.Spelling)
-                    {
-                        // increment the counter for the tag
-                        tagCount[POSTagDataList.FindIndex(x => x.name == word.Tags[0])]++;
-                    }
-
-                    tokensList.Add(tokenData.Token.Spelling);
-                    mostLikelyTagIndex = tagCount.ToList().IndexOf(tagCount.Max())
-                    tagsList.Add(POSTagDataList[mostLikelyTagIndex].name);
-                }
-
-
-                
-                
-
-                
-
+                resultsListBox.Items.Add("BOCK");
             }
 
-
-
+            resultsListBox.Items.Add("Unigram tagger generated!");
 
             // --------------------------------------------------------------------------------
 
@@ -590,6 +583,48 @@ namespace POSTaggingApplication
         private void runUnigramTaggerButton_Click(object sender, EventArgs e)
         {
             resultsListBox.Items.Clear(); // Keep this line.
+
+            // convert the testDataSet to a list of tokens
+            List<TokenData> testSet = new List<TokenData>();
+            List<string> testSetTags = new List<string>();
+
+            // loop over the entire testDataSet
+            foreach (Sentence sentence in testDataSet.SentenceList)
+            {
+                foreach (TokenData tokenData in sentence.TokenDataList)
+                {
+                    // add the token to the testSet
+                    testSet.Add(tokenData);
+                    testSetTags.Add(tokenData.Token.POSTag);
+                }
+            }
+            
+            // Run Unigram Tagger over the token set
+            Sentence testSentence = new Sentence();
+            testSentence.TokenDataList = testSet;
+
+
+            List<string> tags = unigramTagger.Tag(testSentence);
+
+            float accuray = 0;
+            int counter = 0;
+            int correctClassifiedTags = 0;
+
+            for(int i = 0; i < testSetTags.Count; i++)
+            {
+                if(testSetTags[i] == tags[i])
+                {
+                    correctClassifiedTags++;
+                }
+                counter++;
+            }
+            accuray = (float)correctClassifiedTags / counter;
+
+            resultsListBox.Items.Add("Total number of tags: " + counter);
+            resultsListBox.Items.Add("Correctly classified tags: " + correctClassifiedTags);
+            resultsListBox.Items.Add("Accuracy: " + accuray);
+
+
 
             // Write code here for running the unigram tagger over the test set.
             // All the results should be printed *neatly* to the screen, in the

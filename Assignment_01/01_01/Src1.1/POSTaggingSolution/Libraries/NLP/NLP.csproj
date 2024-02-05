@@ -55,6 +55,7 @@
     <Compile Include="TokenData.cs" />
     <Compile Include="Tokenization\Tokenizer.cs" />
     <Compile Include="Vocabulary.cs" />
+    <Compile Include="WordData.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
