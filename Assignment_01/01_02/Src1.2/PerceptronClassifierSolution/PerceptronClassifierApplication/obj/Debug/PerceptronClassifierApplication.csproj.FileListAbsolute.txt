@@ -1,0 +1,52 @@
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2024\Src\Assignment1\1.2\PerceptronClassifierSolution\PerceptronClassifierApplication\bin\Debug\PerceptronClassifierApplication.exe.config
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2024\Src\Assignment1\1.2\PerceptronClassifierSolution\PerceptronClassifierApplication\bin\Debug\PerceptronClassifierApplication.exe
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2024\Src\Assignment1\1.2\PerceptronClassifierSolution\PerceptronClassifierApplication\bin\Debug\PerceptronClassifierApplication.pdb
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2024\Src\Assignment1\1.2\PerceptronClassifierSolution\PerceptronClassifierApplication\bin\Debug\NLP.dll
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2024\Src\Assignment1\1.2\PerceptronClassifierSolution\PerceptronClassifierApplication\bin\Debug\NLP.pdb
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2024\Src\Assignment1\1.2\PerceptronClassifierSolution\PerceptronClassifierApplication\obj\Debug\PerceptronClassifierApplication.MainForm.resources
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2024\Src\Assignment1\1.2\PerceptronClassifierSolution\PerceptronClassifierApplication\obj\Debug\PerceptronClassifierApplication.Properties.Resources.resources
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2024\Src\Assignment1\1.2\PerceptronClassifierSolution\PerceptronClassifierApplication\obj\Debug\PerceptronClassifierApplication.csproj.GenerateResource.cache
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2024\Src\Assignment1\1.2\PerceptronClassifierSolution\PerceptronClassifierApplication\obj\Debug\PerceptronClassifierApplication.csproj.CoreCompileInputs.cache
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2024\Src\Assignment1\1.2\PerceptronClassifierSolution\PerceptronClassifierApplication\obj\Debug\PerceptronClassifierApplication.csproj.CopyComplete
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2024\Src\Assignment1\1.2\PerceptronClassifierSolution\PerceptronClassifierApplication\obj\Debug\PerceptronClassifierApplication.exe
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2024\Src\Assignment1\1.2\PerceptronClassifierSolution\PerceptronClassifierApplication\obj\Debug\PerceptronClassifierApplication.pdb
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2024\Src\Assignment1\1.2\PerceptronClassifierSolution\PerceptronClassifierApplication\obj\Debug\PerceptronClassifierApplication.csprojAssemblyReference.cache
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2024\Src\Assignment1\Src1.2\PerceptronClassifierSolution\PerceptronClassifierApplication\bin\Debug\PerceptronClassifierApplication.exe.config
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2024\Src\Assignment1\Src1.2\PerceptronClassifierSolution\PerceptronClassifierApplication\bin\Debug\PerceptronClassifierApplication.exe
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2024\Src\Assignment1\Src1.2\PerceptronClassifierSolution\PerceptronClassifierApplication\bin\Debug\PerceptronClassifierApplication.pdb
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2024\Src\Assignment1\Src1.2\PerceptronClassifierSolution\PerceptronClassifierApplication\bin\Debug\NLP.dll
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2024\Src\Assignment1\Src1.2\PerceptronClassifierSolution\PerceptronClassifierApplication\bin\Debug\NLP.pdb
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2024\Src\Assignment1\Src1.2\PerceptronClassifierSolution\PerceptronClassifierApplication\obj\Debug\PerceptronClassifierApplication.csprojAssemblyReference.cache
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2024\Src\Assignment1\Src1.2\PerceptronClassifierSolution\PerceptronClassifierApplication\obj\Debug\PerceptronClassifierApplication.MainForm.resources
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2024\Src\Assignment1\Src1.2\PerceptronClassifierSolution\PerceptronClassifierApplication\obj\Debug\PerceptronClassifierApplication.Properties.Resources.resources
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2024\Src\Assignment1\Src1.2\PerceptronClassifierSolution\PerceptronClassifierApplication\obj\Debug\PerceptronClassifierApplication.csproj.GenerateResource.cache
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2024\Src\Assignment1\Src1.2\PerceptronClassifierSolution\PerceptronClassifierApplication\obj\Debug\PerceptronClassifierApplication.csproj.CoreCompileInputs.cache
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2024\Src\Assignment1\Src1.2\PerceptronClassifierSolution\PerceptronClassifierApplication\obj\Debug\PerceptronClassifierApplication.csproj.CopyComplete
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2024\Src\Assignment1\Src1.2\PerceptronClassifierSolution\PerceptronClassifierApplication\obj\Debug\PerceptronClassifierApplication.exe
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2024\Src\Assignment1\Src1.2\PerceptronClassifierSolution\PerceptronClassifierApplication\obj\Debug\PerceptronClassifierApplication.pdb
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2024\Assignments\ToMinerva20240126\Src1.2\PerceptronClassifierSolution\PerceptronClassifierApplication\bin\Debug\PerceptronClassifierApplication.exe.config
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2024\Assignments\ToMinerva20240126\Src1.2\PerceptronClassifierSolution\PerceptronClassifierApplication\bin\Debug\PerceptronClassifierApplication.exe
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2024\Assignments\ToMinerva20240126\Src1.2\PerceptronClassifierSolution\PerceptronClassifierApplication\bin\Debug\PerceptronClassifierApplication.pdb
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2024\Assignments\ToMinerva20240126\Src1.2\PerceptronClassifierSolution\PerceptronClassifierApplication\bin\Debug\NLP.dll
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2024\Assignments\ToMinerva20240126\Src1.2\PerceptronClassifierSolution\PerceptronClassifierApplication\bin\Debug\NLP.pdb
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2024\Assignments\ToMinerva20240126\Src1.2\PerceptronClassifierSolution\PerceptronClassifierApplication\obj\Debug\PerceptronClassifierApplication.csprojAssemblyReference.cache
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2024\Assignments\ToMinerva20240126\Src1.2\PerceptronClassifierSolution\PerceptronClassifierApplication\obj\Debug\PerceptronClassifierApplication.MainForm.resources
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2024\Assignments\ToMinerva20240126\Src1.2\PerceptronClassifierSolution\PerceptronClassifierApplication\obj\Debug\PerceptronClassifierApplication.Properties.Resources.resources
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2024\Assignments\ToMinerva20240126\Src1.2\PerceptronClassifierSolution\PerceptronClassifierApplication\obj\Debug\PerceptronClassifierApplication.csproj.GenerateResource.cache
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2024\Assignments\ToMinerva20240126\Src1.2\PerceptronClassifierSolution\PerceptronClassifierApplication\obj\Debug\PerceptronClassifierApplication.csproj.CoreCompileInputs.cache
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2024\Assignments\ToMinerva20240126\Src1.2\PerceptronClassifierSolution\PerceptronClassifierApplication\obj\Debug\PerceptronClassifierApplication.csproj.CopyComplete
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2024\Assignments\ToMinerva20240126\Src1.2\PerceptronClassifierSolution\PerceptronClassifierApplication\obj\Debug\PerceptronClassifierApplication.exe
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2024\Assignments\ToMinerva20240126\Src1.2\PerceptronClassifierSolution\PerceptronClassifierApplication\obj\Debug\PerceptronClassifierApplication.pdb
+\\Mac\Home\Documents\gits\Chalmers_TME286_IntelligentAgents\Assignment_01\01_02\Src1.2\PerceptronClassifierSolution\PerceptronClassifierApplication\bin\Debug\PerceptronClassifierApplication.exe.config
+\\Mac\Home\Documents\gits\Chalmers_TME286_IntelligentAgents\Assignment_01\01_02\Src1.2\PerceptronClassifierSolution\PerceptronClassifierApplication\bin\Debug\PerceptronClassifierApplication.exe
+\\Mac\Home\Documents\gits\Chalmers_TME286_IntelligentAgents\Assignment_01\01_02\Src1.2\PerceptronClassifierSolution\PerceptronClassifierApplication\bin\Debug\PerceptronClassifierApplication.pdb
+\\Mac\Home\Documents\gits\Chalmers_TME286_IntelligentAgents\Assignment_01\01_02\Src1.2\PerceptronClassifierSolution\PerceptronClassifierApplication\bin\Debug\NLP.dll
+\\Mac\Home\Documents\gits\Chalmers_TME286_IntelligentAgents\Assignment_01\01_02\Src1.2\PerceptronClassifierSolution\PerceptronClassifierApplication\bin\Debug\NLP.pdb
+\\Mac\Home\Documents\gits\Chalmers_TME286_IntelligentAgents\Assignment_01\01_02\Src1.2\PerceptronClassifierSolution\PerceptronClassifierApplication\obj\Debug\PerceptronClassifierApplication.csproj.AssemblyReference.cache
+\\Mac\Home\Documents\gits\Chalmers_TME286_IntelligentAgents\Assignment_01\01_02\Src1.2\PerceptronClassifierSolution\PerceptronClassifierApplication\obj\Debug\PerceptronClassifierApplication.MainForm.resources
+\\Mac\Home\Documents\gits\Chalmers_TME286_IntelligentAgents\Assignment_01\01_02\Src1.2\PerceptronClassifierSolution\PerceptronClassifierApplication\obj\Debug\PerceptronClassifierApplication.Properties.Resources.resources
+\\Mac\Home\Documents\gits\Chalmers_TME286_IntelligentAgents\Assignment_01\01_02\Src1.2\PerceptronClassifierSolution\PerceptronClassifierApplication\obj\Debug\PerceptronClassifierApplication.csproj.GenerateResource.cache
+\\Mac\Home\Documents\gits\Chalmers_TME286_IntelligentAgents\Assignment_01\01_02\Src1.2\PerceptronClassifierSolution\PerceptronClassifierApplication\obj\Debug\PerceptronClassifierApplication.csproj.CoreCompileInputs.cache
+\\Mac\Home\Documents\gits\Chalmers_TME286_IntelligentAgents\Assignment_01\01_02\Src1.2\PerceptronClassifierSolution\PerceptronClassifierApplication\obj\Debug\PerceptronClassifierApplication.csproj.CopyComplete
+\\Mac\Home\Documents\gits\Chalmers_TME286_IntelligentAgents\Assignment_01\01_02\Src1.2\PerceptronClassifierSolution\PerceptronClassifierApplication\obj\Debug\PerceptronClassifierApplication.exe
+\\Mac\Home\Documents\gits\Chalmers_TME286_IntelligentAgents\Assignment_01\01_02\Src1.2\PerceptronClassifierSolution\PerceptronClassifierApplication\obj\Debug\PerceptronClassifierApplication.pdb
