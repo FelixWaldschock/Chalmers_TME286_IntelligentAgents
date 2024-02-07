@@ -6,16 +6,22 @@ using System.Threading.Tasks;
 
 namespace NLP.TextClassification
 {
-    internal class PerceptronOptimizer
+    public class PerceptronOptimizer
 
     {
-        double learningRate = 0.1;
+        double learningRate = 0.1; 
+        public int trainingEpochs = 0;
+
 
         // take the weights and bias from the Perceptron Classifier and update them according to EQ 4.10 
-        public void updateClassifier(PerceptronClassifier perceptronClassifier, TextClassificationDataSet dataSet)
+        public void trainClassifier(PerceptronClassifier perceptronClassifier, TextClassificationDataSet trainingDataSet)
         {
+            // shuffle the dataset
+            Random random = new Random();
+            trainingDataSet.ItemList = trainingDataSet.ItemList.OrderBy(x => random.Next()).ToList();
+
             // loop over each item in the dataset
-            foreach (TextClassificationDataItem item in dataSet.ItemList)
+            foreach (TextClassificationDataItem item in trainingDataSet.ItemList)
             {
                 // calculate the predicted class
                 int predictedClass = perceptronClassifier.Classify(item.TokenIndexList);
@@ -23,26 +29,36 @@ namespace NLP.TextClassification
                 // calculate the error
                 int error = item.ClassLabel - predictedClass;
 
+                // create a dictionary with the sentence to find number of occurences
+                Dictionary<int, int> tokenCounts = new Dictionary<int, int>();
+                
+                foreach(int tokenIndex in item.TokenIndexList)
+                {
+                    if (tokenCounts.ContainsKey(tokenIndex))
+                    {
+                        tokenCounts[tokenIndex] ++;
+                    }
+                    else
+                    {
+                        tokenCounts[tokenIndex] = 1;
+                    }
+                }
+
                 // update the weigths
                 for (int i = 0; i < item.TokenIndexList.Count; i++)
                 {
-                    // w_j = w_j + learningRate * error * x_ij
-                    perceptronClassifier.WeightList[i] += learningRate * error * item.TokenIndexList[i];
+                    // the token number represent simultanuously the index in the weigth vector
+                    int token = item.TokenIndexList[i];
+                    int featureValue = tokenCounts[token];
+
+                    // update the weight -> w_j = w_j + learningRate * error * x_ij
+                    perceptronClassifier.WeightList[i] = perceptronClassifier.WeightList[i] + (double)learningRate * error * featureValue;
+
                 }
+                
 
             }
+            trainingEpochs++;
         }
-
-        public void optimizeClassifier(PerceptronEvaluator PerceptronEvaluator, PerceptronClassifier perceptronClassifier, TextClassificationDataSet dataSet)
-        {
-            while (PerceptronEvaluator.accuracy < 0.9)
-            {
-                updateClassifier(perceptronClassifier, dataSet);
-                evaluatePerceptron(perceptronClassifier, dataSet);
-            }
-        }
-
-
-
     }
 }

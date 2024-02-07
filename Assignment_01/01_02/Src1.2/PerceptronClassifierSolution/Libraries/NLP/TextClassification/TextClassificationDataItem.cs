@@ -11,7 +11,7 @@ namespace NLP.TextClassification
         public string Text { get; set; }    
         public int ClassLabel { get; set; }
         private List<Token> tokenList;
-        private List<int> indexedTokenList = new List<int>();
+        private List<int> tokenIndexList = new List<int>();
     
         public List<Token> TokenList
         {
@@ -19,16 +19,22 @@ namespace NLP.TextClassification
             set { tokenList = value; }
         }
 
+        public List<int> TokenIndexList
+        {
+            get { return tokenIndexList; }
+            set { tokenIndexList = value; }
+        }
+
         public void indexingTokens(List<string> vocabulary)
         {
             foreach(Token token in tokenList)
             {
                 if (vocabulary.Contains(token.Spelling)){
-                    indexedTokenList.Add(vocabulary.IndexOf(token.Spelling));
+                    tokenIndexList.Add(vocabulary.IndexOf(token.Spelling));
                 }
                 else
                 {
-                    indexedTokenList.Add(-1);
+                    tokenIndexList.Add(-1);
                 }
             }
         }

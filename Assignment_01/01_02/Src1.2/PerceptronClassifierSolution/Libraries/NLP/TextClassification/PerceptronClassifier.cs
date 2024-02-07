@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.Http.Headers;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -8,8 +9,15 @@ namespace NLP.TextClassification
 {
     public class PerceptronClassifier: TextClassifier
     {
-        private double bias;
+        private double bias = 0.0;
         private List<double> weightList = null;
+        private int numberOfEpochs = 0;
+        private double bestTestingAccuracy;
+        public double bestValidationAccuracy;
+        private List<double> bestWeights;
+        private int bestEpoch;
+        public List<double> trackerTestingAccuracy = new List<double>();
+        public List<double> trackerValidationAccuracy = new List<double>();
 
         public override void Initialize(int numberOfFeatures)
         {
@@ -19,6 +27,7 @@ namespace NLP.TextClassification
             {
                 weightList.Add(random.NextDouble());
             }
+            Console.WriteLine("Number of weights initialized: " + numberOfFeatures.ToString());
 
             // Write this method, setting up the vector of (initially random) weights.
             // Here you can use the Random class, with a suitable (integer) random 
@@ -47,12 +56,40 @@ namespace NLP.TextClassification
             {
                 return 0;
             }
+        }
 
+        public void optimizePerceptron(PerceptronOptimizer perceptronOptimizer, PerceptronEvaluator perceptronEvaluator, TextClassificationDataSet trainingDataSet, TextClassificationDataSet validationDataSet)
+        {
+            // use the PerceptronOptimizer to update the weights and bias
+            perceptronOptimizer.trainClassifier(this, trainingDataSet);
 
-            // Remove the line below - needed for compilation, since the method must return an integer.
-            // The returned integer should be the class ID (in this case, either 0 or 1).
+            numberOfEpochs++;
+        }
 
- 
+        public void setBestWeightsAsWeights()
+        {
+            
+            
+            if (bestWeights != null)
+            {
+                if(bestWeights == weightList)
+                {
+                Console.WriteLine("Weights are already the best weights");
+                }
+                Console.WriteLine("Setting best weights as weights");
+                weightList = bestWeights;
+            }
+
+        }
+
+        public void setWeightAsBestWeights()
+        {
+            
+            bestWeights = new List<double>();
+            for (int i = 0; i < weightList.Count; i++)
+            {
+                bestWeights.Add(weightList[i]);
+            }
         }
 
         public double Bias
@@ -66,5 +103,40 @@ namespace NLP.TextClassification
             get { return weightList; }
             set { weightList = value; }
         }
+
+        public int NumberOfEpochs
+        { 
+            get { return numberOfEpochs; }
+        }
+
+        public double BestTestingAccuracy
+        {
+            get { return bestTestingAccuracy; }
+            set { bestTestingAccuracy = value; }
+        }
+
+        public double BestValidationAccuracy
+        {
+            get { return bestValidationAccuracy; }
+            set { bestValidationAccuracy = value; }
+        }
+
+        public List<double> getBestWeights()
+        {
+            return bestWeights;
+        }
+
+        // public List<double> BestWeights
+        // {
+        //     get { return bestWeights; }
+        //     set { bestWeights = value; }
+        // }
+
+        public int BestEpoch
+        {
+            get { return bestEpoch; }
+            set { bestEpoch = value; }
+        }
+
     }
 }

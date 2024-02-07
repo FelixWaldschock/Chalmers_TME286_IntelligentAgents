@@ -6,14 +6,15 @@ using System.Threading.Tasks;
 
 namespace NLP.TextClassification
 {
-    internal class PerceptronEvaluator
+    public class PerceptronEvaluator
     {
-        public float accuracy;
+        public double accuracy;
+        public double error;
 
         // take a PerceptronEvaluator object to predict the class of a sentence
         // compare the prediction with the ground truth
 
-        public void evaluatePerceptron(PerceptronClassifier perceptronClassifier, TextClassificationDataSet dataSet)
+        public double evaluatePerceptron(PerceptronClassifier perceptronClassifier, TextClassificationDataSet dataSet)
         {
             int correctPredictions = 0;
             int totalPredictions = 0;
@@ -27,7 +28,10 @@ namespace NLP.TextClassification
                 }
                 totalPredictions++;
             }
-            accuracy = (float)correctPredictions / totalPredictions;
+            accuracy = (double)correctPredictions / totalPredictions;
+            error = 1 - accuracy;
+
+            return accuracy;
 
         }
     }

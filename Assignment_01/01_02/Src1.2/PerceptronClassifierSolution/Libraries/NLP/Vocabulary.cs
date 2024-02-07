@@ -9,6 +9,7 @@ namespace NLP
     public class Vocabulary
     {
         private List<string> vocabulary;
+        private int sizeOfVocabulary;
 
         public Vocabulary(List<Token> tokensList)
         {
@@ -36,5 +37,12 @@ namespace NLP
         {
             return vocabulary[index];
         }
+
+        public int SizeOfVocabulary 
+        {
+            get { return vocabulary.Count; }
+            
+        }
+
     }
 }

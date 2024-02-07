@@ -19,12 +19,19 @@ namespace PerceptronClassifierApplication
     public partial class MainForm : Form
     {
         private const string TEXT_FILE_FILTER = "Text files (*.txt)|*.txt";
+        private const int MAXIMAL_EPOCHS = 100000;
 
-        private PerceptronClassifier classifier = null;
+        private PerceptronClassifier perceptronClassifier = null;
+        private PerceptronEvaluator perceptronEvaluator = null;
+        private PerceptronOptimizer perceptronOptimizer = null;
         private Vocabulary vocabulary = null;
         private TextClassificationDataSet trainingSet = null;
         private TextClassificationDataSet validationSet = null;
         private TextClassificationDataSet testSet = null;
+
+        private Thread OptimizationOfClassifierThread;
+
+
 
         public MainForm()
         {
@@ -152,6 +159,7 @@ namespace PerceptronClassifierApplication
              
 
             indexButton.Enabled = true;
+            tokenizeButton.Enabled = false;
         }
 
         private void indexButton_Click(object sender, EventArgs e)
@@ -176,9 +184,14 @@ namespace PerceptronClassifierApplication
 
             Thread ComputationOfIndexListsThread = new Thread(new ThreadStart(() => ComputationOfIndexLists()));
             ComputationOfIndexListsThread.Start();
-
-
+           
+            indexButton.Enabled = false;
             initializeOptimizerButton.Enabled = true;
+
+
+
+
+
         }
 
         private void initializeOptimizerButton_Click(object sender, EventArgs e)
@@ -189,11 +202,16 @@ namespace PerceptronClassifierApplication
             // it might be a good idea to define an evaluator class (e.g. PerceptronEvaluator)
             // You should place both classes in the TextClassification folder in the NLP library.
 
-            // Class to update the weights of the Perceptron
-            //private PerceptronOptimizer = new PerceptronOptimizer();
+            // get size of vocabulary
+            int sizeOfVocabulary = vocabulary.SizeOfVocabulary;
 
-            // Class to predict the classification of a sentence with the Perceptron
-            //private PerceptronEvaluator = new PerceptronEvaluator();
+
+            perceptronClassifier = new PerceptronClassifier();
+            perceptronClassifier.Initialize(sizeOfVocabulary);
+            perceptronEvaluator = new PerceptronEvaluator();
+            perceptronOptimizer = new PerceptronOptimizer();
+
+            progressListBox.Items.Add("Perceptron classifier, evaluator and optimizer initialized!");
 
             startOptimizerButton.Enabled = true;
         }
@@ -201,8 +219,14 @@ namespace PerceptronClassifierApplication
         private void startOptimizerButton_Click(object sender, EventArgs e)
         {
             startOptimizerButton.Enabled = false;
+            progressListBox.Items.Clear();
 
             // Start the optimizer here.
+
+            OptimizationOfClassifierThread = new Thread(new ThreadStart(() => ThreadPerceptronOptimizer()));
+            OptimizationOfClassifierThread.Start();
+
+
 
             // For every epoch, the optimizer should (after the epoch has been completed)
             // trigger an event that prints the current accuracy (over the training set
@@ -216,8 +240,45 @@ namespace PerceptronClassifierApplication
         private void stopOptimizerButton_Click(object sender, EventArgs e)
         {
             stopOptimizerButton.Enabled = false;
+            startOptimizerButton.Enabled = true;
 
             // Stop the optimizer here.
+            OptimizationOfClassifierThread.Abort();
+
+            perceptronClassifier.WeightList = perceptronClassifier.getBestWeights();
+
+            //progressListBox.Items.Clear();
+            progressListBox.Items.Add("------------------------");
+            progressListBox.Items.Add("Optimizer stopped.");
+            progressListBox.Items.Add("Load best weights and evaluate classifier over training, validation and test set.");
+
+            // set the best weights to the perceptron classifier
+            perceptronClassifier.WeightList = perceptronClassifier.getBestWeights();
+
+            perceptronClassifier.setBestWeightsAsWeights();
+            
+            // get accuracy of the classifier over the validation set
+            double validationAccuracy = perceptronEvaluator.evaluatePerceptron(perceptronClassifier, validationSet);
+            progressListBox.Items.Add("Validation set accuracy: " + validationAccuracy.ToString("0.000"));
+
+            // get accuracy of the classifier over the test set
+            double testAccuracy = perceptronEvaluator.evaluatePerceptron(perceptronClassifier, testSet);
+            progressListBox.Items.Add("Test set accuracy: " + testAccuracy.ToString("0.000"));
+
+            // get acciracy of the classifier over the training set
+            double trainingAccuracy = perceptronEvaluator.evaluatePerceptron(perceptronClassifier, trainingSet);
+            progressListBox.Items.Add("Training set accuracy: " + trainingAccuracy.ToString("0.000"));
+            
+
+            
+
+            // Specify the path for the CSV file
+            string csvFilePath = "AccuracyTracker.csv";
+
+            // Write the lists to the CSV file
+            WriteToCsv(perceptronClassifier.trackerValidationAccuracy, perceptronClassifier.trackerTestingAccuracy, csvFilePath);
+
+            progressListBox.Items.Add("CSV file has been created successfully.");
 
             // For simplicity (even though one may perhaps resume the optimizer), at this
             // point, evaluate the best classifier (= best validation performance) over
@@ -265,7 +326,11 @@ namespace PerceptronClassifierApplication
                 }
                 
             }
-          
+            ThreadSafeShowProgress("Indexing: " + (status.ToString()) + "/" + totalNumberOfIndexation.ToString());
+            ThreadSafeShowProgress("Indexing done!");
+            
+
+
         }
         private void ThreadSafeShowProgress(string progessInformation){
             if (InvokeRequired)
@@ -288,5 +353,59 @@ namespace PerceptronClassifierApplication
         {
             progressListBox.Items.Add("Done!");
         }
+
+        // Thread for perceptron optimization
+        private void ThreadPerceptronOptimizer()
+        {
+            ThreadSafeShowProgress("Starting optimizer");
+            int i = 0;
+
+            while (i < MAXIMAL_EPOCHS) {
+                perceptronOptimizer.trainClassifier(perceptronClassifier, trainingSet);
+                double testingAccuracyEpoch = perceptronEvaluator.evaluatePerceptron(perceptronClassifier, testSet);
+                double validationAccuracyEpoch = perceptronEvaluator.evaluatePerceptron(perceptronClassifier, validationSet);
+                double trainingAccuracyEpoch = perceptronEvaluator.evaluatePerceptron(perceptronClassifier, trainingSet);
+
+                if(validationAccuracyEpoch > perceptronClassifier.bestValidationAccuracy)
+                {
+                    ThreadSafeShowProgress("Epoch " + perceptronOptimizer.trainingEpochs + " completed. \t\t--> NEW BEST found!");
+                    ThreadSafeShowProgress("Validation set accuracy:\t" + validationAccuracyEpoch.ToString("0.000"));
+                    ThreadSafeShowProgress("Test set accuracy:\t\t" + testingAccuracyEpoch.ToString("0.000"));
+                    ThreadSafeShowProgress("Training set accuracy:\t\t" + trainingAccuracyEpoch.ToString("0.000"));
+                    
+                    // set the bestWeights to the weights
+                    perceptronClassifier.setWeightAsBestWeights();
+                    ThreadSafeShowProgress("Updating best weights");
+                    // set the bestValidationAccuracy to the validationAccuracy
+                    perceptronClassifier.bestValidationAccuracy = validationAccuracyEpoch;
+
+                }
+
+                // add accuracies to the trackers
+                perceptronClassifier.trackerTestingAccuracy.Add(testingAccuracyEpoch);
+                perceptronClassifier.trackerValidationAccuracy.Add(validationAccuracyEpoch);
+
+                i++;
+   
+            }
+        }
+
+        static void WriteToCsv(List<double> list1, List<double> list2, string filePath)
+    {
+        // Create a StreamWriter to write to the CSV file
+        using (StreamWriter writer = new StreamWriter(filePath))
+        {
+            // Write the header
+            writer.WriteLine("ValidationAccuracy, TestingAccuracy");
+
+            // Write the data
+            int length = Math.Max(list1.Count, list2.Count);
+            for (int i = 0; i < length; i++)
+            {
+                string line = $"{(i < list1.Count ? list1[i].ToString() : "")},{(i < list2.Count ? list2[i].ToString() : "")}";
+                writer.WriteLine(line);
+            }
+        }
+    }
     }
 }
