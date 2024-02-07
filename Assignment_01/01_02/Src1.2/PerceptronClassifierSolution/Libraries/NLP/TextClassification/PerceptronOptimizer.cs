@@ -44,18 +44,29 @@ namespace NLP.TextClassification
                     }
                 }
 
-                // update the weigths
-                for (int i = 0; i < item.TokenIndexList.Count; i++)
+                if (error != 0)
                 {
-                    // the token number represent simultanuously the index in the weigth vector
-                    int token = item.TokenIndexList[i];
-                    int featureValue = tokenCounts[token];
 
-                    // update the weight -> w_j = w_j + learningRate * error * x_ij
-                    perceptronClassifier.WeightList[i] = perceptronClassifier.WeightList[i] + (double)learningRate * error * featureValue;
+                    // update the weigths
+                    for (int i = 0; i < item.TokenIndexList.Count; i++)
+                    {
+                        // the token number represent simultanuously the index in the weigth vector
+                        int token = item.TokenIndexList[i];
+                        int featureValue = tokenCounts[token];
+                        
 
+  //                      if(featureValue > 4) 
+//                        {
+ 
+                          //  Console.WriteLine(featureValue + " " +item.TokenList[i].Spelling);
+
+                        //}
+
+                        // update the weight -> w_j = w_j + learningRate * error * x_ij
+                        perceptronClassifier.WeightList[i] = perceptronClassifier.WeightList[i] + (double)learningRate * error * featureValue;
+
+                    }
                 }
-                
 
             }
             trainingEpochs++;

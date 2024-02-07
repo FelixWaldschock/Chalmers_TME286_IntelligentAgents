@@ -18,6 +18,7 @@ namespace NLP.TextClassification
         private int bestEpoch;
         public List<double> trackerTestingAccuracy = new List<double>();
         public List<double> trackerValidationAccuracy = new List<double>();
+        public List<double> trackerTrainingAccuracy = new List<double>();
 
         public override void Initialize(int numberOfFeatures)
         {

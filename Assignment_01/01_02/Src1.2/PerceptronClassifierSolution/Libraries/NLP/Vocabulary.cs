@@ -19,7 +19,7 @@ namespace NLP
             // remove duplicates
             tokensList = tokensList.Distinct().ToList();
 
-            // set the vocabulary to the tokensList spelling
+            // set the vocabulary to the tokensList spellingbe
             vocabulary = tokensList.Select(t => t.Spelling).ToList();            
         }
 

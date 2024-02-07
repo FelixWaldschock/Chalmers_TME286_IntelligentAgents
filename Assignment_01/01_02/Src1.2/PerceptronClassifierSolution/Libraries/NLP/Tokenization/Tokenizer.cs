@@ -15,7 +15,6 @@ namespace NLP.Tokenization
             this.abbreviations = abbreviations;
         }
 
-
         public List<Token> Tokenize(string sentence)
         {
             List<string> tempTokens = new List<string>();

@@ -265,7 +265,7 @@ namespace PerceptronClassifierApplication
             double testAccuracy = perceptronEvaluator.evaluatePerceptron(perceptronClassifier, testSet);
             progressListBox.Items.Add("Test set accuracy: " + testAccuracy.ToString("0.000"));
 
-            // get acciracy of the classifier over the training set
+            // get accuracy of the classifier over the training set
             double trainingAccuracy = perceptronEvaluator.evaluatePerceptron(perceptronClassifier, trainingSet);
             progressListBox.Items.Add("Training set accuracy: " + trainingAccuracy.ToString("0.000"));
             
@@ -276,7 +276,7 @@ namespace PerceptronClassifierApplication
             string csvFilePath = "AccuracyTracker.csv";
 
             // Write the lists to the CSV file
-            WriteToCsv(perceptronClassifier.trackerValidationAccuracy, perceptronClassifier.trackerTestingAccuracy, csvFilePath);
+            WriteToCsv(perceptronClassifier.trackerValidationAccuracy, perceptronClassifier.trackerTestingAccuracy, perceptronClassifier.trackerTrainingAccuracy, csvFilePath);
 
             progressListBox.Items.Add("CSV file has been created successfully.");
 
@@ -366,13 +366,14 @@ namespace PerceptronClassifierApplication
                 double validationAccuracyEpoch = perceptronEvaluator.evaluatePerceptron(perceptronClassifier, validationSet);
                 double trainingAccuracyEpoch = perceptronEvaluator.evaluatePerceptron(perceptronClassifier, trainingSet);
 
-                if(validationAccuracyEpoch > perceptronClassifier.bestValidationAccuracy)
+
+                if (validationAccuracyEpoch > perceptronClassifier.bestValidationAccuracy)
                 {
                     ThreadSafeShowProgress("Epoch " + perceptronOptimizer.trainingEpochs + " completed. \t\t--> NEW BEST found!");
                     ThreadSafeShowProgress("Validation set accuracy:\t" + validationAccuracyEpoch.ToString("0.000"));
                     ThreadSafeShowProgress("Test set accuracy:\t\t" + testingAccuracyEpoch.ToString("0.000"));
                     ThreadSafeShowProgress("Training set accuracy:\t\t" + trainingAccuracyEpoch.ToString("0.000"));
-                    
+
                     // set the bestWeights to the weights
                     perceptronClassifier.setWeightAsBestWeights();
                     ThreadSafeShowProgress("Updating best weights");
@@ -384,28 +385,35 @@ namespace PerceptronClassifierApplication
                 // add accuracies to the trackers
                 perceptronClassifier.trackerTestingAccuracy.Add(testingAccuracyEpoch);
                 perceptronClassifier.trackerValidationAccuracy.Add(validationAccuracyEpoch);
+                perceptronClassifier.trackerTrainingAccuracy.Add(trainingAccuracyEpoch);
+
+                if (i % 1000 == 0)
+                {
+                    ThreadSafeShowProgress("Training still running \t Epoch: " + i.ToString());
+                }
 
                 i++;
    
             }
         }
 
-        static void WriteToCsv(List<double> list1, List<double> list2, string filePath)
-    {
-        // Create a StreamWriter to write to the CSV file
-        using (StreamWriter writer = new StreamWriter(filePath))
+        static void WriteToCsv(List<double> list1, List<double> list2, List<double> list3, string filePath)
         {
-            // Write the header
-            writer.WriteLine("ValidationAccuracy, TestingAccuracy");
-
-            // Write the data
-            int length = Math.Max(list1.Count, list2.Count);
-            for (int i = 0; i < length; i++)
+            // Create a StreamWriter to write to the CSV file
+            using (StreamWriter writer = new StreamWriter(filePath))
             {
-                string line = $"{(i < list1.Count ? list1[i].ToString() : "")},{(i < list2.Count ? list2[i].ToString() : "")}";
-                writer.WriteLine(line);
+                // Write the header
+                writer.WriteLine("ValidationAccuracy, TestingAccuracy, TrainingAccuracy");
+
+                // Write the data
+                int length = Math.Max(list1.Count, list2.Count);
+                length = Math.Max(length, list3.Count);
+                for (int i = 0; i < length; i++)
+                {
+                    string line = $"{(i < list1.Count ? list1[i].ToString() : "")},{(i < list2.Count ? list2[i].ToString() : "")},{(i < list3.Count ? list3[i].ToString() : "")}";
+                    writer.WriteLine(line);
+                }
             }
         }
-    }
     }
 }
