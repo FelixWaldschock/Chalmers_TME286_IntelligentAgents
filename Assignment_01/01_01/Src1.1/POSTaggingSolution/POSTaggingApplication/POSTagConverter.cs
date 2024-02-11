@@ -11,10 +11,44 @@ namespace POSTaggingApplication
         // 2D list that contains the Brown Corpus and the Universal tag
         List<List<string>> BrownAndUniList = null;
 
+        // Initialize POS tag counters
+        public Dictionary<string, int> posTagCounters = new Dictionary<string, int>
+        {
+            {".", 0},
+            {"ADJ", 0},
+            {"ADP", 0},
+            {"ADV", 0},
+            {"CONJ", 0},
+            {"DET", 0},
+            {"NOUN", 0},
+            {"NUM", 0},
+            {"PRON", 0},
+            {"PRT", 0},
+            {"VERB", 0},
+            {"X", 0},
+            {"BLANKS", 0}
+        };
+
     // Constructor
     public POSTagConverter(List<List<string>> BrownAndUniList)
     {
         this.BrownAndUniList = BrownAndUniList;
+    }
+
+    public void showConverter()
+    {
+        // show the BrownAndUniList
+        for (int i = 0; i < BrownAndUniList.Count; i++)
+        {
+            Console.WriteLine(BrownAndUniList[i][0] + " " + BrownAndUniList[i][1]);
+        }
+    }
+
+
+    public void updatePOSCounters(string UniversalTag)
+    {
+        // update the POS tag counters
+        posTagCounters[UniversalTag] += 1;
     }
 
 

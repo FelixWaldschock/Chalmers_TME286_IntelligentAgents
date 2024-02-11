@@ -11,5 +11,7 @@ namespace NLP
         public string Spelling { get; set; }
 
         public string POSTag { get; set; }
+
+        public string BrownTag {get; set;}
     }
 }

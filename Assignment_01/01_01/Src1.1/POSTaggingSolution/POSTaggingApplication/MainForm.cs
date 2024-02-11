@@ -12,6 +12,7 @@ using NLP;
 using NLP.POS;
 using NLP.POS.Taggers;
 
+
 namespace POSTaggingApplication
 {
     public partial class MainForm : Form
@@ -27,9 +28,12 @@ namespace POSTaggingApplication
         private POSTagConverter BrownToUniTagConverter = null;
 
 
+
+
         public MainForm()
         {
             InitializeComponent();
+            resultsListBox.Font = new Font("Aptos", 11);
         }
 
         private void exitToolStripMenuItem_Click(object sender, EventArgs e)
@@ -190,7 +194,7 @@ namespace POSTaggingApplication
                         // split the line where a space is 
                         List<string> lineSplit = line.Split(new char[] { '\n' }, StringSplitOptions.RemoveEmptyEntries).ToList();
 
-                        
+                        int i = 0;
 
                         foreach (string lineSplitItem in lineSplit)
                         { 
@@ -205,7 +209,9 @@ namespace POSTaggingApplication
                             // Add the Brown and Universal tags to the 2D list
                             BrownAndUniList.Add(new List<string> { BrownTag, UniTag });
 
-
+                            // DEBUG
+                            Console.WriteLine(i + " - Brown: \t " + BrownTag + "\t Uni: \t" + UniTag );
+                            i++;
                         // Process data stop
                         }
                     }
@@ -224,6 +230,8 @@ namespace POSTaggingApplication
 
             // Create the POSTagConverter object
             BrownToUniTagConverter = new POSTagConverter(BrownAndUniList);
+
+            BrownToUniTagConverter.showConverter();
 
             // Print to the resultsListBox
             resultsListBox.Items.Add("Loaded the Brown Corpus and the tag conversion data");
@@ -246,14 +254,7 @@ namespace POSTaggingApplication
 
             int conversionCounter = 0;
 
-            // pick a random sentence and a random token to check if the conversion worked
-            // Random rnd = new Random();
-            // int randomSentenceIndex = rnd.Next(0, completeDataSet.SentenceList.Count);
-            // int randomTokenIndex = rnd.Next(0, completeDataSet.SentenceList[randomSentenceIndex].TokenDataList.Count);
-
-            // // get the Brown tag
-            // string BrownTagRandom = completeDataSet.SentenceList[randomSentenceIndex].TokenDataList[randomTokenIndex].Token.POSTag;
-
+ 
 
             foreach (Sentence sentence in completeDataSet.SentenceList)
             {
@@ -267,7 +268,12 @@ namespace POSTaggingApplication
                     // convert the Brown tag to the Universal tag
                     string UniTag = BrownToUniTagConverter.getUniversalTag(BrownTag);
 
+                    // Increment the posTagCounter in the BrownToUniTagConverter
+                    BrownToUniTagConverter.updatePOSCounters(UniTag);
+
+
                     // set the Universal tag
+                    tokenData.Token.BrownTag = BrownTag;
                     tokenData.Token.POSTag = UniTag;
 
                     conversionCounter++;
@@ -278,24 +284,7 @@ namespace POSTaggingApplication
 
             resultsListBox.Items.Add("Converted " + conversionCounter + " tags from Brown to Universal");
 
-            // get the Universal tag
-            // string UniTagRandom = completeDataSet.SentenceList[randomSentenceIndex].TokenDataList[randomTokenIndex].Token.POSTag;
-
-            // print the results to the resultsListBox
-            // resultsListBox.Items.Add("Random sentence index: " + randomSentenceIndex);
-            // resultsListBox.Items.Add("Random token index: " + randomTokenIndex);
-            // resultsListBox.Items.Add("Brown tag: " + BrownTagRandom);
-            // resultsListBox.Items.Add("Universal tag: " + UniTagRandom);
-
-            // resultsListBox.Items.Add("Conversion finished"); // Keep this line.
-
-
             // --------------------------------------------------------------------------------
-
-
-
-
-
 
             // Method call: 
             // completeDataSet.ConvertPOSTags(... <suitable input, namely the tag conversion data> ...); // this you have to write ...
@@ -338,8 +327,8 @@ namespace POSTaggingApplication
 
                 // Give user feedback
                 // show size of the training and test data set
-                resultsListBox.Items.Add("Size of the training data set: " + trainingDataSet.SentenceList.Count);
-                resultsListBox.Items.Add("Size of the test data set: " + testDataSet.SentenceList.Count);
+                resultsListBox.Items.Add("Size of the training data set: " + trainingDataSet.SentenceList.Count +" senteces");
+                resultsListBox.Items.Add("Size of the test data set: " + testDataSet.SentenceList.Count +" senteces");
 
 
 
@@ -418,15 +407,28 @@ namespace POSTaggingApplication
             // sort the list by count descending
             POSTagDataList = POSTagDataList.OrderByDescending(x => x.count).ToList();
 
-            
+            // ToDo insert the statistics from the BrownToUniTagConverter to the POSTagDataList
+            List<Statistics> statisticsList = new List<Statistics>();
+            int sumOfAllTags = BrownToUniTagConverter.posTagCounters.Values.Sum();
+
+            foreach(KeyValuePair<string, int> kvp in BrownToUniTagConverter.posTagCounters)
+            {
+                // add the kvp.Keym kvp.Value and the fraction to the statistics list
+                double fraction = (double)kvp.Value / sumOfAllTags;
+                Statistics newStatistic = new Statistics(kvp.Key, kvp.Value, fraction);
+                statisticsList.Add(newStatistic);
+            }
+
+            // sort the list by count descending
+            statisticsList = statisticsList.OrderByDescending(x => x.Count).ToList();
 
             // print to user
             resultsListBox.Items.Add("Most frequent tags:");
             resultsListBox.Items.Add("Tag\tCount\tFraction");
-            foreach (POSTagData POSTagData in POSTagDataList)
-            {
-                resultsListBox.Items.Add(POSTagData.name + "\t" + POSTagData.count + "\t" + POSTagData.fraction);
+            for (int i = 0; i < statisticsList.Count; i++){
+                resultsListBox.Items.Add(statisticsList[i].Name + "\t" + statisticsList[i].Count + "\t" + statisticsList[i].Fraction.ToString("F5"));
             }
+            
 
             // print vocabulary size
             resultsListBox.Items.Add("Vocabulary size: " + vocabulary.Count);
