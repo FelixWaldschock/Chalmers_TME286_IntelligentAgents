@@ -10,6 +10,12 @@ namespace NLP.TextClassification
     {
         public double accuracy;
         public double error;
+        private bool toggleTestReviewTracker = false;
+        public List<List<int>> TestReviewTrackerCorretlyClassified = new List<List<int>>();
+        public List<List<int>> TestReviewTrackerFalselyClassified = new List<List<int>>();
+
+
+
 
         // take a PerceptronEvaluator object to predict the class of a sentence
         // compare the prediction with the ground truth
@@ -25,6 +31,14 @@ namespace NLP.TextClassification
                 if (predictedClass == item.ClassLabel)
                 {
                     correctPredictions++;
+                    if (toggleTestReviewTracker){
+                        TestReviewTrackerCorretlyClassified.Add(item.TokenIndexList);
+                    }
+                }
+                else {
+                    if (toggleTestReviewTracker){
+                        TestReviewTrackerFalselyClassified.Add(item.TokenIndexList);
+                    }
                 }
                 totalPredictions++;
             }
@@ -33,6 +47,11 @@ namespace NLP.TextClassification
 
             return accuracy;
 
+        }
+
+        public void ActivateTestReviewTracker()
+        {
+            toggleTestReviewTracker = true;
         }
     }
 }

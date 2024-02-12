@@ -242,6 +242,8 @@ namespace PerceptronClassifierApplication
             stopOptimizerButton.Enabled = false;
             startOptimizerButton.Enabled = true;
 
+            progressListBox.Items.Clear();
+
             // Stop the optimizer here.
             OptimizationOfClassifierThread.Abort();
 
@@ -262,6 +264,8 @@ namespace PerceptronClassifierApplication
             progressListBox.Items.Add("Validation set accuracy: " + validationAccuracy.ToString("0.000"));
 
             // get accuracy of the classifier over the test set
+            // activate the tracker
+            perceptronEvaluator.ActivateTestReviewTracker();
             double testAccuracy = perceptronEvaluator.evaluatePerceptron(perceptronClassifier, testSet);
             progressListBox.Items.Add("Test set accuracy: " + testAccuracy.ToString("0.000"));
 
@@ -269,8 +273,83 @@ namespace PerceptronClassifierApplication
             double trainingAccuracy = perceptronEvaluator.evaluatePerceptron(perceptronClassifier, trainingSet);
             progressListBox.Items.Add("Training set accuracy: " + trainingAccuracy.ToString("0.000"));
             
+        
+            // Get the most positive and negative tokens -> for this create a duplicate of the perceptrons weights
+            // and sort it in descending order. Take the first 10 and last 10 values
 
             
+            Dictionary<int, double> weightDictionary = new Dictionary<int, double>();
+
+            for (int i = 0; i < perceptronClassifier.WeightList.Count; i++)
+            {
+                weightDictionary.Add(i, perceptronClassifier.WeightList[i]);
+            }
+
+            // Sort the weightDictionary by values in descending order
+            var sortedWeightDictionary = weightDictionary.OrderByDescending(weight => weight.Value)
+                                                        .ToDictionary(weight => weight.Key, weight => weight.Value);
+
+            progressListBox.Items.Add("Most positive words: \nSpelling\tWeight ");
+
+            // Print the 10 most positive words -> largest weights
+            List<string> mostPositiveWordsList = new List<string>();
+            int count = 0;
+
+            foreach (var kvp in sortedWeightDictionary)
+            {
+                mostPositiveWordsList.Add(vocabulary.vocabulary[kvp.Key]);
+                progressListBox.Items.Add($"{vocabulary.vocabulary[kvp.Key]}\t{kvp.Value}");
+
+                count++;
+
+                if (count >= 10)
+                    break;
+            }
+
+
+            // Sort the weightDictionary by values in ascending order
+            sortedWeightDictionary = weightDictionary.OrderBy(weight => weight.Value)
+                                                        .ToDictionary(weight => weight.Key, weight => weight.Value);
+
+            progressListBox.Items.Add("Most negative words: \nSpelling\tWeight ");
+
+            // Print the 10 most positive words -> largest weights
+            List<string> mostNegativeWordsList = new List<string>();
+            count = 0;
+
+            foreach (var kvp in sortedWeightDictionary)
+            {
+                mostNegativeWordsList.Add(vocabulary.vocabulary[kvp.Key]);
+                progressListBox.Items.Add($"{vocabulary.vocabulary[kvp.Key]}\t{kvp.Value}");
+
+                count++;
+
+                if (count >= 10)
+                    break;
+            }
+
+
+            List<int> firstCorrectExampleIndeces = perceptronEvaluator.TestReviewTrackerCorretlyClassified[0];
+            List<int> secondCorrectExampleIndeces = perceptronEvaluator.TestReviewTrackerCorretlyClassified[1];
+            List<int> firstFalseExampleIndeces = perceptronEvaluator.TestReviewTrackerFalselyClassified[0];
+            List<int> secondFalseExampleIndeces = perceptronEvaluator.TestReviewTrackerFalselyClassified[1];
+            
+            // convert indexed reviews to string lists
+            string firstCorrectExample = vocabulary.GetReviewFromTokenIndexList(firstCorrectExampleIndeces);
+            string secondCorrectExample = vocabulary.GetReviewFromTokenIndexList(secondCorrectExampleIndeces);
+
+            string firstFalseExample = vocabulary.GetReviewFromTokenIndexList(firstFalseExampleIndeces);
+            string secondFalseExample = vocabulary.GetReviewFromTokenIndexList(secondFalseExampleIndeces);
+        
+
+            // Print them to the console
+            Console.WriteLine("Correct classified sentences: \n");
+            Console.WriteLine(firstCorrectExample);
+            Console.WriteLine(secondCorrectExample);
+
+            Console.WriteLine("\nFalse classified sentences: \n");
+            Console.WriteLine(firstFalseExample);
+            Console.WriteLine(secondFalseExample);
 
             // Specify the path for the CSV file
             string csvFilePath = "AccuracyTracker.csv";
@@ -300,7 +379,7 @@ namespace PerceptronClassifierApplication
             {
                 item.indexingTokens(vocabulary.GetVocabulary());
                 status++;
-                if (status % 100 == 0)
+                if (status % 300 == 0)
                 {
                     ThreadSafeShowProgress("Indexing: " + (status.ToString()) + "/" + totalNumberOfIndexation.ToString());
                 }
@@ -310,7 +389,7 @@ namespace PerceptronClassifierApplication
             {
                 item.indexingTokens(vocabulary.GetVocabulary());
                 status++;
-                if (status % 100 == 0)
+                if (status % 300 == 0)
                 {
                     ThreadSafeShowProgress("Indexing: " + (status.ToString()) + "/" + totalNumberOfIndexation.ToString());
                 }
@@ -320,7 +399,7 @@ namespace PerceptronClassifierApplication
             {
                 item.indexingTokens(vocabulary.GetVocabulary());
                 status++;
-                if (status % 100 == 0)
+                if (status % 300 == 0)
                 {
                     ThreadSafeShowProgress("Indexing: " + (status.ToString()) + "/" + totalNumberOfIndexation.ToString());
                 }
@@ -371,8 +450,8 @@ namespace PerceptronClassifierApplication
                 {
                     ThreadSafeShowProgress("Epoch " + perceptronOptimizer.trainingEpochs + " completed. \t\t--> NEW BEST found!");
                     ThreadSafeShowProgress("Validation set accuracy:\t" + validationAccuracyEpoch.ToString("0.000"));
-                    ThreadSafeShowProgress("Test set accuracy:\t\t" + testingAccuracyEpoch.ToString("0.000"));
-                    ThreadSafeShowProgress("Training set accuracy:\t\t" + trainingAccuracyEpoch.ToString("0.000"));
+                    // ThreadSafeShowProgress("Test set accuracy:\t\t" + testingAccuracyEpoch.ToString("0.000"));
+                    // ThreadSafeShowProgress("Training set accuracy:\t\t" + trainingAccuracyEpoch.ToString("0.000"));
 
                     // set the bestWeights to the weights
                     perceptronClassifier.setWeightAsBestWeights();

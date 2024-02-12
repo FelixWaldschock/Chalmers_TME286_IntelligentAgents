@@ -8,8 +8,7 @@ namespace NLP
 {
     public class Vocabulary
     {
-        private List<string> vocabulary;
-        private int sizeOfVocabulary;
+        public List<string> vocabulary;
 
         public Vocabulary(List<Token> tokensList)
         {
@@ -17,10 +16,10 @@ namespace NLP
             tokensList = tokensList.OrderBy(t => t.Spelling).ThenBy(t => t.POSTag).ToList();
 
             // remove duplicates
-            tokensList = tokensList.Distinct().ToList();
+            vocabulary = tokensList.Select(t => t.Spelling).Distinct().ToList();
 
-            // set the vocabulary to the tokensList spellingbe
-            vocabulary = tokensList.Select(t => t.Spelling).ToList();            
+            // set the vocabulary to the tokensList spelling
+            //vocabulary = tokensList.Select(t => t.Spelling).ToList();            
         }
 
         public List<string> GetVocabulary()
@@ -33,8 +32,12 @@ namespace NLP
             return vocabulary.IndexOf(word);
         }
 
-        public string GetWord(int index)
+        public string GetSpelling(int index)
         {
+            if (index == -1)
+            {
+                return "UNKNOWNTOKEN";
+            }
             return vocabulary[index];
         }
 
@@ -42,6 +45,16 @@ namespace NLP
         {
             get { return vocabulary.Count; }
             
+        }
+
+        public string GetReviewFromTokenIndexList(List<int> TokenIndexList)
+        {
+            string review = "";
+            for (int i = 0; i < TokenIndexList.Count; i++)
+            {
+                review = review + " " +GetSpelling(TokenIndexList[i]);
+            }
+            return review;
         }
 
     }

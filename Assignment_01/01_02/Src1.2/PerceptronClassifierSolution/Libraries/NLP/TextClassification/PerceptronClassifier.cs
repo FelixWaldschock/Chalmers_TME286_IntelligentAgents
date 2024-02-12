@@ -20,6 +20,8 @@ namespace NLP.TextClassification
         public List<double> trackerValidationAccuracy = new List<double>();
         public List<double> trackerTrainingAccuracy = new List<double>();
 
+
+
         public override void Initialize(int numberOfFeatures)
         {
             Random random = new Random(0);
@@ -43,13 +45,19 @@ namespace NLP.TextClassification
             // words in the text that is being classified.
 
             double sum = 0;
+            
             for (int i = 0; i < tokenIndexList.Count; i++)
             {
-                sum += weightList[i] * tokenIndexList[i];
+                int tokenIndex = tokenIndexList[i];
+                if (tokenIndex != -1)
+                {
+                    sum += weightList[tokenIndex];
+                }
+                
             }
 
             // classify
-            if (sum + bias > 0)
+            if (sum + bias >= 0)
             {
                 return 1;
             }
@@ -63,14 +71,11 @@ namespace NLP.TextClassification
         {
             // use the PerceptronOptimizer to update the weights and bias
             perceptronOptimizer.trainClassifier(this, trainingDataSet);
-
             numberOfEpochs++;
         }
 
         public void setBestWeightsAsWeights()
         {
-            
-            
             if (bestWeights != null)
             {
                 if(bestWeights == weightList)
@@ -78,9 +83,15 @@ namespace NLP.TextClassification
                 Console.WriteLine("Weights are already the best weights");
                 }
                 Console.WriteLine("Setting best weights as weights");
-                weightList = bestWeights;
+                
+                // create new list for this
+                List<double> newWeights = new List<double>();
+                for (int i = 0; i < bestWeights.Count;i++)
+                {
+                    newWeights.Add(bestWeights[i]);
+                }
+                
             }
-
         }
 
         public void setWeightAsBestWeights()
@@ -138,6 +149,7 @@ namespace NLP.TextClassification
             get { return bestEpoch; }
             set { bestEpoch = value; }
         }
+
 
     }
 }
