@@ -33,7 +33,7 @@ namespace POSTaggingApplication
         public MainForm()
         {
             InitializeComponent();
-            resultsListBox.Font = new Font("Aptos", 11);
+            resultsListBox.Font = new Font("Aptos", 9);
         }
 
         private void exitToolStripMenuItem_Click(object sender, EventArgs e)
@@ -295,6 +295,7 @@ namespace POSTaggingApplication
 
             // Keep this line: It will activate the split button.
             splitDataSetButton.Enabled = true;
+            convertPOSTagsButton.Enabled = false;
         }
 
         private void splitDataSetButton_Click(object sender, EventArgs e)
@@ -559,10 +560,6 @@ namespace POSTaggingApplication
             // create the Unigram Tagger
             unigramTagger = new UnigramTagger(UnigramTaggerWordDataList);
             
-            if (unigramTagger == null)
-            {
-                resultsListBox.Items.Add("BOCK");
-            }
 
             resultsListBox.Items.Add("Unigram tagger generated!");
 
@@ -608,7 +605,7 @@ namespace POSTaggingApplication
 
             List<string> tags = unigramTagger.Tag(testSentence);
 
-            float accuray = 0;
+            float accuray;
             int counter = 0;
             int correctClassifiedTags = 0;
 
