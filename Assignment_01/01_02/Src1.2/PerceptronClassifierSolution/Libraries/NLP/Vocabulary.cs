@@ -52,7 +52,7 @@ namespace NLP
             string review = "";
             for (int i = 0; i < TokenIndexList.Count; i++)
             {
-                review = review + " " +GetSpelling(TokenIndexList[i]);
+                review = review + " " + GetSpelling(TokenIndexList[i]);
             }
             return review;
         }

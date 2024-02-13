@@ -1,83 +1,64 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace POSTaggingApplication
 {
     internal class POSTagConverter
     {
-        // 2D list that contains the Brown Corpus and the Universal tag
-        List<List<string>> BrownAndUniList = null;
+        // Dictionary to store the mapping between Brown and Universal tags
+        private Dictionary<string, string> brownToUniversalMap;
 
         // Initialize POS tag counters
         public Dictionary<string, int> posTagCounters = new Dictionary<string, int>
         {
-            {".", 0},
-            {"ADJ", 0},
-            {"ADP", 0},
-            {"ADV", 0},
-            {"CONJ", 0},
-            {"DET", 0},
-            {"NOUN", 0},
-            {"NUM", 0},
-            {"PRON", 0},
-            {"PRT", 0},
-            {"VERB", 0},
-            {"X", 0},
-            {"BLANKS", 0}
+            { ".", 0 },
+            { "ADJ", 0 },
+            { "ADP", 0 },
+            { "ADV", 0 },
+            { "CONJ", 0 },
+            { "DET", 0 },
+            { "NOUN", 0 },
+            { "NUM", 0 },
+            { "PRON", 0 },
+            { "PRT", 0 },
+            { "VERB", 0 },
+            { "X", 0 },
+            { "BLANKS", 0 }
         };
 
-    // Constructor
-    public POSTagConverter(List<List<string>> BrownAndUniList)
-    {
-        this.BrownAndUniList = BrownAndUniList;
-    }
-
-    public void showConverter()
-    {
-        // show the BrownAndUniList
-        for (int i = 0; i < BrownAndUniList.Count; i++)
+        // Constructor
+        public POSTagConverter(List<List<string>> brownAndUniList)
         {
-            Console.WriteLine(BrownAndUniList[i][0] + " " + BrownAndUniList[i][1]);
+            // Populate the brownToUniversalMap dictionary for faster lookups
+            brownToUniversalMap = brownAndUniList.ToDictionary(pair => pair[0], pair => pair[1]);
         }
-    }
 
-
-    public void updatePOSCounters(string UniversalTag)
-    {
-        // update the POS tag counters
-        posTagCounters[UniversalTag] += 1;
-    }
-
-
-    public string getUniversalTag(string BrownTag)
-    {
-        // in the BrownAndUniList, search in the first column for the BrownTag and get the corresponding Universal tag
-        string UniversalTag = null;
-
-        // search in the first column for the BrownTag
-        for (int i = 0; i < BrownAndUniList.Count; i++)
+        public void showConverter()
         {
-            if (BrownAndUniList[i][0] == BrownTag)
+            // show the BrownAndUniList
+            foreach (var pair in brownToUniversalMap)
             {
-                // get the corresponding Universal tag
-                UniversalTag = BrownAndUniList[i][1];
+                Console.WriteLine(pair.Key + " " + pair.Value);
             }
         }
 
-
-
-        if (UniversalTag == null)
+        public void updatePOSCounters(string universalTag)
         {
-            // throw an exception 
-            throw new Exception("The Brown tag " + BrownTag + " does not exist in the Brown Corpus");
+            // update the POS tag counters
+            posTagCounters[universalTag] += 1;
         }
 
-        return UniversalTag;
+        public string getUniversalTag(string brownTag)
+        {
+            // Use the dictionary for faster lookups
+            if (brownToUniversalMap.TryGetValue(brownTag, out var universalTag))
+            {
+                return universalTag;
+            }
 
+            // throw an exception if the Brown tag does not exist in the Brown Corpus
+            throw new Exception("The Brown tag " + brownTag + " does not exist in the Brown Corpus");
+        }
     }
-
-}
 }

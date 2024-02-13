@@ -21,10 +21,13 @@ namespace NLP.Tokenization
             List<string> finalTokens = new List<string>();
 
             // init regex pattern to split by ',', ' ', '!','?'
-            string regexPattern = @"(?<=[,!? ])|(?=[,!? ])|\s+";
+            //string regexPattern = @"(?<=[,!?€$£ ])|(?=[,!?€$£ ])";
+            string regexPattern = @"(?<=[,!?%\p{Sc} ])|(?=[,!?%\p{Sc} ])";
+
 
             // Split the sentence by the specified characters
             string[] tokens = Regex.Split(sentence, regexPattern);
+
 
             foreach (string token in tokens)
             {
@@ -39,6 +42,7 @@ namespace NLP.Tokenization
 
             foreach (string token in tempTokens) // Use ToList() to avoid modifying the collection during iteration
             {
+                
                 // check if token contains a '.' character
                 if (token.Contains("."))
                 {
@@ -61,9 +65,19 @@ namespace NLP.Tokenization
                         finalTokens.AddRange(subTokens);
                     }
                 }
+                //else
+                //{
+                //    finalTokens.Add(token);
+                //}
                 else
                 {
-                    finalTokens.Add(token);
+                    // Convert currency signs to their spellings
+                    string tokenWithSpellings = token
+                        .Replace("€", "euro")
+                        .Replace("$", "dollar")
+                        .Replace("£", "pound");
+
+                    finalTokens.Add(tokenWithSpellings);
                 }
             }
 

@@ -9,7 +9,7 @@ namespace NLP.TextClassification
     public class PerceptronOptimizer
 
     {
-        double learningRate = 0.001; 
+        double learningRate = 0.01; 
         public int trainingEpochs = 0;
 
 
@@ -54,26 +54,13 @@ namespace NLP.TextClassification
                         // get the needed values for the training
                         int tokenIndex = entry.Key;
                         int featureValue = entry.Value;
+                       
 
                         // update the weights
                         perceptronClassifier.WeightList[tokenIndex] = perceptronClassifier.WeightList[tokenIndex] + (double)learningRate * error * featureValue;
-    
-                        // Do something with tokenIndex and count, for example, print them
-                        //Console.WriteLine($"Token Index: {tokenIndex}, Count: {count}");
                     }
 
 
-
-                    // // update the weigths
-                    // for (int i = 0; i < item.TokenIndexList.Count; i++)
-                    // {
-                    //     // the token number represent simultanuously the index in the weigth vector
-                    //     int token = item.TokenIndexList[i];
-                    //     int featureValue = tokenCounts[token];
-                        
-                    //     // update the weight -> w_j = w_j + learningRate * error * x_ij
-                    //     perceptronClassifier.WeightList[i] = perceptronClassifier.WeightList[i] + (double)learningRate * error * featureValue;
-                    // }
                 }
 
             }

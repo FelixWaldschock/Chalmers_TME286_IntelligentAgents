@@ -194,7 +194,6 @@ namespace POSTaggingApplication
                         // split the line where a space is 
                         List<string> lineSplit = line.Split(new char[] { '\n' }, StringSplitOptions.RemoveEmptyEntries).ToList();
 
-                        int i = 0;
 
                         foreach (string lineSplitItem in lineSplit)
                         { 
@@ -210,8 +209,7 @@ namespace POSTaggingApplication
                             BrownAndUniList.Add(new List<string> { BrownTag, UniTag });
 
                             // DEBUG
-                            Console.WriteLine(i + " - Brown: \t " + BrownTag + "\t Uni: \t" + UniTag );
-                            i++;
+
                         // Process data stop
                         }
                     }
@@ -428,11 +426,10 @@ namespace POSTaggingApplication
             resultsListBox.Items.Add("Tag\tCount\tFraction");
             for (int i = 0; i < statisticsList.Count; i++){
                 resultsListBox.Items.Add(statisticsList[i].Name + "\t" + statisticsList[i].Count + "\t" + statisticsList[i].Fraction.ToString("F5"));
+                
+                // Also print to console
+                Console.WriteLine(statisticsList[i].Name + "\t" + statisticsList[i].Count + "\t" + statisticsList[i].Fraction.ToString("F5"));
             }
-            
-
-            // print vocabulary size
-            resultsListBox.Items.Add("Vocabulary size: " + vocabulary.Count);
 
             // print the sum of the fractions
             double sumOfFractions = 0;  
@@ -440,84 +437,89 @@ namespace POSTaggingApplication
             {
                 sumOfFractions += POSTagData.fraction;
             }
-
-            resultsListBox.Items.Add("Sum of fractions: " + sumOfFractions);
-
-
-            // (ii)
-            // count the fraction of words that are associated with 
             
-            List<WordData> WordDataList = new List<WordData>();
+            // sum of all statistics.Counts
+            int sumOfAllTokens = statisticsList.Sum(x => x.Count);
 
-            // loop over the entire vocabulary
+            resultsListBox.Items.Add("Total: \t" + sumOfAllTokens + "\t" + sumOfFractions);
+            Console.WriteLine("Total: \t" + sumOfAllTokens + "\t" + sumOfFractions);
+
+
+            Dictionary<string, WordData> wordDataDictionary = new Dictionary<string, WordData>();
+
+            // Loop over the entire vocabulary
             foreach (TokenData tokenData in vocabulary)
             {
-                // get the word
+                // Get the word and tag
                 string word = tokenData.Token.Spelling;
-                string tag = tokenData.Token.POSTag;
 
-                // check if the word is already in the list
-                if (WordDataList.Exists(x => x.Spelling == word))
+                // Check if the word is already in the dictionary
+                if (wordDataDictionary.TryGetValue(word, out WordData existingWordData))
                 {
-                    // get the index of the word
-                    int index = WordDataList.FindIndex(x => x.Spelling == word);
-
-                    // increment the count of the word
-                    WordDataList[index].TagCount ++;
-
+                    // Add the new tag to the existing WordData object
+                    existingWordData.AddTag(tokenData.Token.POSTag);
                 }
                 else
                 {
-                    // create a new WordData object
-                    WordData newWordData = new WordData(word, tag);
+                    // Create a new WordData object
+                    WordData newWordData = new WordData(word, tokenData.Token.POSTag);
 
-                    // add the new WordData object to the list
-                    WordDataList.Add(newWordData);
-
+                    // Add the new WordData object to the dictionary
+                    wordDataDictionary.Add(word, newWordData);
                 }
             }
 
-            foreach (WordData word in WordDataList){
-                word.computeTagCount();
-            }
+            // write the size of the vocabular to the console
+            Console.WriteLine("Size of the vocabulary: " + vocabulary.Count);
+            // write the size of the wordDataDictionary to the console
+            Console.WriteLine("Size of the wordDataDictionary: " + wordDataDictionary.Count);
 
 
-            int numberOfDifferentTags = POSTagDataList.Count;
+            // Convert dictionary to list
+            List<WordData> WordDataList = wordDataDictionary.Values.ToList();
 
 
-            int[] WordCountList = new int[numberOfDifferentTags];
-            double[] WordFractionList = new double[numberOfDifferentTags];
+            Dictionary<int, int> tagCountDistribution = new Dictionary<int, int>();
 
-
-            // print to console
-            resultsListBox.Items.Add("Number of different tags: " + numberOfDifferentTags);
-
-            for(int i = 0; i < 12; i++){
-                // for every word in the WordDataList with a TagCount = i increment the counter
-                int counter = 0;
-                foreach (WordData word in WordDataList){
-                    if(word.TagCount == i){
-                        counter++;
-                    }
-                }
-                WordCountList[i] = counter;
-
-                // compute the fraction
-                WordFractionList[i] = ((double)WordCountList[i] / vocabulary.Count);
-
-            }
-
-            // print the WordCountList to the resultsListBox
-            for (int i = 0; i < numberOfDifferentTags; i++)
+            // Count the number of words for each tag count
+            foreach (WordData word in WordDataList)
             {
-                resultsListBox.Items.Add((i+1) + "\t" + WordCountList[i] + "\t" + WordFractionList[i].ToString("F5"));
+                int tagCount = word.Tags.Count;
+
+                if (tagCountDistribution.TryGetValue(tagCount, out int count))
+                {
+                    tagCountDistribution[tagCount] = count + 1;
+                }
+                else
+                {
+                    tagCountDistribution.Add(tagCount, 1);
+                }
             }
 
-            // --------------------------------------------------------------------------------
+            // Calculate the likelihood for each tag count
+            List<string> likelihoodLines = new List<string>();
+            int totalWords = WordDataList.Count;
+            sumOfFractions = 0;
 
+            for (int i = 1; i <= 12; i++)
+            {
+                int countForTag = tagCountDistribution.TryGetValue(i, out int count) ? count : 0;
+                double likelihood = (double)countForTag / totalWords;
+                sumOfFractions += likelihood;
 
+                likelihoodLines.Add($"{i}:\t{countForTag}\t{likelihood.ToString("F5")}");
+            }
 
-
+            // Print the likelihood lines to the resultsListBox
+            resultsListBox.Items.Add("NumberOfTags; Count; Fraction");
+            Console.WriteLine("NumberOfTags; Count; Fraction");
+            foreach (string line in likelihoodLines)
+            {
+                resultsListBox.Items.Add(line);
+                Console.WriteLine(line);
+            }
+            resultsListBox.Items.Add("Total: \t" + totalWords.ToString() + "\t" + sumOfFractions.ToString("F5"));
+            Console.WriteLine("Total: \t" + totalWords.ToString() + "\t" + sumOfFractions.ToString("F5"));
 
         }
 
@@ -541,7 +543,6 @@ namespace POSTaggingApplication
             // loop over the entire vocabularyTestingDataSet
             uniqueSpellings = vocabularyTestingDataSet.Select(x => x.Token.Spelling).Distinct().ToList();
 
-            
             // Initialize a List of TokenData for the Unigram Tagger
             List<TokenData> UnigramTaggerWordDataList = new List<TokenData>();
 
@@ -587,6 +588,8 @@ namespace POSTaggingApplication
             List<TokenData> testSet = new List<TokenData>();
             List<string> testSetTags = new List<string>();
 
+            int debug = 0;
+
             // loop over the entire testDataSet
             foreach (Sentence sentence in testDataSet.SentenceList)
             {
@@ -595,9 +598,14 @@ namespace POSTaggingApplication
                     // add the token to the testSet
                     testSet.Add(tokenData);
                     testSetTags.Add(tokenData.Token.POSTag);
+                    debug++;
                 }
             }
-            
+
+            // ToDo Check why it takes so long. Mabybe create a dict for the unigram tagger above
+
+            Console.WriteLine(testSet.Count);
+
             // Run Unigram Tagger over the token set
             Sentence testSentence = new Sentence();
             testSentence.TokenDataList = testSet;

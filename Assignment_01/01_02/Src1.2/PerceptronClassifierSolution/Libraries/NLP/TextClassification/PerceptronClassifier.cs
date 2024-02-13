@@ -49,11 +49,11 @@ namespace NLP.TextClassification
             for (int i = 0; i < tokenIndexList.Count; i++)
             {
                 int tokenIndex = tokenIndexList[i];
-                if (tokenIndex != -1)
+                if (tokenIndex == -1)
                 {
-                    sum += weightList[tokenIndex];
+                    continue;
                 }
-                
+                sum += weightList[tokenIndex];
             }
 
             // classify
@@ -65,6 +65,8 @@ namespace NLP.TextClassification
             {
                 return 0;
             }
+
+
         }
 
         public void optimizePerceptron(PerceptronOptimizer perceptronOptimizer, PerceptronEvaluator perceptronEvaluator, TextClassificationDataSet trainingDataSet, TextClassificationDataSet validationDataSet)
@@ -149,6 +151,7 @@ namespace NLP.TextClassification
             get { return bestEpoch; }
             set { bestEpoch = value; }
         }
+
 
 
     }

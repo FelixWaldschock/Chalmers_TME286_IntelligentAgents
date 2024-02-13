@@ -1,8 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace NLP
 {
@@ -10,7 +7,7 @@ namespace NLP
     {
         public string Spelling { get; set; }
         public List<string> Tags = new List<string>();
-        public int TagCount;
+        public int TagCount => Tags.Count;
 
         public WordData(string spelling, string tag)
         {
@@ -18,10 +15,9 @@ namespace NLP
             Tags.Add(tag);
         }
 
-        public int computeTagCount()
+        public void AddTag(string tag)
         {
-            return Tags.Count;
+            Tags.Add(tag);
         }
-
     }
 }

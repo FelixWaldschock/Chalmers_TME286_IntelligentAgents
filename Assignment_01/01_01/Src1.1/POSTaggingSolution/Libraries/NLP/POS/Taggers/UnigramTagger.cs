@@ -21,29 +21,30 @@ namespace NLP.POS.Taggers
 
         public override List<string> Tag(Sentence sentence) 
         {
-            // for each token in the sentence, find the spelling in UnigramTaggerWordDataList and return the tag
-
             List<string> tags = new List<string>();
+            
+            // Create a dictionary for faster lookups
+            Dictionary<string, string> unigramTagDict = unigramTaggerWordDataList
+                .ToDictionary(x => x.Token.Spelling, x => x.Token.POSTag);
 
-            foreach(TokenData token in sentence.TokenDataList)
+            foreach (TokenData token in sentence.TokenDataList)
             {
                 string spelling = token.Token.Spelling;
                 string tag;
-                
-                // try to find the spelling in the unigramTaggerWordDataList
-                if(unigramTaggerWordDataList.Find(x => x.Token.Spelling == spelling) == null)
+
+                // Check if the spelling is in the dictionary
+                if (unigramTagDict.TryGetValue(spelling, out tag))
                 {
-                    tag = UNKNOWNSPELLING;
+                    tags.Add(tag);
                 }
                 else
                 {
-                    tag = unigramTaggerWordDataList.Find(x => x.Token.Spelling == spelling).Token.POSTag;
+                    tags.Add(UNKNOWNSPELLING);
                 }
-                
-            
-                tags.Add(tag);
             }
+
             return tags;
         }
+
     }
 }
