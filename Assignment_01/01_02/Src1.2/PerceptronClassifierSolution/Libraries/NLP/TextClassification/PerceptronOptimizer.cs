@@ -9,7 +9,7 @@ namespace NLP.TextClassification
     public class PerceptronOptimizer
 
     {
-        double learningRate = 0.01; 
+        double learningRate = 0.1; 
         public int trainingEpochs = 0;
 
 
