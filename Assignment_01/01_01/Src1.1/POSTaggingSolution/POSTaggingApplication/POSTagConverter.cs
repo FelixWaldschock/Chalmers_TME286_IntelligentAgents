@@ -43,6 +43,11 @@ namespace POSTaggingApplication
             }
         }
 
+        public int getConverterSize()
+        {
+            return brownToUniversalMap.Count();
+        }
+
         public void updatePOSCounters(string universalTag)
         {
             // update the POS tag counters

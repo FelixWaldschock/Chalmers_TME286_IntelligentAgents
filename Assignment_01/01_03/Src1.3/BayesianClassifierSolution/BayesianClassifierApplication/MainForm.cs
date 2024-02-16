@@ -184,9 +184,13 @@ namespace BayesianClassifierApplication
 
         private void classifyTestSetButton_Click(object sender, EventArgs e)
         {
-            double accuracy = 0;
             int counterCorrectClassified = 0;
             int counterTotalClassified = 0;
+
+            int TPCounter = 0;
+            int TNCounter = 0;
+            int FPCounter = 0;
+            int FNCounter = 0;
 
             foreach (Sentence sentence in listOfTestSentences)
             {
@@ -199,10 +203,42 @@ namespace BayesianClassifierApplication
                 }
                 counterTotalClassified++;
 
-            }
-            accuracy = (double) counterCorrectClassified / counterTotalClassified;
+                if (designatedLabel == 1) { 
+                    if (predictedLabel == 1)
+                    {
+                        TPCounter++;
+                    }
+                    else { 
+                        FNCounter++; 
+                    }
+                }
 
-            progressListBox.Items.Add("Accuracy of classifier on test set: " + accuracy.ToString("F5"));
+                else
+                {
+                    if (predictedLabel == 0)
+                    {
+                        TNCounter++;
+                    }
+                    else
+                    {
+                        FPCounter++;
+                    }
+                }   
+
+
+            }
+            
+
+            double precision = (double)TPCounter / (TPCounter + FPCounter);                                         // (eq. 4.29)
+            double recall = (double)TPCounter / (TPCounter + FNCounter);                                            // (eq. 4.30)
+            double accuracy = (double)(TPCounter + TNCounter) / (TPCounter + FNCounter + TNCounter + FPCounter);    // (eq. 4.31)
+            double F1value = (double)2 * precision * recall / (precision + recall);                                 // (eq. 4.32)
+
+            progressListBox.Items.Add("Classifier properties: ");
+            progressListBox.Items.Add("Precision: \t" + precision.ToString("F6"));
+            progressListBox.Items.Add("Recall: \t" + recall.ToString("F6"));
+            progressListBox.Items.Add("Accuracy: \t" + accuracy.ToString("F6"));
+            progressListBox.Items.Add("F1 value: \t" + F1value.ToString("F6"));
         }
     }
 }

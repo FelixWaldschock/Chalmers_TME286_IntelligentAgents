@@ -26,9 +26,7 @@ namespace POSTaggingApplication
 
         // add the POSTagConverter class
         private POSTagConverter BrownToUniTagConverter = null;
-
-
-
+        private Dictionary<string, WordData> wordDataDictionary;
 
         public MainForm()
         {
@@ -93,8 +91,6 @@ namespace POSTaggingApplication
 
             }
         }
-
-
 
         private List<TokenData> GenerateVocabulary(POSDataSet dataSet)
         {
@@ -233,6 +229,8 @@ namespace POSTaggingApplication
 
             // Print to the resultsListBox
             resultsListBox.Items.Add("Loaded the Brown Corpus and the tag conversion data");
+            resultsListBox.Items.Add("Size of the BrownAndUniList: " + BrownToUniTagConverter.getConverterSize());
+
 
         }
 
@@ -369,38 +367,43 @@ namespace POSTaggingApplication
 
             // init a List of PosTagData objects 
             List<POSTagData> POSTagDataList = new List<POSTagData>();
+            Dictionary<string, POSTagData> tagDictionary = new Dictionary<string, POSTagData>();
+            int sumOfTokens = 0;
 
-            // loop over the entire vocabulary
-            foreach (TokenData tokenData in vocabulary)
+            // loop over the entire trainingDataSet
+            foreach (Sentence sentence in trainingDataSet.SentenceList)
             {
-                // get the tag
-                string tag = tokenData.Token.POSTag;
-
-                // check if the tag is already in the list
-                if (POSTagDataList.Exists(x => x.name == tag))
+                foreach (TokenData tokenData in sentence.TokenDataList)
                 {
-                    // get the index of the tag
-                    int index = POSTagDataList.FindIndex(x => x.name == tag);
+                    // get the tag
+                    string tag = tokenData.Token.POSTag;
 
-                    // increment the count of the tag
-                    POSTagDataList[index].count ++;
+                    // check if the tag is already in the dictionary
+                    if (tagDictionary.TryGetValue(tag, out var existingTagData))
+                    {
+                        // increment the count of the tag
+                        existingTagData.count++;
+                    }
+                    else
+                    {
+                        // create a new POSTagData object
+                        POSTagData newPOSTagData = new POSTagData(tag, 1);
 
-                }
-                else
-                {
-                    // create a new PosTagData object
-                    POSTagData newPOSTagData = new POSTagData(tag, 1);
+                        // add the new POSTagData object to the list and dictionary
+                        POSTagDataList.Add(newPOSTagData);
+                        tagDictionary.Add(tag, newPOSTagData);
+                    }
 
-                    // add the new PosTagData object to the list
-                    POSTagDataList.Add(newPOSTagData);
-
+                    sumOfTokens++;
                 }
             }
+
+
 
             // compute the fractions
             foreach (POSTagData POSTagData in POSTagDataList)
             {
-                POSTagData.computeFraction(vocabulary.Count);
+                POSTagData.computeFraction(sumOfTokens);
             }
 
             // sort the list by count descending
@@ -408,13 +411,16 @@ namespace POSTaggingApplication
 
             // ToDo insert the statistics from the BrownToUniTagConverter to the POSTagDataList
             List<Statistics> statisticsList = new List<Statistics>();
-            int sumOfAllTags = BrownToUniTagConverter.posTagCounters.Values.Sum();
+            int sumOfAllTags = 0;
 
-            foreach(KeyValuePair<string, int> kvp in BrownToUniTagConverter.posTagCounters)
+            for(int i = 0; i < POSTagDataList.Count; i++)
             {
-                // add the kvp.Keym kvp.Value and the fraction to the statistics list
-                double fraction = (double)kvp.Value / sumOfAllTags;
-                Statistics newStatistic = new Statistics(kvp.Key, kvp.Value, fraction);
+                string tag = POSTagDataList[i].name;
+                int count = POSTagDataList[i].count;
+                double fraction = POSTagDataList[i].fraction;
+                sumOfAllTags += count;
+
+                Statistics newStatistic = new Statistics(tag, count, fraction);
                 statisticsList.Add(newStatistic);
             }
 
@@ -424,11 +430,10 @@ namespace POSTaggingApplication
             // print to user
             resultsListBox.Items.Add("Most frequent tags:");
             resultsListBox.Items.Add("Tag\tCount\tFraction");
-            for (int i = 0; i < statisticsList.Count; i++){
+            for (int i = 0; i < statisticsList.Count; i++)
+            {
                 resultsListBox.Items.Add(statisticsList[i].Name + "\t" + statisticsList[i].Count + "\t" + statisticsList[i].Fraction.ToString("F5"));
-                
-                // Also print to console
-                Console.WriteLine(statisticsList[i].Name + "\t" + statisticsList[i].Count + "\t" + statisticsList[i].Fraction.ToString("F5"));
+
             }
 
             // print the sum of the fractions
@@ -445,10 +450,10 @@ namespace POSTaggingApplication
             Console.WriteLine("Total: \t" + sumOfAllTokens + "\t" + sumOfFractions);
 
 
-            Dictionary<string, WordData> wordDataDictionary = new Dictionary<string, WordData>();
+            /*Dictionary<string, WordData> wordDataDictionary = new Dictionary<string, WordData>();
 
             // Loop over the entire vocabulary
-            foreach (TokenData tokenData in vocabulary)
+            /*foreach (TokenData tokenData in trainingVocabulary)
             {
                 // Get the word and tag
                 string word = tokenData.Token.Spelling;
@@ -467,19 +472,50 @@ namespace POSTaggingApplication
                     // Add the new WordData object to the dictionary
                     wordDataDictionary.Add(word, newWordData);
                 }
+            }*/
+
+            // --------
+            // compute how many words have n-tags
+
+
+            wordDataDictionary = new Dictionary<string, WordData>();
+
+            // Loop over the entire trainingDataSet
+            foreach (Sentence sentence in trainingDataSet.SentenceList)
+            {
+                foreach (TokenData tokenData in sentence.TokenDataList)
+                {
+                    // Get the word and tag
+                    string word = tokenData.Token.Spelling;
+
+                    // Check if the word is already in the dictionary
+                    if (wordDataDictionary.TryGetValue(word, out WordData existingWordData))
+                    {
+                        // Add the new tag to the existing WordData object
+                        existingWordData.AddTag(tokenData.Token.POSTag);
+                    }
+                    else
+                    {
+                        // Create a new WordData object
+                        WordData newWordData = new WordData(word, tokenData.Token.POSTag);
+
+                        // Add the new WordData object to the dictionary
+                        wordDataDictionary.Add(word, newWordData);
+                    }
+                }
             }
 
+
             // write the size of the vocabular to the console
-            Console.WriteLine("Size of the vocabulary: " + vocabulary.Count);
+            //Console.WriteLine("Size of the vocabulary: " + trainingVocabulary.Count);
             // write the size of the wordDataDictionary to the console
             Console.WriteLine("Size of the wordDataDictionary: " + wordDataDictionary.Count);
-
 
             // Convert dictionary to list
             List<WordData> WordDataList = wordDataDictionary.Values.ToList();
 
 
-            Dictionary<int, int> tagCountDistribution = new Dictionary<int, int>();
+            /*Dictionary<int, int> tagCountDistribution = new Dictionary<int, int>();
 
             // Count the number of words for each tag count
             foreach (WordData word in WordDataList)
@@ -494,7 +530,25 @@ namespace POSTaggingApplication
                 {
                     tagCountDistribution.Add(tagCount, 1);
                 }
+            }*/
+            Dictionary<int, int> tagCountDistribution = new Dictionary<int, int>();
+
+            // Count the number of words for each tag count
+            foreach (WordData word in WordDataList)
+            {
+                int tagCount = word.TagsCount.Count;
+
+                if (tagCountDistribution.TryGetValue(tagCount, out int count))
+                {
+                    tagCountDistribution[tagCount] = count + 1;
+                }
+                else
+                {
+                    tagCountDistribution.Add(tagCount, 1);
+                }
             }
+
+
 
             // Calculate the likelihood for each tag count
             List<string> likelihoodLines = new List<string>();
@@ -532,41 +586,48 @@ namespace POSTaggingApplication
 
             // --------------------------------------------------------------------------------
 
-            // create a vocabulary of the trainingDataSet
-            List<TokenData> vocabularyTestingDataSet = GenerateVocabulary(trainingDataSet);
+            // -------
+                // create a vocabulary of the trainingDataSet
+            List<TokenData> vocabularyTrainingDataSet = GenerateVocabulary(trainingDataSet);
 
-            // now the vocabularyTestingDataSet is already ordered by spelling (alphabetical) and by tagcount (descending)
+            // unique spellings in the vocabularyTrainingDataSet
+            List<string> uniqueSpellings = vocabularyTrainingDataSet.Select(x => x.Token.Spelling).Distinct().ToList();
 
-            // unique spellings in the vocabularyTestingDataSet
-            List<string> uniqueSpellings = new List<string>();
+            Dictionary<string, TokenData> UnigramTaggerWordDataDictionary = new Dictionary<string, TokenData>();
 
-            // loop over the entire vocabularyTestingDataSet
-            uniqueSpellings = vocabularyTestingDataSet.Select(x => x.Token.Spelling).Distinct().ToList();
-
-            // Initialize a List of TokenData for the Unigram Tagger
-            List<TokenData> UnigramTaggerWordDataList = new List<TokenData>();
-
-            // loop over the unique spellings, and always pick the first element of the vocabularyTestingDataSet
-            foreach (string spelling in uniqueSpellings)
+            // loop over the unique spellings
+            foreach(string spelling in uniqueSpellings)
             {
-                // get the first element of the vocabularyTestingDataSet with the spelling
-                TokenData tokenData = vocabularyTestingDataSet.Find(x => x.Token.Spelling == spelling);
+                // find the spelling in the wordDataDictionary and get the most frequent tag
+                if (wordDataDictionary.TryGetValue(spelling, out WordData wordData))
+                {
+                    string mostFrequentTag = wordData.GetMostFrequentTag();
 
-                // add the tokenData to the list of tokenData
-                UnigramTaggerWordDataList.Add(tokenData);
+                    // create a new TokenData object with the spelling and most frequent tag
+                    Token newToken = new Token();
+                    newToken.Spelling = spelling;
+                    newToken.POSTag = mostFrequentTag;
 
-            
+                    TokenData newTokenData = new TokenData(newToken);
+                    
+                    // add this pair to the UnigramTaggerWordDataDictionary
+                    UnigramTaggerWordDataDictionary[spelling] = newTokenData;
+                }
+
             }
 
+
+
+
+
             // create the Unigram Tagger
-            unigramTagger = new UnigramTagger(UnigramTaggerWordDataList);
-            
+            unigramTagger = new UnigramTagger(UnigramTaggerWordDataDictionary);
 
             resultsListBox.Items.Add("Unigram tagger generated!");
 
+           
+
             // --------------------------------------------------------------------------------
-
-
 
             // For the actual tagging (once the unigram tagger has been generated)
             // you must override the Tag() method in the base class (POSTagger)).
@@ -602,8 +663,6 @@ namespace POSTaggingApplication
                 }
             }
 
-            // ToDo Check why it takes so long. Mabybe create a dict for the unigram tagger above
-
             Console.WriteLine(testSet.Count);
 
             // Run Unigram Tagger over the token set
@@ -613,15 +672,27 @@ namespace POSTaggingApplication
 
             List<string> tags = unigramTagger.Tag(testSentence);
 
+            Console.WriteLine("Number of tags: " + tags.Count);
+            Console.WriteLine("Number of testSetTags: " + testSetTags.Count);
+
             float accuray;
             int counter = 0;
             int correctClassifiedTags = 0;
 
             for(int i = 0; i < testSetTags.Count; i++)
             {
+                if (tags[i] == "UNKNOWNSPELLING")
+                {
+                    continue;
+                }
+
                 if(testSetTags[i] == tags[i])
                 {
                     correctClassifiedTags++;
+                }
+                else
+                {
+                    Console.WriteLine("Should:\t" + testSetTags[i] + "\tPredict:\t" + tags[i] + "\tSpelling:\t" + testSentence.TokenDataList[i].Token.Spelling);
                 }
                 counter++;
             }

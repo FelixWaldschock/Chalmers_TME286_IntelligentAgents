@@ -16,6 +16,8 @@ namespace NLP.TextClassification
         private List<double> prior;
         private List<TokenData> BagOfWords;
 
+
+
         List<string> wordsOfInterestForReport = new List<string> { "friendly", "perfectly", "horrible", "poor" };
 
         public override void Initialize(int numberOfFeatures) { 
@@ -48,9 +50,6 @@ namespace NLP.TextClassification
 
                 equationTerms.Add(equationTerm);
             }
-
-            // Console.WriteLine("EquationTerms: " + equationTerms[0] + " " + equationTerms[1]);
-
 
             // find the index of the max value in equationTerms
             int maxIndex = equationTerms.IndexOf(equationTerms.Max());
@@ -130,14 +129,12 @@ namespace NLP.TextClassification
             wordLikelyhood.Add(likelyhoodForClass1);
 
             // For report print posteriors of "friendly", "perfectly", "horrible", "poor", print the posteriors of the words in the test set
-
-
             if(wordsOfInterestForReport.Contains(token.Spelling))
             //if (1 == 1)
             {
                 Console.WriteLine("Word: " + token.Spelling);
-                Console.WriteLine("Likelyhood for class 0: " + likelyhoodForClass0);
-                Console.WriteLine("Likelyhood for class 1: " + likelyhoodForClass1);
+                Console.WriteLine("Likelyhood for class 0: " + likelyhoodForClass0.ToString("F6"));
+                Console.WriteLine("Likelyhood for class 1: " + likelyhoodForClass1.ToString("F6"));
                 // kick this word out of the list
                 wordsOfInterestForReport.Remove(token.Spelling);
             }
