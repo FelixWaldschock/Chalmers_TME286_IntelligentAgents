@@ -448,35 +448,9 @@ namespace POSTaggingApplication
 
             resultsListBox.Items.Add("Total: \t" + sumOfAllTokens + "\t" + sumOfFractions);
             Console.WriteLine("Total: \t" + sumOfAllTokens + "\t" + sumOfFractions);
-
-
-            /*Dictionary<string, WordData> wordDataDictionary = new Dictionary<string, WordData>();
-
-            // Loop over the entire vocabulary
-            /*foreach (TokenData tokenData in trainingVocabulary)
-            {
-                // Get the word and tag
-                string word = tokenData.Token.Spelling;
-
-                // Check if the word is already in the dictionary
-                if (wordDataDictionary.TryGetValue(word, out WordData existingWordData))
-                {
-                    // Add the new tag to the existing WordData object
-                    existingWordData.AddTag(tokenData.Token.POSTag);
-                }
-                else
-                {
-                    // Create a new WordData object
-                    WordData newWordData = new WordData(word, tokenData.Token.POSTag);
-
-                    // Add the new WordData object to the dictionary
-                    wordDataDictionary.Add(word, newWordData);
-                }
-            }*/
-
             // --------
             // compute how many words have n-tags
-
+            resultsListBox.Items.Add("\nDistribution of n-tags per spelling");
 
             wordDataDictionary = new Dictionary<string, WordData>();
 
@@ -506,31 +480,13 @@ namespace POSTaggingApplication
             }
 
 
-            // write the size of the vocabular to the console
-            //Console.WriteLine("Size of the vocabulary: " + trainingVocabulary.Count);
-            // write the size of the wordDataDictionary to the console
             Console.WriteLine("Size of the wordDataDictionary: " + wordDataDictionary.Count);
 
             // Convert dictionary to list
             List<WordData> WordDataList = wordDataDictionary.Values.ToList();
 
 
-            /*Dictionary<int, int> tagCountDistribution = new Dictionary<int, int>();
-
-            // Count the number of words for each tag count
-            foreach (WordData word in WordDataList)
-            {
-                int tagCount = word.Tags.Count;
-
-                if (tagCountDistribution.TryGetValue(tagCount, out int count))
-                {
-                    tagCountDistribution[tagCount] = count + 1;
-                }
-                else
-                {
-                    tagCountDistribution.Add(tagCount, 1);
-                }
-            }*/
+ 
             Dictionary<int, int> tagCountDistribution = new Dictionary<int, int>();
 
             // Count the number of words for each tag count
@@ -565,15 +521,16 @@ namespace POSTaggingApplication
             }
 
             // Print the likelihood lines to the resultsListBox
-            resultsListBox.Items.Add("NumberOfTags; Count; Fraction");
-            Console.WriteLine("NumberOfTags; Count; Fraction");
+            resultsListBox.Items.Add("");
+            resultsListBox.Items.Add("#Tags\tCount\tFraction");
+
             foreach (string line in likelihoodLines)
             {
                 resultsListBox.Items.Add(line);
-                Console.WriteLine(line);
+
             }
-            resultsListBox.Items.Add("Total: \t" + totalWords.ToString() + "\t" + sumOfFractions.ToString("F5"));
-            Console.WriteLine("Total: \t" + totalWords.ToString() + "\t" + sumOfFractions.ToString("F5"));
+            resultsListBox.Items.Add("Total:\t" + totalWords.ToString() + "\t" + sumOfFractions.ToString("F5"));
+
 
         }
 
