@@ -98,6 +98,18 @@ namespace NLP
                 // Tag found, increment the count of the tag
                 TagsCount[tag]++;
             }
+
+            // if the word has more than 5 tags linked print the word and its tags
+            if (TagsCount.Count >= 5)
+            {
+                Console.WriteLine("Word: " + Spelling + " has + " + TagsCount.Count + " tags linked to it");
+                foreach (var pair in TagsCount)
+                {
+                    Console.WriteLine(pair.Key + " " + pair.Value);
+                }
+
+            }
+
         }
 
         public string GetMostFrequentTag()

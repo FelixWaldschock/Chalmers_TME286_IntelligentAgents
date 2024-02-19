@@ -448,10 +448,9 @@ namespace POSTaggingApplication
 
             resultsListBox.Items.Add("Total: \t" + sumOfAllTokens + "\t" + sumOfFractions);
             Console.WriteLine("Total: \t" + sumOfAllTokens + "\t" + sumOfFractions);
+            
             // --------
             // compute how many words have n-tags
-            resultsListBox.Items.Add("\nDistribution of n-tags per spelling");
-
             wordDataDictionary = new Dictionary<string, WordData>();
 
             // Loop over the entire trainingDataSet
@@ -479,14 +478,9 @@ namespace POSTaggingApplication
                 }
             }
 
-
-            Console.WriteLine("Size of the wordDataDictionary: " + wordDataDictionary.Count);
-
             // Convert dictionary to list
             List<WordData> WordDataList = wordDataDictionary.Values.ToList();
 
-
- 
             Dictionary<int, int> tagCountDistribution = new Dictionary<int, int>();
 
             // Count the number of words for each tag count
@@ -522,6 +516,7 @@ namespace POSTaggingApplication
 
             // Print the likelihood lines to the resultsListBox
             resultsListBox.Items.Add("");
+            resultsListBox.Items.Add("\nDistribution of n-tags per spelling");
             resultsListBox.Items.Add("#Tags\tCount\tFraction");
 
             foreach (string line in likelihoodLines)

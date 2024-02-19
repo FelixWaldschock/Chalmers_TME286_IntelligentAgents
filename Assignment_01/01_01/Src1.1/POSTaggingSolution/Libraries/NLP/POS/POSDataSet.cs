@@ -26,8 +26,8 @@ namespace NLP.POS
             POSDataSet testDataSet = new POSDataSet();
 
             // Shuffle the completeDataSet
-            Random random = new Random();
-            completeDataSet.SentenceList = completeDataSet.SentenceList.OrderBy(x => random.Next()).ToList();
+            //Random random = new Random();
+            //completeDataSet.SentenceList = completeDataSet.SentenceList.OrderBy(x => random.Next()).ToList();
 
             // Split the completeDataSet into training and test data
             int splitIndex = (int)(completeDataSet.SentenceList.Count * splitFraction);

@@ -19,6 +19,9 @@ namespace PerceptronClassifierApplication
     public partial class MainForm : Form
     {
         private const string TEXT_FILE_FILTER = "Text files (*.txt)|*.txt";
+        private const string FILEPATH_CORRECT_CLASSIFIED = "CorrectClassifiedReviews.csv";
+        private const string FILEPATH_FALSE_CLASSIFIED = "FalseClassifiedReviews.csv";
+        private const bool SAVE_CLASSIFIED_SENTENCES_TO_CSV = false;
         private const int MAXIMAL_EPOCHS = 100000;
 
         private PerceptronClassifier perceptronClassifier = null;
@@ -341,6 +344,32 @@ namespace PerceptronClassifierApplication
             string firstFalseExample = vocabulary.GetReviewFromTokenIndexList(firstFalseExampleIndeces);
             string secondFalseExample = vocabulary.GetReviewFromTokenIndexList(secondFalseExampleIndeces);
         
+            if(SAVE_CLASSIFIED_SENTENCES_TO_CSV)
+            { 
+                // clear the two CSV files
+                File.WriteAllText(FILEPATH_CORRECT_CLASSIFIED, string.Empty);
+                File.WriteAllText(FILEPATH_FALSE_CLASSIFIED, string.Empty);
+            
+
+                string allCorrectlyClassifiedReviews = "";
+                // write all correct classified reviews in a CSV file
+                foreach(List<int> review in perceptronEvaluator.TestReviewTrackerCorretlyClassified)
+                {
+                    //allCorrectlyClassifiedReviews += vocabulary.GetReviewFromTokenIndexList(review) + "\n";               
+                }
+                WriteReviewsToCSV(allCorrectlyClassifiedReviews, true);
+            
+
+                // write all false classified reviews in a CSV file
+                string allFalslyClassifiedReviews = "";
+                foreach (List<int> review in perceptronEvaluator.TestReviewTrackerFalselyClassified)
+                {
+                    allFalslyClassifiedReviews += vocabulary.GetReviewFromTokenIndexList(review) + "\n";
+
+                }
+                WriteReviewsToCSV(allFalslyClassifiedReviews, false);
+            }
+
 
             // Print them to the console
             Console.WriteLine("Correct classified sentences: \n");
@@ -493,6 +522,33 @@ namespace PerceptronClassifierApplication
                     writer.WriteLine(line);
                 }
             }
+        }
+
+        static void WriteReviewsToCSV(string review,  bool classification)
+        {
+            string csvFilePath;
+            // Specify the path for the CSV file
+            if (classification)
+            {
+                csvFilePath = FILEPATH_CORRECT_CLASSIFIED;
+            }
+            else
+            {
+                csvFilePath = FILEPATH_FALSE_CLASSIFIED;
+            }
+
+            // Create a StreamWriter to write to the CSV file
+            using (StreamWriter writer = new StreamWriter(csvFilePath))
+            {
+                // Write the header
+                // writer.WriteLine("Review");
+
+                // Write the data
+                string line = $"{review}";
+                writer.WriteLine(line);
+            }
+
+
         }
     }
 }
