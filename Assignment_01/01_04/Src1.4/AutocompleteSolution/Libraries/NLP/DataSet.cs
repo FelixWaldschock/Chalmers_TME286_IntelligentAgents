@@ -17,7 +17,6 @@ namespace NLP.NGramDataSet
         List<List<string>> listOfTrigrams;
 
         public Dictionary<string, NGram> unigrams;
-    
         public Dictionary<string, NGram> bigrams;
         public Dictionary<string, NGram> trigrams;
 

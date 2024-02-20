@@ -13,8 +13,10 @@ namespace NLP.Tokenization
 
         private List<string> abbreviations = new List<string>
         {
-            "mr.", "mrs.", "dr.", "ms.", "prof.", "sr.", "jr.", "st.", "ave.", "blvd.", "rd.", "sr.", "sra.", "srta."
+            //"mr.", "mrs.", "dr.", "ms.", "prof.", "sr.", "jr.", "st.", "ave.", "blvd.", "rd.", "sr.", "sra.", "srta."
+            "mr."
         };
+
 
         public List<string> Tokenize(string dataSet)
         {
@@ -31,12 +33,14 @@ namespace NLP.Tokenization
 
             foreach (string token in tokens)
             {
-                if (!string.IsNullOrWhiteSpace(token) & token != ",") // This check removes empty entries from the result
+                if (!string.IsNullOrWhiteSpace(token) & token != "," & token != ":" & token != ";" & token != "\"") // This check removes empty entries from the result
                 {
                     // make all lowercase
                     tempTokens.Add(token.ToLower());
                 }
             }
+
+            return tempTokens;
 
             int currentTokenIndex = 0;
             int totalNumberTokens = tempTokens.Count();

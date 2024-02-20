@@ -105,7 +105,7 @@ namespace AutocompleteApplication
 
         private void AutocompletingTextBox_TextChanged(object sender, EventArgs e)
         {
-            string textBoxContent = AutocompletingTextBox.Text;
+            string textBoxContent = AutocompletingTextBox.Text.ToLower();
 
             // Tokenize the string
             Tokenizer tokenizer = new Tokenizer();
@@ -121,7 +121,7 @@ namespace AutocompleteApplication
             suggestionListBox.Items.Clear();
             foreach (var suggestion in suggestions)
             {
-                suggestionListBox.Items.Add(suggestion.Item1);
+                suggestionListBox.Items.Add(suggestion.Item2 + "  " + suggestion.Item1);
             }
 
             /*
