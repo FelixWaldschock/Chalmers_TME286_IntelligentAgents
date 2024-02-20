@@ -17,7 +17,7 @@ namespace BayesianClassifierApplication
     public partial class MainForm : Form
     {
         private const string TEXT_FILE_FILTER = "Text files (*.txt)|*.txt";
-        private List<string> abbreviations = new List<string> { "i.e.", "e.g.", "etc.", "mr.", "mrs." , "..." };
+        private List<string> abbreviations = new List<string> { "i.e.", "e.g.", "etc.", "mr.", "mrs." };
 
         private TextClassificationDataSet trainingSet = null;
         private TextClassificationDataSet testSet = null;
@@ -107,7 +107,7 @@ namespace BayesianClassifierApplication
             listOfTestSentences = new List<Sentence>();
             listOfTestTokens = new List<Token>();
 
-            // loop over the trainingSet
+            // loop over the testset
             foreach (TextClassificationDataItem item in testSet.ItemList)
             {
                 List<Token> tokensList = tokenizer.Tokenize(item.Text, item.ClassLabel);

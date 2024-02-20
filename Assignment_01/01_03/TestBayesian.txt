@@ -1,0 +1,4 @@
+Really good food, great taste, good service	1
+Very good food, great service	1
+Awful food, terrible service	0
+Terrible food, awful taste	0

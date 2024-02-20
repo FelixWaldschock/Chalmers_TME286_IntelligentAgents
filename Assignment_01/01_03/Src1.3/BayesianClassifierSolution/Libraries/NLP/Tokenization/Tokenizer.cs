@@ -45,9 +45,10 @@ namespace NLP.Tokenization
                 // Handle the case when the token contains "..."
                 if (token.Contains("..."))
                 {
-                    string[] subTokens = Regex.Split(token, @"(?=...)");
+                    string[] subTokens = token.Split(new[] { "..." }, StringSplitOptions.None);
                     finalTokens.Remove(token);
                     finalTokens.AddRange(subTokens);
+                    finalTokens.Add("...");    
                 }
 
                 // handle '.' characters

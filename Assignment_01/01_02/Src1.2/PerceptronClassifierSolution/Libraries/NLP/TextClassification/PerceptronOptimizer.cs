@@ -46,8 +46,6 @@ namespace NLP.TextClassification
 
                 if (error != 0)
                 {
-
-                    // ! Implementation with the dictionary
                     // Iterate over the dictionary
                     foreach (KeyValuePair<int, int> entry in tokenCounts)
                     {
@@ -59,8 +57,6 @@ namespace NLP.TextClassification
                         // update the weights
                         perceptronClassifier.WeightList[tokenIndex] = perceptronClassifier.WeightList[tokenIndex] + (double)learningRate * error * featureValue;
                     }
-
-
                 }
 
             }

@@ -1,0 +1,26 @@
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2024\Src\Assignment1\Src1.4\AutocompleteSolution\AutocompleteApplication\bin\Debug\AutocompleteApplication.exe.config
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2024\Src\Assignment1\Src1.4\AutocompleteSolution\AutocompleteApplication\bin\Debug\AutocompleteApplication.exe
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2024\Src\Assignment1\Src1.4\AutocompleteSolution\AutocompleteApplication\bin\Debug\AutocompleteApplication.pdb
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2024\Src\Assignment1\Src1.4\AutocompleteSolution\AutocompleteApplication\bin\Debug\NLP.dll
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2024\Src\Assignment1\Src1.4\AutocompleteSolution\AutocompleteApplication\bin\Debug\NLP.pdb
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2024\Src\Assignment1\Src1.4\AutocompleteSolution\AutocompleteApplication\obj\Debug\AutocompleteApplication.csprojAssemblyReference.cache
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2024\Src\Assignment1\Src1.4\AutocompleteSolution\AutocompleteApplication\obj\Debug\AutocompleteApplication.MainForm.resources
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2024\Src\Assignment1\Src1.4\AutocompleteSolution\AutocompleteApplication\obj\Debug\AutocompleteApplication.Properties.Resources.resources
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2024\Src\Assignment1\Src1.4\AutocompleteSolution\AutocompleteApplication\obj\Debug\AutocompleteApplication.csproj.GenerateResource.cache
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2024\Src\Assignment1\Src1.4\AutocompleteSolution\AutocompleteApplication\obj\Debug\AutocompleteApplication.csproj.CoreCompileInputs.cache
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2024\Src\Assignment1\Src1.4\AutocompleteSolution\AutocompleteApplication\obj\Debug\AutocompleteApplication.csproj.CopyComplete
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2024\Src\Assignment1\Src1.4\AutocompleteSolution\AutocompleteApplication\obj\Debug\AutocompleteApplication.exe
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2024\Src\Assignment1\Src1.4\AutocompleteSolution\AutocompleteApplication\obj\Debug\AutocompleteApplication.pdb
+\\Mac\Home\Documents\gits\Chalmers_TME286_IntelligentAgents\Assignment_01\01_04\Src1.4\AutocompleteSolution\AutocompleteApplication\bin\Debug\AutocompleteApplication.exe.config
+\\Mac\Home\Documents\gits\Chalmers_TME286_IntelligentAgents\Assignment_01\01_04\Src1.4\AutocompleteSolution\AutocompleteApplication\bin\Debug\AutocompleteApplication.exe
+\\Mac\Home\Documents\gits\Chalmers_TME286_IntelligentAgents\Assignment_01\01_04\Src1.4\AutocompleteSolution\AutocompleteApplication\bin\Debug\AutocompleteApplication.pdb
+\\Mac\Home\Documents\gits\Chalmers_TME286_IntelligentAgents\Assignment_01\01_04\Src1.4\AutocompleteSolution\AutocompleteApplication\bin\Debug\NLP.dll
+\\Mac\Home\Documents\gits\Chalmers_TME286_IntelligentAgents\Assignment_01\01_04\Src1.4\AutocompleteSolution\AutocompleteApplication\bin\Debug\NLP.pdb
+\\Mac\Home\Documents\gits\Chalmers_TME286_IntelligentAgents\Assignment_01\01_04\Src1.4\AutocompleteSolution\AutocompleteApplication\obj\Debug\AutocompleteApplication.csproj.AssemblyReference.cache
+\\Mac\Home\Documents\gits\Chalmers_TME286_IntelligentAgents\Assignment_01\01_04\Src1.4\AutocompleteSolution\AutocompleteApplication\obj\Debug\AutocompleteApplication.MainForm.resources
+\\Mac\Home\Documents\gits\Chalmers_TME286_IntelligentAgents\Assignment_01\01_04\Src1.4\AutocompleteSolution\AutocompleteApplication\obj\Debug\AutocompleteApplication.Properties.Resources.resources
+\\Mac\Home\Documents\gits\Chalmers_TME286_IntelligentAgents\Assignment_01\01_04\Src1.4\AutocompleteSolution\AutocompleteApplication\obj\Debug\AutocompleteApplication.csproj.GenerateResource.cache
+\\Mac\Home\Documents\gits\Chalmers_TME286_IntelligentAgents\Assignment_01\01_04\Src1.4\AutocompleteSolution\AutocompleteApplication\obj\Debug\AutocompleteApplication.csproj.CoreCompileInputs.cache
+\\Mac\Home\Documents\gits\Chalmers_TME286_IntelligentAgents\Assignment_01\01_04\Src1.4\AutocompleteSolution\AutocompleteApplication\obj\Debug\AutocompleteApplication.csproj.CopyComplete
+\\Mac\Home\Documents\gits\Chalmers_TME286_IntelligentAgents\Assignment_01\01_04\Src1.4\AutocompleteSolution\AutocompleteApplication\obj\Debug\AutocompleteApplication.exe
+\\Mac\Home\Documents\gits\Chalmers_TME286_IntelligentAgents\Assignment_01\01_04\Src1.4\AutocompleteSolution\AutocompleteApplication\obj\Debug\AutocompleteApplication.pdb

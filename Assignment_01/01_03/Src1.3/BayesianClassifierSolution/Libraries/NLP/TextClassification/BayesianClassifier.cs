@@ -16,12 +16,10 @@ namespace NLP.TextClassification
         private List<double> prior;
         private List<TokenData> BagOfWords;
 
-
-
         List<string> wordsOfInterestForReport = new List<string> { "friendly", "perfectly", "horrible", "poor" };
 
         public override void Initialize(int numberOfFeatures) { 
-            // not used
+            // not used -> only for compiler
         }
 
         public override int Classify(List<int> tokenIndexList) {
@@ -113,6 +111,8 @@ namespace NLP.TextClassification
             {
                 wordLikelyhood.Add(1);
                 wordLikelyhood.Add(1);
+                //wordLikelyhood.Add(0);
+                //wordLikelyhood.Add(0);
                 return wordLikelyhood;
             }
 
@@ -121,9 +121,10 @@ namespace NLP.TextClassification
                 numberOfWordsInClass0 = BagOfWords.Sum(t => t.Class0Count);
                 numberOfWordsInClass1 = BagOfWords.Sum(t => t.Class1Count);
             }
-            
+
             double likelyhoodForClass0 = (double)(tokenData.Class0Count + 1) / (numberOfWordsInClass0 + BagOfWords.Count);
             double likelyhoodForClass1 = (double)(tokenData.Class1Count + 1) / (numberOfWordsInClass1 + BagOfWords.Count);
+
 
             wordLikelyhood.Add(likelyhoodForClass0);
             wordLikelyhood.Add(likelyhoodForClass1);
@@ -131,10 +132,26 @@ namespace NLP.TextClassification
             // For report print posteriors of "friendly", "perfectly", "horrible", "poor", print the posteriors of the words in the test set
             if(wordsOfInterestForReport.Contains(token.Spelling))
             //if (1 == 1)
+            
             {
+                if(token.Spelling == "horrible")
+                {
+                    Console.WriteLine("banane");
+                }
                 Console.WriteLine("Word: " + token.Spelling);
-                Console.WriteLine("Likelyhood for class 0: " + likelyhoodForClass0.ToString("F6"));
-                Console.WriteLine("Likelyhood for class 1: " + likelyhoodForClass1.ToString("F6"));
+                likelyhoodForClass0 = (double)(tokenData.Class0Count) / (numberOfWordsInClass0);
+                likelyhoodForClass1 = (double)(tokenData.Class1Count) / (numberOfWordsInClass1);
+                int totalNumberOfWordOccurencesInBagOfWords = numberOfWordsInClass0 + numberOfWordsInClass1;
+                double probabilityOfWordInBagOfWords = (double)(tokenData.Class1Count + tokenData.Class0Count) / (totalNumberOfWordOccurencesInBagOfWords  );
+                double probabilityForClass0 = (double)((likelyhoodForClass0 * prior[0]) / (probabilityOfWordInBagOfWords));
+                double probabilityForClass1 = (double)((likelyhoodForClass1 * prior[1]) / (probabilityOfWordInBagOfWords));
+                double normalizationFactor = probabilityForClass0 + probabilityForClass1;
+                probabilityForClass0 *= (1.0 / normalizationFactor);
+                probabilityForClass1 *= (1.0 / normalizationFactor);
+                Console.WriteLine("Likelyhood for class 0: " + probabilityForClass0.ToString("F6"));
+                Console.WriteLine("Likelyhood for class 1: " + probabilityForClass1.ToString("F6"));
+                //Console.WriteLine("Likelyhood for class 0: " + likelyhoodForClass0.ToString("F6"));
+                //Console.WriteLine("Likelyhood for class 1: " + likelyhoodForClass1.ToString("F6"));
                 // kick this word out of the list
                 wordsOfInterestForReport.Remove(token.Spelling);
             }
@@ -144,23 +161,7 @@ namespace NLP.TextClassification
             return wordLikelyhood;
 
         }
-    
-        public double ClassifyCompleteDocument(TextClassificationDataSet dataSet)
-        {
-            double accuracy = 0.0;
-
-
-
-
-
-
-
-
-
-
-            return accuracy;
-        }
-    
+       
     
     }
 
