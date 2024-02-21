@@ -43,9 +43,6 @@ namespace NLP.TextClassification
             for (int i = 0; i < posteriorSum.Count; i++)
             {
                 double equationTerm = Math.Log(this.prior[i]) + (posteriorSum[i]);
-                // Lecture example
-                //double equationTerm = (this.prior[i]) * (posteriorSum[i]);
-
                 equationTerms.Add(equationTerm);
             }
 
@@ -66,17 +63,12 @@ namespace NLP.TextClassification
             return prior;
         }
 
-
         private List<double> ComputerPosterior(List<Token> listOfTokensInReview, List<TokenData> BagOfWords)
         {
             List<double> posterior = new List<double>();
 
             double posteriorClass0 = 0;
             double posteriorClass1 = 0;
-
-            // lecture example (not LOG)
-            //posteriorClass0 = 1;
-            //posteriorClass1 = 1;
 
             // do the loop
             foreach (Token token in listOfTokensInReview){
@@ -85,10 +77,6 @@ namespace NLP.TextClassification
 
                 posteriorClass0 += Math.Log(wordLikelyhood[0]);
                 posteriorClass1 += Math.Log(wordLikelyhood[1]);
-                // to check proper functionality with lecture example
-                //posteriorClass0 *= (wordLikelyhood[0]);
-                //posteriorClass1 *= (wordLikelyhood[1]);
-
             }
 
             posterior.Add(posteriorClass0);
@@ -111,8 +99,7 @@ namespace NLP.TextClassification
             {
                 wordLikelyhood.Add(1);
                 wordLikelyhood.Add(1);
-                //wordLikelyhood.Add(0);
-                //wordLikelyhood.Add(0);
+
                 return wordLikelyhood;
             }
 
@@ -131,13 +118,8 @@ namespace NLP.TextClassification
 
             // For report print posteriors of "friendly", "perfectly", "horrible", "poor", print the posteriors of the words in the test set
             if(wordsOfInterestForReport.Contains(token.Spelling))
-            //if (1 == 1)
-            
             {
-                if(token.Spelling == "horrible")
-                {
-                    Console.WriteLine("banane");
-                }
+
                 Console.WriteLine("Word: " + token.Spelling);
                 likelyhoodForClass0 = (double)(tokenData.Class0Count) / (numberOfWordsInClass0);
                 likelyhoodForClass1 = (double)(tokenData.Class1Count) / (numberOfWordsInClass1);
@@ -150,8 +132,6 @@ namespace NLP.TextClassification
                 probabilityForClass1 *= (1.0 / normalizationFactor);
                 Console.WriteLine("Likelyhood for class 0: " + probabilityForClass0.ToString("F6"));
                 Console.WriteLine("Likelyhood for class 1: " + probabilityForClass1.ToString("F6"));
-                //Console.WriteLine("Likelyhood for class 0: " + likelyhoodForClass0.ToString("F6"));
-                //Console.WriteLine("Likelyhood for class 1: " + likelyhoodForClass1.ToString("F6"));
                 // kick this word out of the list
                 wordsOfInterestForReport.Remove(token.Spelling);
             }

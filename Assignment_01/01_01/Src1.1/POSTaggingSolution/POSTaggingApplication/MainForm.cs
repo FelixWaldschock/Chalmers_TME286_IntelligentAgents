@@ -430,10 +430,11 @@ namespace POSTaggingApplication
             // print to user
             resultsListBox.Items.Add("Most frequent tags:");
             resultsListBox.Items.Add("Tag\tCount\tFraction");
+
             for (int i = 0; i < statisticsList.Count; i++)
             {
-                resultsListBox.Items.Add(statisticsList[i].Name + "\t" + statisticsList[i].Count + "\t" + statisticsList[i].Fraction.ToString("F5"));
-
+                string output = ($"{statisticsList[i].Name}:\t{statisticsList[i].Count}\t{statisticsList[i].Fraction.ToString("F5")}");
+                resultsListBox.Items.Add(output);
             }
 
             // print the sum of the fractions
