@@ -21,7 +21,7 @@ namespace PerceptronClassifierApplication
         private const string TEXT_FILE_FILTER = "Text files (*.txt)|*.txt";
         private const string FILEPATH_CORRECT_CLASSIFIED = "CorrectClassifiedReviews.csv";
         private const string FILEPATH_FALSE_CLASSIFIED = "FalseClassifiedReviews.csv";
-        private const bool SAVE_CLASSIFIED_SENTENCES_TO_CSV = false;
+        private const bool SAVE_CLASSIFIED_SENTENCES_TO_CSV = true;
         private const int MAXIMAL_EPOCHS = 100000;
 
         private PerceptronClassifier perceptronClassifier = null;
@@ -264,17 +264,19 @@ namespace PerceptronClassifierApplication
             
             // get accuracy of the classifier over the validation set
             double validationAccuracy = perceptronEvaluator.evaluatePerceptron(perceptronClassifier, validationSet);
-            progressListBox.Items.Add("Validation set accuracy: " + validationAccuracy.ToString("0.000"));
+            progressListBox.Items.Add("Validation set accuracy: " + validationAccuracy.ToString("F3"));
+
+            // get accuracy of the classifier over the training set
+            double trainingAccuracy = perceptronEvaluator.evaluatePerceptron(perceptronClassifier, trainingSet);
+            progressListBox.Items.Add("Training set accuracy: " + trainingAccuracy.ToString("F3"));
 
             // get accuracy of the classifier over the test set
             // activate the tracker
             perceptronEvaluator.ActivateTestReviewTracker();
             double testAccuracy = perceptronEvaluator.evaluatePerceptron(perceptronClassifier, testSet);
-            progressListBox.Items.Add("Test set accuracy: " + testAccuracy.ToString("0.000"));
+            progressListBox.Items.Add("Test set accuracy: " + testAccuracy.ToString("F3"));
 
-            // get accuracy of the classifier over the training set
-            double trainingAccuracy = perceptronEvaluator.evaluatePerceptron(perceptronClassifier, trainingSet);
-            progressListBox.Items.Add("Training set accuracy: " + trainingAccuracy.ToString("0.000"));
+
             
         
             // Get the most positive and negative tokens -> for this create a duplicate of the perceptrons weights

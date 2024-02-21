@@ -448,7 +448,7 @@ namespace POSTaggingApplication
             int sumOfAllTokens = statisticsList.Sum(x => x.Count);
 
             resultsListBox.Items.Add("Total: \t" + sumOfAllTokens + "\t" + sumOfFractions);
-            Console.WriteLine("Total: \t" + sumOfAllTokens + "\t" + sumOfFractions);
+            //Console.WriteLine("Total: \t" + sumOfAllTokens + "\t" + sumOfFractions);
             
             // --------
             // compute how many words have n-tags
@@ -616,7 +616,7 @@ namespace POSTaggingApplication
                 }
             }
 
-            Console.WriteLine(testSet.Count);
+            //Console.WriteLine(testSet.Count);
 
             // Run Unigram Tagger over the token set
             Sentence testSentence = new Sentence();
@@ -625,8 +625,8 @@ namespace POSTaggingApplication
 
             List<string> tags = unigramTagger.Tag(testSentence);
 
-            Console.WriteLine("Number of tags: " + tags.Count);
-            Console.WriteLine("Number of testSetTags: " + testSetTags.Count);
+            //Console.WriteLine("Number of tags: " + tags.Count);
+            //Console.WriteLine("Number of testSetTags: " + testSetTags.Count);
 
             float accuray;
             int counter = 0;
@@ -643,10 +643,12 @@ namespace POSTaggingApplication
                 {
                     correctClassifiedTags++;
                 }
+                /*
                 else
                 {
-                    Console.WriteLine("Should:\t" + testSetTags[i] + "\tPredict:\t" + tags[i] + "\tSpelling:\t" + testSentence.TokenDataList[i].Token.Spelling);
+                    //Console.WriteLine("Should:\t" + testSetTags[i] + "\tPredict:\t" + tags[i] + "\tSpelling:\t" + testSentence.TokenDataList[i].Token.Spelling);
                 }
+                */
                 counter++;
             }
             accuray = (float)correctClassifiedTags / counter;

@@ -105,7 +105,9 @@ namespace NLP.NGramDataSet
             int totalNumberOfOccurencesOfAllUnigrams = unigramsCounter.Values.Sum();
             foreach (KeyValuePair<string, NGram> entry in unigrams)
             {
-                entry.Value.FrequencyPerMillionInstances = 1000000 * unigramsCounter[entry.Key] / totalNumberOfOccurencesOfAllUnigrams;
+
+
+                entry.Value.FrequencyPerMillionInstances = 1000000 * (double)unigramsCounter[entry.Key] / totalNumberOfOccurencesOfAllUnigrams;
             }
 
             // Bigrams
@@ -131,7 +133,7 @@ namespace NLP.NGramDataSet
             int totalNumberOfOccurencesOfAllBigrams = bigramsCounter.Values.Sum();
             foreach (KeyValuePair<string, NGram> entry in bigrams)
             {
-                entry.Value.FrequencyPerMillionInstances = 1000000 * bigramsCounter[entry.Key] / totalNumberOfOccurencesOfAllBigrams;
+                entry.Value.FrequencyPerMillionInstances = 1000000 * (double)bigramsCounter[entry.Key] / totalNumberOfOccurencesOfAllBigrams;
             }
             
 
@@ -158,8 +160,35 @@ namespace NLP.NGramDataSet
             int totalNumberOfOccurencesOfAllTrigrams = trigramsCounter.Values.Sum();
             foreach (KeyValuePair<string, NGram> entry in trigrams)
             {
-                entry.Value.FrequencyPerMillionInstances = 1000000 * trigramsCounter[entry.Key] / totalNumberOfOccurencesOfAllTrigrams;
+                entry.Value.FrequencyPerMillionInstances = 1000000 * (double)trigramsCounter[entry.Key] / totalNumberOfOccurencesOfAllTrigrams;
             }
+
+            // Print the 5 most frequent Uni, Bi and Trigrams
+            
+            // sort the ungirams, bigrams and trigrams by frequency
+
+            var sortedUnigrams = unigrams.OrderByDescending(kv => kv.Value.FrequencyPerMillionInstances).ToDictionary(kv => kv.Key, kv => kv.Value).Take(5);
+            var sortedBigrams = bigrams.OrderByDescending(kv => kv.Value.FrequencyPerMillionInstances).ToDictionary(kv => kv.Key, kv => kv.Value).Take(5);
+            var sortedTrigrams = trigrams.OrderByDescending(kv => kv.Value.FrequencyPerMillionInstances).ToDictionary(kv => kv.Key, kv => kv.Value).Take(5);
+
+            Console.WriteLine("The 5 most frequent Unigrams are:");
+            foreach (KeyValuePair<string, NGram> entry in sortedUnigrams)
+            {
+                Console.WriteLine(entry.Key + "\t" + (int)entry.Value.FrequencyPerMillionInstances);
+            }
+
+            Console.WriteLine("The 5 most frequent Bigrams are:");
+            foreach (KeyValuePair<string, NGram> entry in sortedBigrams)
+            {
+                Console.WriteLine(entry.Key + "\t" + (int)entry.Value.FrequencyPerMillionInstances);
+            }
+
+            Console.WriteLine("The 5 most frequent Trigrams are:");
+            foreach (KeyValuePair<string, NGram> entry in sortedTrigrams)
+            {
+                Console.WriteLine(entry.Key + "\t" + (int)entry.Value.FrequencyPerMillionInstances);
+            }
+
 
         }
 

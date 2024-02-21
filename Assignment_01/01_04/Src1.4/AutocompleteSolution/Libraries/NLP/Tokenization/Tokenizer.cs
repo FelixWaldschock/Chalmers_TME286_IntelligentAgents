@@ -24,8 +24,7 @@ namespace NLP.Tokenization
             List<string> finalTokens = new List<string>();
 
             // init a regex pattern, to split the strings
-            string regexPattern = @"(?<=[,!?;:%\p{Sc} ])|(?=[,!?;:%\p{Sc} ])";
-
+            string regexPattern = @"(?<=[.,!?;:+*\-%\p{Sc}"" ])|(?=[.,!?;:+*\-%\p{Sc}"" ])";
 
             // Split the dataSet by the specified characters
             string[] tokens = Regex.Split(dataSet, regexPattern);
@@ -33,7 +32,7 @@ namespace NLP.Tokenization
 
             foreach (string token in tokens)
             {
-                if (!string.IsNullOrWhiteSpace(token) & token != "," & token != ":" & token != ";" & token != "\"") // This check removes empty entries from the result
+                if (!string.IsNullOrWhiteSpace(token) & token != ":" & token != ";" & token != "," & token != "\"" & token != "" & token != "+" & token != "-" & token != "*"& token != "...") // This check removes empty entries from the result
                 {
                     // make all lowercase
                     tempTokens.Add(token.ToLower());

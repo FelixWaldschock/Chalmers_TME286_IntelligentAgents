@@ -1,0 +1,1726 @@
+﻿
+
+
+  THE GREEKS WERE CURIOUS ABOUT MATTER                                 1
+  THE ATOMIC THEORY IS CONFIRMED                                       2
+  CATHODE RAYS SHOW ATOMS CONTAIN SMALLER PARTS                        3
+  RADIOACTIVE ATOMS DISCOVERED                                         5
+  RUTHERFORD FINDS THE ATOMIC NUCLEUS                                  6
+  THE PROTON IS RECOGNIZED                                             8
+  ISOTOPES ARE DISCOVERED                                              9
+  THE ALCHEMISTS’ DREAM COMES TRUE                                    10
+  SOME PARTICLES HAVE NO ELECTRIC CHARGE                              13
+  MATTER IS ENERGY; ENERGY IS MATTER                                  14
+  NUCLEI CONTAIN ENERGY                                               15
+  CHRONOLOGY                                                          18
+  FISSION IS EXPLAINED                                                20
+  THE FISSION BOMB IS EXPLODED                                        23
+  NUCLEAR ENERGY IS NEEDED FOR THE FUTURE                             25
+  FUSION HAS POTENTIAL                                                26
+  ISOTOPES HAVE MANY USES                                             29
+  RADIOISOTOPES AT WORK                                               30
+  THE ATOMIC ENERGY COMMISSION                                        31
+  TOWARD AN INTERNATIONAL ATOM                                        33
+  SUGGESTED REFERENCES                                                35
+
+
+                 United States Atomic Energy Commission
+                   Division of Technical Information
+           Library of Congress Catalog Card Number: 63-64918
+                           1963; 1964 (Rev.)
+
+    [Illustration: The cover is a time-exposed photograph of an animated
+    model of a uranium-235 atom. The center represents the nucleus,
+    greatly exaggerated in size. The fine lines represent the electrons
+    whirling about the nucleus.
+    Courtesy Union Carbide Corporation]
+
+C. JACKSON CRAVEN is a teacher’s teacher as well as a student’s teacher,
+and has had an active career aiding understanding of atomic energy as a
+member of the University of Tennessee faculty and on the staff of the
+Oak Ridge Institute of Nuclear Studies. He has conducted short courses
+to instruct groups of high school science teachers in nuclear energy,
+and has served in a key capacity in training Institute
+demonstration-lecturers who visit high schools throughout the nation.
+
+Dr. Craven worked during World War II for the Manhattan Project, which
+built the first atomic bomb. He earned bachelor’s and graduate degrees
+at the University of North Carolina, and later taught physics and
+mathematics at Delta State Teachers College and at Furman and Emory
+Universities.
+
+His research interests include infrared spectroscopy, gaseous diffusion
+through porous media, and the physical properties of fibers.
+
+
+
+
+                            OUR ATOMIC WORLD
+
+
+                          By C. Jackson Craven
+
+  _The story of atomic energy evolves from the curiosity of people
+  concerning the nature and structure of matter, the stuff of which all
+  material things are made._
+
+
+
+
+                  The Greeks Were Curious About Matter
+
+
+Certain philosophers of ancient Greece—Democritus for one—were
+fascinated by the question: _what is matter?_ You can imagine one of the
+philosophers saying to his pupils:
+
+“Gentlemen, let us consider a piece of cheese. With a knife we can cut
+it in two, thus obtaining smaller pieces. We can then cut one of these
+smaller pieces in two, obtaining still smaller pieces. We can _think_
+about repeating this process over and over to get smaller and smaller
+pieces of cheese. Now can this process be continued without limit, or
+will a time come when we arrive at the smallest possible piece of
+cheese? In other words, is there a piece so small that we must have at
+least that much or none, with no choice in between?”
+
+It is probable that most people who thought about this question at all
+during the next two thousand years answered the last question in the
+negative. The prevailing notion was that matter was continuous, with no
+theoretical limit as to how small a piece of cheese, or anything else,
+might be.
+
+This concept was humorously expressed by the British mathematician
+Augustus De Morgan (1806-1871) in these lines:
+
+  _Great fleas have little fleas upon their backs to bite ’em,
+  And little fleas have lesser fleas, and so, ad infinitum._
+
+
+
+
+                     The Atomic Theory Is Confirmed
+
+
+De Morgan evidently did not keep up with the latest developments in
+science, however, because two years before his birth, John Dalton, an
+English schoolteacher, had changed the atomic theory of matter from a
+philosophical speculation into a firmly established principle. The
+evidence that convinced Dalton and many other contemporary scientists of
+the reality of atoms came from quantitative chemical analysis.
+
+Dalton knew that many chemical substances could be separated into two or
+more simpler substances. Chemicals that could be separated further were
+called compounds; those that could not were called elements. Careful
+experiments by Dalton and others showed that whenever two or more
+elements combined chemically to make a compound the relative amounts of
+the elements had to be carefully adjusted to fit a definite proportion
+in order to have no elements left over after the reaction was finished.
+For example, if hydrogen and oxygen were combined to form water, the
+weight of oxygen had to be eight times the weight of hydrogen;
+otherwise, either some hydrogen or some oxygen would be left over.
+
+This fundamental truth is now called the Law of Definite Proportions.
+Another important principle, called the Law of Multiple Proportions, is
+illustrated by hydrogen peroxide, which is made up of the same two
+elements that are found in water. The weight of oxygen in hydrogen
+peroxide, however, is 16 times the weight of hydrogen or exactly twice
+the relative weight found in water.
+
+These principles of chemical combination convinced Dalton that each
+chemical element consists of small, indivisible units, all just alike,
+called atoms, and that each chemical compound also has basic units,
+called molecules, which cannot be divided without reducing the compound
+into its elements—that is, destroying it as a compound. He visualized a
+molecule of a compound as formed by the uniting of individual atoms of
+two or more elements. It was obvious to him that in any molecule of a
+compound, the weight of each atom of a component element bore a
+proportionate relationship to the weight of the entire molecule which
+was equal to the proportion, by weight, of all that element in the
+compound. And although Dalton had no idea how heavy any individual atom
+really was, he could tell how many _times_ heavier or lighter it was
+than an atom of another element.
+
+Incidentally, Dalton mistakenly thought that one atom of oxygen was
+eight times as heavy as one atom of hydrogen instead of 16 times as
+heavy. He assumed a water molecule to be HO instead of H₂O.
+
+
+
+
+             Cathode Rays Show Atoms Contain Smaller Parts
+
+
+Curiosity about the fundamental nature of matter was matched by equally
+avid curiosity about the fundamental nature of electricity. Before 1850
+much had been learned about the behavior of electric charge and electric
+currents flowing through solids and liquids. Real progress in
+understanding electric charge, however, had to wait for the development
+of highly efficient vacuum pumps.
+
+About 1854 Heinrich Geissler, a German glassblower, developed an
+improved suction pump, and also succeeded in sealing into a glass tube
+two wires attached to metal electrodes inside the tube. Experimenters
+were then able to study the flow of electricity through a near-vacuum. A
+Geissler tube is diagramed in Figure 1.
+
+By the 1890s it had become clear that the flow of electricity through a
+highly evacuated tube consisted of a negative electric charge moving at
+a very high speed along straight lines between sealed-in electrodes.
+Since it originated at the negative electrode, or cathode, the invisible
+stream of charge was named “cathode rays.”
+
+    [Illustration: Figure 1 _Geissler Tube._]
+
+  CURRENT SOURCE
+  CATHODE (-)
+    STREAM OF ELECTRONS
+    VACUUM PUMP
+  ANODE (+)
+
+Although many investigators contributed to knowledge about cathode rays,
+the experiments of Joseph J. Thomson, a British physicist, are generally
+considered to have been the most enlightening. Thomson arranged a
+cathode-ray tube so that the rays could be deflected by magnets and by
+electrically charged metal plates. By applying certain well-known
+principles of physics, he was able to confirm an impression already held
+by physical chemists, namely, that electric charge, like matter, was
+“atomized”—the stream of charge consisted of a swarm of very small
+particles, all alike. He succeeded also in determining that the speed of
+the particles was about one-tenth the speed of light.
+
+Probably Thomson’s most significant result was determining the ratio of
+the charge of each little particle to its weight. He was able to do this
+by measuring the magnetic force required to divert a stream of charged
+particles. (You can do this experiment yourself with relatively simple
+equipment.) This charge-to-weight ratio proved to be nearly 2000 times
+greater than the already known charge-to-weight ratio for a positively
+charged hydrogen atom, or ion, which until then was thought to be the
+lightest constituent of matter. It remained to be determined whether
+charge or weight caused the difference. Further experimentation showed
+that the charges were approximately the same amount in the two cases. It
+was therefore proven that the weight of the hydrogen atom, lightest of
+all the atoms, was nearly 2000 times as great as the weight of one of
+the little negative particles.
+
+The name “electron” was given to the small negative particles identified
+by Thomson. Since the electrons had come from the cathode, it was
+apparent that the atoms in the cathode must contain electrons. Thomson
+reasoned that electric current in a wire is a stream of electrons
+passing successively from atom to atom and that the difference between
+an electrically charged atom and a neutral atom is that the charged one
+has gained or lost one or more electrons.
+
+
+
+
+                      Radioactive Atoms Discovered
+
+
+    [Illustration: _Henri Becquerel_
+    Courtesy Journal of Chemical Education, Discovery of the Elements,
+    Mary Elvira Weeks.]
+
+In 1896 the French physicist Henri Becquerel was investigating the
+relation between fluorescence and X rays, a puzzling kind of penetrating
+radiation discovered a few months earlier by the German, Wilhelm
+Roentgen. Various chemical compounds fluoresce, or glow, when exposed to
+ultraviolet rays and other types of radiation. While experimenting with
+a large number of chemicals, Becquerel discovered, quite by accident,
+that a compound containing the element uranium can, without being
+exposed to any kind of radiation, darken a photographic plate completely
+wrapped in heavy black paper.
+
+Although no one realized it at the time, Becquerel had discovered that
+atoms of some elements will at random times transform themselves into
+atoms of a different element by emitting certain extremely high-speed
+charged particles. Atoms that can do this are said to be radioactive,
+and it was the radiation from transforming uranium atoms that darkened
+Becquerel’s photographic plate.
+
+
+
+
+                  Rutherford Finds the Atomic Nucleus
+
+
+    [Illustration: _Ernest Rutherford, 1871-1937_
+    Courtesy Nobelstiftelsen]
+
+We are greatly indebted to the imagination and experimental skill of the
+British physicist Ernest Rutherford for the interpretation of
+radioactivity in terms of the structure of atoms.
+
+Rutherford, born and educated in New Zealand, moved to England to work
+under Thomson at Cambridge University in 1895. Shortly afterward,
+Wilhelm Roentgen in Germany discovered X rays, Becquerel in France
+discovered radioactivity, and Thomson proved the existence of the
+electron.
+
+During the next few years, curiosity about the fundamental nature of
+radioactivity led a number of people to do a great deal of work. The
+element thorium was found to be radioactive, and Marie and Pierre Curie
+discovered two new elements, polonium and radium, that were also
+radioactive. The radiation from radioactive materials was found to be of
+three kinds called alpha rays, beta rays, and gamma rays. Alpha rays
+were first detected by Rutherford, who later identified them as
+positively charged helium atoms. Becquerel demonstrated that beta rays,
+like cathode rays, consist of negatively charged electrons. The highly
+penetrating gamma rays were proved by Rutherford and E. N. da C. Andrade
+to be electromagnetic radiation similar to X rays.
+
+Rutherford, in collaboration with the English chemist Frederick Soddy,
+brought order out of a chaos of puzzling discoveries by establishing the
+general behavior of radioactive atoms. He determined that certain
+naturally occurring atoms of high atomic weight can spontaneously emit
+an alpha or a beta particle and thereby convert themselves into new
+atoms. These new atoms, being also radioactive, sooner or later convert
+themselves into still different atoms, and so on. Each time an alpha
+particle is emitted in this sequence, the new atom is lighter by the
+weight of the alpha particle, or helium atom. The disintegration process
+proceeds from stage to stage until at last a _stable_ atom is produced.
+The end product in this “decay” process in naturally occurring
+radioactive elements is lead.
+
+One experiment by Rutherford and his co-workers had a most profound
+effect on the understanding of atomic structure. What they did was to
+direct a stream of alpha particles at a thin piece of gold foil. The
+results were astonishing. Almost all the particles passed straight
+through the foil without changing direction. Of the few particles that
+did ricochet in new directions, however, some were deflected at very
+sharp angles. (See Figure 2.)
+
+    [Illustration: Figure 2 _Rutherford’s most famous experiment, which
+    led him to the concept of the nucleus._]
+
+As a result of this experiment, Rutherford proposed a concept of the
+atom entirely different from the one which prevailed at this time. The
+prevailing notion was one advanced by Thomson which conceived of an atom
+as a blob of positive electric charge in which were imbedded, in much
+the same way as plums are in a pudding, enough electrons to neutralize
+the positive charge. Rutherford’s concept, which quickly set aside
+Thomson’s “plum pudding” model, was that an atom has all of its positive
+charge and virtually all of its mass concentrated in a tiny space at its
+center. (Collisions with this center, which came to be known thereafter
+as the nucleus, had been responsible for the sharp changes in direction
+of some of the alpha particles.) The space surrounding this nucleus is
+entirely empty except for the presence of a number of electrons (79 in
+the case of the gold atom), each about the same size as the nucleus.
+
+To illustrate Rutherford’s concept, let us imagine a gold atom magnified
+so that it is as large as a bale of cotton. The nucleus at the center of
+this large atom would be the size of a speck of black pepper. If this
+imaginary bale weighed 500 pounds, the little speck at its center would
+weigh 499¾ pounds; the surrounding cotton (corresponding to empty space
+in Rutherford’s concept) containing the 79 electrons would weigh but ¼
+pound. To express this idea another way, any object such as a gold ring,
+as dense and solid as it may seem to us, consists almost entirely of
+nothing!
+
+
+
+
+                        The Proton Is Recognized
+
+
+Rutherford’s discovery aroused intense curiosity about the nature and
+possible structure of this extremely small, but all-important, part of
+an atom. It was assumed that the positive charge carried by the nucleus
+must be a whole-number multiple of a small unit equal in size but
+opposite in sign to the charge of an electron. This conclusion was based
+on the information that all atoms contain electrons and that an
+undisturbed atom is electrically neutral. Since it was known that a
+neutral atom of hydrogen contains just one electron, it appeared that
+the charge on a hydrogen nucleus must represent the fundamental unit of
+positive charge, some multiple of which would represent the charge on
+any other nucleus. Several lines of investigation combined to establish
+quite firmly that nuclei of atoms occupying adjacent positions on the
+periodic chart of the elements differed in charge by this fundamental
+unit. Since the hydrogen nucleus seemed to play such an important role
+in making up the charges of all other nuclei, it was given the name
+proton from the Greek “protos,” which means “first.”
+
+
+
+
+                        Isotopes Are Discovered
+
+
+At a historic meeting of the British Association for the Advancement of
+Science held in Birmingham, England, in 1913, two apparently unrelated
+lines of investigation were reported, each of which showed that some
+atomic nuclei have identical electric charges but different weights.
+
+One report was presented by Frederick Soddy, who had collaborated with
+Rutherford in explaining the pattern of natural radioactivity. Soddy
+knew that the nucleus of a radioactive atom loses both weight and
+positive charge when it throws out an alpha particle (helium nucleus).
+On the other hand, when a nucleus emits a beta particle (negative
+electron), its positive charge increases, but its weight is practically
+unchanged. Thus Soddy could deduce the weights and nuclear charges of
+many radioactive products. In several cases the products of two
+different kinds of radioactivity had the same nuclear charge but
+different weights. Since it is the positive charge carried by the
+nucleus of an atom which fixes the number of negative electrons needed
+to complete the atom, the nuclear charge is really responsible for the
+exterior appearance, or chemical properties, of the atom.
+
+This conclusion was confirmed by unsuccessful efforts to separate by
+chemical means different radioactive products having the same nuclear
+charge but different weights. The products might have had quite
+different rates of radioactive disintegration, but they appeared to
+consist of chemically identical atoms of the same chemical element and
+hence to belong at the _same place_ on the periodic chart of the
+elements. Soddy suggested that such atoms be called _isotopes_, from a
+Greek word meaning “same place.”
+
+At the same meeting, Francis W. Aston, an assistant of Thomson,
+described what happened when charged atoms, or ions, of neon gas were
+accelerated in a discharge tube similar to the cathode-ray tube in which
+Thomson had discovered the electron. The rapidly moving neon ions were
+deflected by a magnet. Since light objects are more easily deflected
+than heavy objects, the amount of deflection indicated the weight. By
+making a comparison with a familiar gas like oxygen, Thomson and Aston
+were actually able to measure the atomic weight of neon. To their
+surprise they found two kinds of neon. About nine-tenths of the neon
+atoms had an atomic weight of 20, and the remainder an atomic weight of
+22.
+
+What Thomson and Aston had done was to show that the stable element neon
+is a mixture of two isotopes. A device that can do what their apparatus
+did is called a mass spectrograph. (See Figure 3.) Since their time,
+instruments of this type have shown that more than three-fourths of the
+stable chemical elements are mixtures of two or more stable isotopes; in
+fact, there are about 300 such isotopes in all. The number of known
+unstable radioactive isotopes (radioisotopes), natural or man-made, is
+greater than 1000 and is still growing!
+
+    [Illustration: Figure 3 _Mass spectrograph as used by Thomson and
+    Aston to measure the atomic weight of neon._]
+
+  NEON 20
+  NEON 22
+
+
+
+
+                    The Alchemists’ Dream Comes True
+
+
+During the Middle Ages the desire to find a way to convert a base metal
+like lead into gold was the outstanding incentive for research in
+chemistry. When the important role of the nucleus in determining the
+chemical properties of an atom became clear and the natural
+transmutation accompanying radioactivity was understood, the fascinating
+idea occurred to many people that perhaps man would soon be able to
+alter the nucleus of a stable atom and thus deliberately convert one
+element into another. In a historic lecture delivered in Washington, D.
+C., in April 1914, Rutherford said, “It is possible that the nucleus of
+an atom may be altered by direct collision of the nucleus with very
+swift electrons or atoms of helium (i.e., beta or alpha particles) such
+as are ejected from radioactive matter.... Under favorable conditions,
+these particles must pass very close to the nucleus and may either lead
+to a disruption of the nucleus or to a combination with it.”
+
+    [Illustration: _Medieval Alchemist_
+    Courtesy Fisher Scientific Company]
+
+World War I began shortly after Rutherford made this statement, and
+preoccupation with war work stopped his experiments with nuclei. In
+1919, however, he published a paper describing what happens when alpha
+particles pass through nitrogen gas. Very fast protons, or hydrogen
+nuclei, appear to originate along the paths of the alpha particles. The
+following is from Rutherford’s paper:
+
+“If this be the case, we must conclude that the nitrogen atom is
+disintegrated under the intense forces developed in a close collision
+with a swift alpha particle, and that the hydrogen atom which is
+liberated formed a constituent part of the nitrogen nucleus.... The
+results as a whole suggest that, if alpha particles or similar
+projectiles of still greater energy were available for experiment, we
+might expect to break down the nuclear structure of many of the lighter
+atoms.”
+
+This prediction has certainly been verified through the use of the
+atomic artillery provided by extremely powerful particle accelerators,
+or “atom smashers.”[1]
+
+    [Illustration: _The Bevatron accelerator at the University of
+    California’s Lawrence Radiation Laboratory, Berkeley, California,
+    shown after recent remodeling in which it was enclosed in concrete
+    shielding._
+    Courtesy Lawrence Radiation Laboratory]
+
+Patrick Blackett in England and W. D. Harkins in the United States soon
+proved independently that, during the nuclear event reported by
+Rutherford in his 1919 paper, an alpha particle combines with a nitrogen
+nucleus and that the resulting unstable combination immediately emits a
+proton and ends up as one of the isotopes of oxygen. This was the first
+instance of deliberate transmutation of one stable chemical element into
+another. Since that time practically every known element has been
+transmuted by bombardment. The dream of the alchemists has been
+partially fulfilled in that mercury has been changed into gold. We say
+“partially fulfilled” because the process is much too expensive to be
+economically profitable.
+
+
+
+
+                 Some Particles Have No Electric Charge
+
+
+During the early 1920s a number of investigators, including Harkins in
+the United States, Orme Masson in Australia, and Rutherford and his
+assistant James Chadwick in England, seriously considered the
+possibility that a neutral particle might exist in nature, possibly
+formed by the very close association of a proton and an electron.
+However, strenuous efforts to produce such particles by combining
+protons and electrons were unsuccessful.
+
+During these years the new technique of bombarding all kinds of matter
+with alpha particles to see what would happen was widely exploited, and
+it gradually became clear that in a few instances a peculiar and highly
+penetrating kind of radiation was produced. In 1932, Chadwick succeeded
+in showing that the peculiar radiation must consist of a stream of
+particles, each weighing about the same as a proton but having no
+electrical charge.
+
+The name “neutron” for a possible neutral particle of this type was
+suggested by Harkins in the United States in 1921. Much evidence now
+exists that the neutron is a fundamental particle in its own right and
+that it should not be thought of merely as a particle formed by a very
+close association between a proton and an electron.
+
+The new particle discovered by Chadwick was destined to play a totally
+unexpected role, not only in the history of atomic science but also in
+the fate of nations. It immediately outmoded a previous concept of the
+nucleus that pictured it as a cluster of protons approximately half of
+which were neutralized by electrons crowded into the nucleus. A nucleus
+is now thought of as containing just protons and neutrons.
+
+The neutron was also greeted by nuclear workers as a practically perfect
+kind of bullet. Unlike charged alpha particles, uncharged neutrons can
+approach a charged nucleus completely unopposed. It is physically
+impossible for any kind of container to hold a swarm of free neutrons;
+they seep right through its walls.
+
+
+
+
+                   Matter Is Energy; Energy Is Matter
+
+
+So far, in the story about man’s curiosity concerning the fundamental
+nature and structure of matter, the development of ideas about
+_structure_ has been emphasized. We will now take a brief look at a
+development which strongly influenced our ideas about the fundamental
+_nature_ of matter.
+
+In 1887 reports appeared on a famous study, often referred to as the
+Michelson-Morley experiment, which was aimed at determining the earth’s
+speed through absolute space. The entirely unexpected results of the
+experiment had a great impact on the concepts of space and time. We will
+here concern ourselves with just one outcome of the experiment.
+
+In 1905, a young German-born physics student named Albert Einstein, who
+was working as a patent examiner in Switzerland, published three papers,
+each of which had a profound effect on a different field of physics.
+
+One of the papers dealt with some peculiar speculations about space and
+time which began to interest him when he was studying the
+Michelson-Morley experiment. The contents of the paper are now referred
+to as the Special Theory of Relativity. This paper contains several
+predictions that seemed incredible to the average physicist of that day.
+These predictions have, however, long since been proved valid.
+
+    [Illustration: _Albert Einstein in 1905._
+    Courtesy Lotte Jacobi, Hillsboro, New Hampshire]
+
+One of Einstein’s predictions had to do with the equivalence of matter
+and energy. Until 1905 _matter_ had been considered as something that
+has mass or inertia; _energy_, on the other hand, had been regarded as
+the ability to do work. It was believed that the two were as different
+from each other as, say, a square yard is different from an hour.
+Einstein’s theory, however, implies that matter and energy are merely
+two different manifestations of the same fundamental physical reality,
+and that each may be converted into the other according to the famous
+equation:
+
+                                  E = MC²
+
+  where
+      E = quantity of energy,
+      M = quantity of matter, and
+      C = speed of light in a vacuum.
+
+
+
+
+                         Nuclei Contain Energy
+
+
+One more piece of information must be fitted into the story of the atom
+before it becomes clear why some people began to realize during the
+1920s that atomic nuclei contain vast stores of energy that might some
+day revolutionize civilization. This last item has to do with a nuclear
+phenomenon known as the packing fraction.
+
+Since any nucleus consists of a certain number of protons and neutrons,
+it seems logical that the total weight of the nucleus could be
+determined by adding together the individual weights of the particles in
+it. When mass spectrographs of sufficiently high accuracy became
+available, however, it was found that in the case of nuclear weights,
+the whole was not equal to the sum of its parts! All nuclei (except
+hydrogen) weigh less than the sum of the weights of the particles in
+them.
+
+For example, the atomic weight of a proton is 1.00812 and that of a
+neutron is 1.00893. (These are relative weights based on an
+internationally accepted scale.) It would seem then that a nucleus of
+helium containing two protons and two neutrons should have an atomic
+weight of 2 × 1.00812 plus 2 × 1.00893 or 4.0341. Actually the atomic
+weight of helium as measured by the mass spectrograph is only 4.0039.
+(See Figure 4.)
+
+    [Illustration: Figure 4 _A case where the whole is not equal to the
+    sum of its parts. Two protons and two neutrons are distinctly
+    heavier than a helium nucleus, which also consists of two protons
+    and two neutrons. Energy makes up the difference._]
+
+  HELIUM NUCLEUS
+  TWO PROTONS AND TWO NEUTRONS
+
+What happens to the missing atomic weight of 0.0302? Physicists now
+realize that, as postulated in Einstein’s formula, it must be converted
+into energy! The conversion occurs when the protons and neutrons are
+drawn together into a helium nucleus by the powerful nuclear forces
+between them.
+
+When the missing atomic weight 0.0302 is multiplied by the square of the
+velocity of light according to Einstein’s theory, it is found to
+represent a tremendous amount of energy. Indeed, the energy released in
+forming a helium nucleus from two protons and two neutrons turns out to
+be seven million times that released when a carbon atom combines with an
+oxygen molecule to produce a molecule of carbon dioxide in the familiar
+process of combustion.
+
+The general behavior of such losses in atomic weight for atoms
+throughout the periodic table had been determined as early as 1927,
+largely through the work of Aston, the English scientist who developed
+the first mass spectrograph. His results show that, in general, if two
+light nuclei combine to form a heavier one, the new nucleus does not
+weigh as much as the sum of the original ones. This behavior continues
+up to the level of the so-called “transition metals”—iron, nickel, and
+cobalt—in the periodic table. But if two nuclei heavier than iron are
+coalesced into a single very heavy nucleus found near the end of the
+periodic table (such as uranium), the new nucleus weighs more than the
+sum of the two nuclei that formed it.
+
+Thus, if a very heavy nucleus could be divided into parts, energy would
+be released, and the sum of the weights of the fragments would be less
+than that of the original nucleus.
+
+In these two types of nuclear reactions, a small amount of matter would
+actually vanish! Einstein’s Special Theory of Relativity states that the
+vanished matter would reappear as an enormous quantity of energy.
+
+During the late 1920s scientists began saying that a small amount of
+matter could supply enough energy to drive a large ship across the
+ocean. As we know, this prediction has since been borne out by the
+performance of nuclear submarines and surface vessels.
+
+    [Illustration: _The NS_ Savannah _was the first cargo-passenger ship
+    to be driven by nuclear power_.
+    Courtesy States Marine Lines]
+
+    [Illustration: _The_ Nautilus _was the Navy’s first atomic-powered
+    submarine_.
+    Courtesy U. S. Navy]
+
+
+
+
+                               CHRONOLOGY
+
+
+  1800          Dalton firmly establishes atomic theory of matter.
+  1890-1900     Thomson’s experiments with cathode rays prove the
+                existence of electrons. Atoms are found to contain
+                negative electrons and positive electric charge.
+                Becquerel discovers unstable (radioactive) atoms.
+  1905          Einstein postulates the equivalence of mass and energy.
+  1911          Rutherford recognizes nucleus.
+  1919          Rutherford achieves transmutation of one stable chemical
+                element (nitrogen) into another (oxygen).
+  1920-1925     Improved mass spectrographs show that changes in mass per
+                nuclear particle accompanying transmutation account for
+                energy released by nucleus.
+  1932          Chadwick identifies neutrons.
+  1939          Discovery of uranium fission by German scientists.
+  1940          Discovery of neptunium by Edwin M. McMillan and Philip H.
+                Abelson and of plutonium by Glenn T. Seaborg and
+                associates at the University of California.
+  1942          Achievement of first self-sustaining nuclear reaction,
+                University of Chicago.
+  1945          First successful test of an atomic device, near
+                Alamagordo, New Mexico, followed by the dropping of
+                atomic bombs on Hiroshima and Nagasaki, Japan.
+  1946          U. S. Atomic Energy Commission established by Act of
+                Congress.
+                First shipment of radioisotopes from Oak Ridge goes to
+                hospital in St. Louis, Missouri.
+  1951          First significant amount of electricity (100 kilowatts)
+                produced from atomic energy at testing station in Idaho.
+  1952          First detonation of a thermonuclear bomb, Eniwetok Atoll,
+                Pacific Ocean.
+  1953          President Eisenhower announces U. S. Atoms-for-Peace
+                program and proposes establishment of an international
+                atomic energy agency.
+  1954          First nuclear-powered submarine, _Nautilus_, commissioned.
+  1955          First United Nations International Conference on Peaceful
+                Uses of Atomic Energy held in Geneva, Switzerland.
+  1957          First commercial use of power from a civilian reactor
+                takes place in California.
+                Shippingport Atomic Power Plant in Pennsylvania reaches
+                full power of 60,000 kilowatts.
+                International Atomic Energy Agency formally established.
+  1959          First nuclear-powered merchant ship, the _Savannah_,
+                launched at Camden, New Jersey.
+                Commissioning of first nuclear-powered Polaris
+                missile-launching submarine _George Washington_.
+  1961          A radioisotope-powered electric power generator placed in
+                orbit, the first use of nuclear power in space.
+  1962          Nuclear power plant in the Antarctic becomes operational.
+  1963          President Kennedy ratified the Limited Test Ban Treaty
+                for the United States on October 7.
+  1964          President Johnson signed law permitting private ownership
+                of certain nuclear materials.
+
+
+
+
+                          Fission is Explained
+
+
+    [Illustration: _Enrico Fermi 1901-1954_
+    Courtesy Chemical and Engineering News]
+
+Physicists welcomed the neutron as a bullet that could strike any
+nucleus, unopposed by electric repulsion. During the middle 1930s, a
+number of investigators, chief among them the Italian physicist Enrico
+Fermi, exposed many different isotopes of the chemical elements to beams
+of neutrons to see what would happen.
+
+What usually happened was that the bombarded nuclei would absorb
+neutrons, emit alpha, beta, or gamma rays, and change into different
+isotopes. The identification of the extremely small quantities of
+isotopes produced required the development of a fantastic new branch of
+chemistry known as radiochemistry, or, as one chemist put it, “phantom
+chemistry.”
+
+In some cases the absorption of a neutron by a nucleus was followed by
+the emission of a negative electron (beta particle). This produced an
+atom whose nuclear positive charge had been increased by one unit and
+which therefore belonged at the next higher place on the periodic table.
+Fermi and others then considered the fascinating possibility of doing
+the same thing to uranium, the last-known element on the periodic table,
+to create previously unknown chemical elements. The results of
+bombarding uranium with neutrons turned out to be extremely complex, but
+it eventually became clear that “transuranic” elements (those heavier
+than uranium) could actually be made in this way.[2]
+
+Some of the complex results of bombarding uranium with neutrons formed
+an intriguing puzzle that kept various investigators busy for several
+years. In 1939 the German chemists Otto Hahn and Fritz Strassmann and
+the physicists Lise Meitner and Otto Frisch were able to announce a
+solution. The absorption of a neutron by a certain uranium nucleus
+(later shown to be that of the relatively rare isotope uranium-235) can
+result in a splitting, or _fission_, of the nucleus into two parts with
+separate weights that place them somewhere near the middle of the
+periodic table.
+
+    [Illustration: _Lise Meitner and Otto Hahn in their laboratory in
+    the 1930s._
+    Courtesy Addison-Wesley Publishing Co.]
+
+The announcement of this discovery created quite a stir among physicists
+because a nuclear process of this nature must release a very large
+amount of energy.
+
+    [Illustration: _Scale model of the CP-1 (Chicago Pile No. 1) used by
+    Enrico Fermi and his associates on December 2, 1942, to achieve the
+    first self-sustaining nuclear reaction. Alternate layers of
+    graphite, containing uranium metal and/or uranium oxide, were
+    separated by layers of solid graphite blocks. Graphite was used to
+    slow down neutrons to increase the likelihood of fissions._]
+
+The excitement among physicists became even greater when it was realized
+that this newly discovered process of fission was accompanied by the
+release of several free neutrons from the splitting nucleus. Each new
+neutron could, if properly slowed down by a moderating material, cause
+another nucleus to split and release more energy and still more
+neutrons, and so on, as illustrated in Figure 5. (A moderator is
+necessary because fast, newly released neutrons are too readily absorbed
+by uranium-238 nuclei, which rarely split.) Apparently all that was
+needed to achieve this spectacular kind of a chain reaction was to
+assemble enough uranium in one place so that the released neutrons would
+have a good chance of finding another ²³⁵U nucleus before escaping from
+the pile. The amount of fissionable material required to sustain a chain
+reaction is termed the “critical mass.” A team of scientists led by
+Fermi achieved the first self-sustaining nuclear reaction on December 2,
+1942, under the grandstand at the University of Chicago’s athletic
+field. This date is often referred to as the beginning of the Nuclear
+Age.
+
+    [Illustration: Figure 5 _This diagram shows what happens in a chain
+    reaction resulting from fission of uranium-235 atoms._]
+
+  STRAY NEUTRON
+  ²³⁵U
+  ORIGINAL FISSION
+    FISSION FRAGMENTS
+    One to three neutrons from fission process
+    A NEUTRON SOMETIMES LOST
+  ²³⁸U
+    CHANGES TO PLUTONIUM
+  ²³⁵U
+    ONE NEW FISSION
+    FISSION FRAGMENT
+    One to three neutrons again
+  ²³⁵U
+  ²³⁵U
+    TWO NEW FISSIONS
+    FISSION FRAGMENTS
+
+
+
+
+                      The Fission Bomb Is Exploded
+
+
+The American scientists present on that historic December day were part
+of the tremendous super-secret scientific and industrial complex that
+bore the unrevealing title Manhattan District. The United States had
+been at war almost a year. An uncontrolled fission reaction gave promise
+of producing an explosion of untold proportions. This promise, coupled
+with the possibility that enemy scientists might be nearing such a goal,
+had launched a vast Allied effort.
+
+The Manhattan Project, as it was commonly known, included a variety of
+“hush-hush” facilities. Each of these installations, in New York,
+Illinois, Tennessee, New Mexico, California, and Washington, had its own
+experts working night and day to solve the baffling problems surrounding
+development of a fission weapon.
+
+Ordinary uranium as found in nature was not suitable for an atomic bomb
+because less than one percent of the atoms in it are fissionable isotope
+²³⁵U.[3] It therefore became necessary to find some means for separating
+the rare ²³⁵U from the large quantity of ²³⁸U. Chemistry could not do it
+since the two isotopes are identical chemically.
+
+Several methods of achieving large-scale separation were tried. The most
+successful and economical, known as “gaseous diffusion,” involves
+compressing normal uranium, in the form of uranium hexafluoride gas,
+against a porous barrier containing millions of holes, each smaller than
+two-millionths of an inch. Since the ²³⁵U molecules are slightly lighter
+than the ²³⁸U, they bounce against the barrier more frequently and have
+a greater chance of penetrating. Thus, although the gas at first
+contains only 0.7% ²³⁵U, the process of compression is repeated several
+thousand times, and the proportion gradually increases until the
+necessary concentration is reached.
+
+For this operation an enormous plant containing a very large barrier
+area, miles of piping, and countless pumps was built at Oak Ridge,
+Tennessee.
+
+At the same time that vast efforts were being made to produce a ²³⁵U
+bomb, another project of equal importance was being pursued to develop a
+different kind of fission bomb. Uncertainty as to whether it would be
+possible to separate usable amounts of ²³⁵U led to a decision to exploit
+a highly significant discovery about one of the transuranic elements.
+
+By 1941 Glenn T. Seaborg, Edwin M. McMillan, Philip H. Abelson, and
+others at the Radiation Laboratory, Berkeley, California, had identified
+isotopes of two new transuranic elements developed when they bombarded
+²³⁸U nuclei with neutrons. The new elements were named neptunium and
+plutonium after the planets Neptune and Pluto, which lie beyond Uranus
+in the solar system.[4] One isotope of plutonium, plutonium-239, which
+resulted from the absorption of a neutron by a ²³⁸U nucleus and the
+emission of two beta particles, was discovered to be as fissionable as
+²³⁵U and hence theoretically just as feasible for a bomb. Since
+plutonium is chemically different from uranium, it offered the
+tremendous advantage that it could readily be concentrated by
+conventional chemical techniques.
+
+The way to manufacture usable amounts of plutonium, an element that had
+never before been detected on earth, is to expose uranium to a very
+intense neutron bombardment. The best-known place to find a rich supply
+of neutrons was the heart of a self-sustaining chain-reacting pile of
+uranium. Accordingly, very large piles, or _reactors_, were rushed to
+completion near the Columbia River at Hanford, Washington, to make
+plutonium.
+
+    [Illustration: _First atomic bomb explosion at Alamagordo, New
+    Mexico, at 5:30 a.m. on July 16, 1945._
+    Courtesy U. S. Army]
+
+On July 16, 1945, a plutonium bomb, carefully assembled by another group
+of scientists at “Project Y,” Los Alamos, New Mexico, was successfully
+tested in the New Mexico desert. The heat from that first man-made
+nuclear explosion completely vaporized a tall steel tower and melted
+several acres of surrounding surface sand. The flash of light was the
+brightest the earth had ever witnessed.
+
+A ²³⁵U bomb was dropped on Hiroshima, Japan, on August 6, 1945. Three
+days later a plutonium bomb was dropped on Nagasaki, Japan. Hostilities
+ended on August 14, 1945.
+
+
+
+
+                Nuclear Energy Is Needed for the Future
+
+
+The chief source of the enormous quantities of energy used daily by
+modern civilization is fossil fuels in the form of coal, petroleum, and
+natural gas. Concentrated sources of these fuels, though large, are far
+from inexhaustible, and it has been said that future historians may
+refer to the brief time when they were used as “the fossil-fuel
+incident.”
+
+    [Illustration: _These lights of downtown Pittsburgh are symbolic of
+    the generation of electricity by atomic power from Shippingport,
+    Pennsylvania, the site of the world’s first full-scale
+    atomic-electric generation station exclusively for civilian needs.
+    Homes and factories of the greater Pittsburgh area are receiving the
+    electricity produced at the plant and transmitted through the
+    Duquesne Light Company system. The Shippingport plant is a joint
+    project of Westinghouse Electric Corporation, U. S. Atomic Energy
+    Commission, and the Duquesne Light Company._
+    Courtesy Westinghouse Electric Corporation]
+
+The next great source of energy will probably be nuclear reactors, in
+which controlled chain reactions release energy from the large store of
+fissionable materials in the world.[5]
+
+The accomplishments of nuclear power in the propulsion of ships have
+already been noted. In addition, there is now going on in industrialized
+countries in different parts of the world a large-scale development of
+nuclear power plants for production of electricity. Nuclear electric
+power is approaching the point where it will be economically competitive
+with power from hydroelectric plants or those burning coal, oil, or gas
+as fuels. Improvements in nuclear power technology are rapidly being
+made, and it is now widely predicted that before the end of this century
+most new electric power plants will be nuclear.
+
+
+
+
+                          Fusion Has Potential
+
+
+One of the greatest puzzles to be solved by physicists arose from the
+work of geologists. When it became clear that coal and other fossil
+remains of living things date from many hundreds of millions of years
+ago, it was obvious that the earth’s sun had been shining at a quite
+steady rate for an extremely long time.
+
+How does it manage to do it? What is its source of energy? Chemical
+energy supplied by combustion and gravitational potential energy
+supplied by contraction are thousands of times too small to have kept
+the sun going for such a long time.
+
+The principle illustrated by Figure 4 suggests the most probable source
+of energy for the sun and all the other stars as well. It is known that
+the sun consists chiefly of hydrogen and that it has a temperature of
+about 40,000,000 degrees Fahrenheit near its center. Several kinds of
+nuclear reactions produced in atom smashers have demonstrated that
+hydrogen nuclei, if energized by being heated to a very high
+temperature, can actually combine, or fuse, to form helium nuclei.
+
+The accompanying loss of weight per particle indicated by Figure 4 must
+result in the appearance of sufficient energy to balance Einstein’s
+famous equation. In fact, calculations by the German-born American
+physicist Hans A. Bethe and others show that, based on reasonable
+estimates of the conditions within the sun, familiar nuclear reactions
+account for its energy. The calculations predict, furthermore, that the
+sun can continue to operate at its present level for many billions of
+years.
+
+    [Illustration: _Large loop prominences on the sun, caused by a
+    locally intense magnetic field. Project Sherwood, the U. S. program
+    in controlled fusion, is devoted to research on fusion reactions
+    similar to those from which the sun derives its energy._
+    Courtesy Sacramento Peak Observatory, AFCRL]
+
+Since fusion of light nuclei is produced by extremely high temperatures,
+fusion events are called _thermonuclear reactions_. The possibility of
+bringing about thermonuclear reactions on earth to serve as a source of
+energy has naturally attracted much attention.
+
+In spite of the fact that fusion of ordinary hydrogen atoms (each of
+which has one proton as its nucleus) supports the activity of the sun,
+this particular reaction seems to occur much too slowly to be usable on
+earth. Other isotopes of hydrogen, called deuterium and tritium,
+however, which contain one and two neutrons in their nuclei,
+respectively, fuse much more rapidly and seem to be potential earthly
+sources of controlled thermonuclear energy.
+
+    [Illustration: _An early phase of a nuclear detonation at Eniwetok
+    Atoll during the 1951 tests._
+    Courtesy Joint Task Force Three]
+
+The first large-scale application of thermonuclear energy was the
+so-called hydrogen bomb, or “H-bomb.” For a brief time an exploding
+fission bomb develops a temperature of hundreds of millions of degrees
+Fahrenheit, hot enough to cause some light nuclei to fuse. In the
+hydrogen bomb, light nuclei of deuterium and/or tritium are exposed to
+this temperature during such a fission explosion. The resulting fusion
+of these nuclei causes the explosion to be hundreds of times more
+powerful than that of the fission device alone. In 1952 the Atomic
+Energy Commission test-fired such a thermonuclear device at Eniwetok
+Atoll in the Pacific Ocean. The energy released by the highly efficient
+device produced an explosion that completely destroyed the coral islet
+where it was detonated.
+
+At such extreme temperatures all atoms are stripped of electrons; the
+resulting mixture of nuclei and free electrons is called a _plasma_.
+Several laboratories are now working on the problems connected with
+creating and containing plasma. Ordinary solid containers cannot be
+used. On contact with plasma they would instantly vaporize and would
+cool the plasma below the temperature necessary for fusion to occur.
+Fortunately, however, the particles that make up a plasma, being charged
+electrically, respond to forces in a magnetic field. A strong magnetic
+field of proper shape exerts a large confining pressure on a body of
+plasma in a high-vacuum chamber. Thus plasma can be contained in a small
+volume well removed from the walls of the chamber by surrounding the
+chamber with suitably designed large magnets or solenoids to create a
+“magnetic bottle.” In addition, a sudden increase in the intensity of
+the field can compress the plasma; this compression raises the
+temperature of the plasma to near that required for fusion.
+
+    [Illustration: _This plasma is being pushed outward by an internal
+    magnetic field as instabilities grow on its internal surface. The
+    photo was taken by means of fast-shutter photography permitting
+    photo sequences at intervals of 3 to 5 millionths of a second._
+    Courtesy General Atomic Division, General Dynamics Corporation]
+
+Fusion of light nuclei would be a much “cleaner” source of energy for
+peaceful purposes than fission of heavy ones, because the “ashes” of
+fission reactions are radioactive while those of fusion (helium atoms)
+are not. Great technical difficulties must be overcome, however, before
+a controlled thermonuclear reaction is possible. Fusionable material
+must be heated to a temperature of over 100 million degrees Fahrenheit
+and must be contained long enough for an appreciable amount of fusion to
+occur.
+
+The greatest problem encountered to date is the extreme instability of
+the plasma and the corresponding difficulty of maintaining it at the
+proper temperature longer than a few millionths of a second. Many
+physicists now think that the successful exploitation of thermonuclear
+energy will not occur for many years. When and if it is achieved,
+however, the deuterium present in the oceans of the earth will represent
+an almost inexhaustible source of energy.
+
+
+
+
+                        Isotopes Have Many Uses
+
+
+The ability to produce and control nuclear reactions is affecting, and
+will doubtless continue to affect, human life in two outstanding ways.
+One way is by making tremendous amounts of energy available, either as
+explosions or as energy released from controlled reactions for peacetime
+use. The other way is by producing a vast variety of radioactive
+isotopes, first in the particle accelerators (“atom smashers”) mentioned
+earlier, and now in large quantities in nuclear reactors.
+
+The presence of a radioactive isotope can be detected by instruments
+like the familiar Geiger counter; for this reason isotopes make
+wonderful tracers. These telltale atoms, which, in effect, continually
+cry “Here I am,” can trace the course of a chemical element through any
+kind of chemical reaction. Chemists are taking advantage of this new way
+of tagging atoms to study reaction patterns that, heretofore, have been
+obscure.
+
+As a consequence, a scientist’s ability to synthesize scarce chemicals
+is being increased. The exact role of numerous essential trace elements
+in the growth and metabolism of living things, including people, is
+being studied by the use of tagged atoms.
+
+
+
+
+                         Radioisotopes at Work
+
+
+    [Illustration: IN MEDICINE: _Iodine-131 reveals spread of thyroid
+    cancer in patient’s body._]
+
+    [Illustration: IN SPACE: _Plutonium-238 is the fuel for the atomic
+    generator powering this TRANSIT satellite._
+    Courtesy The Martin Company]
+
+    [Illustration: IN FOOD PRESERVATION: _Potatoes stored for 18 months
+    at 47°F. Potato at right had been irradiated, that on left had
+    not._]
+
+    [Illustration: IN INDUSTRY: _Radioactive iridium was used to inspect
+    the hull of the carrier_ Independence.
+    Courtesy Technical Operations, Inc.]
+
+As sources of radiation, radioactive isotopes are frequently replacing
+more expensive and less convenient sources such as radium and X-ray
+machines. The medical treatment of diseased tissue has been greatly
+expedited by the new sources. In industry many applications of radiation
+sources have been made. They are used, for example, in thickness gauging
+and in making radiographs to check the quality of large castings. The
+sterilization and preservation of food is another promising use for
+inexpensive radioactive sources.
+
+As a controllable means for inducing genetic mutations, radioactive
+isotopes are speeding up the process of selecting and developing
+superior agricultural products. Practically every agricultural research
+center in the world has one or more projects under way which involve the
+use of isotopes.
+
+Small devices have also been constructed which produce electricity from
+heat generated by decay of radioisotopes. Such devices have been used to
+power instruments in a remotely located unmanned weather station, a
+navigational buoy, a lighthouse, an underwater navigational beacon, and
+space satellites. Many additional uses are foreseen for these isotopic
+power generators.
+
+
+
+
+                      The Atomic Energy Commission
+
+
+Following the end of World War II a vigorous controversy developed as to
+whether atomic energy development in the United States should continue
+under military control or be transferred to civilian control. The
+proponents of civilian control won out, and a civilian Atomic Energy
+Commission was established by the Atomic Energy Act of 1946. Under this
+Act, which was amended in 1954, the AEC manufactures nuclear weapons for
+the armed services; produces fissionable materials for both military and
+civilian purposes; fosters research and development in the basic
+sciences underlying atomic energy and in applications such as power
+production and uses of radioisotopes; regulates the activities of
+private organizations using atomic energy; and distributes information
+about atomic energy. (This booklet is a small example; most of the
+information distributed is much more detailed and technical.)
+
+    [Illustration: _President Truman signs the bill creating the U. S.
+    Atomic Energy Commission on August 1, 1946. Behind the President,
+    left to right: Senators Tom Connally, Eugene D. Millikin, Edwin C.
+    Johnson, Thomas C. Hart, Brien McMahon, Warren R. Austin, and
+    Richard B. Russell._
+    Courtesy United Press International]
+
+Almost all of the AEC’s materials production and research and
+development activities are carried out under contract by other
+organizations. American industry, universities, and research
+organizations also are engaged in widespread atomic energy activities of
+their own, subject only to such government regulations as are needed to
+protect national security and public health and safety. For example, the
+largest atomic electric power plants now in operation in this country
+are privately owned, as are numerous small atomic reactors used for
+research. At the end of 1962 some 7000 firms, institutions or
+individuals in the United States held federal or state licenses giving
+them permission to use radioisotopes. The number of persons employed in
+atomic energy work in the United States is estimated to be about
+140,000, of which only 8000 work for the Federal Government.
+
+
+
+
+                      Toward an International Atom
+
+
+In December 1953, President Eisenhower, in a memorable address to the
+General Assembly of the United Nations, proposed the establishment under
+the aegis of the United Nations of an International Atomic Energy Agency
+“to serve the peaceful pursuits of mankind.” This proposal captured the
+imagination of people everywhere, and negotiations soon began as to the
+purpose, structure, scope, and program of such an organization. In
+October 1956 an 81-nation United Nations conference unanimously adopted
+a statute for the agency, which came into existence a year later with
+headquarters in Vienna, Austria. By the end of 1962 the IAEA had 78
+member countries. Its most important work has been assisting some of the
+less developed nations of the world to begin programs for peaceful use
+of atomic energy.
+
+    [Illustration: _On December 8, 1953, President Dwight D. Eisenhower
+    proposed before the United Nations General Assembly that an
+    International Atomic Energy Agency be established through which all
+    nations could share knowledge and materials to develop the peaceful
+    uses of atomic energy for the benefit of all mankind. Seated on the
+    presidential platform are, left to right, Mr. Dag Hammarskjöld,
+    Secretary-General of the U. N., Madame Vijaya Lakshmi Pandit of
+    India, President of the General Assembly, and Mr. Andrew Cordier,
+    Executive Assistant to the Secretary-General._
+    Courtesy United Nations]
+
+    [Illustration: _This 150,000-kilowatt, dual-cycle, boiling-water
+    reactor, located 35 miles north of Naples, Italy, on the Garigliano
+    River, was built by General Electric under the United States-Euratom
+    Joint Program. It achieved criticality on June 5, 1963._]
+
+Even before the international agency became an accomplished fact, the
+United States sought on its own to implement the spirit of President
+Eisenhower’s proposal. It initiated in 1955 an Atoms-for-Peace Program
+under which the United States has made bilateral agreements with some 40
+nations for the sharing of information on peaceful uses of atomic energy
+and under which the United States has helped other nations to acquire
+nuclear reactors and materials for peaceful use.
+
+Mention should also be made of the International Conferences on Peaceful
+Uses of Atomic Energy which the United Nations held in Geneva,
+Switzerland, in 1955, 1958, and 1964. The 1955 conference was
+particularly noteworthy in that it marked the first time that scientists
+had met on a worldwide basis to discuss atomic energy. At and following
+this meeting much information previously kept secret was made public.
+
+
+
+
+                          Suggested References
+
+
+Books
+
+_Atomic Energy_, Irene D. Jaworski and Alexander Joseph, Harcourt, Brace
+      and World, Inc., New York 10017, 1961, 218 pp., $4.95.
+
+_Atompower_, Joseph M. Dukert, Coward-McCann, Inc., New York 10016,
+      1962, 127 pp., $3.50.
+
+_Atoms Today and Tomorrow_ (revised edition), Margaret O. Hyde,
+      McGraw-Hill Book Company, New York 10036, 1966, 160 pp., $3.25.
+
+_Basic Laws of Matter_ (revised edition), Harrie S. W. Massey and Arthur
+      R. Quinton, Herald Books, Bronxville, New York 10710, 1965, 178
+      pp., $3.75.
+
+_Building Blocks of the Universe_ (revised edition), Isaac Asimov,
+      Abelard-Schuman, Ltd., New York 10019, 1961, 380 pp., $3.50
+      (hardback); $2.70 (paperback) from E. M. Hale and Company, Eau
+      Claire, Wisconsin 54701.
+
+_Elements of the Universe_, Glenn T. Seaborg and Evans G. Valens, E. P.
+      Dutton and Company, Inc., New York 10003, 1958, 253 pp., $4.95
+      (hardback); $2.15 (paperback).
+
+_Inside the Atom_ (revised edition), Isaac Asimov, Abelard-Schuman,
+      Ltd., New York 10019, 1966, 197 pp., $4.00.
+
+_Introducing the Atom_, Roslyn Leeds, Harper and Row, Publishers, New
+      York 10016, 1967, 224 pp., $3.95.
+
+_Peacetime Uses of Atomic Energy_ (revised edition), Martin Mann, The
+      Viking Press, New York 10022, 1961, 191 pp., $5.00 (hardback);
+      $1.65 (paperback).
+
+_The Useful Atom_, William R. Anderson and Vernon Pizer, The World
+      Publishing Company, Cleveland, Ohio 44102, 1966, 185 pp., $5.75.
+
+_Secret of the Mysterious Rays: The Discovery of Nuclear Energy_, Vivian
+      Grey, Basic Books, Inc., Publishers, New York 10016, 1966, 120
+      pp., $3.95.
+
+_The Heart of the Atom: The Structure of the Atomic Nucleus_, Bernard L.
+      Cohen, Doubleday and Company, Inc., New York 10017, 1967, 120 pp.,
+      $3.95 (hardback); $1.25 (paperback).
+
+_The Questioners: Physicists and the Quantum Theory_, Barbara L. Cline,
+      Thomas Y. Crowell Company, New York 10003, 1965, 274 pp., $5.00.
+
+_The Atom and Its Nucleus_, George Gamow, Prentice-Hall, Inc., Englewood
+      Cliffs, New Jersey 07632, 1961, 153 pp., $1.95.
+
+_The Atomic Energy Deskbook_, John F. Hogerton, Reinhold Publishing
+      Corporation, New York 10022, 1963, 673 pp., $11.00.
+
+_Atomic Energy Encyclopedia in the Life Sciences_, Charles W. Shilling
+      (Ed.), W. B. Saunders Company, Philadelphia, Pennsylvania 19105,
+      1964, 474 pp., $10.50.
+
+_Atoms for Peace_ (revised edition), David O. Woodbury, Dodd, Mead and
+      Company, New York 10016, 1965, 275 pp., $4.50.
+
+_Manhattan Project_, Stephane Groueff, Little, Brown and Company,
+      Boston, Massachusetts 02106, 1967, 372 pp., $6.95.
+
+_The New World, 1939/1946_, Volume 1—History of the United States Atomic
+      Energy Commission, Richard G. Hewlett and Oscar E. Anderson, Jr.,
+      The Pennsylvania State University Press, University Park,
+      Pennsylvania 16802, 1962, 766 pp., $5.50.
+
+_Sourcebook on Atomic Energy_ (third edition), Samuel Glasstone, D. Van
+      Nostrand Company, Inc., Princeton, New Jersey 08540, 1967, 883
+      pp., $9.25.
+
+_The World of the Atom_, 2 volumes, Henry A. Boorse and Lloyd Matz
+      (Eds.), Basic Books, Inc., Publishers, New York 10016, 1966, 1873
+      pp., $35.00.
+
+
+Motion Pictures
+
+Available for loan without charge from the AEC Headquarters Film
+Library, Division of Public Information, U. S. Atomic Energy Commission,
+Washington, D. C., and from other AEC film libraries.
+
+Each of the following motion pictures explains atomic structure,
+fission, and the chain reaction. Additional contents are listed below
+with the film.
+
+_A Is for Atom_, 15 minutes, sound, color, 1964. Produced by the General
+      Electric Company. This film discusses natural and artificially
+      produced elements, stable and unstable atoms, principles and
+      applications of nuclear reactors, and the benefits of atomic
+      radiation to biology, medicine, industry, and agriculture. (Level:
+      elementary through high school.)
+
+_Atomic Energy_, 10 minutes, sound, black and white, 1950. Produced by
+      Encyclopedia Britannica Films, Inc. The film explains nuclear
+      synthesis and shows how, through photosynthesis, the sun’s energy
+      is stored on earth and released through combustion. (Level:
+      intermediate through high school.)
+
+_Controlling Atomic Energy_, 13½ minutes, sound, color, 1961. Produced
+      by United World Films, Inc. This film gives a summary explanation
+      of the following: radioactive atoms, radioactivity measurement,
+      nuclear reactors, and the production and application of
+      radioisotopes in biology, medicine, industry, agriculture, and
+      research. (Level: 5th through 8th grades.)
+
+_Introducing Atoms and Nuclear Energy_, 11 minutes, sound, color, 1963.
+      Produced by Coronet Instructional Films. This film discusses
+      nuclear fusion in the sun and, very briefly, the uses of nuclear
+      energy. (Level: 4th through 9th grades.)
+
+_Atomic Physics_, 90 minutes, sound, black and white, 1948. Produced by
+      the J. Arthur Rank Organisation, Inc. This film discusses in
+      detail the history and development of atomic energy with emphasis
+      on nuclear physics. Dalton’s basic atomic theory, Faraday’s early
+      electrolysis experiments, and Mendeleev’s periodic table, the
+      investigation of cathode rays, discovery of the electron, how the
+      nature of positive rays was established, and the discovery of X
+      rays are among the historical highlights. Explanation is presented
+      of the work of the Joliot-Curie’s and Chadwick in the discovery of
+      the neutron, and the splitting of the lithium atom by Cockcroft
+      and Walton. Einstein tells how their work illustrates his theory
+      of equivalence of mass and energy. (Level: high school.)
+
+_Unlocking the Atom_, 20 minutes, sound, black and white, 1950. Produced
+      by United World Films, Inc. This film explains the properties of
+      alpha, beta, and gamma rays, cyclotrons, and the contributions of
+      various scientists. (Level: junior and senior high school.)
+
+
+This “Understanding the Atom” series of semi-technical lecture films is
+designed for inclusion in a high school senior-level chemistry or
+physics course, or it could be used as an introductional unit in nuclear
+science at the college level. The films all have sound and are in black
+and white.
+
+  _Alpha, Beta, and Gamma_, 44 minutes, 1962.
+  _Radiation and Matter_, 44 minutes, 1962.
+  _Radiation Detection by Ionization_, 30 minutes, 1962.
+  _Radiation Detection by Scintillation_, 30 minutes, 1963.
+  _Properties of Radiation_, 30 minutes, 1962.
+  _Nuclear Reactions_, 29½ minutes, 1963.
+  _Radiological Safety_, 30 minutes, 1963.
+
+
+
+
+                               FOOTNOTES
+
+
+[1]For more information about these devices, see _Accelerators_, a
+    companion booklet in this Understanding the Atom series.
+
+[2]For more information, see _Synthetic Transuranium Elements_, another
+    booklet in this series.
+
+[3]The designation ²³⁵U is a new format, now in international usage, for
+    the more familiar style, U²³⁵, to designate isotopes.
+
+[4]For more about plutonium, see _Plutonium_, a companion booklet in
+    this series.
+
+[5]For more information on reactors, see _Nuclear Reactors_, another
+    booklet in this series.
+
+
+
+
+                          Transcriber’s Notes
+
+
+—Silently corrected a few typos.
+
+—Retained publication information from the printed edition: this eBook
+  is public-domain in the country of publication.
+
+—In the text versions only, text in italics is delimited by
+  _underscores_.
+
+
+
+
+        
+            *** END OF THE PROJECT GUTENBERG EBOOK OUR ATOMIC WORLD: THE STORY OF ATOMIC ENERGY ***
+        
+
+    
+
+Updated editions will replace the previous one—the old editions will
+be renamed.
+
+Creating the works from print editions not protected by U.S. copyright
+law means that no one owns a United States copyright in these works,
+so the Foundation (and you!) can copy and distribute it in the United
+States without permission and without paying copyright
+royalties. Special rules, set forth in the General Terms of Use part
+of this license, apply to copying and distributing Project
+Gutenberg™ electronic works to protect the PROJECT GUTENBERG™
+concept and trademark. Project Gutenberg is a registered trademark,
+and may not be used if you charge for an eBook, except by following
+the terms of the trademark license, including paying royalties for use
+of the Project Gutenberg trademark. If you do not charge anything for
+copies of this eBook, complying with the trademark license is very
+easy. You may use this eBook for nearly any purpose such as creation
+of derivative works, reports, performances and research. Project
+Gutenberg eBooks may be modified and printed and given away—you may
+do practically ANYTHING in the United States with eBooks not protected
+by U.S. copyright law. Redistribution is subject to the trademark
+license, especially commercial redistribution.
+
+
+START: FULL LICENSE
+
+THE FULL PROJECT GUTENBERG LICENSE
+
+PLEASE READ THIS BEFORE YOU DISTRIBUTE OR USE THIS WORK
+
+To protect the Project Gutenberg™ mission of promoting the free
+distribution of electronic works, by using or distributing this work
+(or any other work associated in any way with the phrase “Project
+Gutenberg”), you agree to comply with all the terms of the Full
+Project Gutenberg™ License available with this file or online at
+www.gutenberg.org/license.
+
+Section 1. General Terms of Use and Redistributing Project Gutenberg™
+electronic works
+
+1.A. By reading or using any part of this Project Gutenberg™
+electronic work, you indicate that you have read, understand, agree to
+and accept all the terms of this license and intellectual property
+(trademark/copyright) agreement. If you do not agree to abide by all
+the terms of this agreement, you must cease using and return or
+destroy all copies of Project Gutenberg™ electronic works in your
+possession. If you paid a fee for obtaining a copy of or access to a
+Project Gutenberg™ electronic work and you do not agree to be bound
+by the terms of this agreement, you may obtain a refund from the person
+or entity to whom you paid the fee as set forth in paragraph 1.E.8.
+
+1.B. “Project Gutenberg” is a registered trademark. It may only be
+used on or associated in any way with an electronic work by people who
+agree to be bound by the terms of this agreement. There are a few
+things that you can do with most Project Gutenberg™ electronic works
+even without complying with the full terms of this agreement. See
+paragraph 1.C below. There are a lot of things you can do with Project
+Gutenberg™ electronic works if you follow the terms of this
+agreement and help preserve free future access to Project Gutenberg™
+electronic works. See paragraph 1.E below.
+
+1.C. The Project Gutenberg Literary Archive Foundation (“the
+Foundation” or PGLAF), owns a compilation copyright in the collection
+of Project Gutenberg™ electronic works. Nearly all the individual
+works in the collection are in the public domain in the United
+States. If an individual work is unprotected by copyright law in the
+United States and you are located in the United States, we do not
+claim a right to prevent you from copying, distributing, performing,
+displaying or creating derivative works based on the work as long as
+all references to Project Gutenberg are removed. Of course, we hope
+that you will support the Project Gutenberg™ mission of promoting
+free access to electronic works by freely sharing Project Gutenberg™
+works in compliance with the terms of this agreement for keeping the
+Project Gutenberg™ name associated with the work. You can easily
+comply with the terms of this agreement by keeping this work in the
+same format with its attached full Project Gutenberg™ License when
+you share it without charge with others.
+
+1.D. The copyright laws of the place where you are located also govern
+what you can do with this work. Copyright laws in most countries are
+in a constant state of change. If you are outside the United States,
+check the laws of your country in addition to the terms of this
+agreement before downloading, copying, displaying, performing,
+distributing or creating derivative works based on this work or any
+other Project Gutenberg™ work. The Foundation makes no
+representations concerning the copyright status of any work in any
+country other than the United States.
+
+1.E. Unless you have removed all references to Project Gutenberg:
+
+1.E.1. The following sentence, with active links to, or other
+immediate access to, the full Project Gutenberg™ License must appear
+prominently whenever any copy of a Project Gutenberg™ work (any work
+on which the phrase “Project Gutenberg” appears, or with which the
+phrase “Project Gutenberg” is associated) is accessed, displayed,
+performed, viewed, copied or distributed:
+
+    This eBook is for the use of anyone anywhere in the United States and most
+    other parts of the world at no cost and with almost no restrictions
+    whatsoever. You may copy it, give it away or re-use it under the terms
+    of the Project Gutenberg License included with this eBook or online
+    at www.gutenberg.org. If you
+    are not located in the United States, you will have to check the laws
+    of the country where you are located before using this eBook.
+  
+1.E.2. If an individual Project Gutenberg™ electronic work is
+derived from texts not protected by U.S. copyright law (does not
+contain a notice indicating that it is posted with permission of the
+copyright holder), the work can be copied and distributed to anyone in
+the United States without paying any fees or charges. If you are
+redistributing or providing access to a work with the phrase “Project
+Gutenberg” associated with or appearing on the work, you must comply
+either with the requirements of paragraphs 1.E.1 through 1.E.7 or
+obtain permission for the use of the work and the Project Gutenberg™
+trademark as set forth in paragraphs 1.E.8 or 1.E.9.
+
+1.E.3. If an individual Project Gutenberg™ electronic work is posted
+with the permission of the copyright holder, your use and distribution
+must comply with both paragraphs 1.E.1 through 1.E.7 and any
+additional terms imposed by the copyright holder. Additional terms
+will be linked to the Project Gutenberg™ License for all works
+posted with the permission of the copyright holder found at the
+beginning of this work.
+
+1.E.4. Do not unlink or detach or remove the full Project Gutenberg™
+License terms from this work, or any files containing a part of this
+work or any other work associated with Project Gutenberg™.
+
+1.E.5. Do not copy, display, perform, distribute or redistribute this
+electronic work, or any part of this electronic work, without
+prominently displaying the sentence set forth in paragraph 1.E.1 with
+active links or immediate access to the full terms of the Project
+Gutenberg™ License.
+
+1.E.6. You may convert to and distribute this work in any binary,
+compressed, marked up, nonproprietary or proprietary form, including
+any word processing or hypertext form. However, if you provide access
+to or distribute copies of a Project Gutenberg™ work in a format
+other than “Plain Vanilla ASCII” or other format used in the official
+version posted on the official Project Gutenberg™ website
+(www.gutenberg.org), you must, at no additional cost, fee or expense
+to the user, provide a copy, a means of exporting a copy, or a means
+of obtaining a copy upon request, of the work in its original “Plain
+Vanilla ASCII” or other form. Any alternate format must include the
+full Project Gutenberg™ License as specified in paragraph 1.E.1.
+
+1.E.7. Do not charge a fee for access to, viewing, displaying,
+performing, copying or distributing any Project Gutenberg™ works
+unless you comply with paragraph 1.E.8 or 1.E.9.
+
+1.E.8. You may charge a reasonable fee for copies of or providing
+access to or distributing Project Gutenberg™ electronic works
+provided that:
+
+    • You pay a royalty fee of 20% of the gross profits you derive from
+        the use of Project Gutenberg™ works calculated using the method
+        you already use to calculate your applicable taxes. The fee is owed
+        to the owner of the Project Gutenberg™ trademark, but he has
+        agreed to donate royalties under this paragraph to the Project
+        Gutenberg Literary Archive Foundation. Royalty payments must be paid
+        within 60 days following each date on which you prepare (or are
+        legally required to prepare) your periodic tax returns. Royalty
+        payments should be clearly marked as such and sent to the Project
+        Gutenberg Literary Archive Foundation at the address specified in
+        Section 4, “Information about donations to the Project Gutenberg
+        Literary Archive Foundation.”
+    
+    • You provide a full refund of any money paid by a user who notifies
+        you in writing (or by e-mail) within 30 days of receipt that s/he
+        does not agree to the terms of the full Project Gutenberg™
+        License. You must require such a user to return or destroy all
+        copies of the works possessed in a physical medium and discontinue
+        all use of and all access to other copies of Project Gutenberg™
+        works.
+    
+    • You provide, in accordance with paragraph 1.F.3, a full refund of
+        any money paid for a work or a replacement copy, if a defect in the
+        electronic work is discovered and reported to you within 90 days of
+        receipt of the work.
+    
+    • You comply with all other terms of this agreement for free
+        distribution of Project Gutenberg™ works.
+    
+
+1.E.9. If you wish to charge a fee or distribute a Project
+Gutenberg™ electronic work or group of works on different terms than
+are set forth in this agreement, you must obtain permission in writing
+from the Project Gutenberg Literary Archive Foundation, the manager of
+the Project Gutenberg™ trademark. Contact the Foundation as set
+forth in Section 3 below.
+
+1.F.
+
+1.F.1. Project Gutenberg volunteers and employees expend considerable
+effort to identify, do copyright research on, transcribe and proofread
+works not protected by U.S. copyright law in creating the Project
+Gutenberg™ collection. Despite these efforts, Project Gutenberg™
+electronic works, and the medium on which they may be stored, may
+contain “Defects,” such as, but not limited to, incomplete, inaccurate
+or corrupt data, transcription errors, a copyright or other
+intellectual property infringement, a defective or damaged disk or
+other medium, a computer virus, or computer codes that damage or
+cannot be read by your equipment.
+
+1.F.2. LIMITED WARRANTY, DISCLAIMER OF DAMAGES - Except for the “Right
+of Replacement or Refund” described in paragraph 1.F.3, the Project
+Gutenberg Literary Archive Foundation, the owner of the Project
+Gutenberg™ trademark, and any other party distributing a Project
+Gutenberg™ electronic work under this agreement, disclaim all
+liability to you for damages, costs and expenses, including legal
+fees. YOU AGREE THAT YOU HAVE NO REMEDIES FOR NEGLIGENCE, STRICT
+LIABILITY, BREACH OF WARRANTY OR BREACH OF CONTRACT EXCEPT THOSE
+PROVIDED IN PARAGRAPH 1.F.3. YOU AGREE THAT THE FOUNDATION, THE
+TRADEMARK OWNER, AND ANY DISTRIBUTOR UNDER THIS AGREEMENT WILL NOT BE
+LIABLE TO YOU FOR ACTUAL, DIRECT, INDIRECT, CONSEQUENTIAL, PUNITIVE OR
+INCIDENTAL DAMAGES EVEN IF YOU GIVE NOTICE OF THE POSSIBILITY OF SUCH
+DAMAGE.
+
+1.F.3. LIMITED RIGHT OF REPLACEMENT OR REFUND - If you discover a
+defect in this electronic work within 90 days of receiving it, you can
+receive a refund of the money (if any) you paid for it by sending a
+written explanation to the person you received the work from. If you
+received the work on a physical medium, you must return the medium
+with your written explanation. The person or entity that provided you
+with the defective work may elect to provide a replacement copy in
+lieu of a refund. If you received the work electronically, the person
+or entity providing it to you may choose to give you a second
+opportunity to receive the work electronically in lieu of a refund. If
+the second copy is also defective, you may demand a refund in writing
+without further opportunities to fix the problem.
+
+1.F.4. Except for the limited right of replacement or refund set forth
+in paragraph 1.F.3, this work is provided to you ‘AS-IS’, WITH NO
+OTHER WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT
+LIMITED TO WARRANTIES OF MERCHANTABILITY OR FITNESS FOR ANY PURPOSE.
+
+1.F.5. Some states do not allow disclaimers of certain implied
+warranties or the exclusion or limitation of certain types of
+damages. If any disclaimer or limitation set forth in this agreement
+violates the law of the state applicable to this agreement, the
+agreement shall be interpreted to make the maximum disclaimer or
+limitation permitted by the applicable state law. The invalidity or
+unenforceability of any provision of this agreement shall not void the
+remaining provisions.
+
+1.F.6. INDEMNITY - You agree to indemnify and hold the Foundation, the
+trademark owner, any agent or employee of the Foundation, anyone
+providing copies of Project Gutenberg™ electronic works in
+accordance with this agreement, and any volunteers associated with the
+production, promotion and distribution of Project Gutenberg™
+electronic works, harmless from all liability, costs and expenses,
+including legal fees, that arise directly or indirectly from any of
+the following which you do or cause to occur: (a) distribution of this
+or any Project Gutenberg™ work, (b) alteration, modification, or
+additions or deletions to any Project Gutenberg™ work, and (c) any
+Defect you cause.
+
+Section 2. Information about the Mission of Project Gutenberg™
+
+Project Gutenberg™ is synonymous with the free distribution of
+electronic works in formats readable by the widest variety of
+computers including obsolete, old, middle-aged and new computers. It
+exists because of the efforts of hundreds of volunteers and donations
+from people in all walks of life.
+
+Volunteers and financial support to provide volunteers with the
+assistance they need are critical to reaching Project Gutenberg™’s
+goals and ensuring that the Project Gutenberg™ collection will
+remain freely available for generations to come. In 2001, the Project
+Gutenberg Literary Archive Foundation was created to provide a secure
+and permanent future for Project Gutenberg™ and future
+generations. To learn more about the Project Gutenberg Literary
+Archive Foundation and how your efforts and donations can help, see
+Sections 3 and 4 and the Foundation information page at www.gutenberg.org.
+
+Section 3. Information about the Project Gutenberg Literary Archive Foundation
+
+The Project Gutenberg Literary Archive Foundation is a non-profit
+501(c)(3) educational corporation organized under the laws of the
+state of Mississippi and granted tax exempt status by the Internal
+Revenue Service. The Foundation’s EIN or federal tax identification
+number is 64-6221541. Contributions to the Project Gutenberg Literary
+Archive Foundation are tax deductible to the full extent permitted by
+U.S. federal laws and your state’s laws.
+
+The Foundation’s business office is located at 809 North 1500 West,
+Salt Lake City, UT 84116, (801) 596-1887. Email contact links and up
+to date contact information can be found at the Foundation’s website
+and official page at www.gutenberg.org/contact
+
+Section 4. Information about Donations to the Project Gutenberg
+Literary Archive Foundation
+
+Project Gutenberg™ depends upon and cannot survive without widespread
+public support and donations to carry out its mission of
+increasing the number of public domain and licensed works that can be
+freely distributed in machine-readable form accessible by the widest
+array of equipment including outdated equipment. Many small donations
+($1 to $5,000) are particularly important to maintaining tax exempt
+status with the IRS.
+
+The Foundation is committed to complying with the laws regulating
+charities and charitable donations in all 50 states of the United
+States. Compliance requirements are not uniform and it takes a
+considerable effort, much paperwork and many fees to meet and keep up
+with these requirements. We do not solicit donations in locations
+where we have not received written confirmation of compliance. To SEND
+DONATIONS or determine the status of compliance for any particular state
+visit www.gutenberg.org/donate.
+
+While we cannot and do not solicit contributions from states where we
+have not met the solicitation requirements, we know of no prohibition
+against accepting unsolicited donations from donors in such states who
+approach us with offers to donate.
+
+International donations are gratefully accepted, but we cannot make
+any statements concerning tax treatment of donations received from
+outside the United States. U.S. laws alone swamp our small staff.
+
+Please check the Project Gutenberg web pages for current donation
+methods and addresses. Donations are accepted in a number of other
+ways including checks, online payments and credit card donations. To
+donate, please visit: www.gutenberg.org/donate.
+
+Section 5. General Information About Project Gutenberg™ electronic works
+
+Professor Michael S. Hart was the originator of the Project
+Gutenberg™ concept of a library of electronic works that could be
+freely shared with anyone. For forty years, he produced and
+distributed Project Gutenberg™ eBooks with only a loose network of
+volunteer support.
+
+Project Gutenberg™ eBooks are often created from several printed
+editions, all of which are confirmed as not protected by copyright in
+the U.S. unless a copyright notice is included. Thus, we do not
+necessarily keep eBooks in compliance with any particular paper
+edition.
+
+Most people start at our website which has the main PG search
+facility: www.gutenberg.org.
+
+This website includes information about Project Gutenberg™,
+including how to make donations to the Project Gutenberg Literary
+Archive Foundation, how to help produce our new eBooks, and how to
+subscribe to our email newsletter to hear about new eBooks.
+
+

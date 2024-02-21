@@ -10,7 +10,7 @@ namespace NLP.Autocompletion
 {
     public class Autocompletion
     {
-        private const bool SUGGEST_TYPINGWORD = true;
+        private const bool SUGGEST_TYPINGWORD = false;
         private const int NUMBER_OF_SUGGESTIONS_TO_RETURN = 15;
         Dictionary<string, NGram> sourceDataForSuggestion;
         Dictionary<string, NGram> backupDataForSuggestion;

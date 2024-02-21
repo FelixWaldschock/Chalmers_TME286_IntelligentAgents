@@ -47,13 +47,13 @@ namespace AutocompleteApplication
             // 
             // menuStrip1
             // 
-            this.menuStrip1.GripMargin = new System.Windows.Forms.Padding(2, 2, 0, 2);
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(32, 32);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.fileToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1600, 40);
+            this.menuStrip1.Padding = new System.Windows.Forms.Padding(3, 1, 0, 1);
+            this.menuStrip1.Size = new System.Drawing.Size(684, 24);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -63,20 +63,20 @@ namespace AutocompleteApplication
             this.loadDataSetToolStripMenuItem,
             this.exitToolStripMenuItem});
             this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
-            this.fileToolStripMenuItem.Size = new System.Drawing.Size(71, 36);
+            this.fileToolStripMenuItem.Size = new System.Drawing.Size(37, 22);
             this.fileToolStripMenuItem.Text = "File";
             // 
             // loadDataSetToolStripMenuItem
             // 
             this.loadDataSetToolStripMenuItem.Name = "loadDataSetToolStripMenuItem";
-            this.loadDataSetToolStripMenuItem.Size = new System.Drawing.Size(289, 44);
+            this.loadDataSetToolStripMenuItem.Size = new System.Drawing.Size(144, 22);
             this.loadDataSetToolStripMenuItem.Text = "Load data set";
             this.loadDataSetToolStripMenuItem.Click += new System.EventHandler(this.loadDataSetToolStripMenuItem_Click);
             // 
             // exitToolStripMenuItem
             // 
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(289, 44);
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(144, 22);
             this.exitToolStripMenuItem.Text = "Exit";
             this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
             // 
@@ -87,10 +87,10 @@ namespace AutocompleteApplication
             this.tokenizeButton,
             this.generateNGramsButton,
             this.generateTrigramsButton});
-            this.toolStrip1.Location = new System.Drawing.Point(0, 40);
+            this.toolStrip1.Location = new System.Drawing.Point(0, 24);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Padding = new System.Windows.Forms.Padding(0, 0, 4, 0);
-            this.toolStrip1.Size = new System.Drawing.Size(1600, 42);
+            this.toolStrip1.Padding = new System.Windows.Forms.Padding(0, 0, 2, 0);
+            this.toolStrip1.Size = new System.Drawing.Size(684, 25);
             this.toolStrip1.TabIndex = 1;
             this.toolStrip1.Text = "toolStrip1";
             // 
@@ -101,7 +101,7 @@ namespace AutocompleteApplication
             this.tokenizeButton.Image = ((System.Drawing.Image)(resources.GetObject("tokenizeButton.Image")));
             this.tokenizeButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.tokenizeButton.Name = "tokenizeButton";
-            this.tokenizeButton.Size = new System.Drawing.Size(112, 36);
+            this.tokenizeButton.Size = new System.Drawing.Size(56, 22);
             this.tokenizeButton.Text = "Tokenize";
             this.tokenizeButton.Click += new System.EventHandler(this.tokenizeButton_Click);
             // 
@@ -112,14 +112,14 @@ namespace AutocompleteApplication
             this.generateNGramsButton.Image = ((System.Drawing.Image)(resources.GetObject("generateNGramsButton.Image")));
             this.generateNGramsButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.generateNGramsButton.Name = "generateNGramsButton";
-            this.generateNGramsButton.Size = new System.Drawing.Size(158, 36);
+            this.generateNGramsButton.Size = new System.Drawing.Size(81, 22);
             this.generateNGramsButton.Text = "Gen. NGrams";
             this.generateNGramsButton.Click += new System.EventHandler(this.generateNGramsButton_Click);
             // 
             // generateTrigramsButton
             // 
             this.generateTrigramsButton.Name = "generateTrigramsButton";
-            this.generateTrigramsButton.Size = new System.Drawing.Size(46, 36);
+            this.generateTrigramsButton.Size = new System.Drawing.Size(23, 22);
             // 
             // progressListBox
             // 
@@ -129,11 +129,10 @@ namespace AutocompleteApplication
             this.progressListBox.Font = new System.Drawing.Font("Lucida Console", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.progressListBox.ForeColor = System.Drawing.Color.Lime;
             this.progressListBox.FormattingEnabled = true;
-            this.progressListBox.ItemHeight = 22;
-            this.progressListBox.Location = new System.Drawing.Point(0, 82);
-            this.progressListBox.Margin = new System.Windows.Forms.Padding(6);
+            this.progressListBox.ItemHeight = 11;
+            this.progressListBox.Location = new System.Drawing.Point(0, 49);
             this.progressListBox.Name = "progressListBox";
-            this.progressListBox.Size = new System.Drawing.Size(1600, 783);
+            this.progressListBox.Size = new System.Drawing.Size(684, 412);
             this.progressListBox.TabIndex = 5;
             this.progressListBox.TabStop = false;
             this.progressListBox.SelectedIndexChanged += new System.EventHandler(this.progressListBox_SelectedIndexChanged);
@@ -141,9 +140,10 @@ namespace AutocompleteApplication
             // AutocompletingTextBox
             // 
             this.AutocompletingTextBox.Enabled = false;
-            this.AutocompletingTextBox.Location = new System.Drawing.Point(985, 110);
+            this.AutocompletingTextBox.Location = new System.Drawing.Point(430, 65);
+            this.AutocompletingTextBox.Margin = new System.Windows.Forms.Padding(2);
             this.AutocompletingTextBox.Name = "AutocompletingTextBox";
-            this.AutocompletingTextBox.Size = new System.Drawing.Size(603, 31);
+            this.AutocompletingTextBox.Size = new System.Drawing.Size(243, 20);
             this.AutocompletingTextBox.TabIndex = 6;
             this.AutocompletingTextBox.TabStop = false;
             this.AutocompletingTextBox.Visible = false;
@@ -153,10 +153,10 @@ namespace AutocompleteApplication
             // suggestionListBox
             // 
             this.suggestionListBox.FormattingEnabled = true;
-            this.suggestionListBox.ItemHeight = 25;
-            this.suggestionListBox.Location = new System.Drawing.Point(985, 168);
+            this.suggestionListBox.Location = new System.Drawing.Point(430, 95);
+            this.suggestionListBox.Margin = new System.Windows.Forms.Padding(2);
             this.suggestionListBox.Name = "suggestionListBox";
-            this.suggestionListBox.Size = new System.Drawing.Size(603, 679);
+            this.suggestionListBox.Size = new System.Drawing.Size(243, 355);
             this.suggestionListBox.TabIndex = 7;
             this.suggestionListBox.TabStop = false;
             this.suggestionListBox.Visible = false;
@@ -164,16 +164,15 @@ namespace AutocompleteApplication
             // 
             // MainForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1600, 865);
+            this.ClientSize = new System.Drawing.Size(684, 461);
             this.Controls.Add(this.suggestionListBox);
             this.Controls.Add(this.AutocompletingTextBox);
             this.Controls.Add(this.progressListBox);
             this.Controls.Add(this.toolStrip1);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
-            this.Margin = new System.Windows.Forms.Padding(6);
             this.Name = "MainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Autocompletion";
