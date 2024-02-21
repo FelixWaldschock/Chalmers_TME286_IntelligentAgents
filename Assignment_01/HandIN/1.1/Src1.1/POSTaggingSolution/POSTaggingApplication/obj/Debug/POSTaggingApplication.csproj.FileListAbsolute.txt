@@ -1,0 +1,79 @@
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2024\Src\Assignment1\1.1\POSTaggingSolution\POSTaggingApplication\bin\Debug\POSTaggingApplication.exe.config
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2024\Src\Assignment1\1.1\POSTaggingSolution\POSTaggingApplication\bin\Debug\POSTaggingApplication.exe
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2024\Src\Assignment1\1.1\POSTaggingSolution\POSTaggingApplication\bin\Debug\POSTaggingApplication.pdb
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2024\Src\Assignment1\1.1\POSTaggingSolution\POSTaggingApplication\obj\Debug\POSTaggingApplication.Properties.Resources.resources
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2024\Src\Assignment1\1.1\POSTaggingSolution\POSTaggingApplication\obj\Debug\POSTaggingApplication.csproj.GenerateResource.cache
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2024\Src\Assignment1\1.1\POSTaggingSolution\POSTaggingApplication\obj\Debug\POSTaggingApplication.csproj.CoreCompileInputs.cache
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2024\Src\Assignment1\1.1\POSTaggingSolution\POSTaggingApplication\obj\Debug\POSTaggingApplication.exe
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2024\Src\Assignment1\1.1\POSTaggingSolution\POSTaggingApplication\obj\Debug\POSTaggingApplication.pdb
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2024\Src\Assignment1\1.1\POSTaggingSolution\POSTaggingApplication\obj\Debug\POSTaggingApplication.MainForm.resources
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2024\Src\Assignment1\1.1\POSTaggingSolution\POSTaggingApplication\bin\Debug\NLP.dll
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2024\Src\Assignment1\1.1\POSTaggingSolution\POSTaggingApplication\bin\Debug\NLP.pdb
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2024\Src\Assignment1\1.1\POSTaggingSolution\POSTaggingApplication\obj\Debug\POSTaggingApplication.csproj.CopyComplete
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2024\Src\Assignment1\1.1\POSTaggingSolutionWithSolution\POSTaggingApplication\bin\Debug\POSTaggingApplication.exe.config
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2024\Src\Assignment1\1.1\POSTaggingSolutionWithSolution\POSTaggingApplication\bin\Debug\POSTaggingApplication.exe
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2024\Src\Assignment1\1.1\POSTaggingSolutionWithSolution\POSTaggingApplication\bin\Debug\POSTaggingApplication.pdb
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2024\Src\Assignment1\1.1\POSTaggingSolutionWithSolution\POSTaggingApplication\bin\Debug\NLP.dll
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2024\Src\Assignment1\1.1\POSTaggingSolutionWithSolution\POSTaggingApplication\bin\Debug\NLP.pdb
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2024\Src\Assignment1\1.1\POSTaggingSolutionWithSolution\POSTaggingApplication\obj\Debug\POSTaggingApplication.csproj.AssemblyReference.cache
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2024\Src\Assignment1\1.1\POSTaggingSolutionWithSolution\POSTaggingApplication\obj\Debug\POSTaggingApplication.csproj.SuggestedBindingRedirects.cache
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2024\Src\Assignment1\1.1\POSTaggingSolutionWithSolution\POSTaggingApplication\obj\Debug\POSTaggingApplication.MainForm.resources
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2024\Src\Assignment1\1.1\POSTaggingSolutionWithSolution\POSTaggingApplication\obj\Debug\POSTaggingApplication.Properties.Resources.resources
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2024\Src\Assignment1\1.1\POSTaggingSolutionWithSolution\POSTaggingApplication\obj\Debug\POSTaggingApplication.csproj.GenerateResource.cache
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2024\Src\Assignment1\1.1\POSTaggingSolutionWithSolution\POSTaggingApplication\obj\Debug\POSTaggingApplication.csproj.CoreCompileInputs.cache
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2024\Src\Assignment1\1.1\POSTaggingSolutionWithSolution\POSTaggingApplication\obj\Debug\POSTaggingApplication.csproj.CopyComplete
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2024\Src\Assignment1\1.1\POSTaggingSolutionWithSolution\POSTaggingApplication\obj\Debug\POSTaggingApplication.exe
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2024\Src\Assignment1\1.1\POSTaggingSolutionWithSolution\POSTaggingApplication\obj\Debug\POSTaggingApplication.pdb
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2024\Src\Assignment1\1.1\POSTaggingSolution\POSTaggingApplication\obj\Debug\POSTaggingApplication.csprojAssemblyReference.cache
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2024\Src\Assignment1\Src1.1\POSTaggingSolution\POSTaggingApplication\bin\Debug\POSTaggingApplication.exe.config
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2024\Src\Assignment1\Src1.1\POSTaggingSolution\POSTaggingApplication\bin\Debug\POSTaggingApplication.exe
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2024\Src\Assignment1\Src1.1\POSTaggingSolution\POSTaggingApplication\bin\Debug\POSTaggingApplication.pdb
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2024\Src\Assignment1\Src1.1\POSTaggingSolution\POSTaggingApplication\bin\Debug\NLP.dll
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2024\Src\Assignment1\Src1.1\POSTaggingSolution\POSTaggingApplication\bin\Debug\NLP.pdb
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2024\Src\Assignment1\Src1.1\POSTaggingSolution\POSTaggingApplication\obj\Debug\POSTaggingApplication.MainForm.resources
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2024\Src\Assignment1\Src1.1\POSTaggingSolution\POSTaggingApplication\obj\Debug\POSTaggingApplication.Properties.Resources.resources
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2024\Src\Assignment1\Src1.1\POSTaggingSolution\POSTaggingApplication\obj\Debug\POSTaggingApplication.csproj.GenerateResource.cache
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2024\Src\Assignment1\Src1.1\POSTaggingSolution\POSTaggingApplication\obj\Debug\POSTaggingApplication.csproj.CoreCompileInputs.cache
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2024\Src\Assignment1\Src1.1\POSTaggingSolution\POSTaggingApplication\obj\Debug\POSTaggingApplication.csproj.CopyComplete
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2024\Src\Assignment1\Src1.1\POSTaggingSolution\POSTaggingApplication\obj\Debug\POSTaggingApplication.exe
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2024\Src\Assignment1\Src1.1\POSTaggingSolution\POSTaggingApplication\obj\Debug\POSTaggingApplication.pdb
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2024\Src\Assignment1\Src1.1\POSTaggingSolution\POSTaggingApplication\obj\Debug\POSTaggingApplication.csprojAssemblyReference.cache
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2024\Web page\Upload20240129\Src1.1\POSTaggingSolution\POSTaggingApplication\bin\Debug\POSTaggingApplication.exe.config
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2024\Web page\Upload20240129\Src1.1\POSTaggingSolution\POSTaggingApplication\bin\Debug\POSTaggingApplication.exe
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2024\Web page\Upload20240129\Src1.1\POSTaggingSolution\POSTaggingApplication\bin\Debug\POSTaggingApplication.pdb
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2024\Web page\Upload20240129\Src1.1\POSTaggingSolution\POSTaggingApplication\bin\Debug\NLP.dll
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2024\Web page\Upload20240129\Src1.1\POSTaggingSolution\POSTaggingApplication\bin\Debug\NLP.pdb
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2024\Web page\Upload20240129\Src1.1\POSTaggingSolution\POSTaggingApplication\obj\Debug\POSTaggingApplication.csprojAssemblyReference.cache
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2024\Web page\Upload20240129\Src1.1\POSTaggingSolution\POSTaggingApplication\obj\Debug\POSTaggingApplication.MainForm.resources
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2024\Web page\Upload20240129\Src1.1\POSTaggingSolution\POSTaggingApplication\obj\Debug\POSTaggingApplication.Properties.Resources.resources
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2024\Web page\Upload20240129\Src1.1\POSTaggingSolution\POSTaggingApplication\obj\Debug\POSTaggingApplication.csproj.GenerateResource.cache
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2024\Web page\Upload20240129\Src1.1\POSTaggingSolution\POSTaggingApplication\obj\Debug\POSTaggingApplication.csproj.CoreCompileInputs.cache
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2024\Web page\Upload20240129\Src1.1\POSTaggingSolution\POSTaggingApplication\obj\Debug\POSTaggingApplication.csproj.CopyComplete
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2024\Web page\Upload20240129\Src1.1\POSTaggingSolution\POSTaggingApplication\obj\Debug\POSTaggingApplication.exe
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2024\Web page\Upload20240129\Src1.1\POSTaggingSolution\POSTaggingApplication\obj\Debug\POSTaggingApplication.pdb
+\\Mac\Home\Documents\gits\Chalmers_TME286_IntelligentAgents\Assignment_01\01_01\Src1.1\POSTaggingSolution\POSTaggingApplication\bin\Debug\POSTaggingApplication.exe.config
+\\Mac\Home\Documents\gits\Chalmers_TME286_IntelligentAgents\Assignment_01\01_01\Src1.1\POSTaggingSolution\POSTaggingApplication\bin\Debug\POSTaggingApplication.exe
+\\Mac\Home\Documents\gits\Chalmers_TME286_IntelligentAgents\Assignment_01\01_01\Src1.1\POSTaggingSolution\POSTaggingApplication\bin\Debug\POSTaggingApplication.pdb
+\\Mac\Home\Documents\gits\Chalmers_TME286_IntelligentAgents\Assignment_01\01_01\Src1.1\POSTaggingSolution\POSTaggingApplication\bin\Debug\NLP.dll
+\\Mac\Home\Documents\gits\Chalmers_TME286_IntelligentAgents\Assignment_01\01_01\Src1.1\POSTaggingSolution\POSTaggingApplication\bin\Debug\NLP.pdb
+\\Mac\Home\Documents\gits\Chalmers_TME286_IntelligentAgents\Assignment_01\01_01\Src1.1\POSTaggingSolution\POSTaggingApplication\obj\Debug\POSTaggingApplication.csproj.AssemblyReference.cache
+\\Mac\Home\Documents\gits\Chalmers_TME286_IntelligentAgents\Assignment_01\01_01\Src1.1\POSTaggingSolution\POSTaggingApplication\obj\Debug\POSTaggingApplication.MainForm.resources
+\\Mac\Home\Documents\gits\Chalmers_TME286_IntelligentAgents\Assignment_01\01_01\Src1.1\POSTaggingSolution\POSTaggingApplication\obj\Debug\POSTaggingApplication.Properties.Resources.resources
+\\Mac\Home\Documents\gits\Chalmers_TME286_IntelligentAgents\Assignment_01\01_01\Src1.1\POSTaggingSolution\POSTaggingApplication\obj\Debug\POSTaggingApplication.csproj.GenerateResource.cache
+\\Mac\Home\Documents\gits\Chalmers_TME286_IntelligentAgents\Assignment_01\01_01\Src1.1\POSTaggingSolution\POSTaggingApplication\obj\Debug\POSTaggingApplication.csproj.CoreCompileInputs.cache
+\\Mac\Home\Documents\gits\Chalmers_TME286_IntelligentAgents\Assignment_01\01_01\Src1.1\POSTaggingSolution\POSTaggingApplication\obj\Debug\POSTaggingApplication.csproj.CopyComplete
+\\Mac\Home\Documents\gits\Chalmers_TME286_IntelligentAgents\Assignment_01\01_01\Src1.1\POSTaggingSolution\POSTaggingApplication\obj\Debug\POSTaggingApplication.exe
+\\Mac\Home\Documents\gits\Chalmers_TME286_IntelligentAgents\Assignment_01\01_01\Src1.1\POSTaggingSolution\POSTaggingApplication\obj\Debug\POSTaggingApplication.pdb
+\\Mac\Home\Documents\gits\Chalmers_TME286_IntelligentAgents\Assignment_01\HandIN\01_01\Src1.1\POSTaggingSolution\POSTaggingApplication\bin\Debug\POSTaggingApplication.exe.config
+\\Mac\Home\Documents\gits\Chalmers_TME286_IntelligentAgents\Assignment_01\HandIN\01_01\Src1.1\POSTaggingSolution\POSTaggingApplication\bin\Debug\POSTaggingApplication.exe
+\\Mac\Home\Documents\gits\Chalmers_TME286_IntelligentAgents\Assignment_01\HandIN\01_01\Src1.1\POSTaggingSolution\POSTaggingApplication\bin\Debug\POSTaggingApplication.pdb
+\\Mac\Home\Documents\gits\Chalmers_TME286_IntelligentAgents\Assignment_01\HandIN\01_01\Src1.1\POSTaggingSolution\POSTaggingApplication\bin\Debug\NLP.dll
+\\Mac\Home\Documents\gits\Chalmers_TME286_IntelligentAgents\Assignment_01\HandIN\01_01\Src1.1\POSTaggingSolution\POSTaggingApplication\bin\Debug\NLP.pdb
+\\Mac\Home\Documents\gits\Chalmers_TME286_IntelligentAgents\Assignment_01\HandIN\01_01\Src1.1\POSTaggingSolution\POSTaggingApplication\obj\Debug\POSTaggingApplication.csproj.AssemblyReference.cache
+\\Mac\Home\Documents\gits\Chalmers_TME286_IntelligentAgents\Assignment_01\HandIN\01_01\Src1.1\POSTaggingSolution\POSTaggingApplication\obj\Debug\POSTaggingApplication.MainForm.resources
+\\Mac\Home\Documents\gits\Chalmers_TME286_IntelligentAgents\Assignment_01\HandIN\01_01\Src1.1\POSTaggingSolution\POSTaggingApplication\obj\Debug\POSTaggingApplication.Properties.Resources.resources
+\\Mac\Home\Documents\gits\Chalmers_TME286_IntelligentAgents\Assignment_01\HandIN\01_01\Src1.1\POSTaggingSolution\POSTaggingApplication\obj\Debug\POSTaggingApplication.csproj.GenerateResource.cache
+\\Mac\Home\Documents\gits\Chalmers_TME286_IntelligentAgents\Assignment_01\HandIN\01_01\Src1.1\POSTaggingSolution\POSTaggingApplication\obj\Debug\POSTaggingApplication.csproj.CoreCompileInputs.cache
+\\Mac\Home\Documents\gits\Chalmers_TME286_IntelligentAgents\Assignment_01\HandIN\01_01\Src1.1\POSTaggingSolution\POSTaggingApplication\obj\Debug\POSTaggingApplication.csproj.CopyComplete
+\\Mac\Home\Documents\gits\Chalmers_TME286_IntelligentAgents\Assignment_01\HandIN\01_01\Src1.1\POSTaggingSolution\POSTaggingApplication\obj\Debug\POSTaggingApplication.exe
+\\Mac\Home\Documents\gits\Chalmers_TME286_IntelligentAgents\Assignment_01\HandIN\01_01\Src1.1\POSTaggingSolution\POSTaggingApplication\obj\Debug\POSTaggingApplication.pdb

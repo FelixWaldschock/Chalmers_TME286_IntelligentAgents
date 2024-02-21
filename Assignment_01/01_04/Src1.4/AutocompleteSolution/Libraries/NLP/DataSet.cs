@@ -164,7 +164,6 @@ namespace NLP.NGramDataSet
             }
 
             // Print the 5 most frequent Uni, Bi and Trigrams
-            
             // sort the ungirams, bigrams and trigrams by frequency
 
             var sortedUnigrams = unigrams.OrderByDescending(kv => kv.Value.FrequencyPerMillionInstances).ToDictionary(kv => kv.Key, kv => kv.Value).Take(5);
