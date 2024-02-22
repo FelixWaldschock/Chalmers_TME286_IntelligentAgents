@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BayesianClassifierApplication", "BayesianClassifierApplication\BayesianClassifierApplication.csproj", "{169A6CA7-9514-4D9A-9834-CFEEF9AD8201}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NLP", "Libraries\NLP\NLP.csproj", "{1C4D11D6-4189-46E4-B1FC-9F98CC93F2C6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{169A6CA7-9514-4D9A-9834-CFEEF9AD8201}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{169A6CA7-9514-4D9A-9834-CFEEF9AD8201}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{169A6CA7-9514-4D9A-9834-CFEEF9AD8201}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{169A6CA7-9514-4D9A-9834-CFEEF9AD8201}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C4D11D6-4189-46E4-B1FC-9F98CC93F2C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C4D11D6-4189-46E4-B1FC-9F98CC93F2C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C4D11D6-4189-46E4-B1FC-9F98CC93F2C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C4D11D6-4189-46E4-B1FC-9F98CC93F2C6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {114CC684-E98F-42CD-BDB5-DA3451A42A85}
+	EndGlobalSection
+EndGlobal

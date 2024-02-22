@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutocompleteApplication", "AutocompleteApplication\AutocompleteApplication.csproj", "{A73CD70F-0576-4FAD-886C-89B97AD4C558}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NLP", "Libraries\NLP\NLP.csproj", "{1C4D11D6-4189-46E4-B1FC-9F98CC93F2C6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A73CD70F-0576-4FAD-886C-89B97AD4C558}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A73CD70F-0576-4FAD-886C-89B97AD4C558}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A73CD70F-0576-4FAD-886C-89B97AD4C558}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A73CD70F-0576-4FAD-886C-89B97AD4C558}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C4D11D6-4189-46E4-B1FC-9F98CC93F2C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C4D11D6-4189-46E4-B1FC-9F98CC93F2C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C4D11D6-4189-46E4-B1FC-9F98CC93F2C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C4D11D6-4189-46E4-B1FC-9F98CC93F2C6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6E29E65A-8AAB-4C30-8070-EAC97636A2CD}
+	EndGlobalSection
+EndGlobal
