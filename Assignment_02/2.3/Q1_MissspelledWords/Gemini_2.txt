@@ -2,8 +2,7 @@ How many misspled wods are in ths sentnce?
 
 
 
-The sentence "ths sentnce" contains the following misspelled words:
+The sentence "ths sentnce" contains two misspelled words: "ths" and "sentnce".
 
-"ths" should be spelled as "this"
-"sentnce" should be spelled as "sentence"
-Therefore, there are 2 misspelled words in the sentence.
+"ths" is misspelled as "this".
+"sentnce" is misspelled as "sentence".

@@ -1,0 +1,12 @@
+Which of these words does not belong with the others [watt, kilometer, inch, kilogram]?
+
+
+
+
+The word that doesn't belong with the others is inch.
+
+Here's why:
+
+Watt, kilometer, and kilogram are all units of measurement in the metric system.
+Inch is a unit of measurement in the imperial system.
+Therefore, inch stands out because it belongs to a different measurement system compared to the other three options.

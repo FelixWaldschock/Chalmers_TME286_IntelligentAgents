@@ -1,0 +1,9 @@
+How many of these numbers are even? 2, 11, 22, 33, 15, 16
+Hide drafts
+
+
+There are 3 even numbers. | Even | Count |
+| --- | --- |
+| 2 | 1 |
+| 16 | 1 |
+| 22 | 1 |
