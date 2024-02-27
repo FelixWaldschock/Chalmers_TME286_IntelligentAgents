@@ -1,0 +1,11 @@
+To check if a number is even, on can check (number & 2 == 0). Where % is the modulo operator.
+
+I want you to check if the odd numbers in this set add up to an odd number: 10,15,12,13,21,17?
+
+
+
+You're right, the modulo operator (%) can be used to check for even and odd numbers. However, in the given list (10, 15, 12, 13, 21, 17), only 13, 15, 17, and 21 are odd numbers.
+
+Even though 10 and 12 are not divisible by 2, they are not considered odd numbers in the mathematical definition. Odd numbers are defined as integers that leave a remainder of 1 when divided by 2.
+
+Therefore, among the odd numbers in the list, 13 + 15 + 17 + 21 = 66, which is an even number. So, the sum of the odd numbers in the set is not odd.

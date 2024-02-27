@@ -1,0 +1,7 @@
+## Bing
+Eric, born on February 29, 1996, has a unique birthday that occurs only during leap years. Let's calculate when he celebrated his third birthday:
+- Leap Year 1996: Eric was born on February 29, 1996.
+- First Birthday: Eric's first birthday was on February 29, 1997 (non-leap year).
+- Second Birthday: Eric's second birthday was on February 29, 2000 (leap year).
+- Third Birthday: Eric celebrated his third birthday on February 29, 2004 (leap year).
+So, Eric's third birthday fell on February 29, 2004! 🎂🎉

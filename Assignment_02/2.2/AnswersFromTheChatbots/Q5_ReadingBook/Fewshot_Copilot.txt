@@ -1,0 +1,18 @@
+## Bing
+Let's break this down step by step:
+- Normal Reading Week:
+    - If you read a single page every day, after one week, you read 7 pages.
+- Missed Reading Week:
+    - If you miss reading on a day, you only read 6 pages in that week.
+Now, you read 21 pages a day and skip one day each week. Let's calculate how many pages you read in a week:
+- Normal Reading Week: 21 pages/day × 7 days/week = 147 pages/week
+- Missed Reading Week: 21 pages/day × 6 days/week = 126 pages/week
+The difference between these two scenarios is 21 pages.
+Given that the book consists of 630 pages, we need to find out how many weeks it takes to read the entire book.
+- Total pages in the book: 630 pages
+- Pages read per week (considering missed reading): 126 pages/week
+Now, let's set up an equation:
+[ \text{Total weeks} \times 126 \text{ pages/week} = 630 \text{ pages} ]
+Solving for the total number of weeks:
+[ \text{Total weeks} = \frac{630}{126} = 5 \text{ weeks} ]
+Therefore, it will take you approximately 5 weeks to finish reading the entire book. Happy reading! 📚🌟

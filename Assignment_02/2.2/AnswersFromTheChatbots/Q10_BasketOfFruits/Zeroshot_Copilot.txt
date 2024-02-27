@@ -1,0 +1,7 @@
+## Bing
+After the exchanges and actions taken by Anna and Elisa, the basket contains the following items in descending order:
+- 5 apples (started with 7, Anna took 2)
+- 3 bananas
+- 2 oranges (Anna added 2)
+- 1 pineapple
+Elisa ate one of the most common fruit, which were the apples, so their number decreased by one. The oranges, although added later, are not eaten by anyone. Therefore, they are counted as they were added by Anna..

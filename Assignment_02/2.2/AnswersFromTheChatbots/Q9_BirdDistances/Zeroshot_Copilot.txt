@@ -1,0 +1,9 @@
+## Bing
+Here are the bird distances between the four cities in descending order:
+- Rome to London: 1435 km
+- Berlin to Rome: 1184 km
+- Berlin to London: 932 km
+- Paris to London: 344 km
+- Berlin to Paris: 878 km
+- Rome to Paris: 1107 km
+Please note that these distances are approximate and can vary slightly depending on the exact locations within the cities.

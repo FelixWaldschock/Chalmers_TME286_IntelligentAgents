@@ -1,0 +1,14 @@
+Sort these capital cities by the population size of its country [Berlin, Rome, Paris, London]
+
+
+London, United Kingdom
+Paris, France
+Berlin, Germany
+Rome, Italy
+This order is based on the populations of the respective countries:
+
+United Kingdom (estimated 68.5 million)
+France (estimated 65.3 million)
+Germany (estimated 83.2 million)
+Italy (estimated 59.1 million)
+It's important to note that the population of London itself is not the highest among these cities - that distinction belongs to Berlin. However, the question asked for the order based on the population of their respective countries.

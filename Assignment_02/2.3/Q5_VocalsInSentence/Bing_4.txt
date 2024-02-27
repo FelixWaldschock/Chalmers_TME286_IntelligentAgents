@@ -1,0 +1,8 @@
+## Bing
+The sentence "How many vowels are in this sentence?" contains 9 vowels. Here's the breakdown:
+- 'o' appears 1 time
+- 'a' appears 2 times
+- 'e' appears 3 times
+- 'i' appears 2 times
+- 'u' appears 1 time
+So, the total number of vowels is $$1 + 2 + 3 + 2 + 1 = 9$$.

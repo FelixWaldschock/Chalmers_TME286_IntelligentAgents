@@ -1,0 +1,9 @@
+Compare the flags of the countries [Sweden, South Africa, Belgium, Japan] and list them according to the number of colors used in their flag (desceding). If countries have the same number of colors in their flag, sort alphabetically.
+
+
+Here's a comparison of the flags of Sweden, South Africa, Belgium, and Japan, listed according to the number of colors used in their flags (descending) and alphabetically in the case of ties:
+
+South Africa (5 colors): Red, green, yellow, black, and white.
+Belgium (3 colors): Black, yellow, and red.
+Sweden (2 colors): Yellow and blue.
+Japan (2 colors): White and red.

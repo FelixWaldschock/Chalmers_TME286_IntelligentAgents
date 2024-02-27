@@ -1,0 +1,12 @@
+## Bing
+Certainly! Let's reverse the spellings of these fruits and then arrange them alphabetically:
+- Apple (reversed: elppa)
+- Pear (reversed: raep)
+- Banana (reversed: ananab)
+- Strawberry (reversed: yrrebwarts)
+Now, let's arrange them in alphabetical order:
+- Apple
+- Banana
+- Pear
+- Strawberry
+So, the alphabetical order of these fruits (after reversing their spellings) is: Apple, Banana, Pear, Strawberry.

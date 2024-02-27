@@ -1,0 +1,9 @@
+## Bing
+Let's break down the problem:
+- You read 21 pages a day.
+- You skip reading one day a week, so you read for 6 days a week.
+- Therefore, in a week, you read $$21 \times 6 = 126$$ pages.
+- The book has 630 pages.
+So, to find out how many weeks it takes to finish the book, we divide the total number of pages by the number of pages you read in a week:
+$$\frac{630}{126} = 5$$
+So, it will take you 5 weeks to finish the book if you maintain this reading schedule.

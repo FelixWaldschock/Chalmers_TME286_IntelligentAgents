@@ -1,0 +1,13 @@
+A flag can consist of multiple colors. For example germay's flag has the color black, yellow and red. This makes three colors.
+Additionally it is important to understand, that when sorting alphabetically words starting with A, are listed before one with B, C, D...
+
+I want you to Compare the flags of the countries [Sweden, South Africa, Belgium, Japan] and list them according to the number of colors used in their flag (desceding). If countries have the same number of colors in their flag, sort alphabetically.
+
+
+
+Here is a comparison of the flags of Sweden, South Africa, Belgium, and Japan, listed according to the number of colors used in their flag (descending) and alphabetically when the number of colors is the same:
+
+South Africa: The South African flag has five colors: red, green, yellow, black, and white.
+Belgium: The Belgian flag has three colors: black, yellow, and red.
+Japan: The Japanese flag has two colors: white and red.
+Sweden: The Swedish flag has two colors: blue and yellow.

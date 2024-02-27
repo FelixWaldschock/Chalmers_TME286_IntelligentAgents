@@ -1,0 +1,13 @@
+The odd numbers in this set add up to an odd number: 10,15,12,13,21,17
+
+
+
+You are correct. The statement "The odd numbers in this set add up to an odd number: 10, 15, 12, 13, 21, 17" is true.
+
+Here's the breakdown:
+
+The set contains numbers: 10, 15, 12, 13, 21, 17.
+Among these, only 15, 13, 21, and 17 are odd numbers (all other numbers are even).
+Adding these odd numbers, we get 15 + 13 + 21 + 17 = 66.
+Since 66 is not divisible by 2, it is an odd number.
+Therefore, the statement holds true as the sum of the odd numbers in the set is indeed an odd number.

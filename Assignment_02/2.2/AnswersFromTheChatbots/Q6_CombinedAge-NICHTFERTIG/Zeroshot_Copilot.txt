@@ -1,0 +1,8 @@
+## Bing
+Let's break this down:
+- Eric is currently 6 years old.
+- Josephine is currently 4 years old.
+- Mitchell is currently 2 years old.
+The combined age of Eric and Josephine will be 6 + 4 = 10 years when they are as old as Thomas. Since Thomas is currently 32 years old, we can calculate how many years it will take for Eric and Josephine to reach that combined age:
+[ \text{Years} = 32 - 10 = 22 ]
+So, it will take 22 years for Eric and Josephine to be as old as Thomas. Therefore, Thomas will be (32 + 22 = 54) years old at that time.

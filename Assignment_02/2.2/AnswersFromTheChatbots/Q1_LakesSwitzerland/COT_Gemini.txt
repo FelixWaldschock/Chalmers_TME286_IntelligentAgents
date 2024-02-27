@@ -1,0 +1,18 @@
+To find a lake that lays exclusively in one country, it means that this lake does not share any surface area nor any shorline with a different country. An example for this would be the lake Great Salt lake in Salt Lake City (United States). A counter example would be Lake Erie, which shares coastline with Canada and the United States. I now want to to give me the five largest lakes in Switzerland, that exclusively lay in Switzerland, and therefore only have Swiss coastlines (NO border with France, Germany, Austria or Italy).
+To do so firstly find the largest lakes of Switzerland. Then check for every lake that it lays ONLY in Switzerland and borders NOT to any other country. 
+---
+
+Largest Lakes in Switzerland (Excluding Border Lakes):
+Lake Neuchâtel (215.2 km²): Located entirely within Switzerland, Lake Neuchâtel is the largest lake solely within the country's borders and the third largest overall.
+
+Lake Zug (38.3 km²): Situated entirely within Switzerland, surrounded by picturesque hills and known for its calm waters.
+
+Lake Walen (24.19 km²): Lies entirely within Switzerland, offering stunning scenery and being popular for water sports.
+
+Lake Biel (45.7 km²): While bordering France minimally on its westernmost tip, the vast majority of its coastline lies within Switzerland.
+
+Lake Sempach (14.5 km²): Located entirely within Switzerland, known for its historical significance and natural beauty.
+
+Note:
+
+Lake Geneva (580.03 km²) and Lake Constance (536 km²), the largest and second-largest lakes in Switzerland respectively, are shared with France and Germany/Austria, respectively, and therefore excluded from this list.

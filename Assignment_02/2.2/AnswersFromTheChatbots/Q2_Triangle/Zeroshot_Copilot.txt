@@ -1,0 +1,2 @@
+## Bing
+When you start with a triangle and draw a line from one corner to the middle of the opposite edge, you effectively divide the original triangle into two smaller triangles. So, there are 2 triangles in total.

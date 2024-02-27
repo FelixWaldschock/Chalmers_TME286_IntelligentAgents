@@ -1,0 +1,11 @@
+## Bing
+To determine whether a number is even, we can use the expression (number \& 2) == 0. If this condition holds true, the number is even; otherwise, it's odd. Now let's apply this to the given set of numbers: 10, 15, 12, 13, 21, 17.
+- 10 is even because (10 \& 2) == 0.
+- 15 is odd because (15 \& 2) != 0.
+- 12 is even because (12 \& 2) == 0.
+- 13 is odd because (13 \& 2) != 0.
+- 21 is odd because (21 \& 2) != 0.
+- 17 is odd because (17 \& 2) != 0.
+Now let's calculate the sum of the even numbers in the set:
+Even numbers: 10 + 12 = 22
+The sum of the even numbers is 22. Since this is an even number, it does not add up to an odd number. Therefore, the statement that the even numbers in this set add up to an odd number is false.

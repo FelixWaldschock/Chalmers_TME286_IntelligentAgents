@@ -1,0 +1,8 @@
+## Bing
+The five largest lakes that are located entirely within Switzerland are:
+- Lake Neuchâtel: With an area of 215.20 square km, it is the largest lake located entirely in Switzerland.
+- Lake Zurich: It is the second largest lake located entirely in Switzerland.
+- Lake Thun: It is the third largest lake located entirely in Switzerland.
+- Lake Brienz: It is the fourth largest lake located entirely in Switzerland.
+- Lake Walen: It is the fifth largest lake located entirely in Switzerland.
+Please note that some of the larger lakes in Switzerland, such as Lake Geneva and Lake Constance, are shared with other countries..

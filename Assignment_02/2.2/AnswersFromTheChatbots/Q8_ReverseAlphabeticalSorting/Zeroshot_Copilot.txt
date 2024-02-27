@@ -1,0 +1,12 @@
+## Bing
+Sure, let's first reverse the spellings of the words:
+- Apple -> elppA
+- Pear -> raeP
+- Banana -> ananaB
+- Strawberry -> yrrebwartsS
+Now, if we order these reversed words in alphabetical order, we get:
+- ananaB (Banana)
+- elppA (Apple)
+- raeP (Pear)
+- yrrebwartsS (Strawberry)
+So, the original words ordered based on the reversed spellings are: Banana, Apple, Pear, Strawberry.

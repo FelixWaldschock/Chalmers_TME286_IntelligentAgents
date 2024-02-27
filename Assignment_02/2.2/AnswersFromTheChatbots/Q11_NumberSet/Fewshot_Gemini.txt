@@ -1,0 +1,10 @@
+To check if a number is even, on can check (number & 2 == 0). Where % is the modulo operator. So if a number is not even it must be odd. 
+Now check if the even numbers in this set add up to an odd number: 10,15,12,13,21,17?
+
+
+
+You're right that an even number leaves no remainder when divided by 2, while an odd number does. However, there seems to be a misconception in your logic.
+
+The sum of even numbers is always even, regardless of whether there are odd numbers present in the set. In the given list (10, 15, 12, 13, 21, 17), the only even numbers are 10 and 12. Their sum, 10 + 12, is indeed even (22).
+
+Therefore, the statement "the sum of even numbers in this set is odd" is incorrect.

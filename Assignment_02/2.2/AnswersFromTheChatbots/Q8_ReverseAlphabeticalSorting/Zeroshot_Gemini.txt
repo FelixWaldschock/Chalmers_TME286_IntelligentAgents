@@ -1,0 +1,9 @@
+Order these four words in alphabetical order [Apple, Pear, Banana, Strawberry]. Before doing so, reverse their spellings.
+
+
+Here are the four words in reverse alphabetical order after reversing their spellings:
+
+yrrebwartS (Strawberry)
+raeP (Pear)
+ananaB (Banana)
+elppA (Apple)

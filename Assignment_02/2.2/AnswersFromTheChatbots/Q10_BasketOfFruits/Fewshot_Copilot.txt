@@ -1,0 +1,29 @@
+## Bing
+Certainly! Let's break down the problem step by step:
+- Tom's Basket Contents:
+    - Initially, Tom's basket contains:
+        - 7 apples
+        - 3 bananas
+        - 1 pineapple
+- Anna's Actions:
+    - Anna takes 2 apples from the basket.
+    - She places 2 oranges in the basket.
+    - The updated basket now has:
+        - 5 apples
+        - 2 bananas
+        - 2 oranges
+        - 1 pineapple
+- Elisa's Actions:
+    - Elisa eats one piece of the most common fruit in the basket.
+    - Since there are 5 apples (the most common fruit), she eats one apple.
+    - The basket now contains:
+        - 4 apples
+        - 2 bananas
+        - 2 oranges
+        - 1 pineapple
+- Final Basket Contents (Descending Order):
+    - 4 apples
+    - 2 bananas
+    - 2 oranges
+    - 1 pineapple
+So, the items in the basket, listed in descending order, are: apples, bananas, oranges, and pineapple. 🍎🍌🍊🍍

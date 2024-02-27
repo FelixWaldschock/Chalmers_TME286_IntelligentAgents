@@ -1,0 +1,14 @@
+How many vowels are in this sentence?
+
+
+
+
+The sentence "How many vowels are in this sentence?" contains 11 vowels.
+
+Here's a breakdown of the vowels:
+
+4 "a"s
+3 "e"s
+2 "i"s
+1 "o"
+1 "u"

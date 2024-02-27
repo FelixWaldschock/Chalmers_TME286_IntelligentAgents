@@ -1,0 +1,8 @@
+Thomas has three kids. A son Eric (6 years old), a daughter Josephine (4 years old) and another son Mitchell (2 years old). Thomas is 32. One day the first to sons of Thomas will be combined as old as him. How old will Thomas be?
+
+
+The combined age of Eric and Mitchell is currently 6 (Eric) + 2 (Mitchell) = 8 years old.
+
+Since their combined age will be the same as Thomas' age in the future, Thomas will still be 32 years old even when Eric and Mitchell's ages add up to his current age.
+
+Therefore, Thomas' age will not change and he will still be 32 years old, even when Eric and Mitchell are older.

@@ -1,0 +1,12 @@
+
+One starts with a triangle, and draws a line from one corner to the middle of the opposed edge. How many triangles are there?
+
+
+Adding a line segment inside a triangle creates exactly one new triangle.
+
+Here's why:
+
+The original triangle remains unchanged.
+The line segment divides the opposite side into two segments, but it doesn't create any new lines that intersect other existing lines.
+Therefore, the new triangle is formed by the line segment connecting a vertex to the midpoint of the opposite side and the two segments it creates on the opposite side.
+Therefore, there are two triangles in total: the original one and the newly formed one.

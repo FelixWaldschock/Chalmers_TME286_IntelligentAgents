@@ -1,0 +1,10 @@
+To reverse a word means to flip it. This means for example "car" --> "rac". 
+Now order these four words in alphabetical order [Apple, Pear, Banana, Strawberry]. Before doing so, reverse their spellings.
+
+
+Here are the four fruits listed in alphabetical order after reversing their spellings:
+
+ananaB (Banana)
+elppA (Apple)
+raeP (Pear)
+yrrebwartS (Strawberry)

@@ -1,0 +1,11 @@
+second highest and so on. The final number listed is the smallest one. 
+Now sort these capital cities by the population number of its country [Berlin, Rome, Paris, London]
+
+
+Here is the list of the four cities sorted by their population (descending order):
+
+London, United Kingdom - with a population of 8,926,568 (as of June 30, 2023)
+Berlin, Germany - with a population of 3,755,251 (as of December 31, 2022)
+Rome, Italy - with a population of 2,748,109 (as of January 1, 2023)
+Paris, France - with a population of 2,102,650 (as of January 1, 2023)
+Please note that these populations represent the city proper only, and not the wider metropolitan area.

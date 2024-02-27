@@ -1,0 +1,6 @@
+## Bing
+Here are the flags of the mentioned countries sorted by the number of colors in descending order, and alphabetically if the number of colors is the same:
+- South Africa: The South African flag has 6 primary colors which are red, white, green, blue, yellow, and black.
+- Belgium: The Belgian flag has 3 primary colors, which are black, yellow, and red.
+- Sweden: The Swedish flag has 2 primary colors, which are blue and yellow.
+- Japan: The Japanese flag also has 2 primary colors, which are red and white..

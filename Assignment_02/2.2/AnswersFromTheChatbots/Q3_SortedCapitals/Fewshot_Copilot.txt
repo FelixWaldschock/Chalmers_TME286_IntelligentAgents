@@ -1,0 +1,11 @@
+## Bing
+Certainly! Let's sort these capital cities by the population number of their respective countries:
+- London: With a population of approximately 9,748,033, London is the most populous city in the United Kingdom and the third most populous city in the European Union.
+- Berlin: Berlin has a population of around 3,576,873, making it the largest city in Germany by population.
+- Rome: The population of Rome is estimated to be 4.5 million, making it the most populous city in Italy.
+- Paris: Paris has a population of approximately 2,206,488, making it the third most populous city in the European Union.
+So, in descending order of population:
+- London
+- Rome
+- Berlin
+- Paris.

@@ -1,0 +1,10 @@
+To find the bird distance between two places means, to compute the direct distance from one to another place, not taking care of roads. Listing in a descending order means, to list the highest number first, then the second highest and so on. Now compare the bird distances between all of the four capitals: Berlin, Rome, London, Paris. List them in descending order.
+
+
+Here are the bird distances between the four capitals, listed in descending order:
+
+Paris to Rome: 1,179 km (732 miles)
+Berlin to Rome: 1,157 km (720 miles)
+Berlin to Paris: 863 km (536 miles)
+London to Paris: 344 km (214 miles)
+Note: These distances are approximate and may vary depending on the specific locations chosen within each city.

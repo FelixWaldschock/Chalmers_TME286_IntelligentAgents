@@ -1,0 +1,9 @@
+## Bing
+Let's determine which of these numbers are even:
+- 2: Even.
+- 11: Odd.
+- 22: Even.
+- 33: Odd.
+- 15: Odd.
+- 16: Even.
+So, out of the given numbers, four are even: 2, 22, 16, and 15 is odd. 🌟.

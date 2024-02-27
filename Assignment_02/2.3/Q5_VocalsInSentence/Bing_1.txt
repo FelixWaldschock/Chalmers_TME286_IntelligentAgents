@@ -1,0 +1,4 @@
+## Bing
+The sentence "How many vowels are in this sentence?" contains 9 vowels. Here's how you can count:
+- 'How many vowels are in this sentence?'
+Each bold letter represents a vowel. So, there are 9 vowels in total.

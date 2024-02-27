@@ -1,0 +1,10 @@
+## Bing
+The given set of numbers is 10, 15, 12, 13, 21, 17. Let's find the median of this set.
+- First, let's arrange the numbers in ascending order:
+    - 10, 12, 13, 15, 17, 21
+- Since there are 6 numbers in the set (which is an even count), we need to find the average of the middle two terms.
+- The middle terms are 13 and 15.
+- Calculating the average:
+    - Median = (13 + 15) / 2 = 14
+Therefore, the median of the given set is 14. 🌟
+If you have any more questions or need further assistance, feel free to ask! 😊.

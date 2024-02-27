@@ -1,0 +1,10 @@
+## Bing
+Certainly! Let's determine if the sum of the odd numbers in the given set results in an odd number.
+The set of numbers you provided is: 10, 15, 12, 13, 21, 17.
+- First, let's identify the odd numbers from this set:
+    - 15, 13, 21, and 17 are odd numbers.
+- Now, let's calculate their sum:
+    - Sum of odd numbers = 15 + 13 + 21 + 17 = 66.
+- Finally, let's check if the sum is odd:
+    - The sum of these odd numbers, 66, is indeed an even number.
+Therefore, the sum of the odd numbers in the given set does not add up to an odd number. 🤔

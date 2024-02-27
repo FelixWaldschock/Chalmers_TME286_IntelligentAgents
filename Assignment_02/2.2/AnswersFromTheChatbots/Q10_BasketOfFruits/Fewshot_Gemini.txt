@@ -1,0 +1,34 @@
+I give you a short example and want you to sovle and exercise afterwards. Imagine a bucket with a screw inside. When I add a screw and a nail to it, there a 2 screws and one nail. Now I remove from the most common item, the screw as there are 2 pieces, one piece. This leaves one screw and one nail in the bucket. Now the exercise:
+
+Tom has a basket with seven apples, three bananas and one pineapple. He gives it to Anna. Anna takes two apples but places two oranges in it. Then Anna gives the basket to Elisa. Elisa eats one piece of the most common fruit in the basket. Then she shuffles the basket. List the items that are in the basket now by descending order.
+
+
+
+Following your example, let's solve the situation with the basket of fruits:
+
+Initial state:
+
+Apples: 7
+Bananas: 3
+Pineapples: 1
+Oranges: 0 (since Anna added them)
+Anna takes and adds fruits:
+
+Apples: 7 - 2 = 5
+Oranges: 0 + 2 = 2
+Elisa eats a fruit:
+
+Since Apples (5) and Bananas (3) have the same quantity, Elisa could have eaten either. Let's assume she eats an apple.
+Apples: 5 - 1 = 4
+Shuffling the basket (considered as sorting alphabetically):
+
+Apples: 4
+Bananas: 3
+Oranges: 2
+Pineapples: 1
+Therefore, the fruits in the basket by descending order are:
+
+Apples: 4
+Bananas: 3
+Oranges: 2
+Pineapples: 1

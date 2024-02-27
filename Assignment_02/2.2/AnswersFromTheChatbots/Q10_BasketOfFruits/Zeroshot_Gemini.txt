@@ -1,0 +1,26 @@
+Tom has a basket with seven apples, three bananas and one pineapple. He gives it to Anna. Anna takes two apples but places two oranges in it. Then Anna gives the basket to Elisa. Elisa eats one piece of the most common fruit in the basket. Then she shuffles the basket. List the items that are in the basket now by descending order.
+
+
+Alright, let's keep track of the fruits in the basket:
+
+Initially:
+Apples: 7
+Bananas: 3
+Pineapples: 1
+Oranges: 0 (not present)
+Anna takes 2 apples and adds 2 oranges:
+Apples: 7 - 2 = 5
+Bananas: 3
+Pineapples: 1
+Oranges: 0 + 2 = 2
+Elisa eats one orange (the most common fruit):
+Apples: 5
+Bananas: 3
+Pineapples: 1
+Oranges: 2 - 1 = 1
+Now, even though Elisa shuffles the basket, the quantity of each fruit remains the same. Therefore, the fruits in the basket in descending order are:
+
+Apples: 5
+Bananas: 3
+Oranges: 1
+Pineapples: 1

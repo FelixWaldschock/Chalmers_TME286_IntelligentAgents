@@ -1,0 +1,7 @@
+## Bing
+Here are the capital cities sorted by the population of their respective countries, from highest to lowest:
+- London, United Kingdom: Approximately 67.96 million
+- Paris, France: Approximately 68.04 million
+- Berlin, Germany: Approximately 84.4 million
+- Rome, Italy: Approximately 58.7 million
+Please note that these population numbers are estimates and can vary slightly depending on the source and time of the estimate..

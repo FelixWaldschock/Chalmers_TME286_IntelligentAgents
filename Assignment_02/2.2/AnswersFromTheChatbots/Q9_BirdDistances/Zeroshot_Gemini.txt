@@ -1,0 +1,10 @@
+Compare the bird distances between the four cities [Berlin, Rome, Paris, London]. List them in descending order.
+Sure! The bird distances between the four cities are listed below in descending order.
+
+City Pair	Distance (km)
+Rome - London	2880
+Berlin - Rome	2780
+Rome - Paris	2220
+Berlin - London	940
+Berlin - Paris	880
+Paris - London	680
