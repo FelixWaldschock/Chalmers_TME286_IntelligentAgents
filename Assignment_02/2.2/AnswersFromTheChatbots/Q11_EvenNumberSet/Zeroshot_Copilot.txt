@@ -1,0 +1,5 @@
+## Bing
+That is correct. The even numbers in this set are 10 and 12, and their sum is 22, which is an odd number. This is because the sum of two even numbers is always even, and the sum of an even number and an odd number is always odd. You can use the following formula to check if a number is even or odd:
+$$n \text{ is even if } n \mod 2 = 0$$
+$$n \text{ is odd if } n \mod 2 = 1$$
+where $\mod$ is the modulo operator that gives the remainder of the division. For example, $10 \mod 2 = 0$ and $15 \mod 2 = 1$.

@@ -1,0 +1,13 @@
+I want you to sort these capital cities by the population number of its country [Berlin, Rome, Paris, London]. To do so follow the steps below:
+1. Find the country to each Capital, this should lead to four countries.
+2. Find the population of each country.
+3. List the Capitals according to the populations of their countries. Do this in a descending order, which means the capital of the country with the highest population comes first. 
+Sure! Here is the list of capital cities sorted according to the populations of their countries in descending order:
+---
+
+Capital	Country	Population (Millions)
+Berlin	Germany	83
+London	United Kingdom	68
+Paris	France	65
+Rome	Italy	60
+I hope this helps!

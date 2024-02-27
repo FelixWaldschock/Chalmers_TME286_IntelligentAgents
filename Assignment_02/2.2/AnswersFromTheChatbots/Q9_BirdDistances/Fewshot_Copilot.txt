@@ -1,7 +1,17 @@
 ## Bing
-Certainly! Let's compare the bird distances (also known as great-circle distances) between the four European capitals: Berlin, Rome, London, and Paris. These distances represent the direct path between the cities, disregarding roads or other obstacles.
-Here are the bird distances in descending order:
-- Berlin to Rome: The straight-line distance between Berlin and Rome is approximately 1,183 kilometers (about 736 miles) .
-- London to Rome: Unfortunately, I couldn't find the direct bird distance between London and Rome in my search results. However, I can tell you that it's greater than the Berlin-Rome distance.
-- Paris to Rome: The great-circle distance between Paris and Rome is approximately 1,100 kilometers (about 684 miles) .
-Please note that the actual road distances may differ due to geographical features and transportation routes. But when it comes to the crow's flight, these are the approximate distances. 🌍✈️.
+The bird distance between two places is also known as the air distance or the great circle distance. It is the shortest distance between two points on the surface of a sphere, such as the Earth. To calculate the bird distance, we can use the haversine formula, which uses the latitude and longitude coordinates of the two points and the radius of the sphere.
+Using the web search results from my internal tools, I found the following bird distances between the four capitals:
+- Berlin and Rome: 1184 km or 736 miles
+- Berlin and London: 932 km or 579 miles
+- Berlin and Paris: 878 km or 546 miles
+- Rome and London: 1435 km or 892 miles
+- Rome and Paris: 1106 km or 688 miles
+- London and Paris: 344 km or 214 miles
+To list them in descending order, we have:
+- Rome and London: 1435 km or 892 miles
+- Berlin and Rome: 1184 km or 736 miles
+- Rome and Paris: 1106 km or 688 miles
+- Berlin and London: 932 km or 579 miles
+- Berlin and Paris: 878 km or 546 miles
+- London and Paris: 344 km or 214 miles
+I hope this answers your question. 😊

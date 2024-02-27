@@ -1,0 +1,22 @@
+I want you to compare the flags of the countries [Sweden, South Africa, Belgium, Japan] and list them according to the number of colors used in their flag (desceding). If countries have the same number of colors in their flag, sort alphabetically.
+To do so follow the steps below:
+1. For each of the countries find the flag and check how many colors it consists of. As an example to help you, the flag of Germany consists of black, red and yellow and therfore 3 colors.
+2. Now you have a associated number to each country. With it list the countries in descending order of the number of colors in the flag.
+3. If two countries have the same number of colors, make sure to list them then in alphabetical order according to the countries names.
+---- 
+
+
+
+
+Sure, the flags of the countries you requested have the following number of colors:
+
+South Africa: 5 colors (black, yellow, green, red, white)
+Belgium: 3 colors (black, yellow, red)
+Sweden: 2 colors (yellow, blue)
+Japan: 2 colors (white, red)
+Therefore, the list of countries sorted according to the number of colors in their flag (descending) and alphabetically for countries with the same number of colors is:
+
+South Africa (5 colors)
+Belgium (3 colors)
+Japan (2 colors)
+Sweden (2 colors)

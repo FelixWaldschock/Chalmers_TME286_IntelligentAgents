@@ -1,0 +1,22 @@
+## Bing
+Certainly! Let's break down the riddle step by step:
+- Initial Ages:
+    - Eric (son): 6 years old
+    - Josephine (daughter): 4 years old
+    - Mitchell (son): 2 years old
+    - Thomas (father): 32 years old
+- Equation for Combined Age:
+We want to find the time it will take for the combined age of the first two sons (Eric and Mitchell) to be equal to Thomas's age. Let's denote this time as "t."
+The equation for the combined age is:
+[ \text{Age of Thomas} + t = \text{Age of Eric} + t + \text{Age of Mitchell} + t ]
+- Solving the Equation:
+Let's set up the equation:
+[ 32 + t = 6 + t + 2 + t ]
+Solving for "t":
+[ 32 + t = 8 + 2t ]
+[ 32 = 8 + t ]
+[ t = 24 ]
+- Thomas's Age When Sons' Combined Age Equals His Age:
+Now we add the solution for "t" to Thomas's current age:
+[ \text{Thomas's age} + t = 32 + 24 = 56 ]
+Therefore, when the combined age of Eric and Mitchell equals Thomas's age, Thomas will be 56 years old. 🎉

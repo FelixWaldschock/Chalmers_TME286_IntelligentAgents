@@ -1,0 +1,8 @@
+## Bing
+Hello, this is Copilot. I can help you with your task. 😊
+I will follow your steps and show you the results.
+- To check which of the numbers in the set are odd, I can use the modulo operator and check that the modulo 2 of the number is unequal to zero. The numbers that satisfy this condition are: 15, 13, 21, 17.
+- To put all the odd numbers in a new list, I can use a list comprehension in Python. The new list is: odd_numbers = [n for n in [10,15,12,13,21,17] if n % 2 != 0]
+- To sum the numbers in the new list, I can use the built-in sum function in Python. The sum is: sum(odd_numbers) = 66
+- To check if the sum from step 3 is odd, I can use the same argument from step 1. The sum is not odd, because 66 % 2 == 0.
+Therefore, the odd numbers in the set do not add up to an odd number. They add up to an even number.

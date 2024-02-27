@@ -1,0 +1,13 @@
+## Bing
+Certainly! Let's break it down step by step:
+- Reading Days per Week:
+    - You read every day except for one day per week when you skip your reading session.
+    - So, you read on 6 days per week (7 days minus the skipped day).
+- Weekly Reading Pages:
+    - Since you read 21 pages a day, the total number of pages you can read in a week is:
+[ \text{Weekly Pages} = 21 , \text{pages/day} \times 6 , \text{days/week} = 126 , \text{pages/week} ]
+- Number of Weeks to Finish the Book:
+    - Now, let's find out how many weeks it will take to finish the entire book.
+    - Divide the total number of pages in the book (630 pages) by the weekly pages you can read:
+[ \text{Number of Weeks} = \frac{630 , \text{pages}}{126 , \text{pages/week}} = 5 , \text{weeks} ]
+Therefore, it will take you approximately 5 weeks to finish the book. Happy reading! 📚🌟

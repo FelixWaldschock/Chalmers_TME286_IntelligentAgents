@@ -1,0 +1,39 @@
+I would like you to compare the bird distances between the four capitals [Berlin, Rome, London, Paris] and list them in descending order.
+To do so follow these thought:
+1. Create a list of all possible combinations between the four cities. This will give you a list that contains more than four elements.
+2. For each combination in the list get the bird distance
+3. Order the list of possible combinations in a descending order, meaning that the combination with the longest bird distance comes first, the second longest second and so on. The final combination in the list is the one with the shortest bird distance.
+Give me an output for each of the steps above.
+Show drafts
+
+
+
+
+
+
+
+Steps:
+1. List of all possible combinations:
+
+Berlin - Rome
+Berlin - London
+Berlin - Paris
+Rome - London
+Rome - Paris
+London - Paris
+2. Bird distance for each combination:
+
+Berlin - Rome: ~1,313 km
+Berlin - London: ~920 km
+Berlin - Paris: ~853 km
+Rome - London: ~1,451 km
+Rome - Paris: ~1,104 km
+London - Paris: ~339 km
+3. Ordered list by bird distance (descending):
+
+Rome - London: ~1,451 km
+Berlin - Rome: ~1,313 km
+Rome - Paris: ~1,104 km
+Berlin - London: ~920 km
+Berlin - Paris: ~853 km
+London - Paris: ~339 km

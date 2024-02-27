@@ -1,0 +1,36 @@
+When comparing the combined age of n-persons versus the age of a single person, it is imporant to keep in mind that the combined age increases per year by n, whereas for single person it only increases by one.
+Lets look at a example: Person A is 20 years old, B 15 and C 4. When is A as old as B and C together. We write it as A + t = B + t + C + t where t is the number of years we are looking for. This leads to A + t = 2*t + B + C and t = A - B - C. In the particular case: t = 20 - 15 - 4 = 1. So after 1 year the age of A is as much as B and C combined. Person A will then be 21 years old. 
+Now your task:
+Thomas has three kids. A son Eric (6 years old), a daughter Josephine (4 years old) and another son Mitchell (2 years old). Thomas is 32. One day the first to sons of Thomas will be combined as old as him. How old will Thomas be?
+Show drafts
+
+
+Here's how to solve the problem:
+
+Define variables:
+
+Let x be the number of years that pass until Eric and Josephine are combined as old as Thomas.
+Thomas' current age is 32.
+Eric's current age is 6.
+Josephine's current age is 4.
+Set up the equation:
+The combined age of Eric and Josephine after x years will be 32 (Thomas' current age). We can express this as:
+
+Eric's age + x years + Josephine's age + x years = 32
+Substitute the values:
+
+6 + x + 4 + x = 32
+Combine like terms:
+
+10 + 2x = 32
+Isolate x:
+
+Subtract 10 from both sides:
+2x = 22
+Divide both sides by 2 to find x:
+x = 11
+Therefore, it will take 11 years for Eric and Josephine to be combined as old as Thomas.
+
+Find Thomas' future age: Add the number of years that pass (11) to Thomas' current age (32):
+32 + 11 = 43
+So, Thomas will be 43 years old when Eric and Josephine are combined as old as him.

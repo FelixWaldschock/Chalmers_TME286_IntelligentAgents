@@ -1,0 +1,11 @@
+The even numbers in this set add up to an odd number: 10,15,12,13,21,17
+
+
+
+It is not possible for the even numbers in a set to add up to an odd number. This is because:
+
+Even numbers: Even numbers are integers that are divisible by 2, leaving no remainder. Examples: 2, 4, 6, 8, 10, 12, etc.
+Adding even numbers: When you add two even numbers, the result is always another even number. This is because when you add two multiples of 2, the sum is also a multiple of 2.
+Therefore, regardless of the specific even numbers you choose from the set (10, 15, 12, 13, 21, 17), their sum will always be even, and not odd.
+
+It's possible there might be a mistake in the statement, or there might be additional information missing that would explain the seemingly contradictory situation.

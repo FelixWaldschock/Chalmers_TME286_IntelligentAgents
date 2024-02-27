@@ -1,0 +1,23 @@
+I want you to check if the even numbers in this set add up to an odd number: 10,15,12,13,21,17
+To do so follow these thought:
+1. Check which of the numbers in the set are actually even. To check if a number is odd you can use the modulo operator and check that the modulo 2 of the number is equal to zero.
+2. Put all the even numbers in a new list, so that in this list are only even numbers.
+3. Sum the numbers in the new list.
+4. Check if the sum from step 3 is odd. Therefore you can use the argument from step 1 again.
+
+
+
+Your approach to solving this problem is correct. Here's how to apply the steps you mentioned:
+
+Identify even numbers:
+
+Even numbers are those divisible by 2 without a remainder.
+In the given set, the even numbers are: 10 and 12.
+Sum the even numbers:
+
+10 + 12 = 22
+Check if the sum is odd:
+
+An odd number leaves a remainder of 1 when divided by 2.
+In this case, 22 divided by 2 gives a remainder of 0, so it's not odd.
+Therefore, the sum of the even numbers (22) is not odd.

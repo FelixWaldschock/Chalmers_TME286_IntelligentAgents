@@ -1,0 +1,9 @@
+## Bing
+To sort these capital cities by the population number of their countries, I will follow these steps:
+- Find the country to each capital. According to the web search results, Berlin is the capital of Germany , Rome is the capital of Italy , Paris is the capital of France , and London is the capital of the United Kingdom .
+- Find the population of each country. According to the fact results, the population of Germany is 84.08 million , the population of Italy is 58.86 million , the population of France is 67.75 million , and the population of the United Kingdom is 66.97 million .
+- List the capitals according to the populations of their countries in descending order. The order is:
+- Berlin (Germany): 84.08 million
+- Paris (France): 67.75 million
+- London (United Kingdom): 66.97 million
+- Rome (Italy): 58.86 million.

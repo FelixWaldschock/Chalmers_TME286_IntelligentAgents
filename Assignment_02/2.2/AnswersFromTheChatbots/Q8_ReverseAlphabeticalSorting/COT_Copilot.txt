@@ -1,0 +1,13 @@
+## Bing
+Certainly! Let's follow the steps you've outlined:
+- Reverse the words:
+    - "Apple" reversed becomes "elppA."
+    - "Pear" reversed becomes "raeP."
+    - "Banana" reversed remains the same.
+    - "Strawberry" reversed becomes "yrrebwarts."
+- List the reversed words in alphabetical order:
+    - "Banana" (no change)
+    - "elppA" (reversed "Apple")
+    - "raeP" (reversed "Pear")
+    - "yrrebwarts" (reversed "Strawberry")
+Therefore, the alphabetical order of the reversed words is: Banana, elppA, raeP, yrrebwarts. 🍌🍎🍐🍓

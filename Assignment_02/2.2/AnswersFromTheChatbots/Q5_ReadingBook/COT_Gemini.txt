@@ -1,0 +1,17 @@
+A book consists of 630 pages. I read 21 pages a day. Every week I skip my reading session on one day. 
+I want you to find out after how many weeks I finish the book?
+Follow these thought when formulating your answer:
+1. When I skip one day a week, on how many days do I read?
+2. How many pages can I then read in a week?
+3. Divide the total number of pages by the number found in step 2. You get the number I am looking for
+---
+
+
+Absolutely, you can finish the book in 5 weeks.
+
+Here's the breakdown:
+
+Number of days you read in a week: Since you skip reading one day a week, you'll be reading for 7 days - 1 day = 6 days a week.
+Number of pages you read in a week: With 6 days of reading and reading 21 pages a day, you'll be able to read 6 days/week * 21 pages/day = 126 pages a week.
+Number of weeks to finish the book: By dividing the total number of pages (630 pages) by the number of pages you read in a week (126 pages/week), you'll find it takes 630 pages / 126 pages/week = 5 weeks to finish the book.
+Therefore, it will take you 5 weeks to finish the book by reading 21 pages a day, skipping one day of reading each week.

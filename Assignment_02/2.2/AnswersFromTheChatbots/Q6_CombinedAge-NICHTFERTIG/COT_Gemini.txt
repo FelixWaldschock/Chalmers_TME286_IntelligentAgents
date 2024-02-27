@@ -1,0 +1,36 @@
+I want you to solve the following riddle.
+Thomas has three kids. A son Eric (6 years old), a daughter Josephine (4 years old) and another son Mitchell (2 years old). Thomas is 32. One day the first to sons of Thomas will be combined as old as him. How old will Thomas be?
+When you compute your answer following these steps, to get to the correct results:
+1. Consider that not all kids of Thomas are male and therefore sons, so take care when thinking about the first two sons.
+2. To compute the time it will take for the two sons to become combined as old as Thomas, you might use the following equation where t is the number of years: AgeOfThomas + t = AgeOfFirstSon + t + AgeOfSecondSon + t
+3. To compute Thomas age when his first two sons have a combined age as him, add to the current age of Thomas the found solution for t from step 2.
+Show me the result of each intermediate step and the final solution.
+Show drafts
+
+
+
+
+Solving the Riddle:
+Step 1: Clarifying the first two sons
+
+The riddle states that Thomas has two sons but also mentions three children. Therefore, the first two sons refer to the first two children in age, regardless of gender. This means the first two sons are Eric (6) and Josephine (4).
+
+Step 2: Setting up the equation
+
+We want to find the number of years (t) it will take for Eric and Josephine's combined age to equal Thomas's age. Using the provided equation:
+
+32 (Thomas's age) + t = 6 (Eric's age) + t + 4 (Josephine's age) + t
+
+Step 3: Solving the equation
+
+Combining like terms:
+
+32 + 3t = 10 + 3t
+
+Since the same variable (t) appears on both sides, we can subtract 3t from both sides:
+
+32 = 10
+
+This equation is incorrect. This implies there is an issue with the given information in the riddle. We cannot arrive at a logical solution using the provided age of Thomas and his first two children.
+
+Therefore, the riddle contains contradictory information. It is impossible to determine the age of Thomas when his first two children add up to his age based on the given details.

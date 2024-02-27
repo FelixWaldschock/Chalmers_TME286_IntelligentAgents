@@ -1,0 +1,30 @@
+## Bing
+Hello, this is Copilot. I can help you with this task. 😊
+Here is the code that follows your steps in Python:
+
+# Step 1: Check which of the numbers in the set are actually even
+set = [10, 15, 12, 13, 21, 17] # The original set of numbers
+even_numbers = [] # An empty list to store the even numbers
+for number in set: # Loop through each number in the set
+  if number % 2 == 0: # Check if the number is even using the modulo operator
+    even_numbers.append(number) # Add the number to the even_numbers list
+
+# Step 2: Put all the even numbers in a new list
+# This is already done in the previous step, so we can skip this step
+
+# Step 3: Sum the numbers in the new list
+sum = 0 # A variable to store the sum of the even numbers
+for number in even_numbers: # Loop through each number in the even_numbers list
+  sum = sum + number # Add the number to the sum
+
+# Step 4: Check if the sum from step 3 is odd
+if sum % 2 == 1: # Check if the sum is odd using the modulo operator
+  print("The sum of the even numbers is odd.") # Print the result
+else:
+  print("The sum of the even numbers is not odd.") # Print the result
+
+If you run this code, you will get the following output:
+
+The sum of the even numbers is not odd.
+
+This means that the even numbers in the set do not add up to an odd number. I hope this helps. 😊

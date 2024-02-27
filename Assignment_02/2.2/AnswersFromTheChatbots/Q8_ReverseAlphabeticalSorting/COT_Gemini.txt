@@ -1,0 +1,12 @@
+You shoul order these four words in alphabetical order [Apple, Pear, Banana, Strawberry]. Before doing so, reverse their spellings. To do this task follow the following thoughts:
+1. Reverse all the words which, which means the last character becomes first, the second last becomes the second and so on. As an example if you reverse "car" you get "rac".
+2. With these four reversed words I want you to list the in alphabetical order. Therefore the reversed word starting with an A would be first, with a B second and so on. 
+Show drafts
+
+
+Here are the four words in alphabetical order after reversing their spellings:
+
+ananaB (Banana)
+elppA (Apple)
+raeP (Pear)
+yrrebwartS (Strawberry)

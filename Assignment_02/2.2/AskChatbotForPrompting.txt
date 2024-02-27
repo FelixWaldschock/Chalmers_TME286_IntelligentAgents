@@ -1,0 +1,5 @@
+Question Chatbot from Prompting:
+
+Question: Please list and describe three different prompting styles used when interacting with chatbots
+
+Answer: 

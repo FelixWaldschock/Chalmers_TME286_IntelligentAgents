@@ -1,0 +1,23 @@
+## Bing
+Let's break down the problem step by step. We know that the combined age of Thomas's two sons (Eric and Mitchell) will eventually be equal to Thomas's age. Let's denote the combined age of Eric and Mitchell as (E + M), where (E) represents Eric's age and (M) represents Mitchell's age.
+- Current Ages:
+    - Eric's age: (E = 6) years
+    - Mitchell's age: (M = 2) years
+    - Thomas's age: (T = 32) years
+- Future Combined Age:
+We want to find the time when (E + M) equals (T). Let's denote the number of years from now as (t).
+    - Eric's age after (t) years: (E + t)
+    - Mitchell's age after (t) years: (M + t)
+    - Thomas's age after (t) years: (T + t)
+- Equation:
+We have the equation:
+[E + t + M + t = T + t]
+- Solving for (t):
+[2t + E + M = T + t]
+[2t + 6 + 2 = 32 + t]
+[2t + 8 = 32 + t]
+[t = 24]
+- Thomas's Age:
+After 24 years, Thomas will be as old as the combined age of Eric and Mitchell. Therefore, Thomas's age at that time will be:
+[T + t = 32 + 24 = 56]
+So, Thomas will be 56 years old when the combined age of Eric and Mitchell matches his age. 🎉

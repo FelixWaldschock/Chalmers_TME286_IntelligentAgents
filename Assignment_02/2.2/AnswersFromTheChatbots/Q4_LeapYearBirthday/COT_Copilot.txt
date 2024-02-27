@@ -1,0 +1,6 @@
+## Bing
+Hello, this is Copilot. I can help you with your question. 😊
+You are correct that the 29th of February only occurs in leap years, and that Eric's first and second birthdays were in 2000 and 2004, respectively. To find out when Eric celebrated his third birthday, we need to apply the rules of leap years    .
+A year is a leap year if it is divisible by 4, except if it is divisible by 100, unless it is also divisible by 400. For example, 2000 and 2400 are leap years, but 1800, 1900, 2100, 2200, and 2300 are not.
+Using these rules, we can see that the next leap year after 2004 is 2008. Therefore, Eric celebrated his third birthday on the 29th of February 2008. 🎂
+I hope this helps. Do you have any other questions?
