@@ -1,0 +1,14 @@
+# Test data set with 10 conversations of the movie Interstellar
+# collected from the website: https://imsdb.com/scripts/Interstellar.html
+
+Speaker A	Speaker B
+I want a hot dog.	What is a hot dog?
+What are they doing, dad?	I guess no one told them they were out of a job
+As long as we are careful, we will make it.	How do you know that?
+We are being pulled into it?	No. I do not think so...
+What difference would that make?	Maybe not enough has gone wrong here.
+No one was listening.	After a few years they discovered a problem.
+But we need to take the box back to earth.	You do not need this only the idea.
+Do you think he made it?	We are going to find out soon enough.
+Now how could you possibly know that?	Bought thirty of them off a guy in Florida.
+Is that what they call stealing these days? 	I did not know it belonged to anyone.

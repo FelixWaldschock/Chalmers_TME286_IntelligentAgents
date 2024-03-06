@@ -46,3 +46,9 @@ C:\Data\Chalmers work\Teaching\Intelligent agents, 2024\Assignments\ToMinerva202
 \\Mac\Home\Documents\gits\Chalmers_TME286_IntelligentAgents\Assignment_01\HandIN\1.2\Src1.2\PerceptronClassifierSolution\Libraries\NLP\obj\Debug\NLP.csproj.CoreCompileInputs.cache
 \\Mac\Home\Documents\gits\Chalmers_TME286_IntelligentAgents\Assignment_01\HandIN\1.2\Src1.2\PerceptronClassifierSolution\Libraries\NLP\obj\Debug\NLP.dll
 \\Mac\Home\Documents\gits\Chalmers_TME286_IntelligentAgents\Assignment_01\HandIN\1.2\Src1.2\PerceptronClassifierSolution\Libraries\NLP\obj\Debug\NLP.pdb
+\\Mac\Home\Documents\gits\Chalmers_TME286_IntelligentAgents\Assignment_01\Test\1.2\Src1.2\PerceptronClassifierSolution\Libraries\NLP\bin\Debug\NLP.dll
+\\Mac\Home\Documents\gits\Chalmers_TME286_IntelligentAgents\Assignment_01\Test\1.2\Src1.2\PerceptronClassifierSolution\Libraries\NLP\bin\Debug\NLP.pdb
+\\Mac\Home\Documents\gits\Chalmers_TME286_IntelligentAgents\Assignment_01\Test\1.2\Src1.2\PerceptronClassifierSolution\Libraries\NLP\obj\Debug\NLP.csproj.AssemblyReference.cache
+\\Mac\Home\Documents\gits\Chalmers_TME286_IntelligentAgents\Assignment_01\Test\1.2\Src1.2\PerceptronClassifierSolution\Libraries\NLP\obj\Debug\NLP.csproj.CoreCompileInputs.cache
+\\Mac\Home\Documents\gits\Chalmers_TME286_IntelligentAgents\Assignment_01\Test\1.2\Src1.2\PerceptronClassifierSolution\Libraries\NLP\obj\Debug\NLP.dll
+\\Mac\Home\Documents\gits\Chalmers_TME286_IntelligentAgents\Assignment_01\Test\1.2\Src1.2\PerceptronClassifierSolution\Libraries\NLP\obj\Debug\NLP.pdb

@@ -1,0 +1,471 @@
+Input	Reponse	SemCheck
+I need you help to create a daily schedule for the patient in room 4.	I require your assistance in devising a daily timetable for the occupant in room 4.	TRUE
+I need you help to create a daily schedule for the patient in room 4.	Your help is needed to establish a daily plan for the patient staying in room 4.	TRUE
+I need you help to create a daily schedule for the patient in room 4.	Can you assist me in creating a daily agenda for the individual in room 4?	TRUE
+I need you help to create a daily schedule for the patient in room 4.	I'm seeking your aid to develop a daily schedule for the patient occupying room 4.	TRUE
+I need you help to create a daily schedule for the patient in room 4.	Could you help me craft a daily timetable for the occupant in room 4?	TRUE
+I need you help to create a daily schedule for the patient in room 4.	Could you lend a hand in creating a daily schedule for the patient in room 4?	TRUE
+I need you help to create a daily schedule for the patient in room 4.	I'd appreciate your assistance in developing a daily plan for the patient in room 4.	TRUE
+I need you help to create a daily schedule for the patient in room 4.	Would it be possible to collaborate on a daily routine for the patient occupying room 4?	TRUE
+I need you help to create a daily schedule for the patient in room 4.	Is there a way we can work together to establish a daily schedule for the patient in room 4?	TRUE
+I need you help to create a daily schedule for the patient in room 4.	I was hoping you could help me set up a daily schedule for the patient in room 4.	TRUE
+"The day will start at 08:00, when we wake him up."	"The morning begins at 08:00, when we rouse him."	TRUE
+"The day will start at 08:00, when we wake him up."	"At 08:00, the day commences with waking him up."	TRUE
+"The day will start at 08:00, when we wake him up."	Waking him up marks the start of the day at 08:00.	TRUE
+"The day will start at 08:00, when we wake him up."	The day kicks off at 08:00 with waking him up.	TRUE
+"The day will start at 08:00, when we wake him up."	"Commencement of the day is at 08:00, when we awaken him."	TRUE
+"The day will start at 08:00, when we wake him up."	"We will wake him up at 8:00 AM, which is when his day will begin."	TRUE
+"The day will start at 08:00, when we wake him up."	"His day commences at 8:00 AM, the time we will wake him up."	TRUE
+"The day will start at 08:00, when we wake him up."	The start of his day is conditioned on us waking him up at 8:00 AM.	TRUE
+"The day will start at 08:00, when we wake him up."	"8:00 AM marks the beginning of his day, as that's when we wake him up."	TRUE
+"The day will start at 08:00, when we wake him up."	Initiating his day at 8:00 AM coincides with our act of waking him up.	TRUE
+Afterwards he should take a shower.	He should shower after that.	TRUE
+Afterwards he should take a shower.	"Following that, he ought to shower."	TRUE
+Afterwards he should take a shower.	"Subsequently, he needs to take a shower."	TRUE
+Afterwards he should take a shower.	"Later on, he must shower."	TRUE
+Afterwards he should take a shower.	"Then, he is required to have a shower."	TRUE
+Afterwards he should take a shower.	"Following that, he ought to shower."	TRUE
+Afterwards he should take a shower.	"After that, a shower would be appropriate for him."	TRUE
+Afterwards he should take a shower.	He should wash himself up afterwards. (Less formal)	TRUE
+Afterwards he should take a shower.	It would be best if he showered after that.	TRUE
+Afterwards he should take a shower.	"Once he's done, showering would be a good idea."	TRUE
+At 8:30 the breakfast is served.	Breakfast is served at 8:30.	TRUE
+At 8:30 the breakfast is served.	The morning meal is provided at 8:30.	TRUE
+At 8:30 the breakfast is served.	"At half past eight, breakfast is available."	TRUE
+At 8:30 the breakfast is served.	"By 8:30, breakfast is served."	TRUE
+At 8:30 the breakfast is served.	The serving time for breakfast is 8:30.	TRUE
+At 8:30 the breakfast is served.	Breakfast is available starting at 8:30 AM.	TRUE
+At 8:30 the breakfast is served.	Guests can enjoy breakfast at 8:30 in the morning.	TRUE
+At 8:30 the breakfast is served.	One can obtain breakfast at 8:30 in the morning.	TRUE
+At 8:30 the breakfast is served.	8:30 AM is the designated time for breakfast service.	TRUE
+At 8:30 the breakfast is served.	Breakfast commences at 8:30 AM.	TRUE
+"At 9:00 o'clock we will do some light exercise, which is followed by a short morning nap."	"We will engage in light exercise at 9:00 a.m., followed by a brief morning rest."	TRUE
+"At 9:00 o'clock we will do some light exercise, which is followed by a short morning nap."	"At 9:00 a.m., there will be some light exercise, succeeded by a short nap in the morning."	TRUE
+"At 9:00 o'clock we will do some light exercise, which is followed by a short morning nap."	"We'll do some gentle exercises by 9:00, then take a quick morning nap."	TRUE
+"At 9:00 o'clock we will do some light exercise, which is followed by a short morning nap."	"By 9:00, we'll have a light workout session, then take a short morning snooze."	TRUE
+"At 9:00 o'clock we will do some light exercise, which is followed by a short morning nap."	"At 9:00, we plan to do light exercises, which will be followed by a brief morning nap."	TRUE
+"At 9:00 o'clock we will do some light exercise, which is followed by a short morning nap."	"We will begin with some light exercise at 9:00 a.m., followed by a brief nap in the morning."	TRUE
+"At 9:00 o'clock we will do some light exercise, which is followed by a short morning nap."	"A short burst of exercise is scheduled for 9:00, after which there will be a short nap in the morning."	TRUE
+"At 9:00 o'clock we will do some light exercise, which is followed by a short morning nap."	"After engaging in light physical activity at 9:00, we will take a short nap in the morning."	TRUE
+"At 9:00 o'clock we will do some light exercise, which is followed by a short morning nap."	"Our morning routine starts with light exercise at 9:00, concluding with a short nap."	TRUE
+"At 9:00 o'clock we will do some light exercise, which is followed by a short morning nap."	"9:00 marks the beginning of light exercise, which precedes a quick morning nap."	TRUE
+At 12 o'clock the patient is supposed to take his lunch.	"At noon, the individual is expected to have his midday meal."	TRUE
+At 12 o'clock the patient is supposed to take his lunch.	The patient is scheduled to consume lunch at 12 PM.	TRUE
+At 12 o'clock the patient is supposed to take his lunch.	Lunch should be taken by the patient at the stroke of 12.	TRUE
+At 12 o'clock the patient is supposed to take his lunch.	"By 12 o'clock, the individual is to have his lunch."	TRUE
+At 12 o'clock the patient is supposed to take his lunch.	The patient is required to eat his lunch at the twelfth hour.	TRUE
+At 12 o'clock the patient is supposed to take his lunch.	The patient is scheduled to have lunch at noon.	TRUE
+At 12 o'clock the patient is supposed to take his lunch.	It is lunchtime for the patient at 12 pm.	TRUE
+At 12 o'clock the patient is supposed to take his lunch.	The medication schedule indicates the patient's lunch at midday.	FALSE
+At 12 o'clock the patient is supposed to take his lunch.	"By 12 o'clock, the patient should be finished with his meal."	FALSE
+At 12 o'clock the patient is supposed to take his lunch.	The patient's lunch break is set for noon.	TRUE
+After the lunch a short walk with the help of a nurse is planned. 	"A brief stroll is scheduled post-lunch, aided by a nurse."	TRUE
+After the lunch a short walk with the help of a nurse is planned. 	"Following lunch, there's a planned short walk with assistance from a nurse."	TRUE
+After the lunch a short walk with the help of a nurse is planned. 	There is a plan for a quick walk with the assistance of a nurse after lunch.	TRUE
+After the lunch a short walk with the help of a nurse is planned. 	"After lunch, a nurse will help with a short walk as part of the plan."	TRUE
+After the lunch a short walk with the help of a nurse is planned. 	"Post-lunch, there's a scheduled brief walk with the support of a nurse."	TRUE
+After the lunch a short walk with the help of a nurse is planned. 	"Following lunch, a brief assisted walk with a nurse is scheduled."	TRUE
+After the lunch a short walk with the help of a nurse is planned. 	"Aided by a nurse, a short walk is planned after the meal."	TRUE
+After the lunch a short walk with the help of a nurse is planned. 	The patient will take a short walk with a nurse's help after lunch.	TRUE
+After the lunch a short walk with the help of a nurse is planned. 	Lunch will be followed by a short walk with a nurse's assistance.	TRUE
+After the lunch a short walk with the help of a nurse is planned. 	"After eating, there will be a short walk with a nurse available to help."	TRUE
+At around 15:00 the patient should take afternoon nap before at 18:00 the dinner will be served.	The patient should rest in the afternoon around 15:00 before dinner is served at 18:00.	TRUE
+At around 15:00 the patient should take afternoon nap before at 18:00 the dinner will be served.	"Around 3:00 PM, the patient should take an afternoon nap prior to dinner being served at 6:00 PM."	TRUE
+At around 15:00 the patient should take afternoon nap before at 18:00 the dinner will be served.	"The patient is advised to nap in the afternoon by 15:00, followed by dinner at 18:00."	TRUE
+At around 15:00 the patient should take afternoon nap before at 18:00 the dinner will be served.	"By 3:00 PM, it's recommended for the patient to have an afternoon nap before dinner is served at 6:00 PM."	TRUE
+At around 15:00 the patient should take afternoon nap before at 18:00 the dinner will be served.	"At approximately 15:00, the patient should rest in the afternoon, preceding the dinner scheduled for 18:00."	TRUE
+At around 15:00 the patient should take afternoon nap before at 18:00 the dinner will be served.	The patient can take an afternoon nap around 3:00 p.m. Dinner will be served at 6:00 p.m.	TRUE
+At around 15:00 the patient should take afternoon nap before at 18:00 the dinner will be served.	"Dinner will be served at 6:00 p.m. The patient is recommended to take an afternoon nap beforehand, around 3:00 p.m."	TRUE
+At around 15:00 the patient should take afternoon nap before at 18:00 the dinner will be served.	"An afternoon nap is recommended for the patient at around 3:00 p.m., followed by dinner at 6:00 p.m."	TRUE
+At around 15:00 the patient should take afternoon nap before at 18:00 the dinner will be served.	"Between 3:00 p.m. and 6:00 p.m., the patient should take an afternoon nap before dinner is served."	TRUE
+At around 15:00 the patient should take afternoon nap before at 18:00 the dinner will be served.	"The patient has time for an afternoon nap before dinner. Dinner is at 6:00 p.m., so consider napping around 3:00 p.m."	TRUE
+"Finally at eight o'clock it is bedtime for the patient, and the schedule is at its end."	"Finally, the patient's bedtime arrives at eight o'clock, marking the end of the schedule."	TRUE
+"Finally at eight o'clock it is bedtime for the patient, and the schedule is at its end."	"At eight o'clock, it's finally time for the patient to go to bed, signaling the conclusion of the schedule."	TRUE
+"Finally at eight o'clock it is bedtime for the patient, and the schedule is at its end."	"The patient's bedtime is scheduled for eight o'clock, signaling the end of the day's schedule."	TRUE
+"Finally at eight o'clock it is bedtime for the patient, and the schedule is at its end."	"Eight o'clock marks the end of the schedule for the patient, as it is finally bedtime."	TRUE
+"Finally at eight o'clock it is bedtime for the patient, and the schedule is at its end."	The schedule concludes at eight o'clock with bedtime for the patient.	TRUE
+"Finally at eight o'clock it is bedtime for the patient, and the schedule is at its end."	"The time has finally reached eight o'clock, signifying bedtime for the patient. This concludes the day's schedule."	TRUE
+"Finally at eight o'clock it is bedtime for the patient, and the schedule is at its end."	"After a long day, it is finally 8:00 pm, and it's time for the patient to go to sleep. The schedule for today is complete."	TRUE
+"Finally at eight o'clock it is bedtime for the patient, and the schedule is at its end."	Eight o'clock marks the end of the patient's day and the start of their bedtime routine. The schedule is now finished.	TRUE
+"Finally at eight o'clock it is bedtime for the patient, and the schedule is at its end."	The patient's bedtime has arrived at last - it's 8 pm. This brings the day's schedule to a close.	TRUE
+"Finally at eight o'clock it is bedtime for the patient, and the schedule is at its end."	"With the clock striking eight, it's time for the patient to hit the hay. The day's activities are complete."	TRUE
+You will help me setting up a daily schedule for Mr. Franklin in Room 02.	Can you assist me in establishing a daily timetable for Mr. Franklin in Room 02?	TRUE
+You will help me setting up a daily schedule for Mr. Franklin in Room 02.	I need your help organizing a daily schedule for Mr. Franklin in Room 02.	TRUE
+You will help me setting up a daily schedule for Mr. Franklin in Room 02.	Could you aid me in arranging a daily plan for Mr. Franklin in Room 02?	TRUE
+You will help me setting up a daily schedule for Mr. Franklin in Room 02.	Would you mind helping me set up a daily itinerary for Mr. Franklin in Room 02?	TRUE
+You will help me setting up a daily schedule for Mr. Franklin in Room 02.	Are you available to assist me in creating a daily agenda for Mr. Franklin in Room 02?	TRUE
+You will help me setting up a daily schedule for Mr. Franklin in Room 02.	I can assist you in creating a daily schedule for Mr. Franklin in Room 02.	TRUE
+You will help me setting up a daily schedule for Mr. Franklin in Room 02.	Let's collaborate on crafting a daily routine for Mr. Franklin who resides in Room 02.	TRUE
+You will help me setting up a daily schedule for Mr. Franklin in Room 02.	"In regard to Mr. Franklin's daily schedule in Room 02, I can provide assistance in setting it up."	TRUE
+You will help me setting up a daily schedule for Mr. Franklin in Room 02.	I'm here to help you develop a plan for Mr. Franklin's day-to-day activities in Room 02.	TRUE
+You will help me setting up a daily schedule for Mr. Franklin in Room 02.	"If you'd like, I can help you establish a daily regimen for Mr. Franklin of Room 02."	TRUE
+He needs to wake up at 08:00 in the morning and take a shower directely afterwards.	He must wake up by 08:00 in the morning and then immediately shower.	TRUE
+He needs to wake up at 08:00 in the morning and take a shower directely afterwards.	It is necessary for him to rise at 08:00 in the morning and then proceed to shower right away.	TRUE
+He needs to wake up at 08:00 in the morning and take a shower directely afterwards.	His requirement is to awaken at 08:00 in the morning and then take a shower immediately afterward.	TRUE
+He needs to wake up at 08:00 in the morning and take a shower directely afterwards.	"At 08:00 in the morning, he is obligated to wake up and shower right away."	TRUE
+He needs to wake up at 08:00 in the morning and take a shower directely afterwards.	He is supposed to get up at 08:00 in the morning and promptly take a shower afterward.	TRUE
+He needs to wake up at 08:00 in the morning and take a shower directely afterwards.	"To ensure he is ready for the day, he should rise at 8:00 AM and immediately follow with a shower."	TRUE
+He needs to wake up at 08:00 in the morning and take a shower directely afterwards.	"An 8:00 AM wake-up is necessary, followed promptly by a shower, to kickstart his morning routine."	TRUE
+He needs to wake up at 08:00 in the morning and take a shower directely afterwards.	He must initiate his day by waking up at 08:00 and take a shower right after.	TRUE
+He needs to wake up at 08:00 in the morning and take a shower directely afterwards.	A shower should directly succeed his 8:00 AM awakening for a productive morning.	TRUE
+He needs to wake up at 08:00 in the morning and take a shower directely afterwards.	"To optimize his morning, waking up at 08:00 AM and showering immediately afterward is recommended."	TRUE
+Then Mr. Frankling will take his breakfast at 8:45.	"At 8:45, Mr. Frankling will have his breakfast."	TRUE
+Then Mr. Frankling will take his breakfast at 8:45.	Breakfast for Mr. Frankling is scheduled for 8:45.	TRUE
+Then Mr. Frankling will take his breakfast at 8:45.	The breakfast time for Mr. Frankling is 8:45.	TRUE
+Then Mr. Frankling will take his breakfast at 8:45.	Mr. Frankling plans to eat breakfast at 8:45.	TRUE
+Then Mr. Frankling will take his breakfast at 8:45.	8:45 is when Mr. Frankling will have breakfast.	TRUE
+Then Mr. Frankling will take his breakfast at 8:45.	Mr. Frankling has breakfast scheduled for 8:45.	TRUE
+Then Mr. Frankling will take his breakfast at 8:45.	8:45 is Mr. Frankling's designated breakfast time.	TRUE
+Then Mr. Frankling will take his breakfast at 8:45.	Breakfast for Mr. Frankling comes next at 8:45.	TRUE
+Then Mr. Frankling will take his breakfast at 8:45.	It's breakfast time for Mr. Frankling at 8:45.	TRUE
+Then Mr. Frankling will take his breakfast at 8:45.	"Coming up at 8:45, Mr. Frankling will enjoy his breakfast."	TRUE
+Mr. Franklin will do a light exercise at 9:30  and do a morning nap after it.	"At 9:30, Mr. Franklin plans to engage in a light workout and follow it up with a morning nap."	TRUE
+Mr. Franklin will do a light exercise at 9:30  and do a morning nap after it.	"Engaging in a gentle exercise is scheduled for Mr. Franklin at 9:30, followed by a brief morning nap."	TRUE
+Mr. Franklin will do a light exercise at 9:30  and do a morning nap after it.	Mr. Franklin is set to perform a light exercise at 9:30 and take a morning nap afterward.	TRUE
+Mr. Franklin will do a light exercise at 9:30  and do a morning nap after it.	"Scheduled for 9:30, Mr. Franklin will undertake a light exercise, followed by a morning nap."	TRUE
+Mr. Franklin will do a light exercise at 9:30  and do a morning nap after it.	"At 9:30, there is a plan for Mr. Franklin to do a light exercise, followed by a morning nap."	TRUE
+Mr. Franklin will do a light exercise at 9:30  and do a morning nap after it.	"Following a light exercise routine at 9:30, Mr. Franklin will take a morning nap."	TRUE
+Mr. Franklin will do a light exercise at 9:30  and do a morning nap after it.	"After engaging in some light exercise at 9:30 AM, Mr. Franklin will indulge in a morning nap."	TRUE
+Mr. Franklin will do a light exercise at 9:30  and do a morning nap after it.	A light exercise session at 9:30 AM will be followed by a morning nap for Mr. Franklin.	TRUE
+Mr. Franklin will do a light exercise at 9:30  and do a morning nap after it.	"Scheduled for 9:30 AM, a light exercise routine precedes Mr. Franklin's morning nap."	TRUE
+Mr. Franklin will do a light exercise at 9:30  and do a morning nap after it.	"Mr. Franklin plans a light exercise regimen at 9:30 AM, to be followed by a refreshing nap."	TRUE
+At 12:00 o'clock its lunch time. 	It's time for lunch at 12:00.	TRUE
+At 12:00 o'clock its lunch time. 	Lunchtime is at 12:00.	TRUE
+At 12:00 o'clock its lunch time. 	"At noon, it's time for lunch."	TRUE
+At 12:00 o'clock its lunch time. 	"The clock strikes 12:00, signaling lunchtime."	TRUE
+At 12:00 o'clock its lunch time. 	The lunch break starts at 12:00.	TRUE
+At 12:00 o'clock its lunch time. 	The time for lunch is noon.	TRUE
+At 12:00 o'clock its lunch time. 	"When the clock strikes twelve, it's time to eat lunch."	TRUE
+At 12:00 o'clock its lunch time. 	Lunch is served at midday.	TRUE
+At 12:00 o'clock its lunch time. 	Twelve o'clock signifies the beginning of the lunch break.	TRUE
+At 12:00 o'clock its lunch time. 	It's lunchtime when the hour reaches twelve.	TRUE
+"The lunch is followed by a intense exercise, supported by a nurse. "	An intense workout is scheduled after lunch with assistance from a nurse.	TRUE
+"The lunch is followed by a intense exercise, supported by a nurse. "	"Following lunch, there will be rigorous exercise overseen by a nurse."	TRUE
+"The lunch is followed by a intense exercise, supported by a nurse. "	"The lunch will be succeeded by vigorous physical activity, with the help of a nurse."	TRUE
+"The lunch is followed by a intense exercise, supported by a nurse. "	"After lunch, there will be a strenuous workout supported by a nurse."	TRUE
+"The lunch is followed by a intense exercise, supported by a nurse. "	A nurse will assist in supervising the intense exercise session following lunch.	TRUE
+"The lunch is followed by a intense exercise, supported by a nurse. "	"After lunch, a nurse supervises a strenuous workout."	FALSE
+"The lunch is followed by a intense exercise, supported by a nurse. "	"A vigorous exercise session, monitored by a nurse, comes after lunch."	TRUE
+"The lunch is followed by a intense exercise, supported by a nurse. "	Lunch is followed by a challenging exercise routine with a nurse providing support.	TRUE
+"The lunch is followed by a intense exercise, supported by a nurse. "	"Patients engage in a strenuous exercise program after lunch, under the supervision of a nurse."	FALSE
+"The lunch is followed by a intense exercise, supported by a nurse. "	A nurse-assisted intensive exercise session follows lunch.	TRUE
+"Oh no sorry, I did not meant intense exercise but a walk."	"Apologies, I didn't mean vigorous physical activity, rather a leisurely stroll."	TRUE
+"Oh no sorry, I did not meant intense exercise but a walk."	"Sorry, I didn't intend for intense exercise; I meant taking a walk instead."	TRUE
+"Oh no sorry, I did not meant intense exercise but a walk."	"My apologies, I didn't mean for it to be high-intensity exercise; I meant going for a walk."	TRUE
+"Oh no sorry, I did not meant intense exercise but a walk."	"Oh, I'm sorry, I didn't mean strenuous exercise, just a simple walk."	TRUE
+"Oh no sorry, I did not meant intense exercise but a walk."	"Regrets, I didn't intend for it to be intense exercise; I meant going for a walk instead."	TRUE
+"Oh no sorry, I did not meant intense exercise but a walk."	"Oh no, I apologize! I meant a walk, not intense exercise."	TRUE
+"Oh no sorry, I did not meant intense exercise but a walk."	"Let me clarify - I was suggesting a walk, not a strenuous workout."	TRUE
+"Oh no sorry, I did not meant intense exercise but a walk."	"Whoops! Misunderstood there. I actually meant going for a walk, not a hard exercise session."	TRUE
+"Oh no sorry, I did not meant intense exercise but a walk."	"My mistake! I should've said a walk, not an intense workout."	TRUE
+"Oh no sorry, I did not meant intense exercise but a walk."	"Sorry, misspoke! I meant a casual walk, not a demanding exercise routine."	TRUE
+After this a afternoon nap is planed.	An afternoon nap is scheduled following this.	TRUE
+After this a afternoon nap is planed.	There's a plan for an afternoon nap later.	TRUE
+After this a afternoon nap is planed.	"Following this, there's a planned afternoon rest."	TRUE
+After this a afternoon nap is planed.	An afternoon nap is on the agenda after this.	TRUE
+After this a afternoon nap is planed.	This is followed by an afternoon nap.	TRUE
+After this a afternoon nap is planed.	"Following this, there's a nap planned for the afternoon."	TRUE
+After this a afternoon nap is planed.	An afternoon nap is scheduled after this.	TRUE
+After this a afternoon nap is planed.	We've got an afternoon nap penciled in after this. 	TRUE
+After this a afternoon nap is planed.	"After this, I/we intend to take a nap in the afternoon."	TRUE
+After this a afternoon nap is planed.	"Once this is done, there's an afternoon nap on the agenda."	TRUE
+Mr. Franklin should take dinner at 18:00 and after this it is bedtime at 20:00.	"Mr. Franklin is advised to dine at 18:00, followed by bedtime at 20:00."	TRUE
+Mr. Franklin should take dinner at 18:00 and after this it is bedtime at 20:00.	"At 18:00, Mr. Franklin ought to have dinner, then it's time for bed at 20:00."	TRUE
+Mr. Franklin should take dinner at 18:00 and after this it is bedtime at 20:00.	The suggested schedule for Mr. Franklin includes dinner at 18:00 and bedtime at 20:00.	TRUE
+Mr. Franklin should take dinner at 18:00 and after this it is bedtime at 20:00.	"Mr. Franklin is recommended to dine by 18:00, and by 20:00, it's time to sleep."	TRUE
+Mr. Franklin should take dinner at 18:00 and after this it is bedtime at 20:00.	It is advisable for Mr. Franklin to have dinner by 18:00 and then proceed to bedtime by 20:00.	TRUE
+Mr. Franklin should take dinner at 18:00 and after this it is bedtime at 20:00.	"Dinner is recommended for Mr. Franklin at 6:00 PM, followed by bedtime at 8:00 PM."	TRUE
+Mr. Franklin should take dinner at 18:00 and after this it is bedtime at 20:00.	"Mr. Franklin can have dinner at 6:00 p.m., and then it's time for bed at 8:00 p.m."	TRUE
+Mr. Franklin should take dinner at 18:00 and after this it is bedtime at 20:00.	An ideal schedule for Mr. Franklin would be dinner at 6:00 PM and bedtime at 8:00 PM.	TRUE
+Mr. Franklin should take dinner at 18:00 and after this it is bedtime at 20:00.	"After dinner at 6:00 PM, Mr. Franklin should head to bed at 8:00 PM."	TRUE
+Mr. Franklin should take dinner at 18:00 and after this it is bedtime at 20:00.	"Bedtime for Mr. Franklin is set at 8:00 PM, following dinner at 6:00 PM."	TRUE
+I would like you to help me setting up a schedule for Mrs. Rose in room 201. 	I need your assistance in creating a schedule for Mrs. Rose in room 201.	TRUE
+I would like you to help me setting up a schedule for Mrs. Rose in room 201. 	Can you assist me in organizing a timetable for Mrs. Rose in room 201?	TRUE
+I would like you to help me setting up a schedule for Mrs. Rose in room 201. 	Please help me set up a schedule for Mrs. Rose in room 201.	TRUE
+I would like you to help me setting up a schedule for Mrs. Rose in room 201. 	Could you aid me in establishing a timetable for Mrs. Rose in room 201?	TRUE
+I would like you to help me setting up a schedule for Mrs. Rose in room 201. 	It would be great if you could help me plan a schedule for Mrs. Rose in room 201.	TRUE
+I would like you to help me setting up a schedule for Mrs. Rose in room 201. 	Can you assist me in creating a schedule for Mrs. Rose in room 201?	TRUE
+I would like you to help me setting up a schedule for Mrs. Rose in room 201. 	I'd appreciate it if you could help me develop a schedule for Mrs. Rose's use in room 201.	TRUE
+I would like you to help me setting up a schedule for Mrs. Rose in room 201. 	Would it be possible for you to lend me a hand in setting up a schedule for Mrs. Rose in room 201?	TRUE
+I would like you to help me setting up a schedule for Mrs. Rose in room 201. 	I was hoping you could help me out with creating a schedule for Mrs. Rose in room 201.	TRUE
+I would like you to help me setting up a schedule for Mrs. Rose in room 201. 	Could you collaborate with me on establishing a schedule for Mrs. Rose in room 201?	TRUE
+Her day starts at 7:30 when we wake her up.	Her day begins at 7:30 when we rouse her.	TRUE
+Her day starts at 7:30 when we wake her up.	"At 7:30, we awaken her to start her day."	TRUE
+Her day starts at 7:30 when we wake her up.	She gets up at 7:30 to start her day.	TRUE
+Her day starts at 7:30 when we wake her up.	"We wake her up at 7:30, and that's when her day starts."	TRUE
+Her day starts at 7:30 when we wake her up.	The commencement of her day is at 7:30 when we wake her.	TRUE
+Her day starts at 7:30 when we wake her up.	"We rouse her from sleep at 7:30 a.m., thus beginning her day."	TRUE
+Her day starts at 7:30 when we wake her up.	"Her day commences at 7:30 in the morning, at which point we wake her up."	TRUE
+Her day starts at 7:30 when we wake her up.	Awakening her at 7:30 marks the start of her day.	TRUE
+Her day starts at 7:30 when we wake her up.	"7:30 a.m. signals the beginning of her day, as that is when we wake her."	TRUE
+Her day starts at 7:30 when we wake her up.	We initiate her day by waking her up at 7:30.	TRUE
+Before 8:15 she takes a shower and is ready for breakfast at 8:30.	"Prior to 8:15, she showers and is prepared for breakfast by 8:30."	TRUE
+Before 8:15 she takes a shower and is ready for breakfast at 8:30.	She showers before 8:15 and gets ready for breakfast by 8:30.	TRUE
+Before 8:15 she takes a shower and is ready for breakfast at 8:30.	"By 8:15, she has taken a shower and is prepared for breakfast by 8:30."	TRUE
+Before 8:15 she takes a shower and is ready for breakfast at 8:30.	"Before 8:15, she completes a shower and is set for breakfast at 8:30."	TRUE
+Before 8:15 she takes a shower and is ready for breakfast at 8:30.	"Taking a shower before 8:15, she is ready for breakfast at 8:30."	TRUE
+Before 8:15 she takes a shower and is ready for breakfast at 8:30.	"She gets up before 8:15, showers, and is prepared to eat breakfast by 8:30."	TRUE
+Before 8:15 she takes a shower and is ready for breakfast at 8:30.	"By 8:30, she is ready for breakfast, having showered earlier in the morning before 8:15."	TRUE
+Before 8:15 she takes a shower and is ready for breakfast at 8:30.	Showering is complete before 8:15 for her to be ready for breakfast by 8:30.	TRUE
+Before 8:15 she takes a shower and is ready for breakfast at 8:30.	Breakfast readiness by 8:30 requires a shower before 8:15 in her routine.	TRUE
+Before 8:15 she takes a shower and is ready for breakfast at 8:30.	"Prior to 8:15, she fits in a shower to ensure she's prepared for breakfast at 8:30."	TRUE
+After breakfast a light exercise session is planned from 9:00 until 9:45. 	A light exercise session is scheduled from 9:00 to 9:45 after breakfast.	TRUE
+After breakfast a light exercise session is planned from 9:00 until 9:45. 	There's a planned light exercise session from 9:00 to 9:45 following breakfast.	TRUE
+After breakfast a light exercise session is planned from 9:00 until 9:45. 	Breakfast will be followed by a light exercise session scheduled from 9:00 to 9:45.	TRUE
+After breakfast a light exercise session is planned from 9:00 until 9:45. 	"From 9:00 to 9:45, there will be a light exercise session planned after breakfast."	TRUE
+After breakfast a light exercise session is planned from 9:00 until 9:45. 	"After breakfast, a light exercise session is set for 9:00 to 9:45."	TRUE
+After breakfast a light exercise session is planned from 9:00 until 9:45. 	There is a light exercise session scheduled from 9:00 to 9:45 after breakfast.	TRUE
+After breakfast a light exercise session is planned from 9:00 until 9:45. 	"Following breakfast, there is a light exercise program from 9:00 AM to 9:45 AM."	TRUE
+After breakfast a light exercise session is planned from 9:00 until 9:45. 	"After eating breakfast, a light workout routine is planned between 9:00 and 9:45."	TRUE
+After breakfast a light exercise session is planned from 9:00 until 9:45. 	"A light exercise session is on the agenda from 9:00 to 9:45, following breakfast."	TRUE
+After breakfast a light exercise session is planned from 9:00 until 9:45. 	"After breakfast, you have a light exercise session from 9:00 to 9:45."	TRUE
+Mrs Rose should now have some time to take a morning nap.	It is now time for Mrs Rose to take a morning nap.	TRUE
+Mrs Rose should now have some time to take a morning nap.	Mrs Rose can now take a morning nap.	TRUE
+Mrs Rose should now have some time to take a morning nap.	Mrs Rose has the opportunity to take a morning nap now.	TRUE
+Mrs Rose should now have some time to take a morning nap.	Now is the time for Mrs Rose to have a morning nap.	TRUE
+Mrs Rose should now have some time to take a morning nap.	Mrs Rose now has the chance to take a morning nap.	TRUE
+Mrs Rose should now have some time to take a morning nap.	Mrs. Rose should now have some time to take a morning nap.	TRUE
+Mrs Rose should now have some time to take a morning nap.	It is now likely that Mrs. Rose has time for a morning nap.	TRUE
+Mrs Rose should now have some time to take a morning nap.	The current situation allows Mrs. Rose to take a nap in the morning.	TRUE
+Mrs Rose should now have some time to take a morning nap.	There is an opportunity for Mrs. Rose to rest for a while in the morning.	TRUE
+Mrs Rose should now have some time to take a morning nap.	"Given the circumstances, Mrs. Rose may now indulge in a short sleep during the morning."	TRUE
+At 12:00 Mrs. Rose will take her lunch.	Mrs. Rose will have her lunch at 12:00.	TRUE
+At 12:00 Mrs. Rose will take her lunch.	Lunch will be taken by Mrs. Rose at 12:00.	TRUE
+At 12:00 Mrs. Rose will take her lunch.	"At noon, Mrs. Rose plans to take her lunch."	TRUE
+At 12:00 Mrs. Rose will take her lunch.	Mrs. Rose is scheduled to eat lunch at 12:00.	TRUE
+At 12:00 Mrs. Rose will take her lunch.	12:00 is the time for Mrs. Rose to have lunch.	TRUE
+At 12:00 Mrs. Rose will take her lunch.	Mrs. Rose is scheduled to have lunch at noon.	TRUE
+At 12:00 Mrs. Rose will take her lunch.	Lunchtime for Mrs. Rose is at 12:00 p.m.	TRUE
+At 12:00 Mrs. Rose will take her lunch.	"In the middle of the day, Mrs. Rose will break for lunch."	TRUE
+At 12:00 Mrs. Rose will take her lunch.	"At midday, Mrs. Rose will take a break to eat."	TRUE
+At 12:00 Mrs. Rose will take her lunch.	Mrs. Rose will have her lunch break at twelve o'clock.	TRUE
+After lunch there is a walk planned between 13:00 and 14:00.	A walk is scheduled from 13:00 to 14:00 after having lunch.	TRUE
+After lunch there is a walk planned between 13:00 and 14:00.	"Between 13:00 and 14:00, there's a planned stroll following lunch."	TRUE
+After lunch there is a walk planned between 13:00 and 14:00.	Plans include a walk from 13:00 to 14:00 post-lunch.	TRUE
+After lunch there is a walk planned between 13:00 and 14:00.	There's a scheduled walking session between 1:00 PM and 2:00 PM after having lunch.	TRUE
+After lunch there is a walk planned between 13:00 and 14:00.	"Post-lunch, there's a planned walk scheduled from 13:00 to 14:00."	TRUE
+After lunch there is a walk planned between 13:00 and 14:00.	"After lunch, there is a walk scheduled between 1:00 PM and 2:00 PM."	TRUE
+After lunch there is a walk planned between 13:00 and 14:00.	"Following lunch, a walk is planned from 1:00 PM to 2:00 PM."	TRUE
+After lunch there is a walk planned between 13:00 and 14:00.	"There is a walk planned between 1:00 PM and 2:00 PM, following lunch."	TRUE
+After lunch there is a walk planned between 13:00 and 14:00.	Lunch will be followed by a walk between 1:00 PM and 2:00 PM.	TRUE
+After lunch there is a walk planned between 13:00 and 14:00.	"A walk is scheduled for after lunch, between 1:00 PM and 2:00 PM."	TRUE
+Now it is again time to rest for her and taking an afternoon nap.	It's time for her to rest again and have an afternoon nap.	TRUE
+Now it is again time to rest for her and taking an afternoon nap.	"Once more, she should take a break and indulge in an afternoon nap."	TRUE
+Now it is again time to rest for her and taking an afternoon nap.	Now is the moment for her to relax and enjoy a nap in the afternoon.	TRUE
+Now it is again time to rest for her and taking an afternoon nap.	It's time once again for her to take a break and nap in the afternoon.	TRUE
+Now it is again time to rest for her and taking an afternoon nap.	Taking an afternoon nap is in order for her once more.	TRUE
+Now it is again time to rest for her and taking an afternoon nap.	The time has come again for her to unwind and enjoy an afternoon nap.	TRUE
+Now it is again time to rest for her and taking an afternoon nap.	"After a busy morning, it's time for her to recharge with an afternoon nap."	TRUE
+Now it is again time to rest for her and taking an afternoon nap.	She's due for some relaxation now; an afternoon nap is in order.	TRUE
+Now it is again time to rest for her and taking an afternoon nap.	It's nap time again! She needs to rest and recharge for the rest of the day.	TRUE
+Now it is again time to rest for her and taking an afternoon nap.	An afternoon nap beckons; it's time for her to rest and rejuvenate.	TRUE
+At 18:00 Mrs. Rose takes dinner. 	Mrs. Rose has dinner at 6:00 PM.	TRUE
+At 18:00 Mrs. Rose takes dinner. 	Dinner is taken by Mrs. Rose at 18:00.	TRUE
+At 18:00 Mrs. Rose takes dinner. 	Mrs. Rose dines at 6:00 in the evening.	TRUE
+At 18:00 Mrs. Rose takes dinner. 	"At 6:00 PM, Mrs. Rose eats her dinner."	TRUE
+At 18:00 Mrs. Rose takes dinner. 	The dinner hour for Mrs. Rose is 18:00.	TRUE
+At 18:00 Mrs. Rose takes dinner. 	Mrs. Rose eats dinner at six o'clock in the evening.	TRUE
+At 18:00 Mrs. Rose takes dinner. 	Dinner is served to Mrs. Rose at 6:00 PM.	TRUE
+At 18:00 Mrs. Rose takes dinner. 	"In the evening, at 18:00, Mrs. Rose has her dinner."	TRUE
+At 18:00 Mrs. Rose takes dinner. 	6:00 PM is Mrs. Rose's designated time for dinner.	TRUE
+At 18:00 Mrs. Rose takes dinner. 	Mrs. Rose consumes her evening meal at 18:00 hours.	TRUE
+At 20:00 it is bedtime for Mrs Rose.	Mrs. Rose's bedtime is at 20:00.	TRUE
+At 20:00 it is bedtime for Mrs Rose.	"At 8:00 PM, Mrs. Rose goes to bed."	TRUE
+At 20:00 it is bedtime for Mrs Rose.	The time for Mrs. Rose to sleep is 20:00.	TRUE
+At 20:00 it is bedtime for Mrs Rose.	Bedtime for Mrs. Rose is scheduled for 20:00.	TRUE
+At 20:00 it is bedtime for Mrs Rose.	Mrs. Rose retires at 20:00.	TRUE
+At 20:00 it is bedtime for Mrs Rose.	Mrs. Rose goes to bed at 8:00 p.m.	TRUE
+At 20:00 it is bedtime for Mrs Rose.	It is time for Mrs. Rose to sleep at 8:00 p.m.	TRUE
+At 20:00 it is bedtime for Mrs Rose.	Eight o'clock is bedtime for Mrs. Rose.	TRUE
+At 20:00 it is bedtime for Mrs Rose.	The hour of sleep for Mrs. Rose is 8:00 p.m.	TRUE
+At 20:00 it is bedtime for Mrs Rose.	Closing time for Mrs. Rose's eyelids is 8:00 p.m.	TRUE
+Thats the complete schedule for Mrs Rose.	That is the entire timetable for Mrs. Rose.	TRUE
+Thats the complete schedule for Mrs Rose.	This represents the comprehensive schedule for Mrs. Rose.	TRUE
+Thats the complete schedule for Mrs Rose.	Here is the full agenda for Mrs. Rose.	TRUE
+Thats the complete schedule for Mrs Rose.	That's Mrs. Rose's complete timetable.	TRUE
+Thats the complete schedule for Mrs Rose.	This is the total schedule for Mrs. Rose.	TRUE
+Thats the complete schedule for Mrs Rose.	Here is the full schedule for Mrs. Rose.	TRUE
+Thats the complete schedule for Mrs Rose.	Mrs. Rose's complete schedule is shown below.	TRUE
+Thats the complete schedule for Mrs Rose.	The following is Mrs. Rose's entire schedule.	TRUE
+Thats the complete schedule for Mrs Rose.	This table displays Mrs. Rose's comprehensive schedule.	TRUE
+Thats the complete schedule for Mrs Rose.	I have Mrs. Rose's complete schedule listed here.	TRUE
+I need you to support me creating a daily schedule for our patient Mr. White.	"Assist me in developing a daily timetable for our patient, Mr. White."	TRUE
+I need you to support me creating a daily schedule for our patient Mr. White.	"I require your assistance in crafting a daily agenda for Mr. White, our patient."	TRUE
+I need you to support me creating a daily schedule for our patient Mr. White.	"Can you help me create a daily plan for Mr. White, our patient?"	TRUE
+I need you to support me creating a daily schedule for our patient Mr. White.	"I'm seeking your support to establish a daily schedule for our patient, Mr. White."	TRUE
+I need you to support me creating a daily schedule for our patient Mr. White.	"Support me in devising a daily routine for Mr. White, our patient."	TRUE
+I need you to support me creating a daily schedule for our patient Mr. White.	"Can you help me develop a daily routine for our patient, Mr. White?"	TRUE
+I need you to support me creating a daily schedule for our patient Mr. White.	I'd like your assistance in crafting a daily plan for Mr. White's care.	TRUE
+I need you to support me creating a daily schedule for our patient Mr. White.	Would you be able to collaborate with me on creating a daily schedule for Mr. White?	TRUE
+I need you to support me creating a daily schedule for our patient Mr. White.	"In conjunction with you, I'd like to establish a daily regimen for Mr. White."	TRUE
+I need you to support me creating a daily schedule for our patient Mr. White.	"Together, let's create a daily schedule for Mr. White's care."	TRUE
+He is woken up at 7:30 and takes a shower before 8:20	He wakes up at 7:30 and showers before 8:20.	TRUE
+He is woken up at 7:30 and takes a shower before 8:20	"At 7:30, he gets up and has a shower by 8:20."	TRUE
+He is woken up at 7:30 and takes a shower before 8:20	"Waking up occurs at 7:30, followed by a shower before 8:20."	TRUE
+He is woken up at 7:30 and takes a shower before 8:20	"By 8:20, he has showered after waking up at 7:30."	TRUE
+He is woken up at 7:30 and takes a shower before 8:20	Showering before 8:20 happens after waking up at 7:30.	TRUE
+He is woken up at 7:30 and takes a shower before 8:20	He wakes up at 7:30 a.m. and showers before 8:20 a.m.	TRUE
+He is woken up at 7:30 and takes a shower before 8:20	"At 7:30 in the morning, he is awakened from his sleep and takes a shower prior to 8:20 a.m."	TRUE
+He is woken up at 7:30 and takes a shower before 8:20	"A shower is taken by him before 8:20 a.m., following his awakening at 7:30 a.m."	TRUE
+He is woken up at 7:30 and takes a shower before 8:20	He gets up at 7:30 and cleanses himself with water before 8:20. 	TRUE
+He is woken up at 7:30 and takes a shower before 8:20	"Prior to 8:20, he commences his day by waking up at 7:30 and showering."	TRUE
+At 8:30 he eats his breakfast.	He has breakfast at 8:30.	TRUE
+At 8:30 he eats his breakfast.	Breakfast is consumed by him at 8:30.	TRUE
+At 8:30 he eats his breakfast.	His breakfast time is 8:30.	TRUE
+At 8:30 he eats his breakfast.	"At 8:30, he starts his morning meal."	TRUE
+At 8:30 he eats his breakfast.	8:30 is when he begins eating breakfast.	TRUE
+At 8:30 he eats his breakfast.	He consumes his morning meal at 8:30 AM.	TRUE
+At 8:30 he eats his breakfast.	Breakfast is eaten by him at half past eight.	TRUE
+At 8:30 he eats his breakfast.	8:30 is the time for him to have breakfast.	TRUE
+At 8:30 he eats his breakfast.	He starts his day with breakfast at 8:30.	TRUE
+At 8:30 he eats his breakfast.	"In the morning, he breaks his fast at 8:30."	TRUE
+"at 9:00 it is time for a light exercise until 10:00, after it he takes a morning nap. "	"At 9:00, it's time for a gentle workout until 10:00, followed by a morning nap."	TRUE
+"at 9:00 it is time for a light exercise until 10:00, after it he takes a morning nap. "	"Commencing at 9:00, there's a period for light exercise until 10:00, succeeded by a morning nap."	TRUE
+"at 9:00 it is time for a light exercise until 10:00, after it he takes a morning nap. "	"The clock strikes 9:00, signaling the commencement of a brief exercise session until 10:00, after which he indulges in a morning nap."	TRUE
+"at 9:00 it is time for a light exercise until 10:00, after it he takes a morning nap. "	"Starting from 9:00, there's a slot for a light workout until 10:00, post which a morning nap is in order."	TRUE
+"at 9:00 it is time for a light exercise until 10:00, after it he takes a morning nap. "	"A light exercise routine is scheduled from 9:00 to 10:00, succeeded by a morning nap."	TRUE
+"at 9:00 it is time for a light exercise until 10:00, after it he takes a morning nap. "	"He begins light exercise at 9:00 am and continues until 10:00 am, followed by a morning nap."	TRUE
+"at 9:00 it is time for a light exercise until 10:00, after it he takes a morning nap. "	"A light exercise routine starts at 9:00 and ends at 10:00, after which he takes a nap in the morning."	TRUE
+"at 9:00 it is time for a light exercise until 10:00, after it he takes a morning nap. "	"9:00 marks the start of his light exercise routine, which lasts for an hour. He then takes a nap in the morning."	TRUE
+"at 9:00 it is time for a light exercise until 10:00, after it he takes a morning nap. "	"Between 9:00 and 10:00, he engages in light exercise. Afterward, he enjoys a morning nap."	TRUE
+"at 9:00 it is time for a light exercise until 10:00, after it he takes a morning nap. "	He schedules a light workout from 9:00 to 10:00 am. He then takes a nap in the morning.	TRUE
+At 12:00 Mr. White eats his lunch.	Mr. White has his lunch at 12:00.	TRUE
+At 12:00 Mr. White eats his lunch.	Lunch is consumed by Mr. White at noon.	TRUE
+At 12:00 Mr. White eats his lunch.	"At midday, Mr. White dines on his lunch."	TRUE
+At 12:00 Mr. White eats his lunch.	Mr. White enjoys his meal at 12:00.	TRUE
+At 12:00 Mr. White eats his lunch.	The lunch of Mr. White occurs at 12:00.	TRUE
+At 12:00 Mr. White eats his lunch.	"When the clock strikes twelve, Mr. White consumes his midday meal."	TRUE
+At 12:00 Mr. White eats his lunch.	"In the middle of the day, at noon, Mr. White has his lunch."	TRUE
+At 12:00 Mr. White eats his lunch.	Mr. White enjoys his lunch at precisely twelve o'clock.	TRUE
+At 12:00 Mr. White eats his lunch.	The hour of twelve marks the time for Mr. White's lunch break.	TRUE
+At 12:00 Mr. White eats his lunch.	"Consuming his midday meal, Mr. White finds himself at noon."	TRUE
+At 13:00 Mr White goes on a walk with a nurse and at 14:30 takes an afternoon nap.	"At 1:00 PM, Mr. White embarks on a stroll accompanied by a nurse, and by 2:30 PM, he engages in an afternoon nap."	TRUE
+At 13:00 Mr White goes on a walk with a nurse and at 14:30 takes an afternoon nap.	"During the 13:00 hour, Mr. White takes a walk alongside a nurse, followed by an afternoon nap at 14:30."	TRUE
+At 13:00 Mr White goes on a walk with a nurse and at 14:30 takes an afternoon nap.	"At 1:00 in the afternoon, Mr. White goes for a walk with a nurse, then takes an afternoon nap at 2:30."	TRUE
+At 13:00 Mr White goes on a walk with a nurse and at 14:30 takes an afternoon nap.	"Mr. White's walk with a nurse commences at 13:00, and he subsequently takes an afternoon nap at 14:30."	TRUE
+At 13:00 Mr White goes on a walk with a nurse and at 14:30 takes an afternoon nap.	"Taking a walk with a nurse at 13:00, Mr. White then indulges in an afternoon nap around 14:30."	TRUE
+At 13:00 Mr White goes on a walk with a nurse and at 14:30 takes an afternoon nap.	"In the afternoon, Mr. White takes a walk with a nurse at 1:00 PM, followed by an afternoon nap at 2:30 PM."	TRUE
+At 13:00 Mr White goes on a walk with a nurse and at 14:30 takes an afternoon nap.	Mr. White's schedule for the afternoon includes a walk with a nurse at 1:00 PM and an afternoon nap at 2:30 PM.	TRUE
+At 13:00 Mr White goes on a walk with a nurse and at 14:30 takes an afternoon nap.	"At 1:00 PM, Mr. White has a walk scheduled with a nurse, followed by an afternoon nap at 2:30 PM."	TRUE
+At 13:00 Mr White goes on a walk with a nurse and at 14:30 takes an afternoon nap.	"During the afternoon, Mr. White goes for a walk with a nurse at 1:00 PM and then takes an afternoon nap at 2:30 PM."	TRUE
+At 13:00 Mr White goes on a walk with a nurse and at 14:30 takes an afternoon nap.	"Mr. White takes a nap in the afternoon (2:30 PM), following a walk with a nurse earlier that afternoon (1:00 PM)."	TRUE
+At 18:40 Mr White eats breakfast. 	Mr. White has his breakfast at 6:40 PM.	TRUE
+At 18:40 Mr White eats breakfast. 	Breakfast is consumed by Mr. White at 18:40.	TRUE
+At 18:40 Mr White eats breakfast. 	"At 6:40 in the evening, Mr. White eats his breakfast."	TRUE
+At 18:40 Mr White eats breakfast. 	Mr. White dines on breakfast at 18:40.	TRUE
+At 18:40 Mr White eats breakfast. 	Breakfast is eaten by Mr. White at 18:40.	TRUE
+At 18:40 Mr White eats breakfast. 	Mr. White consumes his breakfast at 6:40 in the evening.	TRUE
+At 18:40 Mr White eats breakfast. 	"Coming to 40 past six, Mr. White sits down for breakfast."	TRUE
+At 18:40 Mr White eats breakfast. 	"The time being 18:40, Mr. White enjoys his breakfast meal."	TRUE
+At 18:40 Mr White eats breakfast. 	Breakfast is served for Mr. White at precisely 18:40 hours.	TRUE
+At 18:40 Mr White eats breakfast. 	It is 6:40 pm when Mr. White has his breakfast.	TRUE
+Oh no I meant dinner.	"Oops, I was referring to the evening meal."	TRUE
+Oh no I meant dinner.	"My intention was for dinner, not something else."	TRUE
+Oh no I meant dinner.	I actually meant the meal we have in the evening.	TRUE
+Oh no I meant dinner.	"My preference is for dinner, not any other option."	TRUE
+Oh no I meant dinner.	"Apologies, I was talking about having dinner."	TRUE
+Oh no I meant dinner.	"Wait, I meant dinner!"	TRUE
+Oh no I meant dinner.	Dinner is actually what I had in mind.	TRUE
+Oh no I meant dinner.	"I apologize, I misspoke. I meant dinner."	TRUE
+Oh no I meant dinner.	"To clarify, I was referring to dinner."	TRUE
+Oh no I meant dinner.	"My mistake, dinner is what I intended to say."	TRUE
+At 20:30 Mr White is going to bed.	Mr. White will go to bed at 20:30.	TRUE
+At 20:30 Mr White is going to bed.	"At 8:30 PM, Mr. White plans to go to sleep."	TRUE
+At 20:30 Mr White is going to bed.	Bedtime for Mr. White is scheduled for 20:30.	TRUE
+At 20:30 Mr White is going to bed.	Mr. White will be sleeping by 8:30 in the evening.	TRUE
+At 20:30 Mr White is going to bed.	"Planning to sleep, Mr. White sets bedtime at 20:30."	TRUE
+At 20:30 Mr White is going to bed.	Mr. White plans to retire for the night at 8:30 p.m.	TRUE
+At 20:30 Mr White is going to bed.	Bedtime for Mr. White is set for 8:30 this evening.	TRUE
+At 20:30 Mr White is going to bed.	Mr. White intends to be in bed by half past eight.	TRUE
+At 20:30 Mr White is going to bed.	"Concluding his day at 8:30 pm, Mr. White will head to bed."	TRUE
+At 20:30 Mr White is going to bed.	8:30 pm marks the designated time for Mr. White's sleep.	TRUE
+"Together we will create a daily schedule for our client Mr. Thomson, who is patient in our institution."	"We will work together to establish a daily timetable for our patient Mr. Thomson, who is under our care."	TRUE
+"Together we will create a daily schedule for our client Mr. Thomson, who is patient in our institution."	"Collaboratively, we'll design a daily agenda for Mr. Thomson, who is currently a patient in our facility."	TRUE
+"Together we will create a daily schedule for our client Mr. Thomson, who is patient in our institution."	"Our joint effort will result in the development of a daily plan for our patient, Mr. Thomson, who is currently receiving care at our institution."	TRUE
+"Together we will create a daily schedule for our client Mr. Thomson, who is patient in our institution."	"Together, we aim to create a daily schedule tailored to the needs of our client, Mr. Thomson, who is currently under our care."	TRUE
+"Together we will create a daily schedule for our client Mr. Thomson, who is patient in our institution."	"Our collective endeavor will yield a daily timetable for Mr. Thomson, who is a patient within our institution."	TRUE
+"Together we will create a daily schedule for our client Mr. Thomson, who is patient in our institution."	"In collaboration, we will develop a daily plan for our client, Mr. Thomson, who is currently under our care at this facility."	TRUE
+"Together we will create a daily schedule for our client Mr. Thomson, who is patient in our institution."	"Working together, we will establish a daily routine for our patient, Mr. Thomson, here at the institution."	TRUE
+"Together we will create a daily schedule for our client Mr. Thomson, who is patient in our institution."	"Mr. Thomson, a patient in our care, will have a daily schedule created jointly by us."	TRUE
+"Together we will create a daily schedule for our client Mr. Thomson, who is patient in our institution."	"We will collaboratively design a daily plan for Mr. Thomson, who is receiving treatment at our institution."	TRUE
+"Together we will create a daily schedule for our client Mr. Thomson, who is patient in our institution."	"A daily schedule will be crafted together by us for Mr. Thomson, our patient at this facility."	TRUE
+Mr. Thomsons day starts at 7:30 when we wake him up.	Mr. Thomson is awakened at 7:30 to begin his day.	TRUE
+Mr. Thomsons day starts at 7:30 when we wake him up.	"At 7:30, we rouse Mr. Thomson to kickstart his day."	TRUE
+Mr. Thomsons day starts at 7:30 when we wake him up.	"The commencement of Mr. Thomson's day is at 7:30, when we wake him."	TRUE
+Mr. Thomsons day starts at 7:30 when we wake him up.	"At 7:30, we initiate Mr. Thomson's day by waking him up."	TRUE
+Mr. Thomsons day starts at 7:30 when we wake him up.	Waking up Mr. Thomson marks the beginning of his day at 7:30.	TRUE
+Mr. Thomsons day starts at 7:30 when we wake him up.	"Mr. Thomson begins his day at 7:30 a.m., the time we wake him up."	TRUE
+Mr. Thomsons day starts at 7:30 when we wake him up.	"The day for Mr. Thomson commences at 7:30, which is when we initiate his awakening."	TRUE
+Mr. Thomsons day starts at 7:30 when we wake him up.	Waking Mr. Thomson up at 7:30 marks the start of his day.	TRUE
+Mr. Thomsons day starts at 7:30 when we wake him up.	Mr. Thomson's daily routine commences at 7:30 with our assistance in waking him up.	TRUE
+Mr. Thomsons day starts at 7:30 when we wake him up.	"We rouse Mr. Thomson from sleep at 7:30, thus beginning his day. "	TRUE
+At 8:00 Mr Thomson is supposed to take a shower.	Mr. Thomson is expected to shower at 8:00.	TRUE
+At 8:00 Mr Thomson is supposed to take a shower.	"At 8:00, it's Mr. Thomson' obligation to bathe."	TRUE
+At 8:00 Mr Thomson is supposed to take a shower.	Showering at 8:00 is Mr. Thomson' responsibility.	TRUE
+At 8:00 Mr Thomson is supposed to take a shower.	Mr. Thomson needs to shower by 8:00.	TRUE
+At 8:00 Mr Thomson is supposed to take a shower.	The scheduled time for Mr. Thomson to shower is 8:00.	TRUE
+At 8:00 Mr Thomson is supposed to take a shower.	Mr. Thomson has a scheduled shower at 8:00 AM.	TRUE
+At 8:00 Mr Thomson is supposed to take a shower.	Shower time for Mr. Thomson is set for 8:00 AM.	TRUE
+At 8:00 Mr Thomson is supposed to take a shower.	8:00 AM is the designated time for Mr. Thomson to shower.	TRUE
+At 8:00 Mr Thomson is supposed to take a shower.	Mr. Thomson is expected to shower by 8:00 AM.	TRUE
+At 8:00 Mr Thomson is supposed to take a shower.	"It is 8:00 AM, and Mr. Thomson is supposed to be showering."	TRUE
+"After the shower, Mr. Thomson goes to take breakfast at 8:30."	Mr. Thomson heads for breakfast at 8:30 after his shower.	TRUE
+"After the shower, Mr. Thomson goes to take breakfast at 8:30."	"At 8:30, following his shower, Mr. Thomson proceeds to have breakfast."	TRUE
+"After the shower, Mr. Thomson goes to take breakfast at 8:30."	"Having completed his shower, Mr. Thomson attends breakfast at 8:30."	TRUE
+"After the shower, Mr. Thomson goes to take breakfast at 8:30."	"At 8:30, Mr. Thomson goes for breakfast after showering."	TRUE
+"After the shower, Mr. Thomson goes to take breakfast at 8:30."	"Post-shower, Mr. Thomson takes breakfast precisely at 8:30."	TRUE
+"After the shower, Mr. Thomson goes to take breakfast at 8:30."	"Following a shower, Mr. Thomson enjoys breakfast at 8:30 AM."	TRUE
+"After the shower, Mr. Thomson goes to take breakfast at 8:30."	"After completing his shower routine, Mr. Thomson heads for breakfast at 8:30."	TRUE
+"After the shower, Mr. Thomson goes to take breakfast at 8:30."	"Having showered, Mr. Thomson proceeds to breakfast at 8:30."	TRUE
+"After the shower, Mr. Thomson goes to take breakfast at 8:30."	"At 8:30, Mr. Thomson sits down for breakfast after showering."	TRUE
+"After the shower, Mr. Thomson goes to take breakfast at 8:30."	"8:30 AM finds Mr. Thomson at breakfast, following a shower."	TRUE
+Now it is 9:30 and it is time for Mr. Thomson to do some light exercise. 	"At 9:30, Mr. Thomson needs to engage in some light exercise."	TRUE
+Now it is 9:30 and it is time for Mr. Thomson to do some light exercise. 	"The clock shows 9:30, and now it's time for Mr. Thomson to perform gentle exercises."	TRUE
+Now it is 9:30 and it is time for Mr. Thomson to do some light exercise. 	"It's 9:30, and Mr. Thomson is scheduled for a session of light exercise."	TRUE
+Now it is 9:30 and it is time for Mr. Thomson to do some light exercise. 	Mr. Thomson is due for some light exercise at 9:30.	TRUE
+Now it is 9:30 and it is time for Mr. Thomson to do some light exercise. 	"The current time is 9:30, and Mr. Thomson should start his light exercise routine."	TRUE
+Now it is 9:30 and it is time for Mr. Thomson to do some light exercise. 	"The clock strikes 9:30, signaling exercise time for Mr. Thomson."	TRUE
+Now it is 9:30 and it is time for Mr. Thomson to do some light exercise. 	"As 9:30 arrives, Mr. Thomson finds himself due for some light exercise."	TRUE
+Now it is 9:30 and it is time for Mr. Thomson to do some light exercise. 	"It's 9:30 AM, and Mr. Thomson's light exercise routine is calling."	TRUE
+Now it is 9:30 and it is time for Mr. Thomson to do some light exercise. 	Half past nine. Time for Mr. Thomson's light workout.	TRUE
+Now it is 9:30 and it is time for Mr. Thomson to do some light exercise. 	"Since it's now 9:30, light exercise is next on Mr. Thomson's agenda."	TRUE
+"At 12:00 it is time to take dinner, but before at 10:30 Mr  Thomson should take a morning nap."	"Dinner should be taken at 12:00, but Mr. Thomson ought to have a morning nap at 10:30."	TRUE
+"At 12:00 it is time to take dinner, but before at 10:30 Mr  Thomson should take a morning nap."	"At noon, it's time for dinner, and Mr. Thomson should have a morning nap at 10:30."	TRUE
+"At 12:00 it is time to take dinner, but before at 10:30 Mr  Thomson should take a morning nap."	"Taking dinner is scheduled for 12:00, with Mr. Thomson planning to take a morning nap at 10:30."	TRUE
+"At 12:00 it is time to take dinner, but before at 10:30 Mr  Thomson should take a morning nap."	"12:00 marks the time for dinner, preceded by Mr. Thomson's morning nap at 10:30."	TRUE
+"At 12:00 it is time to take dinner, but before at 10:30 Mr  Thomson should take a morning nap."	"Dinner is to be had at 12:00, but Mr. Thomson is expected to take a morning nap at 10:30."	TRUE
+"At 12:00 it is time to take dinner, but before at 10:30 Mr  Thomson should take a morning nap."	"Dinner is served at noon, but Mr. Thomson should take a nap beforehand at 10:30 am."	TRUE
+"At 12:00 it is time to take dinner, but before at 10:30 Mr  Thomson should take a morning nap."	"While dinner is at 12:00, a nap is recommended for Mr. Thomson at 10:30 am."	TRUE
+"At 12:00 it is time to take dinner, but before at 10:30 Mr  Thomson should take a morning nap."	Mr. Thomson should prioritize a nap at 10:30 am before dinner at noon.	TRUE
+"At 12:00 it is time to take dinner, but before at 10:30 Mr  Thomson should take a morning nap."	"Prior to the noon dinner, Mr. Thomson is advised to take a nap at 10:30 am."	TRUE
+"At 12:00 it is time to take dinner, but before at 10:30 Mr  Thomson should take a morning nap."	A 10:30 am nap is recommended for Mr. Thomson before his 12:00 pm dinner.	TRUE
+At 14:00 Mr Thomson is supposed to go on a walk with a nurse.	"At 14:00, Mr. Thomson is scheduled for a walk with a nurse."	TRUE
+At 14:00 Mr Thomson is supposed to go on a walk with a nurse.	Mr. Thomson is expected to take a stroll with a nurse at 2:00 PM.	TRUE
+At 14:00 Mr Thomson is supposed to go on a walk with a nurse.	A nurse is supposed to accompany Mr. Thomson on a walk at 14:00.	TRUE
+At 14:00 Mr Thomson is supposed to go on a walk with a nurse.	"Scheduled for 14:00, Mr. Thomson is to go on a walk with a nurse."	TRUE
+At 14:00 Mr Thomson is supposed to go on a walk with a nurse.	There is a planned walk for Mr. Thomson with a nurse at 2:00 in the afternoon.	TRUE
+At 14:00 Mr Thomson is supposed to go on a walk with a nurse.	Mr. Thomson has a scheduled walk with a nurse at 2:00 pm.	TRUE
+At 14:00 Mr Thomson is supposed to go on a walk with a nurse.	A walk with a nurse is on the agenda for Mr. Thomson at 14:00.	TRUE
+At 14:00 Mr Thomson is supposed to go on a walk with a nurse.	"As per the schedule, Mr. Thomson is to take a walk with a nurse at 2:00 pm."	TRUE
+At 14:00 Mr Thomson is supposed to go on a walk with a nurse.	Scheduled for 2:00 pm today is Mr. Thomson's walk with a nurse.	TRUE
+At 14:00 Mr Thomson is supposed to go on a walk with a nurse.	"It is time for Mr. Thomson's walk with a nurse, as planned for 2:00 pm."	TRUE
+"Now it is 15:15 and time for Mr Thomson to take some rest and do a afternoon nap, before at 18:00 dinner is served."	"At 3:15 PM, it's time for Mr. Thomson to take a break and have an afternoon nap. He'll then have dinner served at 6:00 PM."	TRUE
+"Now it is 15:15 and time for Mr Thomson to take some rest and do a afternoon nap, before at 18:00 dinner is served."	"Currently, it's 3:15 PM, and Mr. Thomson is about to take a break for an afternoon nap. Dinner will be served at 6:00 PM."	TRUE
+"Now it is 15:15 and time for Mr Thomson to take some rest and do a afternoon nap, before at 18:00 dinner is served."	"The clock now reads 15:15, signaling Mr. Thomson's break for an afternoon nap before dinner is served at 18:00."	TRUE
+"Now it is 15:15 and time for Mr Thomson to take some rest and do a afternoon nap, before at 18:00 dinner is served."	"Mr. Thomson is scheduled to rest and take an afternoon nap at 15:15, followed by dinner at 18:00."	TRUE
+"Now it is 15:15 and time for Mr Thomson to take some rest and do a afternoon nap, before at 18:00 dinner is served."	"It's now 15:15, and Mr. Thomson is preparing to take a break for an afternoon nap before dinner is served at 18:00."	TRUE
+"Now it is 15:15 and time for Mr Thomson to take some rest and do a afternoon nap, before at 18:00 dinner is served."	"The current time is 15:15. Before dinner is served at 18:00, it's recommended that Mr. Thomson take a break for an afternoon nap."	TRUE
+"Now it is 15:15 and time for Mr Thomson to take some rest and do a afternoon nap, before at 18:00 dinner is served."	"It is now 3:15 PM. To ensure he is well-rested for dinner at 6:00 PM, Mr. Thomson should take an afternoon nap now."	TRUE
+"Now it is 15:15 and time for Mr Thomson to take some rest and do a afternoon nap, before at 18:00 dinner is served."	"Since it's 3:15 PM and dinner isn't until 6:00 PM, Mr. Thomson has time for an afternoon nap before dinner."	TRUE
+"Now it is 15:15 and time for Mr Thomson to take some rest and do a afternoon nap, before at 18:00 dinner is served."	"With dinner at 6:00 PM, Mr. Thomson can unwind and enjoy an afternoon nap before then. The time is currently 3:15 PM."	TRUE
+"Now it is 15:15 and time for Mr Thomson to take some rest and do a afternoon nap, before at 18:00 dinner is served."	"At 3:15 PM, it's a good opportunity for Mr. Thomson to recharge with an afternoon nap. Dinner is served at 6:00 PM."	TRUE
+After dinner Mr Thomson prepares to go to bed at 20:00. Thats it with the schedule.	Mr Thomson gets ready for bed at 8:00 PM after dinner.	TRUE
+After dinner Mr Thomson prepares to go to bed at 20:00. Thats it with the schedule.	"At 20:00, following dinner, Mr Thomson prepares for bedtime."	TRUE
+After dinner Mr Thomson prepares to go to bed at 20:00. Thats it with the schedule.	"After dinner, Mr Thomson readies himself for sleep at 20:00."	TRUE
+After dinner Mr Thomson prepares to go to bed at 20:00. Thats it with the schedule.	That concludes the schedule for Mr Thomson as he heads to bed at 20:00 after dinner.	TRUE
+After dinner Mr Thomson prepares to go to bed at 20:00. Thats it with the schedule.	8:00 PM marks the time when Mr Thomson prepares to sleep post-dinner.	TRUE
+After dinner Mr Thomson prepares to go to bed at 20:00. Thats it with the schedule.	"Following his meal, Mr. Thomson gets ready for bed at 8:00 pm. That concludes the schedule."	TRUE
+After dinner Mr Thomson prepares to go to bed at 20:00. Thats it with the schedule.	Mr. Thomson winds down for sleep at 8:00 p.m. after having dinner. There's nothing else on the agenda.	TRUE
+After dinner Mr Thomson prepares to go to bed at 20:00. Thats it with the schedule.	"Having finished dinner, Mr. Thomson begins his bedtime routine at 20:00 hours. That's all for the schedule."	TRUE
+After dinner Mr Thomson prepares to go to bed at 20:00. Thats it with the schedule.	"Once dinner is complete, Mr. Thomson gets ready to retire for the night at 8:00 pm. That's the end of the schedule."	TRUE
+After dinner Mr Thomson prepares to go to bed at 20:00. Thats it with the schedule.	"After eating, Mr. Thomson prepares for sleep at 8 pm. That's where the schedule ends."	TRUE

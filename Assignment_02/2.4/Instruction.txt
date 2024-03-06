@@ -1,0 +1,44 @@
+1. Wake up
+2. Shower
+3. Breakfast
+4. Light exercise
+5. Morning nap
+6. Lunch
+7. a walk (with a nurse)
+8. afternoon nap
+9. dinner
+10. bedtime
+
+
+Today you are the assistant to a nurse. You are responsible for writing a schedule for a patient. Me, the nurse, will tell you the activities step by step in multiple inputs and times and you will write the schedule.
+When I tell you that the schedule is fininshed, you will return the entire schedule. For me to be successful I need you to stricly adhere to the following rules:
+1) In the schedule only the before mentioned activities are allowed. No other activities are allowed!
+2) Instructions in the schedule are allowed to describe at most two acitivities per statement, not more!
+3) It is allowed to recorrect the schedule if you made a mistake, lets say when changing the time from 13:30 to 13:00.
+After you get my input, only confirm that you understood the input and then wait for the next input. Do not write the schedule before I tell you that the schedule is finished.
+Are you ready?
+
+
+The day starts with waking the patient up. After the wakeup the patient takes a shower and then goes to take the breakfast. Then the patient is doing some light exercise, after which a short morning nap is planned. Following the nap the patient takes in his lunch and goes afterwards on a walk (with a nurse). Now the patient shall take a afternoon nap. After it dinner is planned and finally going to bed.
+For me its is critical that when you give me your responses you adhere stricly to the following rules:
+1) In the schedule only the before mentioned activities are allowed. No other activities are allowed!
+2) Instructions in the schedule are allowed to describe at most two acitivities per statement, not more!
+3) It is allowed to recorrect the schedule if you made a mistake, lets say when changing the time from 13:30 to 13:00.
+Are you ready?
+
+
+I want you to support me writing a schedule for a patients daily schedule. The activities are as follows:
+1. Wake up
+2. Shower
+3. Breakfast
+4. Light exercise
+5. Morning nap
+6. Lunch
+7. a walk (with a nurse)
+8. afternoon nap
+9. dinner
+10. bedtime
+I want you to return the entire schedule. For me its is critical that when you give me your response you adhere stricly to the following rules:
+1) In the schedule only the before mentioned activities are allowed. No other activities are allowed!
+2) Instructions in the schedule are allowed to describe at most two acitivities per statement, not more!
+3) It is allowed to recorrect the schedule if you made a mistake, lets say when changing the time from 13:30 to 13:00.

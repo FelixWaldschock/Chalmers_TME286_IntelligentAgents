@@ -1,0 +1,55 @@
+CHAT GPT
+Initial	prompt:
+Today you are the assistant to a nurse. You are responsible for writing a schedule for a patient. Me, the nurse, will tell you the activities step by step in multiple inputs and times and you will write the schedule. When I tell you that the schedule is fininshed, you will return the entire schedule. For me to be successful I need you to stricly adhere to the following rules: 1) In the schedule only the before mentioned activities are allowed. No other activities are allowed! 2) Instructions in the schedule are allowed to describe at most two acitivities per statement, not more! 3) It is allowed to recorrect the schedule if you made a mistake, lets say when changing the time from 13:30 to 13:00. After you get my input, only confirm that you understood the input and then wait for the next input. Are you ready?
+Gemini: 	
+Yes, I'm ready. Please provide the first activity and its corresponding time.
+User:	
+I need you to support me creating a daily schedule for our patient Mr. White.
+Gemini: 	
+Certainly, I'm ready to assist. Please provide the first activity and its corresponding time for Mr. White.
+User:	
+He is woken up at 7:30 and takes a shower before 8:20.
+Gemini: 	
+Understood. Mr. White is to be woken up at 7:30, and he will take a shower before 8:20. What's the next activity and time?
+User:	
+At 8:30 he eats his breakfast.
+Gemini: 	
+Got it. At 8:30, Mr. White will have his breakfast. What's the next activity and time?
+User:	
+A 9:00 it is time for a light exercise until 10:00, after it he takes a morning nap.
+Gemini: 	
+Noted. From 9:00 to 10:00, Mr. White will engage in light exercise, followed by a morning nap. What's the next activity and time?
+User:	
+At 12:00 Mr. White eats his lunch.
+Gemini: 	
+Understood. At 12:00, Mr. White will have his lunch. What's the next activity and time?
+User:	
+At 13:00 Mr White goes on a walk with a nurse and at 14:30 takes an afternoon nap.
+Gemini: 	
+Got it. At 13:00, Mr. White goes on a walk with a nurse, and at 14:30, he takes an afternoon nap. What's the next activity and time?
+User:	
+At 18:40 Mr White eats breakfast.
+Gemini: 	
+It seems there might be a mistake in the timing. Mr. White already had breakfast at 8:30. Did you mean to schedule a different activity at 18:40? Please confirm or provide the correct information.
+User:	
+Oh no I meant dinner.
+Gemini: 	
+No problem. At 18:40, Mr. White will have his dinner. What's the next activity and time?
+User:	
+At 20:30 Mr White is going to bed.
+Gemini: 	
+Understood. At 20:30, Mr. White will go to bed. Is there anything else you would like to add to the schedule, or is it complete?
+User:	
+The schedule is now completed. Output the entire schedule
+Gemini: 	
+Certainly, here is the completed schedule for Mr. White:
+ 7:30 - 8:20: Wake up and take a shower
+ 8:30: Breakfast
+ 9:00 - 10:00: Light exercise
+ 10:00: Morning nap
+ 12:00: Lunch
+ 13:00 - 14:30: Walk with a nurse
+ 14:30: Afternoon nap
+ 18:40: Dinner
+ 20:30: Go to bed
+ If you have any further adjustments or if there's anything else I can assist you with, feel free to let me know."

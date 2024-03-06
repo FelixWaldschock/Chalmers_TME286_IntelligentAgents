@@ -1,2 +1,14 @@
 ## Bing
-The word "watt" does not belong with the others. The reason is that watt is a unit of power in the International System of Units (SI), while kilometer, inch, and kilogram are units of length and mass. Therefore, they belong to different categories of physical quantities.
+The word that doesn’t belong with the others in this group is "inch"1. Let’s break it down:
+
+Watt: A unit of power, typically used to measure electrical energy consumption or production.
+Kilometer: A unit of length in the metric system, equivalent to 1000 meters.
+
+Kilogram
+
+Kilogram: A unit of mass, commonly used to measure weight or the amount of matter in an object.
+
+Inch
+
+Inch: A unit of length in the imperial and US customary systems, equal to one-twelfth of a foot.
+The first three words (watt, kilometer, and kilogram) are all related to measurement—either power, length, or mass. However, “inch” stands out because it is not a unit of mass or power; it specifically measures length. Therefore, it doesn’t fit the same category as the others1. 

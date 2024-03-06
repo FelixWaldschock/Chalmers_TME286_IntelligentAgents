@@ -1,0 +1,42 @@
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2024\Src\Assignment1\1.1\POSTaggingSolution\Libraries\NLP\bin\Debug\NLP.dll
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2024\Src\Assignment1\1.1\POSTaggingSolution\Libraries\NLP\bin\Debug\NLP.pdb
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2024\Src\Assignment1\1.1\POSTaggingSolution\Libraries\NLP\obj\Debug\NLP.csproj.CoreCompileInputs.cache
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2024\Src\Assignment1\1.1\POSTaggingSolution\Libraries\NLP\obj\Debug\NLP.dll
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2024\Src\Assignment1\1.1\POSTaggingSolution\Libraries\NLP\obj\Debug\NLP.pdb
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2024\Src\Assignment1\1.1\POSTaggingSolutionWithSolution\Libraries\NLP\bin\Debug\NLP.dll
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2024\Src\Assignment1\1.1\POSTaggingSolutionWithSolution\Libraries\NLP\bin\Debug\NLP.pdb
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2024\Src\Assignment1\1.1\POSTaggingSolutionWithSolution\Libraries\NLP\obj\Debug\NLP.csproj.AssemblyReference.cache
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2024\Src\Assignment1\1.1\POSTaggingSolutionWithSolution\Libraries\NLP\obj\Debug\NLP.csproj.CoreCompileInputs.cache
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2024\Src\Assignment1\1.1\POSTaggingSolutionWithSolution\Libraries\NLP\obj\Debug\NLP.dll
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2024\Src\Assignment1\1.1\POSTaggingSolutionWithSolution\Libraries\NLP\obj\Debug\NLP.pdb
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2024\Src\Assignment1\1.1\POSTaggingSolution\Libraries\NLP\obj\Debug\NLP.csprojAssemblyReference.cache
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2024\Src\Assignment1\1.2\PerceptronClassifierSolution\Libraries\NLP\bin\Debug\NLP.dll
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2024\Src\Assignment1\1.2\PerceptronClassifierSolution\Libraries\NLP\bin\Debug\NLP.pdb
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2024\Src\Assignment1\1.2\PerceptronClassifierSolution\Libraries\NLP\obj\Debug\NLP.csproj.AssemblyReference.cache
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2024\Src\Assignment1\1.2\PerceptronClassifierSolution\Libraries\NLP\obj\Debug\NLP.csproj.CoreCompileInputs.cache
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2024\Src\Assignment1\1.2\PerceptronClassifierSolution\Libraries\NLP\obj\Debug\NLP.dll
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2024\Src\Assignment1\1.2\PerceptronClassifierSolution\Libraries\NLP\obj\Debug\NLP.pdb
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2024\Src\Assignment1\Src1.2\PerceptronClassifierSolution\Libraries\NLP\bin\Debug\NLP.dll
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2024\Src\Assignment1\Src1.2\PerceptronClassifierSolution\Libraries\NLP\bin\Debug\NLP.pdb
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2024\Src\Assignment1\Src1.2\PerceptronClassifierSolution\Libraries\NLP\obj\Debug\NLP.csprojAssemblyReference.cache
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2024\Src\Assignment1\Src1.2\PerceptronClassifierSolution\Libraries\NLP\obj\Debug\NLP.csproj.CoreCompileInputs.cache
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2024\Src\Assignment1\Src1.2\PerceptronClassifierSolution\Libraries\NLP\obj\Debug\NLP.dll
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2024\Src\Assignment1\Src1.2\PerceptronClassifierSolution\Libraries\NLP\obj\Debug\NLP.pdb
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2024\Assignments\ToMinerva20240126\Src1.2\PerceptronClassifierSolution\Libraries\NLP\bin\Debug\NLP.dll
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2024\Assignments\ToMinerva20240126\Src1.2\PerceptronClassifierSolution\Libraries\NLP\bin\Debug\NLP.pdb
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2024\Assignments\ToMinerva20240126\Src1.2\PerceptronClassifierSolution\Libraries\NLP\obj\Debug\NLP.csprojAssemblyReference.cache
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2024\Assignments\ToMinerva20240126\Src1.2\PerceptronClassifierSolution\Libraries\NLP\obj\Debug\NLP.csproj.CoreCompileInputs.cache
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2024\Assignments\ToMinerva20240126\Src1.2\PerceptronClassifierSolution\Libraries\NLP\obj\Debug\NLP.dll
+C:\Data\Chalmers work\Teaching\Intelligent agents, 2024\Assignments\ToMinerva20240126\Src1.2\PerceptronClassifierSolution\Libraries\NLP\obj\Debug\NLP.pdb
+\\Mac\Home\Documents\Github\GU_FIM762_IA\Assignment 1\Problem 1.2\Src1.2\PerceptronClassifierSolution\Libraries\NLP\bin\Debug\NLP.dll
+\\Mac\Home\Documents\Github\GU_FIM762_IA\Assignment 1\Problem 1.2\Src1.2\PerceptronClassifierSolution\Libraries\NLP\bin\Debug\NLP.pdb
+\\Mac\Home\Documents\Github\GU_FIM762_IA\Assignment 1\Problem 1.2\Src1.2\PerceptronClassifierSolution\Libraries\NLP\obj\Debug\NLP.csproj.AssemblyReference.cache
+\\Mac\Home\Documents\Github\GU_FIM762_IA\Assignment 1\Problem 1.2\Src1.2\PerceptronClassifierSolution\Libraries\NLP\obj\Debug\NLP.csproj.CoreCompileInputs.cache
+\\Mac\Home\Documents\Github\GU_FIM762_IA\Assignment 1\Problem 1.2\Src1.2\PerceptronClassifierSolution\Libraries\NLP\obj\Debug\NLP.dll
+\\Mac\Home\Documents\Github\GU_FIM762_IA\Assignment 1\Problem 1.2\Src1.2\PerceptronClassifierSolution\Libraries\NLP\obj\Debug\NLP.pdb
+\\Mac\Home\Documents\gits\Chalmers_TME286_IntelligentAgents\Assignment_02\2.5\Src1.2\PerceptronClassifierSolution\Libraries\NLP\bin\Debug\NLP.dll
+\\Mac\Home\Documents\gits\Chalmers_TME286_IntelligentAgents\Assignment_02\2.5\Src1.2\PerceptronClassifierSolution\Libraries\NLP\bin\Debug\NLP.pdb
+\\Mac\Home\Documents\gits\Chalmers_TME286_IntelligentAgents\Assignment_02\2.5\Src1.2\PerceptronClassifierSolution\Libraries\NLP\obj\Debug\NLP.csproj.AssemblyReference.cache
+\\Mac\Home\Documents\gits\Chalmers_TME286_IntelligentAgents\Assignment_02\2.5\Src1.2\PerceptronClassifierSolution\Libraries\NLP\obj\Debug\NLP.csproj.CoreCompileInputs.cache
+\\Mac\Home\Documents\gits\Chalmers_TME286_IntelligentAgents\Assignment_02\2.5\Src1.2\PerceptronClassifierSolution\Libraries\NLP\obj\Debug\NLP.dll
+\\Mac\Home\Documents\gits\Chalmers_TME286_IntelligentAgents\Assignment_02\2.5\Src1.2\PerceptronClassifierSolution\Libraries\NLP\obj\Debug\NLP.pdb
