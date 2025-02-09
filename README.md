@@ -1,24 +1,15 @@
-# Course Intelligent Agents TME 286 Chalmers
+# **Intelligent Agents – TME 286 (Chalmers University)**  
 
-## Aim
-The aim of the course is for the students to gain knowledge regarding human-machine interaction, in general, and intelligent (software) agents, in particular. Such systems are relevant in many different fields, such as driving assistance, health and elderly care, finance etc.
-## Learning outcomes (after completion of the course the student should be able to)
-understand and implement basic text processing
-Implement and compare different methods for text classification
-understand and discuss statistical language models.
-define and implement (in C#. NET och Python) so-called chatbots
-define and impement (in C#. NET) so-called task-oriented agents, with particular focus on dialogue management
-analyze and compare interpretable models and blackbox models.
-describe and apply speech synthesis and speech recognition in intelligent agents
-describe and compare various different applications of intelligent agents
-discuss various ethical implications of intelligent agents
-## Content
-Statistical language models and text processing
-Text classification
-Programming in C# .NET for intelligent agents (throughout the course)
-Some Python programming 
-Chatbots
-Speech and voice recognition (briefly)
-Human-machine dialogue
-Applications (various)
-Ethical aspects of intelligent agents
+I took this course to dive into the world of **intelligent agents**—basically, software that can understand, interact, and make decisions. It covered everything from **text processing and chatbots** to **speech recognition and AI ethics**. The focus was on both theory and hands-on coding, with a lot of work in **C# .NET** and some Python.  
+
+## **Key Takeaways**  
+- Learned how to process and analyze text for AI applications  
+- Built and compared different **text classification models**  
+- Developed **chatbots** and **task-oriented agents**, focusing on **dialogue management**  
+- Explored **statistical language models** and how they power AI systems  
+- Worked with **speech synthesis & recognition** (briefly but super interesting)  
+- Discussed the differences between **black-box AI** and **interpretable models**  
+- Looked at **real-world AI applications** in areas like healthcare, finance, and automation  
+- Dug into **ethical considerations** of AI, which turned out to be a pretty important discussion  
+
+Overall, it was a great mix of **AI theory, coding, and real-world applications**. If you’re into **human-machine interaction, NLP, or AI-driven automation**, this course gives a solid foundation!  
